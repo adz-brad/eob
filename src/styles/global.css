@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import  url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@layer base {
+    @font-face {
+        font-family: Lato;
+    }
+    @font-face {
+        font-family: FontinSansCR;
+        src: url('../assets/fonts/FontinSansCR.woff') format('woff');
+    }
+}
+
+body {
+    font-family: Lato;
+}
+
+h1, h2, h3, h4, h5, .font-headers{
+    font-family: FontinSansCR;
+}
+
+h1 {
+    @apply text-2xl md:text-4xl font-semibold;
+}
+
+h2 {
+    @apply text-3xl md:text-4xl;
+}
+
+h3 {
+    @apply text-2xl md:text-3xl;
+}
+
+h4 {
+    @apply text-xl md:text-2xl;
+}
+
+h5 {
+    @apply text-lg md:text-xl;
+}
+
+p {
+    @apply text-base;
+}
+
+/* --- Info Component --- */
+
+.info {
+    @apply px-4 py-6 md:py-20 md:px-10;
+}
+
+.info > h1{
+    @apply my-4;
+}
+
+.info > div {
+    @apply text-left md:text-center my-4 max-w-screen-xl mx-auto;
+}
+
+/* --- Grid Component --- */
+
+.gridItem {
+    @apply flex flex-row items-center lg:flex-col lg:items-start rounded-sm shadow-md bg-darkGreen p-6;
+}
+
+.gridItem > div {
+    @apply my-3 lg:my-auto;
+}
+
+.gridItem > div > p {
+    @apply xl:text-xl ml-6 lg:ml-0 ;
+}
+
+.splitGridTitle{
+    @apply absolute top-10 left-10 font-bold text-white filter drop-shadow-lg text-4xl lg:text-5xl;
+}
+
+/* --- Testimonials --- */
+
+.testimonialBG{
+    @apply w-full border-t-2 border-black/10 drop-shadow-xl;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.446), rgba(0, 0, 0, 0.446)), url("../assets/images/lilypads-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* --- Meet Eva --- */
+
+.meetEvaContentBody h3{
+    @apply text-brown font-semibold text-lg my-3 leading-tight;
+}
+
+.meetEvaContentBody p {
+    @apply text-sm lg:text-base my-3;
+}
+
+/* --- Forms --- */
+
+textarea {
+    resize: none;
+}
+
+.formDivide {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmNmZmZWYiPjxwYXRoIGQ9Ik0xMjgwIDBMNjQwIDcwIDAgMHYxNDBsNjQwLTcwIDY0MCA3MFYweiIgZmlsbC1vcGFjaXR5PSIuNSIvPjxwYXRoIGQ9Ik0xMjgwIDBIMGw2NDAgNzAgNjQwLTcweiIvPjwvZz48L3N2Zz4=);
+    background-size: 100% 100px;
+    top: 0;
+    height: 100px;
+    display: block;
+    background-repeat-y: no-repeat;
+    pointer-events: none;
+    width: 100%;
+    @apply bg-green;
+}

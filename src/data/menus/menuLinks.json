@@ -1,0 +1,184 @@
+[
+    {
+        "title": "Home",
+        "slug": "/",
+        "pages": [],
+        "subMenus": []
+    },
+    {
+        "title": "Acne Clinic",
+        "slug": null,
+        "pages": [
+            {
+                "title": "Holistic Acne Clinic",
+                "slug": "holistic-acne-program"
+            },
+            {
+                "title": "Virtual Acne Clinic",
+                "slug": "virtual-acne-program"
+            },
+            {
+                "title": "New Client Acne Consultation",
+                "slug": "new-client-acne-consultation"
+            },
+            {
+                "title": "Acne Treatment",
+                "slug": "acne-treatment"
+            },
+            {
+                "title": "Cystic Acne",
+                "slug": "cystic-acne"
+            },
+            {
+                "title": "Acne Scars",
+                "slug": "acne-scars"
+            },
+            {
+                "title": "Back Acne",
+                "slug": "back-acne"
+            },
+            {
+                "title": "Practice Policies Form",
+                "slug": "practice-policies-form"
+            }
+        ],
+        "subMenus": []
+    },
+    {
+        "title": "Facials",
+        "slug": null,
+        "pages": [
+            {
+                "title": "Facial Treatments",
+                "slug": "facial-treatments"
+            },
+            {
+                "title": "Rosecea Skin",
+                "slug": "rosecea-skin"
+            },
+            {
+                "title": "Aging and Dehydrated Skin",
+                "slug": "aging-and-dehydrated-skin"
+            },
+            {
+                "title": "Hyperpigmentation & Melasma",
+                "slug": "hyperpigmentation-melasma"
+            }
+        ],
+        "subMenus": []
+    },
+    {
+        "title": "Treatments",
+        "slug": null,
+        "pages": [],
+        "subMenus": [
+            {
+                "title": "Clinical Treatments",
+                "pages": [
+                    {
+                        "title": "Tama The Magic Of Micro-Current",
+                        "slug": "the-magic-of-microcurrent"
+                    },
+                    {
+                        "title": "DMK Enyzme Therapy",
+                        "slug": "dmx-enzyme-therapy"
+                    },
+                    {
+                        "title": "Skin Remodeling",
+                        "slug": "skin-remodeling"
+                    },
+                    {
+                        "title": "Skin Tightening",
+                        "slug": "radiofrequency-skin-tightening"
+                    },
+                    {
+                        "title": "Ultrasonic Facial",
+                        "slug": "ultrasonic-facial"
+                    },
+                    {
+                        "title": "302 Fountain Of Youth",
+                        "slug": "302-fountain-of-youth"
+                    }
+                ]
+            },
+            {
+                "title": "Special Peels",
+                "pages": [
+                    {
+                        "title": "Herbal Green Peel®",
+                        "slug": "herbal-green-peel"
+                    },
+                    {
+                        "title": "Special Peels",
+                        "slug": "special-peels"
+                    }
+                ]
+            },
+            {
+                "title": "Services",
+                "pages": [
+                    {
+                        "title": "Skin Tags",
+                        "slug": "skin-tags-red-dots-milia-removal"
+                    },
+                    {
+                        "title": "Skin Preparations For Weddings",
+                        "slug": "skin-preparations-for-weddings"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Products",
+        "slug": null,
+        "pages": [
+            {
+                "title": "Osmosis+Beauty MD",
+                "slug": "osmosis-md"
+            },
+            {
+                "title": "Mineral Makeup",
+                "slug": "mineral-makeup"
+            },
+            {
+                "title": "302 Fountain Of Youth",
+                "slug": "302-fountain-of-youth"
+            },
+            {
+                "title": "Skincare Products",
+                "slug": "products"
+            }
+        ],
+        "subMenus": []
+    },
+    {
+        "title": "Testimonials",
+        "slug": "testimonials",
+        "pages": [],
+        "subMenus": []
+    },
+    {
+        "title": "Blog",
+        "slug": "blog",
+        "pages": [],
+        "subMenus": []
+    },
+    {
+        "title": "Policies",
+        "slug": null,
+        "pages": [
+            {
+                "title": "Practice Policies Form",
+                "slug": "practice-policies-form"
+            }
+        ],
+        "subMenus": []
+    },
+    {
+        "title": "Contact",
+        "slug": "contact",
+        "pages": [],
+        "subMenus": []
+    }
+]
