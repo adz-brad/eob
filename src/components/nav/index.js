@@ -26,7 +26,7 @@ const Navbar = () => {
     }, [ windowWidth ])
 
     return(
-        <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-lg shadow-md z-50">
+        <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-lg shadow-md z-50" style={{zIndex:999}}>
 
         <Link to="/" className="h-20 py-1 -ml-8">
             <StaticImage 
@@ -58,7 +58,7 @@ const Navbar = () => {
                                     className="relative p-1 cursor-pointer mx-2 hover:text-green" 
                                     onMouseEnter={()=> setDropdownOpen(link.title)}
                                     role="button"
-                                    tabIndex={i}
+                                    tabIndex={-i}
                                 >
                                     <span className="text-lg font-semibold">{link.title}</span>
                                 
@@ -161,7 +161,7 @@ const Navbar = () => {
                                         onClick={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         onKeyDown={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         role="button"
-                                        tabIndex={i}
+                                        tabIndex={-i}
                                     >
 
                                     <span className="text-3xl font-semibold">{link.title}</span>

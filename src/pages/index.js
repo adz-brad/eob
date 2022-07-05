@@ -1,8 +1,10 @@
 import React from "react"
 import { data } from '../data/pages/home'
 import Hero from "../components/hero"
-import Info from "../components/info"
-import Grid from "../components/grid"
+import SplitList from '../components/splitList'
+import Features from '../components/features'
+import MeetEva from '../components/meetEva'
+import Testimonials from "../components/testimonials"
 
 const Home = () => {
   return(
@@ -20,28 +22,35 @@ const Home = () => {
             />
           )
         }
-        if(component.type === 'info'){
+        if(component.type === 'splitList'){
           return(
-            <Info
+            <SplitList
               _key={i}
               heading={component.heading}
-              content={component.content}
+              caption={component.caption}
+              image={component.image}
               anchor={component.anchor}
+              listTitle={component.listTitle}
+              listItems={component.listItems}
+              button={component.button}
             />
           )
         }
-        if(component.type === 'grid'){
+        if(component.type === 'features'){
           return(
-            <Grid
-              maxColumns={component.maxColumns}
-              split={component.split}
-              splitWidth={component.splitWidth}
-              splitTitle={component.splitTitle}
-              splitImage={component.splitImage}
-              showItemNumbers={component.showItemNumbers}
+            <Features
+              _key={i}
+              title={component.title}
+              description={component.description}
               items={component.items}
             />
           )
+        }
+        if(component.type === 'meetEva'){
+          return <MeetEva key={i} />
+        }
+        if(component.type === 'testimonials'){
+          return <Testimonials _key={i} testimonials={component.testimonials} />
         }
         else{
           return null

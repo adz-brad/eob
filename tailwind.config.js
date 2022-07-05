@@ -17,6 +17,7 @@ module.exports = {
       'brown':'#825800',
       'white':'#FFF',
       'black':'#111',
+      'transparent': '#66000000'
     },
   },
 }
