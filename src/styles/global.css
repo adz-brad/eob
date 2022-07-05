@@ -45,6 +45,13 @@ p {
     z-index:-1;
 }
 
+/* --- Banner Spacing --- */
+
+.banner {
+    @apply -mt-2;
+    z-index:-1;
+}
+
 /* --- Testimonials --- */
 
 .testimonialBG{
