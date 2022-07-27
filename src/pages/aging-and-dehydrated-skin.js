@@ -37,6 +37,7 @@ const AgingAndDehydratedSkin = () => {
             </div>
             <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
                 <Tabs
+                    columns="grid-cols-1 md:grid-cols-5"
                     options={[
                         {
                             name: "Needle Free Mesotherapy",

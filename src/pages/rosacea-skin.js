@@ -176,6 +176,7 @@ const Rosacea = () => {
             <h1 className="mb-2">How We Treat Rosacea at Essence of Beauty</h1>
             <span>Choose a treatment option to learn more</span>
             <Tabs
+            columns="grid-cols-1 md:grid-cols-2"
               className="my-8"
               options={[
                 {

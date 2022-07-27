@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowHeight, useWindowWidth } from '../../hooks'
 import { MdArrowBackIos } from 'react-icons/md'
 import menuLinks from '../../data/menus/menuLinks.json'
+import { window } from 'browser-monads'
 
 const Navbar = () => {
 
@@ -24,6 +25,10 @@ const Navbar = () => {
              closeMobileNav()
         }
     }, [ windowWidth ])
+
+    useEffect(() => {
+        setDropdownOpen(null)
+    }, [ window.location.href ])
 
     return(
         <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-lg shadow-md z-50" style={{zIndex:999}}>
@@ -95,6 +100,8 @@ const Navbar = () => {
                                                                     key={i} 
                                                                     className="py-1 cursor-pointer hover:text-green md:text-lg"
                                                                     to={`/${page.slug}`}
+                                                                    onClick={() => setDropdownOpen(null)}
+                                                                    onKeyDown={() => setDropdownOpen(null)}
                                                             >
                                                                     {page.title}
                                                                 </Link>

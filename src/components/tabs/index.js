@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
 import Card from '../card'
 
-const Tabs = ({ options, className }) => {
+const Tabs = ({ columns, options, className }) => {
 
     const [ active, setActive ] = useState(options ? options[0] : null)
-
-    const cols = options ? `lg:grid-cols-${options.length}` : 'grid-flow-col'
 
     return(
 
         <Card cardWrapperClass={className} cardBodyClass="flex flex-col">
             {options ?
-                <ul className={`grid grid-cols-1 ${cols} gap-2 p-2`}>
+                <ul className={`grid ${columns} gap-2 p-2`}>
                     {options.map((option, i) => {
                         return(
                             <li 
