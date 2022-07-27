@@ -23,7 +23,7 @@ const SplitList = ({ _key, heading, caption, image, anchor, listTitle, listItems
             </div>
             {image ?
             <div className="lg:w-2/5 mt-8 -mx-8 md:m-0">
-            <GatsbyImage image={image.props.__imageData} className="h-full w-full md:rounded-lg md:shadow-lg" imgClassName="rounded-sm" />
+            <GatsbyImage image={image.props.__imageData} className="h-full w-full md:shadow-lg" />
             </div>  
             : null }    
         </div>

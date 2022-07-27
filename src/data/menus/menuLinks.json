@@ -53,8 +53,8 @@
                 "slug": "facial-treatments"
             },
             {
-                "title": "Rosecea Skin",
-                "slug": "rosecea-skin"
+                "title": "Rosacea Skin",
+                "slug": "rosacea-skin"
             },
             {
                 "title": "Aging and Dehydrated Skin",
@@ -76,20 +76,24 @@
                 "title": "Clinical Treatments",
                 "pages": [
                     {
-                        "title": "Tama The Magic Of Micro-Current",
-                        "slug": "the-magic-of-microcurrent"
-                    },
-                    {
                         "title": "DMK Enyzme Therapy",
                         "slug": "dmk-enzyme-therapy"
                     },
                     {
-                        "title": "Skin Remodeling",
-                        "slug": "skin-remodeling"
+                        "title": "AnteAge Stem Cell Facial",
+                        "slug": "anteage-stem-cell-facial"
                     },
                     {
-                        "title": "Skin Tightening",
-                        "slug": "radiofrequency-skin-tightening"
+                        "title": "Microneedling",
+                        "slug": "microneedling"
+                    },
+                    {
+                        "title": "Needle Free Mesotherapy",
+                        "slug": "needle-free-mesotherapy-skin-tightening"
+                    },
+                    {
+                        "title": "LED PhotoFacial Light Therapy",
+                        "slug": "led-photo-facial-light-therapy"
                     },
                     {
                         "title": "Ultrasonic Facial",
@@ -107,6 +111,14 @@
                     {
                         "title": "Herbal Green Peel®",
                         "slug": "herbal-green-peel"
+                    },
+                    {
+                        "title": "AfterGlow Peel",
+                        "slug": "afterglow-peel"
+                    },
+                    {
+                        "title": "Vitamin A Infusion Peel",
+                        "slug": "vitamin-a-infusion-peel"
                     },
                     {
                         "title": "Special Peels",

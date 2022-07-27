@@ -6,12 +6,10 @@ const OsmosisMakeup = () => {
     return(
         <>
             <Banner
-                text="Osmosis + Colour Mineral Makeup"
+                heading="Osmosis + Colour Mineral Makeup"
+                caption=""
                 image={<StaticImage src="../assets/images/makeupOsmosisHeader.jpg"/>}
             />
-            <div className="p-4 lg:p-8">
-                
-            </div>
         </>
     )
 }

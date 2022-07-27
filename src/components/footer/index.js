@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl pt-6 pb-14" id="contact">
 
             <div className="flex flex-col items-center my-10 mx-5 md:mx-2">
-                <h1 className="mb-4 text-3xl md:text-4xl">Let's Get In Touch</h1>
+                <h1 className="font-bold mb-4 text-3xl md:text-4xl">Let's Get In Touch</h1>
                 <p>Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
             </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <input           
                                     id="firstName"
                                     type="text" 
-                                    className="w-full p-2 rounded-md shadow-md border border-black/10"
+                                    className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.firstName}
                                     onChange={(e) => setFormData({
                                         firstName: e.target.value, 
@@ -56,7 +56,7 @@ const Footer = () => {
                                 <input           
                                     id="lastName"
                                     type="text" 
-                                    className="w-full p-2 rounded-md shadow-md border border-black/10"
+                                    className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.lastName}
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
@@ -78,7 +78,7 @@ const Footer = () => {
                                 <input           
                                     id="email"
                                     type="email" 
-                                    className="w-full p-2 rounded-md shadow-md border border-black/10"
+                                    className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.email}
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
@@ -100,7 +100,7 @@ const Footer = () => {
                                 <input           
                                     id="phone"
                                     type="phone" 
-                                    className="w-full p-2 rounded-md shadow-md border border-black/10"
+                                    className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.phone}
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
@@ -122,7 +122,7 @@ const Footer = () => {
                                 <textarea           
                                     id="message"
                                     type="text" 
-                                    className="w-full p-2 rounded-md shadow-md border border-black/10"
+                                    className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     rows={5}
                                     value={formData.message}
                                     onChange={(e) => setFormData({
@@ -152,7 +152,7 @@ const Footer = () => {
                     <span>2197 Riverside Drive  suite 200</span>
                     <span>Ottawa, Ontario</span>
                     <span>K1H 7X3</span>
-                    <span className="mt-4"><strong>Near Billing Bridge Shopping Center</strong> before Bank Street</span>
+                    <span className="mt-4"><strong>Near Billings Bridge Shopping Center</strong> before Bank Street</span>
                 </div>
             </div>
             <div className="md:w-1/3 p-4">
@@ -168,7 +168,6 @@ const Footer = () => {
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Parking</strong></span>
                 <span>Paid parking at the building.</span>
-                <span>2 hour free parking on Hollan Ave and Parkdale Ave.</span>
                 </div>
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Payment</strong></span>
@@ -178,7 +177,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="bg-darkGreen text-white font-light md:text-center p-4 rounded-t-lg shadow-lg -mt-2">
+        <div className="text-sm bg-darkGreen text-white font-light md:text-center p-4 rounded-t-lg shadow-lg -mt-2">
         Hair Removal, Acne Clinic, Facial Treatments, Waxing, Spas | © 2018 Essence of Beauty. Powered by <a href="https://www.adrenalizedigital.ca" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green">Adrenalize Digital</a>.
         </div>
 

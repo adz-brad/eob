@@ -6,7 +6,8 @@ const Products = () => {
     return(
         <>
             <Banner
-                text="Products"
+                heading="Products"
+                caption=""
                 image={<StaticImage src="../assets/images/productsHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

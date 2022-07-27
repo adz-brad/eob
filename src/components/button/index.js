@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const Button = ({ data: button, className }) => {
     if(button.anchor){
       const scrollTo = () => {
-        scroll.scrollTo(document.getElementById(button.anchor.toLowerCase()).offsetTop - 30, {
+        scroll.scrollTo(document.getElementById(button.anchor.toLowerCase()).offsetTop + 50, {
           duration: 500,
           smooth: true,
         })
@@ -16,12 +16,13 @@ const Button = ({ data: button, className }) => {
           onKeyDown={() => scrollTo()}
           className={className}
         >
+          {button.icon ? button.icon : null}
           {button.text}
         </button>
       )
     }
     else if(button.link){
-      return <Link className={className} to={button.link}>{button.text}</Link>
+      return <Link className={className} to={button.link}>{button.icon ? button.icon : null}{button.text}</Link>
     }
     else{
       return(
@@ -29,6 +30,7 @@ const Button = ({ data: button, className }) => {
           disabled
           className={className}
         >
+          {button.icon ? button.icon : null}
           {button.text}
         </button>
       )

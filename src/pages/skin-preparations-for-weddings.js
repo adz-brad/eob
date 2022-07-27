@@ -6,7 +6,8 @@ const SkinPrep = () => {
     return(
         <>
             <Banner
-                text="Skin Preparations for Weddings"
+                heading="Skin Preparations for Weddings"
+                caption=""
                 image={<StaticImage src="../assets/images/skinPrepHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

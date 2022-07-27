@@ -6,7 +6,8 @@ const UltrasonicFacial = () => {
     return(
         <>
             <Banner
-                text="Ultrasonic Regenerative Facial"
+                heading="Ultrasonic Regenerative Facial"
+                caption=""
                 image={<StaticImage src="../assets/images/ultrasonicFacialHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

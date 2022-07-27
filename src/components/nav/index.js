@@ -45,22 +45,28 @@ const Navbar = () => {
                         link.slug ?
                             <Link 
                                 key={i} 
-                                className="p-1 cursor-pointer hover:text-green mx-2"
+                                className="p-1 cursor-pointer hover:text-green mx-3"
                                 to={link.slug === '/' ? link.slug : `/${link.slug}`}
                                 onMouseEnter={()=> setDropdownOpen(null)}
+                                onClick={() => setDropdownOpen(link.title)}
+                                onKeyDown={() => setDropdownOpen(link.title)}
+                                role="button"
+                                tabIndex={i}
                             >
-                                <span className="text-lg font-semibold">{link.title}</span>
+                                <span className="md:text-lg lg:text-xl font-headers">{link.title}</span>
                             </Link>
                         : 
                             
                                 <div 
                                     key={i}
-                                    className="relative p-1 cursor-pointer mx-2 hover:text-green" 
+                                    className="relative p-1 cursor-pointer mx-3 hover:text-green" 
                                     onMouseEnter={()=> setDropdownOpen(link.title)}
+                                    onClick={() => setDropdownOpen(link.title)}
+                                    onKeyDown={() => setDropdownOpen(link.title)}
                                     role="button"
-                                    tabIndex={-i}
+                                    tabIndex={i}
                                 >
-                                    <span className="text-lg font-semibold">{link.title}</span>
+                                    <span className="md:text-lg lg:text-xl font-headers">{link.title}</span>
                                 
                                 {dropdownOpen === link.title ?
                                     link.subMenus.length === 0 ?
@@ -69,7 +75,7 @@ const Navbar = () => {
                                                 return(
                                                     <Link 
                                                         key={i} 
-                                                        className="p-1 cursor-pointer font-semibold hover:text-green mx-2"
+                                                        className="p-1 cursor-pointer hover:text-green mx-3 md:text-lg"
                                                         to={`/${page.slug}`}
                                                     >
                                                         {page.title}
@@ -87,7 +93,7 @@ const Navbar = () => {
                                                             return(
                                                                 <Link 
                                                                     key={i} 
-                                                                    className="p-1 cursor-pointer font-semibold hover:text-green mx-2"
+                                                                    className="py-1 cursor-pointer hover:text-green md:text-lg"
                                                                     to={`/${page.slug}`}
                                                             >
                                                                     {page.title}
@@ -151,6 +157,7 @@ const Navbar = () => {
                                         to={link.slug === '/' ? link.slug : `/${link.slug}`}
                                         onClick={() => closeMobileNav()}
                                         onKeyDown={() => closeMobileNav()}
+                                        tabIndex={i}
                                     >
                                         <span className="text-3xl font-semibold">{link.title}</span>
                                     </Link>
@@ -161,7 +168,7 @@ const Navbar = () => {
                                         onClick={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         onKeyDown={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         role="button"
-                                        tabIndex={-i}
+                                        tabIndex={i}
                                     >
 
                                     <span className="text-3xl font-semibold">{link.title}</span>

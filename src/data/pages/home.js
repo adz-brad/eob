@@ -9,7 +9,7 @@ export const data = {
         {
             "type": "hero",
             "video": HeroVideo,
-            "heading": "Ottawa’s Holistic Anti-Aging Skincare, Acne, Rosacea & Scars Clinic",
+            "heading": "Ottawa’s Premier Holistic Skin Rejuvenation Clinic",
             "caption": "Reminding you of the importance and enjoyment of feeling beautiful every single day.",
             "button": {
                 "text": "Learn More",

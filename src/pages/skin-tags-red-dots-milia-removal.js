@@ -6,7 +6,8 @@ const SkinTags = () => {
     return(
         <>
             <Banner
-                text="Skin Tags, Red Dots & Milia"
+                heading="Skin Tags, Red Dots & Milia"
+                caption=""
                 image={<StaticImage src="../assets/images/holisticAcneClinic.jpg"/>}
             />
             <div className="p-4 lg:p-8">

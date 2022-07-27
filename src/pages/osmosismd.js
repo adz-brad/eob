@@ -6,7 +6,8 @@ const OsmosisMd = () => {
     return(
         <>
             <Banner
-                text="Osmosis + Beauty MD"
+                heading="Osmosis + Beauty MD"
+                caption=""
                 image={<StaticImage src="../assets/images/osmosisMdHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

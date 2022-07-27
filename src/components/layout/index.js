@@ -6,10 +6,11 @@ const Layout = ({ children }) => {
     return(
         <>
             <Navbar/>
-            <main className="">
+            <main>
                 {children}
+                <Footer/>
             </main>
-            <Footer/>
+            
         </>
     )
 }

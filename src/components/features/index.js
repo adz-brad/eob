@@ -6,10 +6,10 @@ const Features = ({ _key, title, description, items }) => {
 
     const FeatureCard = ({ _key, item }) => {
         return(
-            <div key={_key} className="flex flex-col shadow-lg rounded-lg bg-lightGreen">
+            <div key={_key} className="flex flex-col shadow-lg bg-lightGreen">
                 {item.image ?
                 <div className="h-1/2">
-                    <GatsbyImage image={item.image.props.__imageData} className="h-full w-full rounded-t-lg shadow-lg" imgClassName="rounded-sm" />
+                    <GatsbyImage image={item.image.props.__imageData} className="h-full w-full shadow-lg" />
                 </div>  
                 : null }  
                 <div className="flex flex-col grow p-4">

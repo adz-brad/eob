@@ -6,7 +6,8 @@ const FountainOfYouth = () => {
     return(
         <>
             <Banner
-                text="302 Fountain of Youth"
+                heading="302 Fountain of Youth"
+                caption=""
                 image={<StaticImage src="../assets/images/302fountainHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

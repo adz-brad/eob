@@ -6,7 +6,8 @@ const SpecialPeels = () => {
     return(
         <>
             <Banner
-                text="No-Acid Natural Grade Facial Peels"
+                heading="No-Acid Natural Grade Facial Peels"
+                caption=""
                 image={<StaticImage src="../assets/images/specialPeelsHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">

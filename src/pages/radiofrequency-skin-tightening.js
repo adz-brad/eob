@@ -6,7 +6,8 @@ const SkinTightening = () => {
     return(
         <>
             <Banner
-                text="Radiofrequency Skin Tightening"
+                heading="Radiofrequency Skin Tightening"
+                caption=""
                 image={<StaticImage src="../assets/images/holisticAcneClinic.jpg"/>}
             />
             <div className="p-4 lg:p-8">
