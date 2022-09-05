@@ -12,7 +12,7 @@ const AcneScars = () => {
                 heading="Acne Scars Revision"
                 gradient="from-black/70 via-black/50 to-black/30"
                 caption="Scars can compromise your complexion long after acne heals. At Essence of Beauty, we create individual programs for each client to treat a range of problems including active acne and acne scarring."
-                image={<StaticImage src="../assets/images/acneScarsHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col md:flex-row">
@@ -31,7 +31,7 @@ const AcneScars = () => {
                     </div>
                     
                         <StaticImage
-                         src="../assets/images/acneScarring.jpg"
+                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarring.jpg?raw=true"
                         className="md:w-1/3 mx-auto md:m-4 rounded-sm shadow-lg" 
                         />
 

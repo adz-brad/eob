@@ -11,7 +11,7 @@ const AgingAndDehydratedSkin = () => {
                 heading="Aging & Dehydrated Skin"
                 gradient="from-black/50 via-black/30 to-black/10"
                 caption="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections. "
-                image={<StaticImage src="../assets/images/facialAgingHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialAgingHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col lg:flex-row lg:items-center p-4 lg:p-8">
                 <div className="lg:w-2/3 lg:m-8">

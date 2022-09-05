@@ -10,7 +10,7 @@ const BackAcne = () => {
             <Banner
                 heading="Back Acne"
                 caption="If dealing with facial acne isn’t enough, your body can also be prone to breakouts. Odds are, if you experience acne on your face, pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
-                image={<StaticImage src="../assets/images/backAcneHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8 md:my-8">
                 <div className="flex flex-col">
@@ -35,8 +35,8 @@ const BackAcne = () => {
                         className="grid grid-cols-1 md:grid-cols-2 m-4 gap-4"
                         imageClass="rounded-sm shadow-lg h-[400px]"
                         images={[
-                                <StaticImage src="../assets/images/backAcneBefore.png" alt="Back Acne Before Treatment Image" />,
-                                <StaticImage src="../assets/images/backAcneAfter.png" alt="Back Acne After Treatment Image" />
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneBefore.png?raw=true" alt="Back Acne Before Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneAfter.png?raw=true" alt="Back Acne After Treatment Image" />
                                 ]}
                     />
                 </div>

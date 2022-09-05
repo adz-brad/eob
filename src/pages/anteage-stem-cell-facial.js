@@ -11,7 +11,7 @@ const AnteageStemCell = () => {
             <Banner
                 heading="AnteAge Stem Cell Facial"
                 caption="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
-                image={<StaticImage src="../assets/images/anteagestemcellHeader.png"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteagestemcellHeader.png?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -81,8 +81,8 @@ const AnteageStemCell = () => {
                     className="grid grid-cols-1 gap-4 my-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="../assets/images/anteageBefore1.png" alt="AnteAge Before Treatment" />,
-                        <StaticImage src="../assets/images/anteageAfter1.png" alt="AnteAge After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageBefore1.png?raw=true" alt="AnteAge Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageAfter1.png?raw=true" alt="AnteAge After Treatment" />
                     ]}
                 />
                 <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
@@ -128,8 +128,8 @@ const AnteageStemCell = () => {
                     className="grid grid-cols-1 gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="../assets/images/anteageBefore2.png" alt="AnteAge Before Treatment" />,
-                        <StaticImage src="../assets/images/anteageAfter2.png" alt="AnteAge After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageBefore2.png?raw=true" alt="AnteAge Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageAfter2.png?raw=true" alt="AnteAge After Treatment" />
                     ]}
                 />
                 <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>

@@ -13,7 +13,7 @@ const FountainOfYouth = () => {
             <Banner
                 heading="302 Fountain of Youth"
                 caption="I am very excited to be the first Canadian spa to carry a completely different skincare line that is very effective for aging, acne, rosacea, treats scars and uneven texture, clears visible sun damage as well as other skin conditions – it’s called 302"
-                image={<StaticImage src="../assets/images/302fountainHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302fountainHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -28,7 +28,7 @@ const FountainOfYouth = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/302Fountain.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
                     alt="Essence of Beauty 302 Fountain of Youth"
                     className="md:w-1/3 mx-auto"
                 />
@@ -51,7 +51,7 @@ const FountainOfYouth = () => {
                     </div>
                     <Image className="md:w-1/3 rounded-sm shadow-md my-8 md:mx-auto md:my-4">
                     <StaticImage
-                        src="../assets/images/302products.jpeg"
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302products.jpeg?raw=true"
                         alt="302 Professional Skincare Products"
                     />
                     </Image>
@@ -150,10 +150,10 @@ const FountainOfYouth = () => {
                         className="flex flex-col md:w-1/3 p-4 md:px-8"
                         imageClass="w-full my-2"
                         images={[
-                            <StaticImage src="../assets/images/302before1.png" alt="Essence of Beauty Before 302 Skincare" />,
-                            <StaticImage src="../assets/images/302after1.png" alt="Essence of Beauty After 302 Skincare" />,
-                            <StaticImage src="../assets/images/302before2.png" alt="Essence of Beauty Before 302 Skincare" />,
-                            <StaticImage src="../assets/images/302after2.png" alt="Essence of Beauty After 302 Skincare" />
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before1.png?raw=true" alt="Essence of Beauty Before 302 Skincare" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after1.png?raw=true" alt="Essence of Beauty After 302 Skincare" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before2.png?raw=true" alt="Essence of Beauty Before 302 Skincare" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after2.png?raw=true" alt="Essence of Beauty After 302 Skincare" />
                         ]}
                     />
                 </Card>

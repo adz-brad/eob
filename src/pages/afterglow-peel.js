@@ -11,7 +11,7 @@ const AfterglowPeel = () => {
                 heading="AfterGlow Peel"
                 gradient="from-black/10 via-black/20 to-black/50"
                 caption="The AfterGlow Peeling is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. "
-                image={<StaticImage src="../assets/images/afterglowHeader.webp"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglowHeader.webp?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const AfterglowPeel = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/afterglow.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
                     alt="Essence of Beauty Afterglow Peel Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

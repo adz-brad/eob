@@ -13,7 +13,7 @@ const AcneTreatment = () => {
                 heading="Acne Treatment"
                 gradient="from-black/60 via-black/30 to-black/10"
                 caption="Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body. "
-                image={<StaticImage src="../assets/images/acneTreatmentHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatmentHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col md:flex-row md:items-center">
@@ -35,7 +35,7 @@ const AcneTreatment = () => {
                 </div>
                 <Image className="max-h-[480px] rounded-sm shadow-lg my-8 md:mx-auto">
                 <StaticImage 
-                    src="../assets/images/acneTreatment.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true" 
                     alt="Essence of Beauty New Client Acne Treatment" 
                 />
                 </Image>

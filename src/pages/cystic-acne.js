@@ -12,7 +12,7 @@ const CysticAcne = () => {
                 heading="Cystic Acne"
                 gradient="from-black/30 via-black/20 to-black/10"
                 caption="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
-                image={<StaticImage src="../assets/images/cysticAcneHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcneHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
                 <div className="flex flex-col md:flex-row my-8">
@@ -27,7 +27,7 @@ const CysticAcne = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="../assets/images/cysticAcne.jpg" className="max-h-[480px] md:m-4 rounded-sm shadow-lg" />
+                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true" className="max-h-[480px] md:m-4 rounded-sm shadow-lg" />
                 </div>
                 <div id="cystic-acne-info" className="flex flex-col md:flex-row md:items-center my-4 md:my-8">
                     <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4 md:w-2/5 md:mx-auto" >
