@@ -2,6 +2,7 @@ import React from "react"
 import Banner from "../components/banner"
 import { StaticImage } from "gatsby-plugin-image"
 import BeforeAfter from "../components/beforeAfter"
+import Gallery from '../components/gallery'
 import Button from "../components/button"
 import Tabs from "../components/tabs"
 
@@ -10,13 +11,17 @@ const Rosacea = () => {
     <>
       <Banner
         heading="Rosacea and Sensitive Skin"
+        gradient="from-black/20 via-black-40 to-black/50"
         caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
         image={<StaticImage src="../assets/images/rosaceaHeader.jpg" />}
       />
       <div className="md:p-4 lg:p-8 md:my-8">
         <div className="flex flex-col md:flex-row md:items-center lg:p-8">
-          <div className="flex flex-col p-4 lg:p-8 md:w-3/5">
-            <h1 className="my-4">Rosacea and Sensitive Skin</h1>
+          <div className="flex flex-col px-4 md:w-3/5">
+            <h1 className="my-4 font-semibold">Rosacea and Sensitive Skin</h1>
+            <h4 className="mt-2 mb-4">
+            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare.
+            </h4>
             <p className="my-1">
               Whether your rosacea is active or in remission, your skin is still
               sensitive and needs carefully selected skin care to prevent
@@ -42,33 +47,23 @@ const Rosacea = () => {
             />
           </div>
           <div className="md:w-2/5 md:m-4">
-            <BeforeAfter
-              className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-              beforeImage={
-                <StaticImage
-                  src="../assets/images/rosaceaBefore1.png"
-                  alt="Rosacea Before Treatment Image"
+          <StaticImage
+                  src="../assets/images/rosecea1.png"
+                  alt="Rosacea Before & After Treatment Image"
+                  className="max-h-[500px]"
                 />
-              }
-              afterImage={
-                <StaticImage
-                  src="../assets/images/rosaceaAfter1.png"
-                  alt="Rosacea After Treatment Image"
-                />
-              }
-            />
           </div>
         </div>
         <div
           id="wondering-if-you-have-rosacea"
-          className="flex lg:m-8 flex-col lg:flex-row my-4 bg-lightGreen rounded-lg shadow-lg"
+          className="flex lg:m-8 flex-col my-4 bg-lightGreen rounded-lg shadow-lg"
         >
-          <div className="flex flex-col lg:w-1/2 p-4 md:p-8">
-            <h1 className="mb-4 border-b-2 border-darkGreen pb-2 filter drop-shadow-md">
+          <div className="flex flex-col p-4 md:p-8">
+            <h1 className="mb-4 pb-2 filter drop-shadow-md">
               Wondering If You Have Rosacea?
             </h1>
-            <ul className="list-disc lg:my-auto">
-              <p className="my-1 font-bold">Here are the signs to look for:</p>
+            <ul className="list-disc my-4">
+              <h4 className="my-1 font-bold">Here are the signs to look for:</h4>
               <li className="mt-2 ml-4">
                 Red flushing over the cheeks and nose
               </li>
@@ -100,48 +95,29 @@ const Rosacea = () => {
               className="buttonLight bg-white mt-8 lg:mt-auto mx-auto md:mx-0"
             />
           </div>
-          <div className="flex flex-col md:p-8 lg:w-1/2">
-            <div className="flex flex-col lg:flex-row my-auto">
-              <BeforeAfter
-                className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                beforeImage={
-                  <StaticImage
-                    src="../assets/images/rosaceaBefore2.png"
-                    alt="Rosacea Before Treatment Image"
-                  />
-                }
-                afterImage={
-                  <StaticImage
-                    src="../assets/images/rosaceaAfter2.png"
-                    alt="Rosacea After Treatment Image"
-                  />
-                }
+          <div className="flex flex-col md:p-8 ">
+            
+              <Gallery 
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
+                imageClass="rounded-sm shadow-lg h-[400px] md:h-[300px]"
+                images={[
+                  <StaticImage src="../assets/images/rosaceaBefore2.png" alt="Rosacea Before Treatment Image" />,
+                  <StaticImage src="../assets/images/rosaceaAfter2.png" alt="Rosacea After Treatment Image" />,
+                  <StaticImage src="../assets/images/rosaceaBefore3.png" alt="Rosacea Before Treatment Image" />,
+                  <StaticImage src="../assets/images/rosaceaAfter3.png" alt="Rosacea After Treatment Image" />
+
+                ]}
               />
-              <BeforeAfter
-                className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                beforeImage={
-                  <StaticImage
-                    src="../assets/images/rosaceaBefore3.png"
-                    alt="Rosacea Before Treatment Image"
-                  />
-                }
-                afterImage={
-                  <StaticImage
-                    src="../assets/images/rosaceaAfter3.png"
-                    alt="Rosacea After Treatment Image"
-                  />
-                }
-              />
-            </div>
+            
             <span className="text-center text-sm m-4">
-              Slide to compare before and after rosacea treatment
+              Comparing before and after rosacea treatment
             </span>
           </div>
         </div>
         <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:p-8">
           <StaticImage
             src="../assets/images/skinTreatmentApproach.jpg"
-            className="md:m-4 rounded-lg shadow-lg lg:w-1/4"
+            className="md:m-4 rounded-sm shadow-lg lg:w-1/4"
           />
           <div className="flex flex-col p-4 md:p-8 lg:w-2/3 lg:mx-auto">
             <h1 className="my-4">Skin Treatment Approach</h1>
@@ -173,7 +149,7 @@ const Rosacea = () => {
         </div>
         <div id="rosacea-treatment-options">
           <div className="my-8 lg:pt-8 text-center">
-            <h1 className="mb-2">How We Treat Rosacea at Essence of Beauty</h1>
+            <h1 className="mb-2 font-semibold">How We Treat Rosacea at Essence of Beauty</h1>
             <span>Choose a treatment option to learn more</span>
             <Tabs
             columns="grid-cols-1 md:grid-cols-2"
@@ -183,7 +159,7 @@ const Rosacea = () => {
                   name: "Ultrasonic Skin Rejuvenation",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-lg md:text-xl lg:text-2xl">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
                         Customized Ultrasound-Galvanic Treatment for
                         Ultra-Sensitive skin / Rosacea with Lymph Drainage
                       </h1>
@@ -247,7 +223,7 @@ const Rosacea = () => {
                         weeks apart will give best results.
                       </p>
                       <span>
-                        <strong className="mr-2">80 minute session:</strong>$158
+                        <strong className="mr-2 text-brown">80 minute session:</strong>$158
                       </span>
                       <Button
                         data={{
@@ -263,7 +239,7 @@ const Rosacea = () => {
                   name: "DMK Enzyme Therapy Facial",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-lg md:text-xl lg:text-2xl">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
                         DMK Enzyme Therapy Facial
                       </h1>
                       <p className="my-2">
@@ -342,7 +318,7 @@ const Rosacea = () => {
                         Enzyme Treatment is performed once or every other week.
                       </p>
                       <span>
-                        <strong className="mr-2">
+                        <strong className="mr-2 text-brown">
                           90 minute session (when pre-booked & pre-paid):
                         </strong>
                         $188

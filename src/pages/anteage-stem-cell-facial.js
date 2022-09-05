@@ -2,8 +2,8 @@ import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
-import BeforeAfter from '../components/beforeAfter'
 import Card from '../components/card'
+import Gallery from '../components/gallery'
 
 const AnteageStemCell = () => {
     return(
@@ -77,12 +77,15 @@ const AnteageStemCell = () => {
                     />
                 </div>
                 <div className="flex flex-col items-center md:w-1/3 md:ml-8">
-                <BeforeAfter
-                    className="rounded-sm shadow-lg"
-                    beforeImage={<StaticImage src="../assets/images/anteageBefore1.png" alt="AnteAge Before Treatment" />}
-                    afterImage={<StaticImage src="../assets/images/anteageAfter1.png" alt="AnteAge After Treatment" />}
+                <Gallery 
+                    className="grid grid-cols-1 gap-4 my-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="../assets/images/anteageBefore1.png" alt="AnteAge Before Treatment" />,
+                        <StaticImage src="../assets/images/anteageAfter1.png" alt="AnteAge After Treatment" />
+                    ]}
                 />
-                <span className="mt-4 text-sm">Slide to compare before & after treatment</span>
+                <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
                 </div>
             </div>
             <div id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center">
@@ -120,13 +123,16 @@ const AnteageStemCell = () => {
                     </ul>
                     <p className="my-1 md:text-lg">The Stem Cell Facial has no downtime and instantly reveals smoother, brighter and glowing skin. In combination with our daily AnteAGE® Skincare System, we provide everything the skin needs to achieve unparalleled results.</p>
                 </div>
-                <div className="flex flex-col items-center md:w-1/3 md:mx-auto max-h-[520px]">
-                <BeforeAfter
-                    className="rounded-sm shadow-lg"
-                    beforeImage={<StaticImage src="../assets/images/anteageBefore2.png" alt="AnteAge Before Treatment" />}
-                    afterImage={<StaticImage src="../assets/images/anteageAfter2.png" alt="AnteAge After Treatment" />}
+                <div className="flex flex-col items-center md:w-1/3 md:mx-auto">
+                <Gallery 
+                    className="grid grid-cols-1 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="../assets/images/anteageBefore2.png" alt="AnteAge Before Treatment" />,
+                        <StaticImage src="../assets/images/anteageAfter2.png" alt="AnteAge After Treatment" />
+                    ]}
                 />
-                <span className="mt-4 text-sm">Slide to compare before & after treatment</span>
+                <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
                 </div>
             </div>
             <div className="md:p-8">

@@ -3,8 +3,9 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
-import BeforeAfter from '../components/beforeAfter'
 import { Link } from 'gatsby'
+import Image from '../components/image'
+import Gallery from '../components/gallery'
 
 const FountainOfYouth = () => {
     return(
@@ -48,11 +49,13 @@ const FountainOfYouth = () => {
                     Avogen™ is a natural and unique lipid family found in avocado the result of a laboratory process that isolates a molecule from the leaves of a particular rainforest avocado that researchers discovered provides amazing skin protective measures against sun damage and aging. Avogen is not based on the pulp of the avocado or on avocado oil, so even if you apply avocado oil to your skin or eat lots of avocados, you will not obtain the protective measures of Avogen. This particular “Fountain of Youth” ingredient, Avogen, has the molecular weight of 302 daltons, thus the name of the skincare line, 302.
                     </p>
                     </div>
+                    <Image className="md:w-1/3 rounded-sm shadow-md my-8 md:mx-auto md:my-4">
                     <StaticImage
-                        className="md:w-1/3 rounded-sm shadow-md my-8 md:mx-auto md:my-4"
                         src="../assets/images/302products.jpeg"
                         alt="302 Professional Skincare Products"
                     />
+                    </Image>
+
                     </div>
                     <p className="my-1">
                     The Avogen™ molecules are a biologically significant matrix provided both topically and as a dietary supplement. The extracellular matrix (ECM) is the dynamic regulator of cell functions everywhere in the body including the ECM of skin, eyes, bone, muscles, joints, and internal organs (the liver, lungs, heart, brain, etc.).  The ECM is composed of proteins, collagen and elastin, glycosaminoglycans (GAGs), proteoglycans, hyaluronic acid, among other components.  It comprises the various connective tissues in our body.  The health of the extracellular matrix normally declines with age, but also from external factors such as sun damage, toxins, stress, trauma, and inflammation. Avogen™, in preliminary studies, has been shown to <strong>reverse ECM damage from aging and external factors</strong>, restoring it to a healthier, more functional state.
@@ -143,19 +146,16 @@ const FountainOfYouth = () => {
                         In conjunction with the use of 302, Ultrasound treatments have been shown to produce a number of very positive and rejuvenating results including improved waste removal of toxins, firmer, cleaner, more toned and healthier skin. Please <Link className="font-bold hover:text-green" to="/ultrasonic-facial" >click here</Link> for further information on Ultrasound Treatments.
                         </p>
                     </div>
-                    <div className="flex flex-col md:ml-4 md:w-1/3">
-                        <BeforeAfter
-                            className="rounded-sm shadow-md my-4 md:m-4 h-[400px]"
-                            beforeImage={<StaticImage src="../assets/images/302before1.png" alt="Essence of Beauty Before 302 Skincare" />}
-                            afterImage={<StaticImage src="../assets/images/302after1.png" alt="Essence of Beauty After 302 Skincare" />}
-                        />
-                        <BeforeAfter
-                            className="rounded-sm shadow-md my-4 md:m-4 h-[400px]"
-                            beforeImage={<StaticImage src="../assets/images/302before2.png" alt="Essence of Beauty Before 302 Skincare" />}
-                            afterImage={<StaticImage src="../assets/images/302after2.png" alt="Essence of Beauty After 302 Skincare" />}
-                        />
-                        <span className="text-center text-sm">Slide to compare before and after 302 Skincare Product Usage</span>
-                    </div>
+                    <Gallery 
+                        className="flex flex-col md:w-1/3 p-4 md:px-8"
+                        imageClass="w-full my-2"
+                        images={[
+                            <StaticImage src="../assets/images/302before1.png" alt="Essence of Beauty Before 302 Skincare" />,
+                            <StaticImage src="../assets/images/302after1.png" alt="Essence of Beauty After 302 Skincare" />,
+                            <StaticImage src="../assets/images/302before2.png" alt="Essence of Beauty Before 302 Skincare" />,
+                            <StaticImage src="../assets/images/302after2.png" alt="Essence of Beauty After 302 Skincare" />
+                        ]}
+                    />
                 </Card>
             </div>
             <div className="flex flex-col items-center p-4">
@@ -167,3 +167,4 @@ const FountainOfYouth = () => {
 }
 
 export default FountainOfYouth
+

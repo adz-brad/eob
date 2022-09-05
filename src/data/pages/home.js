@@ -37,23 +37,24 @@ export const data = {
         {
             "type": "features",
             "title": "Featured Treatments",
-            "description": "Essence of Beauty treatments are simple yet sophisticated, based on each client’s unique and personal requirements. The clinic specializes in natural, organic skin care that rebuilds and regenerates the skin from the inside out using state of art, non-surgical, non-invasive, acne, acne scarring, rosacea and anti-aging facial treatments. These include Ultrasound, Micro-current, LED Lights, DMK Enzyme Treatments, Derma Ray, Dermal Infusion and Herbal Green Peel® therapies. More traditional treatments include acne, acne scars, rosacea, skin tag and red spot removal and repair of damaged facial capillaries with Vasculyse.",
+            "caption": "Essence of Beauty treatments are simple yet sophisticated, based on each client’s unique and personal requirements.",
+            "description": "The clinic specializes in natural, organic skin care that rebuilds and regenerates the skin from the inside out using state of art, non-surgical, non-invasive, acne, acne scarring, rosacea and anti-aging facial treatments. These include Ultrasound, Micro-current, LED Lights, DMK Enzyme Treatments, Derma Ray, Dermal Infusion and Herbal Green Peel® therapies. More traditional treatments include acne, acne scars, rosacea, skin tag and red spot removal and repair of damaged facial capillaries with Vasculyse.",
             "items": [
                 {
-                    "name": "Microcurrent Facial Toning",
-                    "description": "Natural facial toning with microcurrent is unique in its ability to improve the muscles of the face to create a more youthful and toned appearance through a process that can be largely considered a nonsurgical face-lift. This is a revolutionary cosmetic service that is unique in the industry with the potential to enhance your overall health and help you look younger!",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/microcurrent.jpg"/>,
-                    "link": "/the-magic-of-micro-current" 
+                    "name": "AnteAge Stem Cell Facial",
+                    "description": "Restore your skin’s health on a cellular level with AnteAGE®. The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/anteageStemCell.png"/>,
+                    "link": "/anteage-stem-cell-facial" 
                 },
                 {
                     "name": "DMK Enzyme Therapy" ,
-                    "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance. It works on the internal structures and functions of the skin to keep it fit, healthy and youthful.",
+                    "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/dmk.jpg"/>,
                     "link": "/dmk-enzyme-therapy" 
                 },
                 {
                     "name": "Herbal Green Peel®" ,
-                    "description": "Green Peel® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients, offering you an opportunity to experience all the benefits of skin refreshment, skin renewal, skin brightening, and skin treatments that are often associated with acids WITHOUT the questionable immediate and longer-terms disadvantages.",
+                    "description": "Green Peel® is a herbal formulation composed of natural active substances offering you an opportunity to experience all the benefits of other treatments that are often associated with acids WITHOUT the questionable immediate and longer-terms disadvantages.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/greenPeel.png"/>,
                     "link": "/herbal-green-peel" 
                 },

@@ -10,13 +10,14 @@ const CysticAcne = () => {
         <>
             <Banner
                 heading="Cystic Acne"
+                gradient="from-black/30 via-black/20 to-black/10"
                 caption="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
                 image={<StaticImage src="../assets/images/cysticAcneHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex-row my-8">
                     <div className="flex flex-col p-4 md:p-8 md:w-3/5" >
-                        <h1 className="my-4">Is There Cystic Acne Treatment?</h1>
+                        <h1 className="my-4 font-semibold">Is There Cystic Acne Treatment?</h1>
                         <h4 className="mb-2">Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance.</h4>
                         <p className="my-1">
                         Cystic acne is the most severe acne infliction that someone can suffer from. It manifests itself in large, deeply-embedded, red, painful, and often swollen lumps in the skin. In some cases, these lumps (called cysts) are so deeply embedded that they are not visible from the surface of the skin.
@@ -26,7 +27,7 @@ const CysticAcne = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="../assets/images/cysticAcne.jpg" className="max-h-[400px] md:m-4 rounded-lg shadow-lg" />
+                    <StaticImage src="../assets/images/cysticAcne.jpg" className="max-h-[480px] md:m-4 rounded-sm shadow-lg" />
                 </div>
                 <div id="cystic-acne-info" className="flex flex-col md:flex-row md:items-center my-4 md:my-8">
                     <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4 md:w-2/5 md:mx-auto" >
@@ -43,7 +44,7 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         <p className="mt-1 mb-2">
                         With cystic acne, the infection grows deeper, becomes inflamed, and blocks the pore opening. If the lesion ruptures because of its size or because of squeezing, the infection spreads to surrounding areas and further infects skin
                         </p>
-                        <p className="mt-1 mb-2 font-semibold">
+                        <p className="mt-1 mb-2 font-semibold text-brown">
                         In three months normalizing of oil output and acne production, improvement of texture and scar removal, as well as reduction in inflammation and redness to skin.      
                         </p>
                     </Card>
@@ -72,11 +73,12 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         <h1 className="my-4">
                         What Should I Expect?
                         </h1>
+                        <div className="h-[5px] w-full rounded-t-lg bg-green mb-8"/>
                         <p className="mt-1 mb-2">
                         The good news is that cystic acne generally clears up quickly with the protocol we use at Acne Clinic in Essence of Beauty. We treat cystic acne with a combination of topical products and clinical treatments to calm the existing inflammation and to keep it from returning. We also recommend certain supplements to use along with your home care which have been clinically proven to reduce inflammation. To prevent scarring, it is best to not wait if you have cystic acne. Invest in Yourself… You are Worth it! 
                         </p>
                         <p className="mt-1 mb-2">
-                        Please read more about our Acne-Clearing program by clicking <Link to="/acne-treatment" className="font-bold hover:text-green">here.</Link>  
+                        Please read more about our Acne-Clearing program by clicking <Link to="/acne-treatment" className="font-bold text-brown hover:text-green">here.</Link>  
                         </p>
                     </div>
             </div>

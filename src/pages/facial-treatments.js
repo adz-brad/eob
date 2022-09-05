@@ -4,22 +4,22 @@ import { treatmentMenu } from '../data/pages/facialTreatments'
 import Banner from '../components/banner'
 import PageWrapper from '../components/pageWrapper'
 import Button from '../components/button'
-import Card from '../components/card'
 
 const FacialTreatments = () => {
 
     return(
         <>
             <Banner
-                heading="Facial Treatments"
+                heading="Facials For Women & Men"
+                gradient="from-black/40 via-black/20 to-black/10"
                 caption="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
-                image={<StaticImage src="../assets/images/holisticAcneClinic.jpg"/>}
+                image={<StaticImage src="../assets/images/facialTreatmentHeader.png"/>}
             />
             <PageWrapper>
                 <div className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto md:mr-8">
-                        <h1 className="my-2">Facial Treatments Designed For You!</h1>
-                        <h4 className="mb-1">Essence of Beauty is the FIRST <strong>organic and chemical free</strong> Holistic Anti-Aging Skincare Clinic in Ottawa.</h4>
+                        <h1 className="my-3 font-bold">Facial Treatments Designed For You!</h1>
+                        <h4 className="mt-1 mb-2">Essence of Beauty is the FIRST <strong>organic and chemical free</strong> Holistic Anti-Aging Skincare Clinic in Ottawa.</h4>
                         <p className="my-1">
                         Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials that address your skin’s unique needs and your dreams and goals for your complexion. The Essence of Beauty approach integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results.
                         </p>
@@ -33,7 +33,7 @@ const FacialTreatments = () => {
                     </div>
                     <div className="lg:w-1/3 lg:mx-auto my-8 lg:my-0">
                         <iframe 
-                            className="my-8 md:my-0 h-[485px] md:h-[340px] w-full"
+                            className="my-8 md:my-0 h-[485px] md:h-[450px] w-full"
                             src="https://www.youtube.com/embed/ZCLPUWGVBis" 
                             title="Advance Deep Pore Cleansing Facial Treatment with Extractions" 
                             frameborder="0" 
@@ -45,17 +45,29 @@ const FacialTreatments = () => {
                     </div>
                     </div>
                     <div id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" >
-                        <h1 className="mt-4 text-center">Special Skin Care Treatments</h1>
-                        <p className="text-center mb-8">Browse our facial menu to find the right treatment for you!</p>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 py-4 md:py-8">
+                        <div className="ml-8">
+                        <h1 className="mt-4">Special Skin Care Treatments</h1>
+                        <p className="mb-8">Browse our facial menu to find the right treatment for you!</p>
+                        </div>
+                        <div className="flex flex-col py-4 md:py-8">
                             {treatmentMenu.map((treatment, i) => {
+                                const even = i % 2 === 0
+                                console.log(treatment.image)
                                 return(
-                                    <Card 
+                                    <div 
                                         _key={i} 
-                                        cardBodyClass="flex flex-col p-4 md:p-8 h-full" 
-                                        cardWrapperClass={treatment.className}
+                                        class={`flex flex-col md:flex-row rounded-md shadow-lg my-4 ${even ? 'bg-lightGreen' : 'bg-white'}`} 
                                     >
-                                        <h1 className="md:text-2xl pb-2 mb-4 border-b border-darkGreen">
+
+                                        {treatment.imagePosition === 'left' && treatment.image ?
+                                            <div className="md:w-1/3">
+                                                {treatment.image?
+                                                    treatment.image
+                                                : null}
+                                            </div>
+                                        : null }
+                                        <div className={`flex flex-col ${treatment.image ? 'md:w-2/3' : 'w-full'} p-4 md:p-8`}>
+                                        <h1 className="pb-2 mb-2 font-semibold">
                                             {treatment.name}
                                         </h1>
                                         <div className="my-2">
@@ -65,7 +77,7 @@ const FacialTreatments = () => {
                                             treatment.pricing.map((option) => {
                                                 return(
                                                     <span className="lg:mb-8">
-                                                        <strong className="mr-2">
+                                                        <strong className="mr-2 text-brown">
                                                         {option.description} 
                                                         </strong>
                                                         {option.cost}
@@ -79,10 +91,18 @@ const FacialTreatments = () => {
                                                     text: "Learn More",
                                                     link: treatment.link
                                                 }}
-                                                className="buttonLight mt-4 lg:mt-auto"
+                                                className="buttonLight bg-white mt-4 lg:mt-auto"
                                             />
                                         : null }
-                                    </Card>
+                                        </div>
+                                        {treatment.imagePosition === 'right'  && treatment.image ?
+                                            <div className="md:w-1/3">
+                                                {treatment.image?
+                                                    treatment.image
+                                                : null}
+                                            </div>
+                                        : null }
+                                    </div>
                                 )
                             })}
                         </div>

@@ -9,6 +9,7 @@ const NoNeedleMesotherapy = () => {
         <>
             <Banner
                 heading="Needle Free Mesotherapy Infusion"
+                gradient="from-black/50 via-black/30 to-black/10"
                 caption="Nano Infusion Mesotherapy otherwise known as nano-needling is an innovative, non-invasive transdermal serum delivery system designed to rejuvenate your skin and remedy many common issues like lack of tone, uneven texture, excessive pigmentation, scarring, and loss of elasticity."
                 image={<StaticImage src="../assets/images/mesotherapyHeader.jpg"/>}
             />
@@ -25,7 +26,7 @@ const NoNeedleMesotherapy = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/mesotherapy.jpg"
+                    src="../assets/images/needleFreeMesotherapy.jpeg"
                     alt="Essence of Beauty Needle-free Mesotherapy Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
@@ -108,16 +109,16 @@ const NoNeedleMesotherapy = () => {
                     It is important to follow a professionally recommended skin care regimen featuring appropriate, high-quality products to achieve optimum results.   
                     </p>
                     <div className="flex flex-col">
-                    <h4 className="font-bold mt-4 mb-2">Pricing</h4>
+                    <h4 className="font-bold mt-4 mb-2 text-brown">Pricing</h4>
                     <span><strong className="mr-2">Single Treatment:</strong>$178</span>
                     <span><strong className="mr-2">Add LED Lights:</strong>$205</span>
                     </div>
                     <div className="flex flex-col">
-                    <h4 className="font-bold mt-4 mb-2">Package Prices when pre-booked & pre-paid:</h4>
+                    <h4 className="font-bold mt-4 mb-2 text-brown">Package Prices when pre-booked & pre-paid:</h4>
                     <span><strong className="mr-2">4 Treatments:</strong>$650</span>
                     <span><strong className="mr-2">6 Treatments w/ LED:</strong>$730</span>
                     </div>
-                    <h4 className="font-bold mt-4">Contraindications</h4>
+                    <h4 className="font-bold mt-4 text-brown">Contraindications</h4>
                     <ul className="my-2 list-disc ml-4">
                         <li className="my-1">
                         Pregnancy

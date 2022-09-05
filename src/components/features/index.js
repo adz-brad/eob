@@ -2,23 +2,23 @@ import React from 'react'
 import { GatsbyImage } from 'gatsby-plugin-image'
 import Button from '../button'
 
-const Features = ({ _key, title, description, items }) => {
+const Features = ({ _key, title, caption, description, items }) => {
 
     const FeatureCard = ({ _key, item }) => {
         return(
-            <div key={_key} className="flex flex-col shadow-lg bg-lightGreen">
+            <div key={_key} className="flex flex-col shadow-lg bg-white">
                 {item.image ?
-                <div className="h-1/2">
+                <div className="h-96">
                     <GatsbyImage image={item.image.props.__imageData} className="h-full w-full shadow-lg" />
                 </div>  
                 : null }  
-                <div className="flex flex-col grow p-4">
-                    <h1 className="text-2xl py-2 border-green border-b-2">{item.name}</h1>
-                    <p className="my-4">{item.description}</p>
+                <div className="flex flex-col grow p-4 md:p-8">
+                    <h1 className="font-bold text-2xl py-2 border-green border-b-2">{item.name}</h1>
+                    <p className="mt-4 mb-8">{item.description}</p>
                     {item.link ?
                         <Button 
                             data={{ text: "Learn More", link: item.link }}
-                            className="buttonLight mt-auto md:ml-2 md:mb-2 bg-white" 
+                            className="buttonLight mt-auto bg-white" 
                         />
                     : null }
                 </div>       
@@ -26,10 +26,11 @@ const Features = ({ _key, title, description, items }) => {
         )
     }
     return(
-        <div key={_key} className="flex flex-col px-4 md:p-8">
+        <div key={_key} className="flex flex-col px-4 md:p-8 bg-lightGreen">
             <h1 className="text-3xl md:text-5xl m-4">{title}</h1>
-            <p className="my-8 mx-4">{description}</p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:p-4">
+            <h4 className="font-bold text-brown ml-4">{caption}</h4>
+            <p className="mt-4 mb-8 mx-4">{description}</p>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:p-4">
                 {items ?
                     items.map((item, i) => {
                         return <FeatureCard _key={i} item={item} />
@@ -38,7 +39,7 @@ const Features = ({ _key, title, description, items }) => {
             </div>
             <Button
                 data={{ text: "View All Treatments", link: "/treatments"}}
-                className="buttonLight mt-20 mb-8 mx-auto"
+                className="buttonLight mt-12 mb-8 mx-auto bg-white"
             />
         </div>
     )

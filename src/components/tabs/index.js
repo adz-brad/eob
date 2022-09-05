@@ -14,7 +14,7 @@ const Tabs = ({ columns, options, className }) => {
                         return(
                             <li 
                                 key={i} 
-                                className={`cursor-pointer rounded-md hover:bg-green transition-colors text-lg p-2 text-center hover:shadow-md ${active === option ? 'bg-green shadow-sm text-white font-semibold' : 'bg-lightGreen hover:text-white'}`}
+                                className={`font-headers cursor-pointer rounded-md hover:bg-green transition-colors text-lg p-2 text-center hover:shadow-md ${active === option ? 'bg-green shadow-sm text-white font-semibold' : 'bg-lightGreen hover:text-white'}`}
                                 onClick={() => setActive(option)}
                                 onKeyDown={() => setActive(option)}
                                 tabIndex={i}

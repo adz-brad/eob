@@ -1,6 +1,6 @@
 import React from 'react'
 import './src/styles/global.css'
-
+import SimpleReactLightbox from 'simple-react-lightbox'
 import Layout from './src/components/layout'
 
 const wrapPageElement = ({ element }) => {
@@ -11,4 +11,12 @@ const wrapPageElement = ({ element }) => {
     )
 }
 
-export { wrapPageElement }
+const wrapRootElement = ({ element }) => {
+    return(
+        <SimpleReactLightbox>
+            {element}
+        </SimpleReactLightbox>
+    )
+}
+
+export { wrapPageElement, wrapRootElement }

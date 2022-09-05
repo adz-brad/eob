@@ -9,17 +9,16 @@ const AgingAndDehydratedSkin = () => {
         <>
             <Banner
                 heading="Aging & Dehydrated Skin"
+                gradient="from-black/50 via-black/30 to-black/10"
                 caption="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections. "
                 image={<StaticImage src="../assets/images/facialAgingHeader.jpg"/>}
             />
             <div className="flex flex-col lg:flex-row lg:items-center p-4 lg:p-8">
-                <div className="lg:w-2/3">
-                    <h1 className="mb-4">Turning Back The Clock On Aging Skin</h1>
+                <div className="lg:w-2/3 lg:m-8">
+                    <h1 className="mb-4 font-semibold">Turning Back The Clock On Aging Skin</h1>
+                    <h4 className="my-6">Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections.</h4>
                     <p className="my-2">
-                    As you age, your skin gets drier and thinner and starts to lose its plump, radiant appearance. The loss of collagen in your skin, as well as exposure to the elements, causes wrinkles, skin laxity and gives your skin a dull appearance. You’ll likely notice your face losing its firmness and tightness most around your eyes and mouth.
-                    </p>
-                    <p className="my-2">
-                    You could opt for Botox injections, cosmetic surgery or laser treatments, however these options can be painful and only provide short term beauty results. <strong>They don’t do anything to help your skin produce more collagen and repair damaged cells.</strong>
+                    As you age, your skin gets drier and thinner and starts to lose its plump, radiant appearance. The loss of collagen in your skin, as well as exposure to the elements, causes wrinkles, skin laxity and gives your skin a dull appearance. You’ll likely notice your face losing its firmness and tightness most around your eyes and mouth. You could opt for Botox injections, cosmetic surgery or laser treatments, however these options can be painful and only provide short term beauty results. <strong>They don’t do anything to help your skin produce more collagen and repair damaged cells.</strong>
                     </p>
                     <p className="my-2">
                     Essence of Beauty Facial Rejuvenation offers a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections. <strong>We offer different non-surgical facial rejuvenation options</strong>, allowing us to customise treatment to the unique needs and desired outcome of each client. In addition to helping you look your best. These treatments are designed to re-educate and re-train your skin cells, repair skin barrier and restoring optimal skin health. No two treatments are the same and are completely tailored to your skins needs on that day.
@@ -32,7 +31,19 @@ const AgingAndDehydratedSkin = () => {
                 <StaticImage 
                     src="../assets/images/antiAging.jpg" 
                     alt="Essence of Beauty Anti Aging Image"
-                    className="lg:w-1/3 rounded-lg shadow-lg lg:ml-8"
+                    className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
+                />
+            </div>
+            <div className="p-4 md:p-8 flex flex-col md:flex-row lg:my-4">
+            <StaticImage 
+                    src="../assets/images/aging.jpg" 
+                    alt="Essence of Beauty Anti Aging Image"
+                    className="lg:w-1/2 max-h-[520px] rounded-sm shadow-lg lg:m-4"
+                />
+                                <StaticImage 
+                    src="../assets/images/aging2.jpg" 
+                    alt="Essence of Beauty Anti Aging Image"
+                    className="lg:w-1/2 max-h-[520px] rounded-sm shadow-lg lg:m-4"
                 />
             </div>
             <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
@@ -43,7 +54,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Needle Free Mesotherapy",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
                                     Needle Free Mesotherapy
                                     </h1>
                                     <p className="my-2">
@@ -54,16 +65,16 @@ const AgingAndDehydratedSkin = () => {
                                     </p>
                                     <span className="font-bold text-brown italic">Package Price when pre-pooked and pre-paid:</span>
                                     <span>
-                                        <strong className="mr-2">Single treatment:</strong>$165
+                                        <strong className="mr-2 text-brown">Single treatment:</strong>$165
                                     </span>      
                                     <span>
-                                        <strong className="mr-2">Add LED Lights:</strong>$195
+                                        <strong className="mr-2 text-brown">Add LED Lights:</strong>$195
                                     </span>    
                                     <span>
-                                        <strong className="mr-2">Package of 6:</strong>$900
+                                        <strong className="mr-2 text-brown">Package of 6:</strong>$900
                                     </span>   
                                     <span>
-                                        <strong className="mr-2">Package of 6 w/ LED:</strong>$1080
+                                        <strong className="mr-2 text-brown">Package of 6 w/ LED:</strong>$1080
                                     </span>  
                                 </div>
                             )
@@ -72,7 +83,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Professional Peels",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
                                     Professional Peels
                                     </h1>
                                     <p className="my-2">
@@ -95,7 +106,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "DMK Muscle Banding",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
                                     DMK Muscle Banding
                                     </h1>
                                     <p className="my-2">
@@ -138,7 +149,7 @@ const AgingAndDehydratedSkin = () => {
                                     Muscle Banding treatments finish with a Transdermal Infusion designed to restore vital nutrients, proteins, amino acids and moisture at a cellular level. 
                                     </p>
                                     
-                                    <strong>Price on application.</strong>
+                                    <strong className="text-brown">Price on application.</strong>
                                     
                                     <Button
                                         data={{text: "Learn More", link: "/dmk-enzyme-therapy"}}
@@ -151,7 +162,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Micro-needling",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
                                     Micro-Needling
                                     </h1>
                                     <span className="italic text-brown font-bold">Fine lines getting you down?</span>
@@ -159,13 +170,7 @@ const AgingAndDehydratedSkin = () => {
                                     Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure. 
                                     </p>
                                     <strong>$295</strong>
-                                    <h1 className="text-lg md:text-xl lg:text-2xl mt-4">
-                                    Micro-Needling with Enzyme Mask
-                                    </h1>
-                                    <p className="my-2">
-                                    Add enzyme therapy to rebuild and repair the skin faster. The enzymes aim to strengthen the structural integrity of the skin, which creates a healthy environment for our skin   cells to thrive and perform optimally.
-                                    </p>
-                                    <strong>$365</strong>
+                            
                                     <Button
                                         data={{text: "Learn More", link: "/microneedling"}}
                                         className="buttonLight my-4"
@@ -177,7 +182,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Herbal Green Peel",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
                                     Herbal Green Peel
                                     </h1>
                                     <p className="my-2">
@@ -187,10 +192,10 @@ const AgingAndDehydratedSkin = () => {
                                     A consultation is required prior to this procedure.
                                     </p>
                                     <span>
-                                        <strong className="mr-2">Total Per Treatment Price:</strong>$399
+                                        <strong className="mr-2 text-brown">Total Per Treatment Price:</strong>$399
                                     </span>   
                                     <span>
-                                        <strong className="mr-2">Package of 3 (when pre-booked & pre-paid):</strong>$1035
+                                        <strong className="mr-2  text-brown">Package of 3 (when pre-booked & pre-paid):</strong>$1035
                                     </span> 
                                     <Button
                                         data={{text: "Learn More", link: "/herbal-green-peel"}}

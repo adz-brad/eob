@@ -17,7 +17,7 @@ body {
     font-family: Roboto;
 }
 
-h1, h2, h3, h4, h5, .font-headers{
+h1, h2, h3, h4, h5, .font-headers {
     font-family: Marcellus;
 }
 
@@ -63,6 +63,10 @@ main {
     background-position: center;
 }
 
+.testimonialBody p {
+    @apply my-2;
+}
+
 /* --- Meet Eva --- */
 
 .meetEvaContentBody h3{
@@ -94,5 +98,27 @@ textarea {
 /* --- Buttons --- */
 
 .buttonLight {
-    @apply cursor-pointer px-5 py-2 border border-black hover:border-transparent rounded-sm shadow-md text-lg md:text-2xl hover:bg-green hover:text-white transition-all w-fit;
+    @apply cursor-pointer px-5 py-3 rounded-sm shadow-lg text-lg md:text-2xl hover:bg-green hover:text-white transition-all w-fit;
+}
+
+/* --- Blog --- */
+
+.blogContent p {
+    @apply my-2;
+}
+
+.blogContent h2 {
+    @apply mt-6 mb-2 text-lg md:text-xl lg:text-2xl font-bold;
+}
+
+.blogContent img {
+    @apply rounded-sm shadow-lg my-6;
+}
+
+.blogContent ul {
+    @apply list-disc ml-4 my-4;
+}
+
+.blogContent li {
+    @apply my-1;
 }

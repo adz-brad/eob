@@ -31,14 +31,16 @@ const Navbar = () => {
     }, [ window.location.href ])
 
     return(
-        <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-lg shadow-md z-50" style={{zIndex:999}}>
+        <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-sm shadow-md z-50" style={{zIndex:999}}>
 
         <Link to="/" className="h-20 py-1 -ml-8">
             <StaticImage 
                 src="../../assets/images/Eob-logo.png" 
                 style={{ height: "100%" }}
                 imgStyle={{objectFit:" contain"}}
-                alt="Essence of Beauty"/>
+                alt="Essence of Beauty"
+                loading='eager'
+                />
         </Link>
 
         {windowWidth >= 992 ?
@@ -58,7 +60,7 @@ const Navbar = () => {
                                 role="button"
                                 tabIndex={i}
                             >
-                                <span className="md:text-lg lg:text-xl font-headers">{link.title}</span>
+                                <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                             </Link>
                         : 
                             
@@ -71,7 +73,7 @@ const Navbar = () => {
                                     role="button"
                                     tabIndex={i}
                                 >
-                                    <span className="md:text-lg lg:text-xl font-headers">{link.title}</span>
+                                    <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                                 
                                 {dropdownOpen === link.title ?
                                     link.subMenus.length === 0 ?
@@ -166,7 +168,7 @@ const Navbar = () => {
                                         onKeyDown={() => closeMobileNav()}
                                         tabIndex={i}
                                     >
-                                        <span className="text-3xl font-semibold">{link.title}</span>
+                                        <span className="text-3xl font-headers font-semibold">{link.title}</span>
                                     </Link>
                                 :
                                     <div 
@@ -178,7 +180,7 @@ const Navbar = () => {
                                         tabIndex={i}
                                     >
 
-                                    <span className="text-3xl font-semibold">{link.title}</span>
+                                    <span className="text-3xl font-headers font-semibold">{link.title}</span>
                             
                                     {mobileSlideOpen === link.title ?
                                         link.subMenus.length === 0 ?
@@ -187,7 +189,7 @@ const Navbar = () => {
                                                     return(
                                                         <Link 
                                                             key={i} 
-                                                            className="pb-1 font-semibold text-2xl my-1"
+                                                            className="pb-1 font-headers font-semibold text-2xl my-1"
                                                             to={`/${page.slug}`}
                                                             onClick={() => closeMobileNav()}
                                                             onKeyDown={() => closeMobileNav()}
@@ -211,7 +213,7 @@ const Navbar = () => {
                                                                 return(
                                                                     <Link 
                                                                         key={i} 
-                                                                        className="pb-1 font-semibold text-xl"
+                                                                        className="pb-1 font-headers font-medium text-xl"
                                                                         to={`/${page.slug}`}
                                                                         onClick={() => closeMobileNav()}
                                                                         onKeyDown={() => closeMobileNav()}
@@ -225,8 +227,8 @@ const Navbar = () => {
                                                     )
                                                 })}
                                                 <button className="mt-4 flex flex-row items-center">
-                                                    <MdArrowBackIos className="text-2xl"/>
-                                                    <span className="text-2xl">Back</span>
+                                                    <MdArrowBackIos className="text-2xl text-black"/>
+                                                    <span className="text-2xl font-headers font-semibold text-black">Back</span>
                                                 </button>
                                             </div>
                                     : null

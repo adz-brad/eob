@@ -4,12 +4,14 @@ import { StaticImage } from 'gatsby-plugin-image'
 import BeforeAfter from '../components/beforeAfter'
 import Card from '../components/card'
 import Button from '../components/button'
+import Gallery from '../components/gallery'
 
 const HerbalGreenPeel = () => {
     return(
         <>
             <Banner
                 heading="Skin Rejuvenation with Herbal Green Peel®"
+                gradient="from-black/10 via-black/30 to-black/10"
                 caption="GREEN PEEL® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere - you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®!"
                 image={<StaticImage src="../assets/images/greenPeelHeader.jpg" alt="Page Header"/>}
             />
@@ -126,8 +128,8 @@ const HerbalGreenPeel = () => {
                         </div>
                         </div>
                         </div>
-                        <div className="flex flex-col md:flex-row md:items-center">
-                        <div className="flex flex-col my-8 md:w-2/5 mx-auto">
+                        <div className="flex flex-col">
+                        <div className="flex flex-col my-8 mx-auto">
                             <h1 className="font-bold mb-4">
                             The Herbal Green Peel
                             </h1>
@@ -154,25 +156,26 @@ const HerbalGreenPeel = () => {
                             className="buttonLight my-8 mx-auto md:mx-0"
                         />
                         </div>
-                        <div className="flex flex-col justify-center md:my-8 md:w-1/3 mx-auto">
-                            <div className="grid grid-cols-1 gap-8 w-full mx-auto my-8">
-                                <BeforeAfter
-                                    className="rounded-sm shadow-lg h-[360px]"
-                                    beforeImage={<StaticImage src="../assets/images/greenPeelBefore1.png" 
-                                    alt="Essence of Beauty Before Green Peel Treatment" />}
-                                    afterImage={<StaticImage src="../assets/images/greenPeelAfter1.png" 
-                                    alt="Essence of Beauty After Green Peel Treatment" />}
+                        <div className="flex flex-col xl:flex-row xl:items-center justify-center md:my-8">
+                                <Gallery
+                                    className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:mr-1 xl:w-1/2 my-1"
+                                    imageClass="rounded-sm shadow-lg w-full h-[400px]"
+                                    images={[
+                                        <StaticImage src="../assets/images/greenPeelBefore1.png" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                        <StaticImage src="../assets/images/greenPeelAfter1.png" alt="Essence of Beauty After Green Peel Treatment" />
+                                    ]}
                                 />
-                                <BeforeAfter
-                                    className="rounded-sm shadow-lg h-[360px]"
-                                    beforeImage={<StaticImage src="../assets/images/greenPeelBefore2.png" 
-                                    alt="Essence of Beauty Before Green Peel Treatment" />}
-                                    afterImage={<StaticImage src="../assets/images/greenPeelAfter2.png" 
-                                    alt="Essence of Beauty After Green Peel Treatment" />}
-                                />
-                            </div>
-                            <span className="text-center text-sm">Drag the slider to compare before Herbal Green Peel treatment and after.</span>
+                                <Gallery
+                                    className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:ml-1 xl:w-1/2  my-1"
+                                    imageClass="rounded-sm shadow-lg w-full h-[400px]"
+                                    images={[
+                                        <StaticImage src="../assets/images/greenPeelBefore2.png" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                        <StaticImage src="../assets/images/greenPeelAfter2.png" alt="Essence of Beauty After Green Peel Treatment" />
+                                        
+                                    ]}
+                                />     
                         </div>
+                        <span className="text-center text-sm">Herbal Green Peel treatment and after images.</span>
                     </div>
                 </div>
                 <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8">

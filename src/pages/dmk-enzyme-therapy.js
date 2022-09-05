@@ -1,23 +1,23 @@
-import React from 'react'
-import Banner from '../components/banner'
+import React, { useState } from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 import DMKVideo from '../assets/video/dmkVideo.mp4'
 import DMKEnzymeMasque from '../assets/video/DMKEnzymeMasque.mp4'
 import Button from '../components/button'
 import Card from '../components/card'
+import { IoPlaySharp } from 'react-icons/io5'
+import Gallery from '../components/gallery'
 
 const DMKTherapy = () => {
+
+    const [ playVideo, setPlayVideo ] = useState(false)
+    const [ gallery, setGallery ] = useState('acne')
+
     return(
         <>
-            <Banner
-                heading="DMK Enzyme Therapy"
-                caption="The DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance. It works on the internal structures and functions of the skin to keep it fit, healthy and youthful."
-                image={<StaticImage src="../assets/images/dmkHeader.jpg"/>}
-            />
             <div className="">
-                <div className="flex flex-col md:flex-row md:items-center">
-                    <div className="flex flex-col md:w-3/5 lg:mx-auto md:mr-8 px-4 md:px-8 lg:px-16">
-                        <h1 className="mt-8 md:mt-10 mb-2 font-semibold">The Power of DMK Enzyme Therapy</h1>
+                <div className="flex flex-col-reverse xl:flex-row lg:items-center">
+                    <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
+                        <h1 className="mt-8 xl:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">The Power of DMK Enzyme Therapy</h1>
                         <p className="my-2">
                             At Essence of Beauty, we are leading experts in the use of DMK Enzyme Therpy for treating a multitude of conditions, including acne, rosecea, sun-damaged skin, agiing effects, pigmentation, scarring and reactive skin to name just a few.
                         </p>
@@ -49,20 +49,34 @@ const DMKTherapy = () => {
                         </ul>
                         <Button
                             data={{text: "Learn More", anchor: "dmk-enyzyme-therapy-more-info"}}
-                            className="buttonLight mt-8 mx-auto md:mx-0"
+                            className="buttonLight my-8 mx-auto lg:mx-0"
                         />
                     </div>
-                    <div className="lg:w-1/2 my-8 md:my-auto">
-                    <video autoPlay playsInline controls muted loop className="w-full">
-                            <source src={DMKVideo} type="video/mp4"/>
-                        </video>
+                    <div className="xl:w-1/2 h-full">
+                        {playVideo ?
+                            <video height="200" autoPlay playsInline controls muted loop className="w-full">
+                                <source src={DMKVideo} type="video/mp4"/>
+                            </video>
+                        :
+                            <button className="relative" onClick={() => setPlayVideo(true)}>
+                                <div className="transition-colors hover:bg-darkGreen flex flex-col items-center justify-center absolute left-1/2 xl:left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-50 rounded-full bg-green h-[100px] w-[100px] xl:h-[200px] xl:w-[200px]">
+                                    <IoPlaySharp className="ml-2 xl:ml-4 text-6xl xl:text-8xl text-white" />
+                                </div>   
+                                <div className="w-full h-full bg-gradient-to-t from-green/50 to-green/10 absolute top-0 left-0 z-40"></div>
+                                <StaticImage 
+                                    src="../assets/images/dmkHeader.jpg"
+                                    alt="Essence of Beauty DMK Enzyme Therapy"
+                                    className="z-30"
+                                />
+                            </button>
+                        }
                     </div>
                 </div>
             </div>
-            <div id="dmk-enyzyme-therapy-more-info" className="md:p-8">
-                <div className="flex flex-col md:flex-row md:items-center bg-lightGreen rounded-sm shadow-lg my-8 p-4 md:p-8">
-                    <div className="flex flex-col md:w-2/3">
-                        <h1 className="font-bold mb-4">Why Choose DMK Over Other Therapies?</h1>
+            <div id="dmk-enyzyme-therapy-more-info">
+                <div className="flex flex-col lg:flex-row md:items-center bg-lightGreen rounded-sm shadow-lg mb-8 p-4 md:p-8">
+                    <div className="flex flex-col lg:w-2/3">
+                        <h1 className="mb-4">Why Choose DMK Over Other Therapies?</h1>
                         <p className="my-2">
                         DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK. Also, many of these other treatments are considered unhealthy and dangerous, possibly even worsening underlying skin conditions.
                         </p>
@@ -80,15 +94,15 @@ const DMKTherapy = () => {
                             className="buttonLight bg-white mt-8 mx-auto md:mx-0"
                         />
                     </div>
-                    <div className="bg-white p-4 my-8 md:my-0 shadow-md rounded-sm mx-auto">
+                    <div className="bg-white p-4 my-8 lg:my-0 shadow-md rounded-sm mx-auto">
                     <StaticImage src="../assets/images/dmkPlasmaticEffect.jpg" />
                     </div>
                 </div>
             </div>
             <div id="dmk-how-it-works">
-                <div className="flex flex-col md:flex-row">
-                    <div className="flex flex-col md:w-3/5 lg:mx-auto md:mr-8 px-4 md:px-8 lg:px-16">
-                        <h1 className="mt-8 mb-4 font-semibold">How Does DMK Enzyme Therapy Work?</h1>
+                <div className="flex flex-col lg:flex-row">
+                    <div className="flex flex-col lg:w-3/5 lg:mx-auto md:mr-8 px-4 md:px-8 lg:px-16">
+                        <h1 className="mt-8 mb-4">How Does DMK Enzyme Therapy Work?</h1>
                         <p className="my-2">Enzyme Therapy works by utilizing specialized transfer messenger enzymes which bring fresh oxygenated blood and nutrients to the cells by causing Reverse Osmosis which is a “back-flushing” action that forces fluids through the membrane around the cells, cleaning out all impurities and restoring vital cellular nutrition and oxygenation required for cellular regeneration. Reverse Osmosis is the actual effect of the enzyme treatment on your body, specifically within three targeted areas: The lymphatic system, facial blood vessels and facial muscles.</p>
                         <p className="my-2">
                         As the primary filtering system of the body, the lymphatic system consists of a network of organs and tissues whose job it is to remove toxins, waste, and other harmful materials from the vascular system. DMK therapy acts on the lymphatics system, encouraging excellent drainage, which is felt through the facial mask as a pulsating or tightening sensation by the client.
@@ -104,9 +118,189 @@ const DMKTherapy = () => {
                     </div>
                 </div>
             </div>
+            <div className="my-8 flex flex-col p-4 md:p-8">
+                <h1 className="font-bold text-center my-8">
+                DMK Results for Various Conditions
+                </h1>
+            <ul className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-4 mt-8 mx-auto max-w-screen-xxl w-full">
+                <li 
+                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                    onClick={() => setGallery('acne')}
+                >
+                    Acne
+                </li>
+                <li 
+                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'aging' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                    onClick={() => setGallery('aging')}
+                >
+                    Aging
+                </li>
+                <li 
+                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'pigmentation' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                    onClick={() => setGallery('pigmentation')}
+                >
+                    Pigmentation
+                </li>
+                <li 
+                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'reactiveSkin' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                    onClick={() => setGallery('reactiveSkin')}
+                >
+                    Reactive Skin
+                </li>
+                <li 
+                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'scarring' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                    onClick={() => setGallery('scarring')}
+                >
+                    Scarring
+                </li>
+            </ul>
+            </div>
+            <div className="p-4 md:p-8 max-w-screen-xxl mx-auto">
+                {gallery === 'acne' ?
+                <Gallery
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    imageClass="rounded-sm shadow-md"
+                    images={[
+                        <StaticImage 
+                            src="../assets/images/dmkExample1.jpg" 
+                            alt="DMK Enzyme Therapy Before & After" 
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample2.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample3.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample4.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample5.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample6.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkExample7.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />
+                    ]}
+                />
+                : gallery === 'aging' ?
+                <Gallery
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    imageClass="rounded-sm shadow-md"
+                    images={[
+                            <StaticImage 
+                                src="../assets/images/dmkAging1.jpg" 
+                                alt="DMK Enzyme Therapy Before & After"
+                            />,
+                            <StaticImage 
+                                src="../assets/images/dmkAging2.jpg" 
+                                alt="DMK Enzyme Therapy Before & After"
+                            />,
+                            <StaticImage 
+                                src="../assets/images/dmkAging3.jpg" 
+                                alt="DMK Enzyme Therapy Before & After"
+                            />,
+                            <StaticImage 
+                                src="../assets/images/dmkAging4.jpg" 
+                                alt="DMK Enzyme Therapy Before & After"
+                            />,
+                            <StaticImage 
+                                src="../assets/images/dmkAging5.jpg" 
+                                alt="DMK Enzyme Therapy Before & After"
+                            />
+                    ]}
+                />
+                : gallery === 'pigmentation' ?
+                <Gallery
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    imageClass="rounded-sm shadow-md"
+                    images={[
+                        <StaticImage 
+                            src="../assets/images/dmkPigmentation1.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkPigmentation2.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkPigmentation3.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkPigmentation4.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />
+                    ]}
+                />
+                : gallery === 'reactiveSkin' ?    
+                <Gallery
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    imageClass="rounded-sm shadow-md"
+                    images={[
+                        <StaticImage 
+                            src="../assets/images/dmkReactiveSkin1.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkReactiveSkin2.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkReactiveSkin3.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />
+                    ]}
+                />
+                : gallery === 'scarring' ?
+                <Gallery
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    imageClass="rounded-sm shadow-md"
+                    images={[
+                        <StaticImage 
+                            src="../assets/images/dmkScarring1.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring2.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring3.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring4.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring5.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring6.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />,
+                        <StaticImage 
+                            src="../assets/images/dmkScarring7.jpg" 
+                            alt="DMK Enzyme Therapy Before & After"
+                        />
+                    ]}
+                />
+                : null }
+
+            </div>
             <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8 md:my-16">
                 <h1 className="font-bold mb-4">DMK Pricing</h1>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
+                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col md:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 1</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
@@ -133,7 +327,7 @@ const DMKTherapy = () => {
                         className="md:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
+                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col md:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 2</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
@@ -156,7 +350,7 @@ const DMKTherapy = () => {
                         className="md:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
+                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col md:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
@@ -179,7 +373,7 @@ const DMKTherapy = () => {
                         className="md:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
+                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col md:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Muscle Banding with A-lift - Enzyme Masque #2 & #3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>

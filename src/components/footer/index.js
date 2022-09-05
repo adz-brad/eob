@@ -10,17 +10,15 @@ const Footer = () => {
         message: ''
     })
 
-    const formDivide = false
-
     return(
 
-        <div className="flex flex-col bg-lightGreen mt-12 rounded-t-lg shadow-lg">
-        {formDivide ? <div className="formDivide"/> : null}  
+        <div className="flex flex-col bg-green mt-12 rounded-t-lg shadow-lg">
+        <div className="formDivide"/>
         <div className="mx-auto max-w-screen-xl pt-6 pb-14" id="contact">
 
             <div className="flex flex-col items-center my-10 mx-5 md:mx-2">
                 <h1 className="font-bold mb-4 text-3xl md:text-4xl">Let's Get In Touch</h1>
-                <p>Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
+                <p className="font-medium md:text-lg text-white">Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
             </div>
 
             <div className="flex flex-row flex-wrap px-3 md:px-6">

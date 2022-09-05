@@ -9,8 +9,9 @@ const LEDPhotoFacial = () => {
         <>
             <Banner
                 heading="LED Photo Facial"
+                gradient="from-black/20 to-black/0"
                 caption="Light Emitting Diode (LED) therapy is a revolutionary anti-aging skin care procedure that is used to treat multiple adverse skin conditions"
-                image={<StaticImage src="../assets/images/ledPhotoFacial.webp"/>}
+                image={<StaticImage src="../assets/images/cellumaLedTherapy.png"/>}
             />
                                     <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -26,9 +27,9 @@ const LEDPhotoFacial = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/ledPhotoFacial2.jpg"
+                    src="../assets/images/ledLightTherapy.jpg"
                     alt="Essence of Beauty LED Light Therapy Photo Facial Treatment"
-                    className="md:w-1/3 mx-auto rounded-sm shadow-md"
+                    className="md:w-1/3 h-[500px] mx-auto rounded-sm shadow-md"
                 />
             </div>
             <div id="led-therapy-benefits" className="p-4 md:p-8">
@@ -71,7 +72,7 @@ const LEDPhotoFacial = () => {
                     </ul>
                     </div>
                     <div className="flex flex-col md:w-1/2">
-                        <h4 className="font-bold">Initial treatment sessions are as follows:</h4>
+                        <h3 className="font-bold mt-2">Initial treatment sessions are as follows:</h3>
                         <ul className="list-disc my-2 ml-4">
                             <li className="my-1">
                             $60 per treatment depending on the severity of the problem being treated-recommended in series of 8-12 treatments.
@@ -83,8 +84,8 @@ const LEDPhotoFacial = () => {
                             Conditions like rosacea, fine lines, wrinkles, hyperpigmentation, sun damage, anti-aging, collagen stimulation and irregular skin texture: One session per week for 6 weeks with maintenance therapy sessions once every 1 to 2 months.   
                             </li>
                         </ul>
-                        <h5>After your LED facial, you should immediately notice a healthy glow. When treating acne, many clients begin seeing results in as little as four weeks. For wrinkle reduction, patients begin to see results at eight weeks. However, individual experiences may vary.
-                        </h5>
+                        <p>After your LED facial, you should immediately notice a healthy glow. When treating acne, many clients begin seeing results in as little as four weeks. For wrinkle reduction, patients begin to see results at eight weeks. However, individual experiences may vary.
+                        </p>
                         <Button
                             data={{text: "Book Now", anchor: "contact"}}
                             className="buttonLight my-8 mx-auto md:mx-0"

@@ -8,9 +8,37 @@ module.exports = {
       },
       __key: "pages"
     }, 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "images",
+        "path": `${__dirname}/src/assets/images`
+      },
+      __key: "images"
+    }, 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "blog",
+        "path": `${__dirname}/src/blog`
+      },
+      __key: "blog"
+    },
     'gatsby-plugin-postcss',
     'gatsby-plugin-image',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp'
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `none`,
+          quality: 100,
+          breakpoints: [600, 768, 992, 1280, 1536],
+          backgroundColor: `transparent`,
+        },
+      },
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-remark'
   ],
 }

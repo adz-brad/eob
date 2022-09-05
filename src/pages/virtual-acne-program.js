@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
 import Button from '../components/button'
 import Card from '../components/card'
-import BeforeAfter from '../components/beforeAfter'
+import Gallery from '../components/gallery'
 import Accordion from '../components/accordion'
 
 const VirtualAcneProgram = () => {
@@ -52,24 +52,21 @@ const VirtualAcneProgram = () => {
             </div>
             <div className="p-4 lg:p-8 flex flex-col items-center">
                 <h1>Check out these amazing results!</h1>
-                <span className="text-center my-2 text-sm">Slide to compare before and after treatment</span>     
-                <div className="flex flex-col lg:flex-row my-auto lg:my-8">           
-                        <BeforeAfter
-                            className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/holisticAcneBefore1.png" alt="Virtual Acne Program Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/holisticAcneAfter1.png" alt="Virtual Acne Program After Treatment Image" />}
-                        />
-                        <BeforeAfter
-                            className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/holisticAcneBefore2.png" alt="Virtual Acne Program Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/holisticAcneAfter2.png" alt="Virtual Acne Program After Treatment Image" />}
-                        />
-                        <BeforeAfter
-                            className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/holisticAcneBefore3.png" alt="Virtual Acne Program Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/holisticAcneAfter3.png" alt="Virtual Acne Program After Treatment Image" />}
-                        />
-                    </div>
+                 
+                    <Gallery
+                        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 my-8"
+                        imageClass="rounded-sm shadow-md h-[400px]"
+                        images={[
+                            <StaticImage src="../assets/images/holisticAcneBefore1.png" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="../assets/images/holisticAcneAfter1.png" alt="Virtual Acne Program After Treatment Image" />,
+                            <StaticImage src="../assets/images/holisticAcneBefore2.png" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="../assets/images/holisticAcneAfter2.png" alt="Virtual Acne Program After Treatment Image" />,
+                            <StaticImage src="../assets/images/holisticAcneBefore3.png" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="../assets/images/holisticAcneAfter4.png" alt="Virtual Acne Program After Treatment Image" />
+                        ]}
+                    />
+
+                    <span className="text-center my-2 text-sm">Comparing before and after treatment</span>   
             </div>
             <div id="virtual-acne-program-faq" className="p-4 lg:p-8 flex flex-col items-center lg:m-8">
                 <h1 className="mt-4 mb-8">Acne Treatment FAQ</h1>

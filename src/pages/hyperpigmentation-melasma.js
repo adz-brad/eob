@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
-import BeforeAfter from '../components/beforeAfter'
+import Gallery from '../components/gallery'
 import Card from '../components/card'
 
 const Hyperpigmentation = () => {
@@ -10,42 +10,43 @@ const Hyperpigmentation = () => {
         <>
             <Banner
                 heading="Hyperpigmentation & Melasma"
+                gradient="from-black/30 via-black/40 to-black/60"
                 caption="If you’re at a loss for why your complexion is suddenly riddled with various forms of hyperpigmentation, know that you are not alone. We can help you minimize any spots or blemishes from hyperpigmentation, no matter what your skin type."
                 image={<StaticImage src="../assets/images/hyperpigmentationHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row justify-center">
-                    <div className="flex flex-col lg:w-3/4 md:p-8" >
-                        <h1 className="my-4">What Is Hyperpigmentation?</h1>
-                        <h4 className="mb-2">Hyperpigmentation is a general term that is used by medical professionals to characterize patches of skin which are darker in color than the rest of the skin due to the overproduction of melanin.</h4>
+                    <div className="flex flex-col lg:w-2/3 md:p-8" >
+                        <h1 className="mt-8 mb-4 font-semibold">What Is Hyperpigmentation?</h1>
+                        <h4 className="mt-2 mb-4">Hyperpigmentation is a general term that is used by medical professionals to characterize patches of skin which are darker in color than the rest of the skin due to the overproduction of melanin.</h4>
                         <p className="mt-1 mb-4">
                         Dark spots can develop for a wide variety of reasons, though the most common contributing factor to facial hyperpigmentation is overexposure to the sun. Fluctuations in hormone levels, a genetic predisposition to melasma, the healing process of acne lesions, and skin damage caused by laser treatment, can also all lead to the development of facial hyperpigmentation. Facial hyperpigmentation can occur in individuals of any skin tone and type, and depending on the underlying cause of the hyperpigmentation may appear at any age.
                         </p>
-                        <h4>Real results require effective strategies that work in partnership with the skin.</h4>
+                        <h4 className="font-semibold">Real results require effective strategies that work in partnership with the skin.</h4>
                         <Button 
                             data={{ text: "Learn More", anchor: "hyperpigmentation-melasma-info"}}
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="../assets/images/hyperpigmentationMelasma.jpg" className="lg:w-1/4 max-h-[420px] lg:m-4 rounded-sm shadow-lg" />
+                    <StaticImage src="../assets/images/hyperpigmentationMelasma.jpg" className="lg:w-1/3 max-h-[520px] lg:m-4 rounded-sm shadow-lg" />
                 </div>
             </div>
-            <div className="bg-lightGreen rounded-lg shadow-lg lg:m-8 flex flex-col lg:flex-row">
+            <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-8 flex flex-col lg:flex-row">
                 <div id="hyperpigmentation-melasma-info" className="flex flex-col lg:w-1/2 p-4 md:p-8">
-                   <h1 className="mb-4 border-b-2 border-darkGreen pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h1>
+                   <h1 className="mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h1>
                    <p className="my-1">
                    There are two types of hyperpigmentation – <strong>sun derived and internally derived.</strong>
                    </p>
-                   <h3 className="text-xl mt-2">Sun Derived/PIH (Post Inflammatory Hyperpigmentation)</h3>
+                   <h3 className="text-xl mt-2 font-semibold">Sun Derived/PIH (Post Inflammatory Hyperpigmentation)</h3>
                    <p className="my-1">
                    These areas can be like freckles and will more apparent after sun exposure and generally not symmetrical on your face. Or they can appear as a large cluster on some areas of your body.
                    </p>
-                   <h3 className="text-xl mt-2">Internally Derived</h3>
-                   <h4 className="text-brown italic mt-2">Melasma</h4>
+                   <h3 className="text-xl mt-4 font-semibold">Internally Derived</h3>
+                   <h4 className="text-brown italic mt-3 font-semibold">Melasma</h4>
                    <p className="my-1">
                    This will show up on your cheeks, forehead and upper lip. It can also appear anywhere on your face and is usually asymmetrical. That means you’ll likely see it on both sides of your face in the same area and unlike age spots, Melasma will be in large patches.
                    </p>
-                   <h4 className="text-brown italic mt-2">Liver Spots</h4>
+                   <h4 className="text-brown italic mt-3 font-semibold">Liver Spots</h4>
                    <p className="my-1">
                    Liver Spots are asymmetrical. You can see them anywhere on the face in one or more location. They are very large patches of pigmentation.
                    </p>
@@ -55,17 +56,17 @@ const Hyperpigmentation = () => {
                         />
                 </div>
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8">
-                <BeforeAfter
-                    className="rounded-sm shadow-lg h-[480px] my-auto"
-                    beforeImage={<StaticImage src="../assets/images/hyperpigmentationBefore1.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />}
-                    afterImage={<StaticImage src="../assets/images/hyperpigmentationAfter1.png" alt="Hyperpigmentation & Melasma After Treatment Image" />}
+                <StaticImage 
+                    src="../assets/images/reactiveskin1.png" 
+                    alt="Hyperpigmentation & Melasma After Treatment Image" 
+                    className="max-h-[500px] rounded-sm shadow-md"
                 />
-                <span className="text-center mt-4 text-sm">Slide to compare before and after hyperpigmentation treatment</span>
+                <span className="text-center mt-4 text-sm">Comparing before and after hyperpigmentation treatment</span>
                 </div>
             </div>
-            <div id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col lg:flex-row lg:items-center my-4">
-                <div className="flex flex-col lg:w-1/2 p-4 lg:p-8">
-                    <h1 className="mb-4 border-b-2 border-darkGreen pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h1>
+            <div id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col my-4">
+                <div className="flex flex-col p-4 lg:p-8">
+                    <h1 className="mb-4 pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h1>
                     <p className="my-1">
                    The initial step is an in-depth skin health consultation and analysis to identify the possible root cause of pigmentation, before a treatment plan can be designed to correct the condition and provide the tools needed to reduce the risk of it retuning. Depending on the type of hyperpigmentation disorder and the causes, the treatment approach will vary.
                    </p>
@@ -79,26 +80,32 @@ const Hyperpigmentation = () => {
                     Micro needling is also a very effective treatment for hyperpigmentation because it restores normal cell function and increases cell-to-cell communication, helping to regulate the production of melanin. Micro needling can also be combined with mesotherapy ampules with a cocktail of vitamins and minerals specifically blended to treat hyperpigmentation. 
                     </p>
                 </div>
-                <div className="flex flex-col lg:p-8 lg:w-1/2">     
-                    <div className="flex flex-col md:flex-row items-center">   
-                        <BeforeAfter
-                            className="rounded-sm shadow-lg max-h-[400px] md:w-1/2 my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/hyperpigmentationBefore2.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/hyperpigmentationAfter2.png" alt="Hyperpigmentation & Melasma After Treatment Image" />}
+                <div className="flex flex-col lg:p-8">     
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">   
+                        <Gallery
+                            className="grid grid-cols-1 md:grid-cols-2 gap-2"
+                            imageClass="rounded-sm shadow-lg max-h-[400px]"
+                            images={[
+                                <StaticImage src="../assets/images/hyperpigmentationBefore2.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
+                                <StaticImage src="../assets/images/hyperpigmentationAfter2.png" alt="Hyperpigmentation & Melasma After Treatment Image" />
+                            ]}
                         />
-                        <BeforeAfter
-                            className="rounded-sm shadow-lg max-h-[400px] md:w-1/2 my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/hyperpigmentationBefore3.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/hyperpigmentationAfter3.png" alt="Hyperpigmentation & Melasma After Treatment Image" />}
+                        <Gallery
+                            className="grid grid-cols-1 md:grid-cols-2 gap-2"
+                            imageClass="rounded-sm shadow-lg max-h-[400px]"
+                            images={[
+                                <StaticImage src="../assets/images/hyperpigmentationBefore3.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
+                                <StaticImage src="../assets/images/hyperpigmentationAfter3.png" alt="Hyperpigmentation & Melasma After Treatment Image" />
+                            ]}
                         />
                     </div>
-                    <span className="text-center text-sm mt-2">Slide to compare before and after hyperpigmentation treatment</span>
+                    <span className="text-center text-sm mt-2">Comparing before and after hyperpigmentation treatment</span>
                 </div>
             </div>
             <div className="p-4 lg:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row">
                     <div className="flex flex-col md:w-1/2">
-                    <h1 className="font-bold">5 Strategies For Real Results</h1>
+                    <h1 className="">5 Strategies For Real Results</h1>
                     <ul className="my-4">
                         <li className="my-2">
                         <span className="font-bold mr-2">✓</span> Empowering your skin and body’s immune system by providing ingredients that stimulate repair.
@@ -118,7 +125,7 @@ const Hyperpigmentation = () => {
                     </ul>
                     </div>
                     <div className="flex flex-col md:w-1/3 mx-auto">
-                    <h1 className="font-bold">Important First Steps</h1>
+                    <h1 className="">Important First Steps</h1>
                     <ul className="text-left my-4">
                         <li className="my-1">1. Sun Protection</li>
                         <li className="my-1">2. Proper skin care to address the specific condition causing your pigmentation</li>
@@ -126,6 +133,10 @@ const Hyperpigmentation = () => {
                     <span>Essence of Beauty offers options for all skin types and ethnic backgrounds. A consultation is needed prior to the treatment <strong>$50</strong></span>
                     </div>
                 </Card>
+            </div>
+            <div className="flex flex-col items-center p-4">
+                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
     )

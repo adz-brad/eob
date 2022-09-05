@@ -5,17 +5,19 @@ import Button from '../components/button'
 import Card from '../components/card'
 
 const AcneScars = () => {
+
     return(
         <>
             <Banner
-                heading="Acne Scars"
+                heading="Acne Scars Revision"
+                gradient="from-black/70 via-black/50 to-black/30"
                 caption="Scars can compromise your complexion long after acne heals. At Essence of Beauty, we create individual programs for each client to treat a range of problems including active acne and acne scarring."
                 image={<StaticImage src="../assets/images/acneScarsHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col md:flex-row">
                     <div className="flex flex-col p-4 md:p-8 md:w-2/3" >
-                        <h1 className="my-4">Safe and effective treatments</h1>
+                        <h1 className="my-4 font-semibold">Safe and effective treatments</h1>
                         <p className="mt-1 mb-2">
                         We all want to look and feel our best, both inside and out, every day. But for those who have suffered acne throughout their life and still show their physical scars that can be easier said than done. While it’s most prominent in adolescence, acne scarring can actually affect skin at any age. Scarring can affect not just a person’s physical appearance but also their self-confidence
                         </p>
@@ -27,7 +29,12 @@ const AcneScars = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="../assets/images/acneScarring.jpg" className="md:w-1/3 mx-auto md:m-4 rounded-lg shadow-lg" />
+                    
+                        <StaticImage
+                         src="../assets/images/acneScarring.jpg"
+                        className="md:w-1/3 mx-auto md:m-4 rounded-sm shadow-lg" 
+                        />
+
                 </div>
             </div>
             <div id="acne-scarring-info" className="md:p-8">
@@ -46,7 +53,7 @@ const AcneScars = () => {
                         </p>
                         <div className="flex flex-col py-4 md:py-8">
                             <span>
-                                <strong className="mr-2">
+                                <strong className="mr-2 text-brown">
                                     Acne Scarring Consultation:
                                 </strong>
                                     $50

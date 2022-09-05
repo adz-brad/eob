@@ -1,8 +1,8 @@
 import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
-import BeforeAfter from '../components/beforeAfter'
 import { Link } from 'gatsby'
+import Gallery from '../components/gallery'
 
 const BackAcne = () => {
     return(
@@ -13,9 +13,9 @@ const BackAcne = () => {
                 image={<StaticImage src="../assets/images/backAcneHeader.jpg"/>}
             />
             <div className="p-4 lg:p-8 md:my-8">
-                <div className="flex flex-col md:flex-row md:items-center">
-                    <div className="flex flex-col p-4 md:p-8 md:w-3/5" >
-                        <h1 className="my-4">Say goodbye to body acne on your back, chest & shoulders</h1>
+                <div className="flex flex-col">
+                    <div className="flex flex-col p-4 md:p-8" >
+                        <h1 className="my-4 font-semibold">Say goodbye to body acne on your back, chest & shoulders</h1>
                         <p className="mt-1 mb-2">
                         Acne that emerges on your body is caused by imbalances because of toxins from a hypertrophy of candida in the digestive tract. It is often provoked by medication, excessive consumption of sugar, and mucus-producing foods such as dairy and fried foods and eggs and many other factors.
                         </p>
@@ -28,15 +28,17 @@ const BackAcne = () => {
                         <p className="mt-1 mb-2">
                         As a skin acne expert, I am very keen to help you achieve clear skin as well as providing you with a sense of confidence.
                         </p>
-                        <span className="my-4"><strong>Back Acne Treatment:</strong> $178</span>
+                        <span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>
                     </div>
-                    <div className="md:w-2/5 md:m-4">
-                        <BeforeAfter
-                            className="rounded-lg shadow-lg h-[400px] my-2 lg:my-0 mx-2"
-                            beforeImage={<StaticImage src="../assets/images/backAcneBefore.png" alt="Back Acne Before Treatment Image" />}
-                            afterImage={<StaticImage src="../assets/images/backAcneAfter.png" alt="Back Acne After Treatment Image" />}
-                        />
-                    </div>
+                    <span className='ml-4 font-semibold'>Before & After Back Acne Treatment:</span>
+                    <Gallery 
+                        className="grid grid-cols-1 md:grid-cols-2 m-4 gap-4"
+                        imageClass="rounded-sm shadow-lg h-[400px]"
+                        images={[
+                                <StaticImage src="../assets/images/backAcneBefore.png" alt="Back Acne Before Treatment Image" />,
+                                <StaticImage src="../assets/images/backAcneAfter.png" alt="Back Acne After Treatment Image" />
+                                ]}
+                    />
                 </div>
             </div>
             <div className="flex flex-col items-center p-4">

@@ -41,6 +41,7 @@ const Home = () => {
             <Features
               _key={i}
               title={component.title}
+              caption={component.caption}
               description={component.description}
               items={component.items}
             />
