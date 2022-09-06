@@ -32,6 +32,7 @@ const Footer = () => {
                                 </label>
                                 <input           
                                     id="firstName"
+                                    name="firstName"
                                     type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.firstName}
@@ -53,6 +54,7 @@ const Footer = () => {
                                 </label>
                                 <input           
                                     id="lastName"
+                                    name="lastName"
                                     type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.lastName}
@@ -75,6 +77,7 @@ const Footer = () => {
                                 </label>
                                 <input           
                                     id="email"
+                                    name="email"
                                     type="email" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.email}
@@ -97,6 +100,7 @@ const Footer = () => {
                                 </label>
                                 <input           
                                     id="phone"
+                                    name="phone"
                                     type="phone" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.phone}
@@ -119,6 +123,7 @@ const Footer = () => {
                                 </label>
                                 <textarea           
                                     id="message"
+                                    name="message"
                                     type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     rows={5}

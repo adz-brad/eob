@@ -400,35 +400,15 @@ const PracticePolicies = () => {
                     </div>
                 </div>
         </div>
-        <div className="flex flex-col max-w-screen-lg mx-auto w-full p-4">
-            <span className="font-bold mb-4">E-Signature</span>
-            <SignatureCanvas
-                ref={signatureRef}
-                className="test"
-                backgroundColor="white" 
-                canvasProps={{ className: 'border border-black/20 rounded-md shadow-md w-full h-40'}}
-                onEnd={() => setFormData({
-                    firstName: formData.firstName,
-                    lastName: formData.lastName,
-                    email: formData.email,
-                    phone: formData.phone,
-                    address: formData.address,
-                    city: formData.city,
-                    province: formData.province,
-                    postalCode: formData.postalCode,
-                    date: formData.date,
-                    consent: formData.consent,
-                    signature: signatureRef.current.toDataURL().toString()   
-                })}
-            />
-        <span className="text-sm mt-2 text-center">Please draw your signature in the box.</span>
-        </div>
-        <button 
+<div className="flex flex-col items-center">
+<button 
             type="submit"
-            className="buttonLight mx-auto mt-8"
+            className="buttonLight mt-8"
         >
             Submit
         </button>
+</div>
+
         </form>
     </div>
     )
