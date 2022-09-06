@@ -13,7 +13,7 @@ const FacialTreatments = () => {
                 heading="Facials For Women & Men"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
-                image={<StaticImage src="../assets/images/facialTreatmentHeader.png"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"/>}
             />
             <PageWrapper>
                 <div className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8">
@@ -52,7 +52,6 @@ const FacialTreatments = () => {
                         <div className="flex flex-col py-4 md:py-8">
                             {treatmentMenu.map((treatment, i) => {
                                 const even = i % 2 === 0
-                                console.log(treatment.image)
                                 return(
                                     <div 
                                         _key={i} 

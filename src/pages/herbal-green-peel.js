@@ -1,7 +1,6 @@
 import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
-import BeforeAfter from '../components/beforeAfter'
 import Card from '../components/card'
 import Button from '../components/button'
 import Gallery from '../components/gallery'
@@ -13,12 +12,12 @@ const HerbalGreenPeel = () => {
                 heading="Skin Rejuvenation with Herbal Green Peel®"
                 gradient="from-black/10 via-black/30 to-black/10"
                 caption="GREEN PEEL® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere - you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®!"
-                image={<StaticImage src="../assets/images/greenPeelHeader.jpg" alt="Page Header"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelHeader.jpg?raw=true" alt="Page Header"/>}
             />
             <div className="p-4 lg:p-16">
                 <div className="flex flex-col-reverse lg:flex-row">
                     <StaticImage 
-                            src="../assets/images/greenPeelFeature.png" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="my-8 lg:my-0 lg:w-1/2 lg:mr-12 rounded-sm shadow-lg"
                     />
@@ -45,22 +44,22 @@ const HerbalGreenPeel = () => {
                     </h1>
                     <div className="grid grid-cols-2 xl:grid-cols-4 md:gap-8">
                         <StaticImage 
-                            src="../assets/images/greenPeel1.png" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel1.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
                         />
                         <StaticImage 
-                            src="../assets/images/greenPeel2.png" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel2.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
                         />
                         <StaticImage 
-                            src="../assets/images/greenPeel3.png" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel3.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
                         />
                         <StaticImage 
-                            src="../assets/images/greenPeel4.png" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel4.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
                         />
@@ -161,16 +160,16 @@ const HerbalGreenPeel = () => {
                                     className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:mr-1 xl:w-1/2 my-1"
                                     imageClass="rounded-sm shadow-lg w-full h-[400px]"
                                     images={[
-                                        <StaticImage src="../assets/images/greenPeelBefore1.png" alt="Essence of Beauty Before Green Peel Treatment" />,
-                                        <StaticImage src="../assets/images/greenPeelAfter1.png" alt="Essence of Beauty After Green Peel Treatment" />
+                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore1.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter1.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />
                                     ]}
                                 />
                                 <Gallery
                                     className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:ml-1 xl:w-1/2  my-1"
                                     imageClass="rounded-sm shadow-lg w-full h-[400px]"
                                     images={[
-                                        <StaticImage src="../assets/images/greenPeelBefore2.png" alt="Essence of Beauty Before Green Peel Treatment" />,
-                                        <StaticImage src="../assets/images/greenPeelAfter2.png" alt="Essence of Beauty After Green Peel Treatment" />
+                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore2.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter2.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />
                                         
                                     ]}
                                 />     

@@ -11,7 +11,7 @@ const SpecialPeels = () => {
                 heading="No-Acid Natural Grade Facial Peels"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="../assets/images/specialPeelsHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeelsHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -29,7 +29,7 @@ const SpecialPeels = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/specialPeels.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
                     alt="Essence of Beauty Special Peels"
                     className="h-[500px] mx-auto rounded-sm shadow-md"
                 />

@@ -1,5 +1,4 @@
 import React from 'react'
-import HeroVideo from '../../assets/video/eob-video-bg-overlay.mp4'
 import { StaticImage } from "gatsby-plugin-image"
  
 export const data = {
@@ -8,7 +7,7 @@ export const data = {
     "components": [
         {
             "type": "hero",
-            "video": HeroVideo,
+            "video": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/eob-video-bg-overlay.mp4?raw=true",
             "heading": "Ottawa’s Premier Holistic Skin Rejuvenation Clinic",
             "caption": "Reminding you of the importance and enjoyment of feeling beautiful every single day.",
             "button": {
@@ -20,7 +19,7 @@ export const data = {
             "type": "splitList",
             "heading": "Inspire the Nature of Beauty!",
             "caption": "Essence of Beauty, Ottawa’s Holistic Acne, Scars, Rosacea and Anti-Aging Skincare Clinic specializes in facial rejuvenation treatments using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements.",
-            "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/benefits.jpg"/>,
+            "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"/>,
             "anchor": "inspire",
             "listTitle": "The Benefits",
             "listItems": [
@@ -43,19 +42,19 @@ export const data = {
                 {
                     "name": "AnteAge Stem Cell Facial",
                     "description": "Restore your skin’s health on a cellular level with AnteAGE®. The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/anteageStemCell.png"/>,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageStemCell.png?raw=true"/>,
                     "link": "/anteage-stem-cell-facial" 
                 },
                 {
                     "name": "DMK Enzyme Therapy" ,
                     "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/dmk.jpg"/>,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true"/>,
                     "link": "/dmk-enzyme-therapy" 
                 },
                 {
                     "name": "Herbal Green Peel®" ,
                     "description": "Green Peel® is a herbal formulation composed of natural active substances offering you an opportunity to experience all the benefits of other treatments that are often associated with acids WITHOUT the questionable immediate and longer-terms disadvantages.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/greenPeel.png"/>,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel.png?raw=true"/>,
                     "link": "/herbal-green-peel" 
                 },
             ],

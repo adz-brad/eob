@@ -11,7 +11,7 @@ const UltrasonicFacial = () => {
             <Banner
                 heading="Ultrasonic Regenerative Facial"
                 caption="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
-                image={<StaticImage src="../assets/images/ultrasonicFacialHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacialHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const UltrasonicFacial = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/ultrasonicFacial.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
                     alt="Essence of Beauty Ultrasonic Regenerative Facial Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

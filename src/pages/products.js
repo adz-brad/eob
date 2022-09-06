@@ -9,12 +9,12 @@ const Products = () => {
             <Banner
                 heading="Products"
                 caption=""
-                image={<StaticImage src="../assets/images/productsHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col-reverse lg:flex-row lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage 
-                        src="../assets/images/yonkaProduct.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/yonkaProduct.jpg?raw=true" 
                         alt="Essence of Beauty Products - Yon-Ka" 
                     />
                 </div>
@@ -44,7 +44,7 @@ const Products = () => {
                 </div>
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage 
-                        src="../assets/images/302Product.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Product.jpg?raw=true" 
                         alt="Essence of Beauty Products - 302 Skincare" 
                     />
                 </div>
@@ -52,7 +52,7 @@ const Products = () => {
             <div className="flex flex-col-reverse lg:flex-row lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage 
-                        src="../assets/images/osmosisProduct.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisProduct.jpg?raw=true" 
                         alt="Essence of Beauty Products - Osmosis+BeautyMD" 
                     />
                 </div>
@@ -88,7 +88,7 @@ const Products = () => {
                 </div>
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage 
-                        src="../assets/images/anteageProduct.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageProduct.jpg?raw=true" 
                         alt="Essence of Beauty Products - AnteAge" 
                     />
                 </div>
@@ -96,7 +96,7 @@ const Products = () => {
             <div className="flex flex-col-reverse lg:flex-row lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage 
-                        src="../assets/images/dmkProduct.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkProduct.jpg?raw=true" 
                         alt="Essence of Beauty Products - DMK" 
                     />
                 </div>

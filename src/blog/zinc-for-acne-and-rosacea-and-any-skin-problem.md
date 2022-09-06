@@ -1,7 +1,7 @@
 ---
 title: Zinc for Acne, Rosacea and Any Skin Problem
 excerpt: When you think of vitamins and minerals that can benefit your skin, it’s unlikely that zinc ranks too highly on the list – but did you know it’s essential for cell growth and renewal?
-featuredImage: ../assets/images/zinc-rosacea-blog-featured-image.jpg
+featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/zinc-rosacea-blog-featured-image.jpg?raw=true
 date: 2019-09-2T00:00:00Z
 ---
 

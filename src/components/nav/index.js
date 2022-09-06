@@ -35,7 +35,7 @@ const Navbar = () => {
 
         <Link to="/" className="h-20 py-1 -ml-8">
             <StaticImage 
-                src="../../assets/images/Eob-logo.png" 
+                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true" 
                 style={{ height: "100%" }}
                 imgStyle={{objectFit:" contain"}}
                 alt="Essence of Beauty"
@@ -242,7 +242,7 @@ const Navbar = () => {
 
                     <div className="absolute top-0 left-0 h-full w-full z-10">
                         <StaticImage
-                            src="../../assets/images/mobile-bg.jpg"
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mobile-bg.jpg?raw=true"
                             alt=""
                             style={{
                                 width: "100%",

@@ -11,7 +11,7 @@ const SkinPrep = () => {
                 heading="Skin Preparations for Weddings"
                 gradient="from-black/60 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="../assets/images/skinPrepHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinPrepHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const SkinPrep = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/weddingPreparation.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/weddingPreparation.jpg?raw=true" 
                     alt="Essence of Beauty Skin Preparation For Weddings" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

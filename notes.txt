@@ -1,5 +1,0 @@
-- SEO Component (React Helmet)
-- Gatsby Manifest
-- Lightbox Component
-- Replace Images
-- Finish Blog Posts

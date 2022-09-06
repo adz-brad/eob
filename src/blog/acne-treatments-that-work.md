@@ -1,7 +1,7 @@
 ---
 title: Acne Treatments That Work
 excerpt: Just wanted to talk for a second today, on dairy and how it can relate to the health of your skin.
-featuredImage: ../assets/images/acne-treatments-that-work-feature-image.jpg
+featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-treatments-that-work-feature-image.jpg?raw=true
 date: 2019-05-6T00:00:00Z
 ---
 

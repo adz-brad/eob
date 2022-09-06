@@ -10,7 +10,7 @@ const OsmosisMd = () => {
                 heading="Osmosis + Beauty MD"
                 gradient="from-black/30 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="../assets/images/osmosisMdHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
@@ -25,7 +25,7 @@ const OsmosisMd = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/osmosisMdMain.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true" 
                     alt="Essence of Beauty Osmosis+Beauty MD Skin Care Products" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

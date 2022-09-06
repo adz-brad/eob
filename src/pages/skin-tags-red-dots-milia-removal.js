@@ -11,7 +11,7 @@ const SkinTags = () => {
                 heading="Skin Tags, Milia, Red Dots & Skin Growth Removal"
                 gradient="from-black/60 via-black/30 to-black/20"
                 caption=""
-                image={<StaticImage src="../assets/images/skinTagHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skintagHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">

@@ -12,7 +12,7 @@ const Hyperpigmentation = () => {
                 heading="Hyperpigmentation & Melasma"
                 gradient="from-black/30 via-black/40 to-black/60"
                 caption="If you’re at a loss for why your complexion is suddenly riddled with various forms of hyperpigmentation, know that you are not alone. We can help you minimize any spots or blemishes from hyperpigmentation, no matter what your skin type."
-                image={<StaticImage src="../assets/images/hyperpigmentationHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row justify-center">
@@ -28,7 +28,7 @@ const Hyperpigmentation = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="../assets/images/hyperpigmentationMelasma.jpg" className="lg:w-1/3 max-h-[520px] lg:m-4 rounded-sm shadow-lg" />
+                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true" className="lg:w-1/3 max-h-[520px] lg:m-4 rounded-sm shadow-lg" />
                 </div>
             </div>
             <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-8 flex flex-col lg:flex-row">
@@ -57,7 +57,7 @@ const Hyperpigmentation = () => {
                 </div>
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8">
                 <StaticImage 
-                    src="../assets/images/reactiveskin1.png" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/reactiveskin1.png?raw=true" 
                     alt="Hyperpigmentation & Melasma After Treatment Image" 
                     className="max-h-[500px] rounded-sm shadow-md"
                 />
@@ -86,16 +86,16 @@ const Hyperpigmentation = () => {
                             className="grid grid-cols-1 md:grid-cols-2 gap-2"
                             imageClass="rounded-sm shadow-lg max-h-[400px]"
                             images={[
-                                <StaticImage src="../assets/images/hyperpigmentationBefore2.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
-                                <StaticImage src="../assets/images/hyperpigmentationAfter2.png" alt="Hyperpigmentation & Melasma After Treatment Image" />
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationBefore2.png?raw=true" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationAfter2.png?raw=true" alt="Hyperpigmentation & Melasma After Treatment Image" />
                             ]}
                         />
                         <Gallery
                             className="grid grid-cols-1 md:grid-cols-2 gap-2"
                             imageClass="rounded-sm shadow-lg max-h-[400px]"
                             images={[
-                                <StaticImage src="../assets/images/hyperpigmentationBefore3.png" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
-                                <StaticImage src="../assets/images/hyperpigmentationAfter3.png" alt="Hyperpigmentation & Melasma After Treatment Image" />
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationBefore3.png?raw=true" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationAfter3.png?raw=true" alt="Hyperpigmentation & Melasma After Treatment Image" />
                             ]}
                         />
                     </div>

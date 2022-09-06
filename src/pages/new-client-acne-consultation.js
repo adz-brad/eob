@@ -12,7 +12,7 @@ const NewClientAcneConsultation = () => {
                 heading="New Client Acne Consultation"
                 gradient="from-black/50 via-black/30 to-black/10"
                 caption="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
-                image={<StaticImage src="../assets/images/newClientConsultHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/newClientConsultHeader.jpg?raw=true"/>}
             />
                         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -30,7 +30,7 @@ const NewClientAcneConsultation = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/acneConsultation.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"
                     alt="Essence of Beauty New Client Acne Consultation" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

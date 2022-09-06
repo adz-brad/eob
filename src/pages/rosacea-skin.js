@@ -1,7 +1,6 @@
 import React from "react"
 import Banner from "../components/banner"
 import { StaticImage } from "gatsby-plugin-image"
-import BeforeAfter from "../components/beforeAfter"
 import Gallery from '../components/gallery'
 import Button from "../components/button"
 import Tabs from "../components/tabs"
@@ -13,7 +12,7 @@ const Rosacea = () => {
         heading="Rosacea and Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
         caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
-        image={<StaticImage src="../assets/images/rosaceaHeader.jpg" />}
+        image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
       />
       <div className="md:p-4 lg:p-8 md:my-8">
         <div className="flex flex-col md:flex-row md:items-center lg:p-8">
@@ -48,7 +47,7 @@ const Rosacea = () => {
           </div>
           <div className="md:w-2/5 md:m-4">
           <StaticImage
-                  src="../assets/images/rosecea1.png"
+                  src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
                   alt="Rosacea Before & After Treatment Image"
                   className="max-h-[500px]"
                 />
@@ -101,10 +100,10 @@ const Rosacea = () => {
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
                 imageClass="rounded-sm shadow-lg h-[400px] md:h-[300px]"
                 images={[
-                  <StaticImage src="../assets/images/rosaceaBefore2.png" alt="Rosacea Before Treatment Image" />,
-                  <StaticImage src="../assets/images/rosaceaAfter2.png" alt="Rosacea After Treatment Image" />,
-                  <StaticImage src="../assets/images/rosaceaBefore3.png" alt="Rosacea Before Treatment Image" />,
-                  <StaticImage src="../assets/images/rosaceaAfter3.png" alt="Rosacea After Treatment Image" />
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaBefore2.png?raw=true" alt="Rosacea Before Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaAfter2.png?raw=true" alt="Rosacea After Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaBefore3.png?raw=true" alt="Rosacea Before Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaAfter3.png?raw=true" alt="Rosacea After Treatment Image" />
 
                 ]}
               />
@@ -116,7 +115,7 @@ const Rosacea = () => {
         </div>
         <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:p-8">
           <StaticImage
-            src="../assets/images/skinTreatmentApproach.jpg"
+            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinTreatmentApproach.jpg?raw=true"
             className="md:m-4 rounded-sm shadow-lg lg:w-1/4"
           />
           <div className="flex flex-col p-4 md:p-8 lg:w-2/3 lg:mx-auto">

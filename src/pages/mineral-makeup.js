@@ -11,7 +11,7 @@ const OsmosisMakeup = () => {
                 heading="Osmosis + Colour Mineral Makeup"
                 gradient="from-black/50 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="../assets/images/makeupOsmosisHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/makeupOsmosisHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const OsmosisMakeup = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/osmosisMakeup.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true" 
                     alt="Essence of Beauty Osmosis+ Makeup" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
@@ -128,7 +128,7 @@ const OsmosisMakeup = () => {
                 </div>
                 <div className="shrink-0 flex flex-col justify-center my-4 lg:m-0">
                     <StaticImage 
-                        src="../assets/images/osmosisShades.jpg" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisShades.jpg?raw=true" 
                         alt="Essence of Beauty Osmosis+Color Mineral Makeup"
                         className="h-full lg:h-fit"
                     />
@@ -172,7 +172,7 @@ const OsmosisMakeup = () => {
                     </div>
                     <div className="shrink-0">
                         <StaticImage 
-                            src="../assets/images/osmosisMakeup2.jpg" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup2.jpg?raw=true" 
                             alt="Essence of Beauty Osmosis+Color Makeup Color Matching" 
                             className="w-full lg:h-full"
                         />
@@ -244,7 +244,7 @@ const OsmosisMakeup = () => {
                     </div>
                     <div className="shrink-0">
                         <StaticImage 
-                            src="../assets/images/osmosisMakeup3.jpg" 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup3.jpg?raw=true" 
                             alt="Essence of Beauty Osmosis+Color Makeup Foundation Application" 
                             className="w-full lg:h-full"
                         />

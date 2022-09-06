@@ -11,7 +11,7 @@ const SkinRemodeling = () => {
                 heading="Skin Remodeling - Vitamin A Infusion Peel"
                 gradient="from-black/40 via-black/20 to-black/0"
                 caption="When we hear the word “peel,” we tend to immediately think “chemical peel,” but in the past few years, new approaches to peeling and rejuvenating the skin have emerged. One of the most effective and innovative of these is the vitamin A infusion peel. This non-acid peel is transforming the way people think about peels, and the results are incredible."
-                image={<StaticImage src="../assets/images/skinRemodelingHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinRemodelingHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const SkinRemodeling = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/skinRemodeling.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinRemodeling.jpg?raw=true" 
                     alt="Essence of Beauty Vitamin A Peel Skin Remodeling" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

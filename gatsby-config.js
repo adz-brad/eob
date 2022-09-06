@@ -11,14 +11,6 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        "name": "images",
-        "path": `${__dirname}/src/assets/images`
-      },
-      __key: "images"
-    }, 
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
         "name": "blog",
         "path": `${__dirname}/src/blog`
       },
@@ -39,6 +31,7 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-plugin-netlify'
   ],
 }

@@ -12,7 +12,7 @@ const Microneedling = () => {
                 heading="Microneedling"
                 gradient="from-black/60 via-black/30 to-black/10"
                 caption="Microneedling is a safe, simple procedure used to treat scars, acne, wrinkles, age spots and hyperpigmentation that can give your skin a fresh, even appearance."
-                image={<StaticImage src="../assets/images/microneedlingHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -27,7 +27,7 @@ const Microneedling = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/microneedling.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true"
                     alt="Essence of Beauty ACS Pen Microneedling for Scars, Acne, Wrinkles, Age Spots and Hyperpigmentation"
                     className="max-h-[500px] mx-auto rounded-sm shadow-md"
                 />
@@ -55,8 +55,8 @@ const Microneedling = () => {
                     className="grid grid-col-1 md:grid-cols-2 gap-4"
                     imageClass="rounded-sm shadow-lg max-h-[400px]"
                     images={[
-                        <StaticImage src="../assets/images/microneedlingBefore1.png" alt="Microneedling Before Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingAfter1.png" alt="Microneedling After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingBefore1.png?raw=true" alt="Microneedling Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingAfter1.png?raw=true" alt="Microneedling After Treatment" />
                     ]}    
                 />
 
@@ -81,12 +81,12 @@ const Microneedling = () => {
                     className="grid grid-col-1 md:grid-cols-4 gap-4"
                     imageClass="rounded-sm shadow-lg max-h-[400px]"
                     images={[
-                        <StaticImage src="../assets/images/microneedlingBefore2.png" alt="Microneedling Before Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingAfter2.png" alt="Microneedling After Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingBefore3.png" alt="Microneedling Before Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingAfter3.png" alt="Microneedling After Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingBefore4.png" alt="Microneedling Before Treatment" />,
-                        <StaticImage src="../assets/images/microneedlingAfter4.png" alt="Microneedling After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingBefore2.png?raw=true" alt="Microneedling Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingAfter2.png?raw=true" alt="Microneedling After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingBefore3.png?raw=true" alt="Microneedling Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingAfter3.png?raw=true" alt="Microneedling After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingBefore4.png?raw=true" alt="Microneedling Before Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedlingAfter4.png?raw=true" alt="Microneedling After Treatment" />
                     ]}    
                 />
                 

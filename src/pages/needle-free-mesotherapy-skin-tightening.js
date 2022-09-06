@@ -11,7 +11,7 @@ const NoNeedleMesotherapy = () => {
                 heading="Needle Free Mesotherapy Infusion"
                 gradient="from-black/50 via-black/30 to-black/10"
                 caption="Nano Infusion Mesotherapy otherwise known as nano-needling is an innovative, non-invasive transdermal serum delivery system designed to rejuvenate your skin and remedy many common issues like lack of tone, uneven texture, excessive pigmentation, scarring, and loss of elasticity."
-                image={<StaticImage src="../assets/images/mesotherapyHeader.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mesotherapyHeader.jpg?raw=true"/>}
             />
                         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -26,7 +26,7 @@ const NoNeedleMesotherapy = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/needleFreeMesotherapy.jpeg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/needleFreeMesotherapy.jpeg?raw=true"
                     alt="Essence of Beauty Needle-free Mesotherapy Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />

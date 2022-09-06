@@ -1,7 +1,7 @@
 ---
 title: Does Milk Trigger Acne?
 excerpt: Just wanted to talk for a second today, on dairy and how it can relate to the health of your skin.
-featuredImage: ../assets/images/does-milk-trigger-acne-feature-image.jpg
+featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/does-milk-trigger-acne-feature-image.jpg?raw=true
 date: 2020-02-28T00:00:00Z
 ---
 

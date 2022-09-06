@@ -13,7 +13,7 @@ const VirtualAcneProgram = () => {
             <Banner
                 heading="Virtual Acne Program"
                 caption="Not able to come into the studio for hands on treatment? You can still achieve great results with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
-                image={<StaticImage src="../assets/images/virtualAcneHeader.png"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/virtualAcneHeader.png?raw=true"/>}
                 noFade
             />
             <div className="p-4 lg:p-8">
@@ -57,12 +57,12 @@ const VirtualAcneProgram = () => {
                         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 my-8"
                         imageClass="rounded-sm shadow-md h-[400px]"
                         images={[
-                            <StaticImage src="../assets/images/holisticAcneBefore1.png" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneAfter1.png" alt="Virtual Acne Program After Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneBefore2.png" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneAfter2.png" alt="Virtual Acne Program After Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneBefore3.png" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneAfter4.png" alt="Virtual Acne Program After Treatment Image" />
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore1.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter1.png?raw=true" alt="Virtual Acne Program After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore2.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter2.png?raw=true" alt="Virtual Acne Program After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore3.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter4.png?raw=true" alt="Virtual Acne Program After Treatment Image" />
                         ]}
                     />
 

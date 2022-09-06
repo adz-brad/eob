@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Gallery from '../components/gallery'
 import Accordion from '../components/accordion'
-import HolisticAcneVideo from '../assets/video/holisticAcneVideo.mp4'
 import Card from '../components/card'
 
 const HolisticAcneProgram = () => {
@@ -15,7 +14,7 @@ const HolisticAcneProgram = () => {
                 heading="Holistic Acne Program"
                 gradient="from-black/20 via-black/20 to-black/10"
                 caption="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
-                image={<StaticImage src="../assets/images/holisticAcneClinic.jpg"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"/>}
             />
             <div className="">
                 <div className="flex flex-col md:flex-row md:items-center">
@@ -35,7 +34,7 @@ const HolisticAcneProgram = () => {
                     </div>
                     <div className="lg:w-1/2">
                     <video autoPlay playsInline controls muted className="w-full">
-                            <source src={HolisticAcneVideo} type="video/mp4"/>
+                            <source src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/holisticAcneVideo.mp4?raw=true" type="video/mp4"/>
                         </video>
                     </div>
                 </div>
@@ -58,8 +57,8 @@ const HolisticAcneProgram = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-2"
                     imageClass="rounded-sm shadow-lg h-[400px] w-full"
                     images={[
-                        <StaticImage src="../assets/images/holisticAcneBefore1.png" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="../assets/images/holisticAcneAfter1.png" alt="Holistic Acne Program After Treatment Image" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore1.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter1.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
                     ]}
                 />
                 <span className="text-center mt-4 text-sm">Slide to compare before and after holistic acne treatment</span>
@@ -83,8 +82,8 @@ const HolisticAcneProgram = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
                     imageClass="rounded-sm shadow-lg h-[400px] w-full"
                     images={[
-                        <StaticImage src="../assets/images/holisticAcneBefore2.png" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="../assets/images/holisticAcneAfter2.png" alt="Holistic Acne Program After Treatment Image" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore2.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter2.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
                     ]}
                 />
 
@@ -92,8 +91,8 @@ const HolisticAcneProgram = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
                     imageClass="rounded-sm shadow-lg h-[400px] w-full"
                     images={[
-                        <StaticImage src="../assets/images/holisticAcneBefore3.png" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="../assets/images/holisticAcneAfter3.png" alt="Holistic Acne Program After Treatment Image" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore3.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter3.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
                     ]}
                 />
 
@@ -101,8 +100,8 @@ const HolisticAcneProgram = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
                     imageClass="rounded-sm shadow-lg h-[400px] w-full"
                     images={[
-                        <StaticImage src="../assets/images/holisticAcneBefore4.png" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="../assets/images/holisticAcneAfter4.png" alt="Holistic Acne Program After Treatment Image" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore4.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter4.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
                     ]}
                 />
 
@@ -110,8 +109,8 @@ const HolisticAcneProgram = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
                     imageClass="rounded-sm shadow-lg h-[400px] w-full"
                     images={[
-                        <StaticImage src="../assets/images/holisticAcneBefore5.png" alt="Holistic Acne Program Before Treatment Image" />,
-                            <StaticImage src="../assets/images/holisticAcneAfter5.png" alt="Holistic Acne Program After Treatment Image" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter5.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter5.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
                     ]}
                 />
        

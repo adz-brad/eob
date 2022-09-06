@@ -11,7 +11,7 @@ const LEDPhotoFacial = () => {
                 heading="LED Photo Facial"
                 gradient="from-black/20 to-black/0"
                 caption="Light Emitting Diode (LED) therapy is a revolutionary anti-aging skin care procedure that is used to treat multiple adverse skin conditions"
-                image={<StaticImage src="../assets/images/cellumaLedTherapy.png"/>}
+                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cellumaLedTherapy.png?raw=true"/>}
             />
                                     <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
@@ -27,7 +27,7 @@ const LEDPhotoFacial = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/ledLightTherapy.jpg"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
                     alt="Essence of Beauty LED Light Therapy Photo Facial Treatment"
                     className="md:w-1/3 h-[500px] mx-auto rounded-sm shadow-md"
                 />
