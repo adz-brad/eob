@@ -39,7 +39,7 @@ const Footer = () => {
                                         firstName: e.target.value, 
                                         lastName: formData.lastName, 
                                         email: formData.email, 
-                                        phone: e.target.value, 
+                                        phone: formData.phone, 
                                         message: formData.message
                                     })} 
                                 />
