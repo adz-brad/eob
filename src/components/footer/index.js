@@ -21,8 +21,8 @@ const Footer = () => {
                 <p className="font-medium md:text-lg text-white">Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
             </div>
 
-            <div className="flex flex-row flex-wrap px-3 md:px-6">
-
+            <form name="Contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className="flex flex-row flex-wrap px-3 md:px-6">
+            <input type="hidden" name="form-name" value="Contact" />
             <div className="flex flex-col p-1 w-full md:w-1/2 my-1 md:p-2">
                                 <label 
                                     htmlFor="firstName"
@@ -133,11 +133,11 @@ const Footer = () => {
                                 />
                             </div>
 
-                <button className="buttonLight mt-4 ml-auto bg-white hover:bg-darkGreen">
+                <button type="submit" className="buttonLight mt-4 ml-auto bg-white hover:bg-darkGreen">
                     Submit
                 </button>
 
-            </div>
+            </form>
 
         </div>
 
