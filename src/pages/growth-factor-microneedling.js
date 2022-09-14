@@ -52,8 +52,8 @@ const Microneedling = () => {
                     className="grid grid-col-1 md:grid-cols-4 gap-4"
                     imageClass="rounded-sm shadow-lg max-h-[400px]"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-before-after-1.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-before-after-2.jpg?raw=true" alt="Microneedling Before & After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-1.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-2.jpg?raw=true" alt="Microneedling Before & After Treatment" />
                     ]}    
                 />
                 <Button

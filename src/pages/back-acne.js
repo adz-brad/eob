@@ -2,7 +2,6 @@ import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
-import Gallery from '../components/gallery'
 
 const BackAcne = () => {
     return(

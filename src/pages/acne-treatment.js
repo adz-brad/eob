@@ -5,6 +5,7 @@ import Card from '../components/card'
 import { Link } from 'gatsby'
 import Button from '../components/button'
 import Image from '../components/image'
+import Gallery from '../components/gallery'
 
 const AcneTreatment = () => {
     return(

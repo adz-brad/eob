@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Card from '../components/card'
 import { Link } from 'gatsby'
 import Button from '../components/button'
+import Gallery from '../components/gallery'
 
 const NewClientAcneConsultation = () => {
     return(

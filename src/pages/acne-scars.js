@@ -3,6 +3,7 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Gallery from '../components/gallery'
 
 const AcneScars = () => {
 

@@ -3,6 +3,7 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Tabs from '../components/tabs'
+import Gallery from '../components/gallery'
 
 const AgingAndDehydratedSkin = () => {
     return(
@@ -41,7 +42,7 @@ const AgingAndDehydratedSkin = () => {
                     className="grid grid-col-1 md:grid-cols-4 gap-4"
                     imageClass="rounded-sm shadow-lg max-h-[400px]"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging1.jpg?raw=true" alt="Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging.jpg?raw=true" alt="Before & After Treatment" />,
                         <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging2.jpg?raw=true" alt="Before & After Treatment" />,
                         <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging3.jpg?raw=true" alt="Before & After Treatment" />
                     ]}    
