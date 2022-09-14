@@ -14,10 +14,10 @@ const Rosacea = () => {
         caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
         image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
       />
-      <div className="md:p-4 lg:p-8 md:my-8">
-        <div className="flex flex-col md:flex-row md:items-center lg:p-8">
+      <div className="md:p-4 lg:p-8 md:mt-8">
+        <div className="flex flex-col md:flex-row md:items-center md:mb-16">
           <div className="flex flex-col px-4 md:w-3/5">
-            <h1 className="my-4 font-semibold">Rosacea and Sensitive Skin</h1>
+            <h1 className="mb-4 font-semibold">Rosacea and Sensitive Skin</h1>
             <h4 className="mt-2 mb-4">
             Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare.
             </h4>
@@ -49,14 +49,13 @@ const Rosacea = () => {
           <StaticImage
                   src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
                   alt="Rosacea Before & After Treatment Image"
-                  className="max-h-[500px]"
+                  className="max-h-[420px] m-8 rounded-sm shadow-md"
                 />
           </div>
         </div>
-        <div
-          id="wondering-if-you-have-rosacea"
-          className="flex lg:m-8 flex-col my-4 bg-lightGreen rounded-lg shadow-lg"
-        >
+
+        <div id="wondering-if-you-have-rosacea" className="flex md:flex-row md:items-center bg-lightGreen rounded-md shadow-md">
+        <div className="flex flex-col my-4 md:w-1/2 mx-auto">
           <div className="flex flex-col p-4 md:p-8">
             <h1 className="mb-4 pb-2 filter drop-shadow-md">
               Wondering If You Have Rosacea?
@@ -91,67 +90,21 @@ const Rosacea = () => {
                 text: "Rosacea Treatment Options",
                 anchor: "rosacea-treatment-options",
               }}
-              className="buttonLight bg-white mt-8 lg:mt-auto mx-auto md:mx-0"
+              className="buttonLight bg-white my-8 mx-auto md:mx-0"
             />
           </div>
-          <div className="flex flex-col md:p-8 ">
-            
-              <Gallery 
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
-                imageClass="rounded-sm shadow-lg h-[400px] md:h-[300px]"
-                images={[
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
-
-                ]}
-              />
-            
-            <span className="text-center text-sm m-4">
-              Comparing before and after rosacea treatment
-            </span>
-          </div>
-        </div>
-        <div className="flex flex-col-reverse lg:flex-row lg:items-center lg:p-8">
+      </div>
           <StaticImage
             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinTreatmentApproach.jpg?raw=true"
-            className="md:m-4 rounded-sm shadow-lg lg:w-1/4"
+            className="rounded-lg shadow-lg mx-auto"
           />
-          <div className="flex flex-col p-4 md:p-8 lg:w-2/3 lg:mx-auto">
-            <h1 className="my-4">Skin Treatment Approach</h1>
-            <p className="my-1">
-              <strong>OsmosisMD:</strong> In order to fully appreciate what
-              these products can achieve for you, it is important to understand
-              that our skin functions within a process dictated by nature.
-              OsmosisMD products have been developed to produce their amazing
-              results via an integrated system that works in harmony with
-              nature. It is the science of this natural process that provides
-              the foundation of the formulation and functioning of OsmosisMD. So
-              that rather than products that simply treat the skin’s surface
-              with aggressive topicals that force nature and force temporary
-              change, OsmosisMD products are formulated to assist and support
-              nature’s scientific process, products that transform damaged,
-              aging, injured skin into healed, moist, beautiful skin. The
-              scientific approach behind OsmosisMD recognizes that healing and
-              transformative results require that the skin must be replenished,
-              restored and repaired at the deeper skin cells. However, these
-              products provide more than that. The organic and anti-oxidant
-              ingredient formulation of OsmosisMD also gently replenishes,
-              restores and repairs the surface skin cells. What this means for
-              you is that the products have a simultaneous dual action – one
-              that transforms your deeper cells where real change is required,
-              but also one that very quickly and visibly transforms your surface
-              cells for brighter, clearer, smoother, healthier skin.
-            </p>
-          </div>
-        </div>
-        <div id="rosacea-treatment-options">
+      </div>
+      <div id="rosacea-treatment-options">
           <div className="my-8 lg:pt-8 text-center">
             <h1 className="mb-2 font-semibold">How We Treat Rosacea at Essence of Beauty</h1>
             <span>Choose a treatment option to learn more</span>
             <Tabs
-            columns="grid-cols-1 md:grid-cols-2"
+            columns="grid-cols-1 md:grid-cols-3"
               className="my-8"
               options={[
                 {
@@ -332,10 +285,67 @@ const Rosacea = () => {
                     </div>
                   ),
                 },
+                {
+                  name: "OsmosisMD",
+                  content: (
+                    <div className="flex flex-col lg:px-4">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      OsmosisMD
+                      </h1>
+                      <p className="my-2">
+                      In order to fully appreciate what
+              these products can achieve for you, it is important to understand
+              that our skin functions within a process dictated by nature.
+              OsmosisMD products have been developed to produce their amazing
+              results via an integrated system that works in harmony with
+              nature. It is the science of this natural process that provides
+              the foundation of the formulation and functioning of OsmosisMD. So
+              that rather than products that simply treat the skin’s surface
+              with aggressive topicals that force nature and force temporary
+              change, OsmosisMD products are formulated to assist and support
+              nature’s scientific process, products that transform damaged,
+              aging, injured skin into healed, moist, beautiful skin. The
+              scientific approach behind OsmosisMD recognizes that healing and
+              transformative results require that the skin must be replenished,
+              restored and repaired at the deeper skin cells. However, these
+              products provide more than that. The organic and anti-oxidant
+              ingredient formulation of OsmosisMD also gently replenishes,
+              restores and repairs the surface skin cells. What this means for
+              you is that the products have a simultaneous dual action – one
+              that transforms your deeper cells where real change is required,
+              but also one that very quickly and visibly transforms your surface
+              cells for brighter, clearer, smoother, healthier skin.
+            </p>
+                      <Button
+                        data={{
+                          text: "Learn More About Osmosis MD",
+                          link: "/osmosismd",
+                        }}
+                        className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
+                      />
+                    </div>
+                  ),
+                },
               ]}
             />
           </div>
-        </div>
+      </div>
+      </div>
+      <div className="mt-8 mb-16">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & after rosacea treatment</span>
+                    </div>
+                    <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:px-8"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
+                    ]}    
+                />
       </div>
       <div className="flex flex-col items-center px-4 lg:pb-8">
         <h2 className="font-bold my-4">Are you ready to get started?</h2>

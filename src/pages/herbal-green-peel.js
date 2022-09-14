@@ -42,28 +42,28 @@ const HerbalGreenPeel = () => {
                     <h1 className="text-center my-8">
                         Herbal Green Peel® – Brighter, Fresher, Smoother, Rejuvenated Appearance
                     </h1>
-                    <div className="grid grid-cols-2 xl:grid-cols-4 md:gap-8">
+                    <Gallery 
+                    className="grid grid-cols-2 xl:grid-cols-4 gap-4 lg:gap-8 lg:p-8"
+                    imageClass="rounded-sm shadow-lg min-h-[400px]"
+                    images={[
                         <StaticImage 
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel1.png?raw=true" 
-                            alt="Essence of Beauty Herbal Green Peel®"
-                            className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
-                        />
-                        <StaticImage 
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel2.png?raw=true" 
-                            alt="Essence of Beauty Herbal Green Peel®"
-                            className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
-                        />
-                        <StaticImage 
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel3.png?raw=true" 
-                            alt="Essence of Beauty Herbal Green Peel®"
-                            className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
-                        />
-                        <StaticImage 
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel4.png?raw=true" 
-                            alt="Essence of Beauty Herbal Green Peel®"
-                            className="h-40 md:h-80 rounded-sm shadow-lg m-2 md:m-4"
-                        />
-                    </div>
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel1.png?raw=true" 
+                        alt="Essence of Beauty Herbal Green Peel®"
+                    />,
+                    <StaticImage 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel2.png?raw=true" 
+                        alt="Essence of Beauty Herbal Green Peel®"
+                    />,
+                    <StaticImage 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel3.png?raw=true" 
+                        alt="Essence of Beauty Herbal Green Peel®"
+                    />,
+                    <StaticImage 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel4.png?raw=true" 
+                        alt="Essence of Beauty Herbal Green Peel®"
+                    />
+                    ]}
+                />
                     <p className="my-12 mx-4">
                         In keeping with our philosophy, the Green Peel® offers you an opportunity to experience all the benefits of skin refreshment, skin renewal, skin brightening, and skin treatments that are often associated with acids “BUT” without the very questionable immediate and longer-terms disadvantage. So you see, the Green Peel® is not only truly green in colour but naturally “Green” in its ingredients, in what it can treat and in its benefits as well. Green Peel® – Ingredients Aptly named, the GREEN PEEL® is an herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere and you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®.
                     </p>
@@ -155,31 +155,30 @@ const HerbalGreenPeel = () => {
                             className="buttonLight my-8 mx-auto md:mx-0"
                         />
                         </div>
-                        <div className="flex flex-col xl:flex-row xl:items-center justify-center md:my-8">
+                        <div className="flex flex-col justify-center">
+                            <div className="flex flex-col items-center my-8">
+                                <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                                <span>Comparing before & after Herbal Green Peel</span>
+                            </div>
                                 <Gallery
-                                    className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:mr-1 xl:w-1/2 my-1"
-                                    imageClass="rounded-sm shadow-lg w-full h-[400px]"
+                                    className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 my-1"
+                                    imageClass="rounded-sm shadow-lg min-h-[300px]"
                                     images={[
                                         <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore1.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
-                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter1.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />
-                                    ]}
-                                />
-                                <Gallery
-                                    className="grid grid-cols-1 gap-2 md:grid-cols-2 w-full xl:ml-1 xl:w-1/2  my-1"
-                                    imageClass="rounded-sm shadow-lg w-full h-[400px]"
-                                    images={[
+                                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter1.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />,
                                         <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore2.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
                                         <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter2.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />
-                                        
                                     ]}
-                                />     
+                                />
                         </div>
-                        <span className="text-center text-sm">Herbal Green Peel treatment and after images.</span>
                     </div>
                 </div>
                 <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8">
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
-                        <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <h1 className="font-bold mb-4">
+                            Herbal Green Peel Options
+                            </h1>
+                <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
+                        <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
                             <h1 className="font-bold">Green Peel® Classic</h1>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$399</strong>plus products</span>
                             <h4 className="my-1">
@@ -214,9 +213,9 @@ const HerbalGreenPeel = () => {
                                 className="buttonLight my-8 md:mb-0 md:mx-0"
                             />
                         </div>
-                        <div className="md:w-1/3">
+                        <div className="xl:w-1/2 xxl:w-1/3">
                             <iframe 
-                                className="w-full h-[400px] md:h-full"
+                                className="w-full h-[400px] lg:h-full"
                                 src="https://www.youtube.com/embed/CZF6C5yt818" 
                                 title="GREEN PEEL® Herbal Peeling Classic - by Dr. med. Schrammek Kosmetik" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -224,13 +223,16 @@ const HerbalGreenPeel = () => {
                             />
                         </div>
                     </Card>
-                    <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
-                        <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                    <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
+                        <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
                             <h1 className="font-bold">Green Peel® Energy</h1>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
                             <h4 className="my-1">
-                            The vitality & regeneration kick without peeling effect. This treatment with natural herbs noticeably provides energy. It stimulates blood circulation and metabolism and thus leads to a natural improvement of the skin texture without any peeling effect. GREEN PEEL® Energy provides your skin with the natural energy it needs to renew the cells. It helps to reduce age-related skin appearances as well as impurities, scarring and pigment disorders. The treatment visibly improves the skin’s appearance and harmonizes its surface. It works ideally as repeated, intensive salon treatment several times a year. 
+                            The vitality & regeneration kick without peeling effect - this treatment with natural herbs noticeably provides energy. 
                             </h4>
+                            <p className="my-2">
+                            The Green Peel Energy stimulates blood circulation and metabolism and thus leads to a natural improvement of the skin texture without any peeling effect. GREEN PEEL® Energy provides your skin with the natural energy it needs to renew the cells. It helps to reduce age-related skin appearances as well as impurities, scarring and pigment disorders. The treatment visibly improves the skin’s appearance and harmonizes its surface. It works ideally as repeated, intensive salon treatment several times a year. 
+                            </p>
                             <h5 className="my-2 font-bold text-lg">
                                 The Green Peel® Energy is ideal for:
                             </h5>
@@ -254,9 +256,9 @@ const HerbalGreenPeel = () => {
                                 className="buttonLight my-8 md:mb-0 md:mx-0"
                             />
                         </div>
-                        <div className="md:w-1/3">
+                        <div className="xl:w-1/2 xxl:w-1/3">
                             <iframe 
-                                className="w-full h-[400px] md:h-full"
+                                className="w-full h-[400px] xl:h-full"
                                 src="https://www.youtube.com/embed/-2U4r-dmpI4" 
                                 title="GREEN PEEL® Herbal Peeling Energy- by Dr. med. Schrammek Kosmetik" frameborder="0" 
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -264,13 +266,16 @@ const HerbalGreenPeel = () => {
                             />
                         </div>
                     </Card>
-                    <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-4">
+                    <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col p-4 md:p-8">
                         <h1 className="font-bold">Green Peel® Fresh Up</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
                         <h4 className="my-1">
-                        Green Peel® Fresh Up is the gentlest of the treatments methods. The skin is stimulated and refreshed-completely without peeling. The natural herbs help to stimulate circulation, as pores open and the skin optimally absorb ingredients.  Green Peel® Fresh Up lets the skin radiate with new freshness. Cells are vitalised and skin quality is sustainably improved-the perfect treatment for tired appearing skin. The Fresh Up is perfect against premature skin aging and loss of elasticity-even or especially when the skin does not show any visible signs of aging yet.
+                        Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling. 
                         </h4>
+                        <p className="my-2">
+                        The natural herbs help to stimulate circulation, as pores open and the skin optimally absorb ingredients.  Green Peel® Fresh Up lets the skin radiate with new freshness. Cells are vitalised and skin quality is sustainably improved-the perfect treatment for tired appearing skin. The Fresh Up is perfect against premature skin aging and loss of elasticity-even or especially when the skin does not show any visible signs of aging yet.
+                        </p>
                         <h5 className="my-2 font-bold text-lg">
                             The Green Peel® Fresh Up is ideal for:
                         </h5>

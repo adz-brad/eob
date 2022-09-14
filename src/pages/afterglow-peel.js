@@ -42,7 +42,7 @@ const AfterglowPeel = () => {
                         <p className="my-1">
                         Due to its safety, it can be used on all skin types and absolutely all skin conditions and colours.  It can also be applied to the face, neck & eyelids as well as can be applied all year round. The peel itself is in a cream form, ensuring easy and uniform application. During application, a very mild warm sensation is experienced and clients experience very little discomfort.
                         </p>
-                        <div className="flex flex-col xl:flex-row my-2">
+                        <div className="flex flex-col my-2">
                         <div className="flex flex-col">
                         <h4 className="font-bold my-2">
                             Excellent results on:
@@ -68,7 +68,7 @@ const AfterglowPeel = () => {
                             </li>
                         </ul>
                         </div>
-                        <div className="flex flex-col xl:mx-auto">
+                        <div className="flex flex-col">
                         <h4 className="font-bold my-2">
                             Additional benefits include:
                         </h4>
@@ -81,6 +81,8 @@ const AfterglowPeel = () => {
                             </li>
                         </ul>
                         </div>
+
+                        </div>
                         <div className="flex flex-col">
                             <h4 className="my-1">
                                 This peel is best done in a series of 3 or more, depending on your skin care goals.
@@ -88,7 +90,6 @@ const AfterglowPeel = () => {
                             <span><strong className="mr-2 text-brown">One Treatment:</strong>$255</span>
                             <span><strong className="mr-2 text-brown">3 Treatments (package price when pre-booked / pre-paid):</strong>$710</span>
                             <span><strong className="mr-2 text-brown">Extraction and AfterGlow Peeling :</strong>$310</span>
-                        </div>
                         </div>
                         <Button
                             data={{text: "Book Today!", anchor: "contact"}}

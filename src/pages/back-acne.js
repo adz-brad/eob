@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import { Link } from 'gatsby'
+import Gallery from '../components/gallery'
 
 const BackAcne = () => {
     return(
@@ -29,12 +30,23 @@ const BackAcne = () => {
                         </p>
                         <span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>
                     </div>
-                    <span className='ml-4 font-semibold'>Before & After Back Acne Treatment:</span>
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne8.jpg?raw=true" alt="Back Acne Before Treatment Image" />,
                 </div>
             </div>
+            <div className="max-w-screen-lg mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & treatment</span>
+                    </div>
+                    <Gallery 
+                    className="grid grid-col-1 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne8.jpg?raw=true" alt="Before & After Back Acne Treatment" />
+                    ]}    
+                />
+            </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>

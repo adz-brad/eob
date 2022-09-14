@@ -10,11 +10,12 @@ const UltrasonicFacial = () => {
         <>
             <Banner
                 heading="Ultrasonic Regenerative Facial"
+                gradient="from-black/20 via-black-40 to-black/50"
                 caption="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacialHeader.jpg?raw=true"/>}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
-                <div className="flex flex-col md:w-1/2 mx-auto">
+            <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8 my-8">
+                <div className="flex flex-col lg:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">State of the Art Ultrasonic Facials</h1>
                     <h4 className="mt-2 mb-4">Ultrasonic Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins, meaning that even the most sensitive skin will benefit from Ultrasound treatments!</h4>
                     <p className="my-1">
@@ -22,18 +23,18 @@ const UltrasonicFacial = () => {
                     </p>
                     <Button
                         data={{text: "Learn About The Benefits", anchor: "ultrasonic-facial-benefits"}}
-                        className="buttonLight my-8 mx-auto md:mx-0"
+                        className="buttonLight my-8 mx-auto lg:mx-0"
                     />
                 </div>
                 <StaticImage 
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
                     alt="Essence of Beauty Ultrasonic Regenerative Facial Treatment"
-                    className="md:w-1/3 mx-auto rounded-sm shadow-md"
+                    className="lg:w-1/3 mx-auto rounded-sm shadow-md"
                 />
             </div>
             <div id="ultrasonic-facial-benefits" className="p-4 md:p-8">
-                <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row md:items-center">
-                    <div className="flex flex-col md:w-1/3">
+                <Card cardBodyClass="p-4 md:p-8 flex flex-col">
+                    <div className="flex flex-col">
                     <h1 className="font-bold">
                         Ultrasonic Facial Benefits
                     </h1>
@@ -69,32 +70,28 @@ const UltrasonicFacial = () => {
                         Penetrates skin care products more deeply into the skin where they are required to affect change
                         </li>
                     </ul>
-                    <Button
-                        data={{text: "Learn More", anchor: "ultrasonic-facial-treatments"}}
-                        className="buttonLight my-8 mx-auto md:mx-0"
-                    />
                     </div>
-                    <div className="flex flex-col md:w-3/5 mx-auto">
-                        <h4 className="font-bold">Let’s consider the main phases of Ultrasonic Facials</h4>
+                    <div className="flex flex-col mt-8">
+                        <h4 className="font-bold lg:text-2xl">Let’s consider the main phases of Ultrasonic Facials</h4>
                         <ul className="my-2">
-                            <li className="my-1">
-                                <h4 className="font-bold my-2">
+                            <li className="my-4">
+                                <h4 className="text-brown font-bold my-2">
                                     Exfoliation
                                 </h4>
                                 <p>
                                 The Exfoliation Phase removes 20% to 50% of the “stratum corneum” — the outer layer of the skin that we continuously shed. Water is applied and then the hand instrument, similar to a small spatula, is stroked over the skin. Ultrasonic vibrations spin the water molecules at high frequency causing cavitation — that is a brief phase change in the water molecule. Cavitation gently removes the dead surface skin cells and cleans out follicles without irritation and inflammation associated with other mechanical methods.
                                 </p>
                             </li>
-                            <li className="my-1">
-                                <h4 className="font-bold my-2">
+                            <li className="my-4">
+                                <h4 className="text-brown font-bold my-2">
                                 Infusion
                                 </h4>
                                 <p>
                                 This is one of the best features. Normally, large molecules cannot penetrate the skin to provide the deep medication that skin often needs to maintain health. But ultrasound makes that penetration possible — the process is called “sonophoresis.” More exciting still is because of the small molecular size of the active in the line, 302 skincare products, when used in conjunction with Ultrasonic treatments, prove an especially powerful combination for skin health and rejuvenation. Typically, a serum is penetrated into the skin to provide deep healing and protection to skin cells. Your skincare specialist will discuss with you any other products specific to your skin type that you may need. These are applied liberally to the skin and then the hand instrument is lightly stroked over your skin. The ultrasound frequency opens minute pathways to allow the product to penetrate deeply into your skin, for better, more long-lasting results.
                                 </p>
                             </li>
-                            <li className="my-1">
-                                <h4 className="font-bold my-2">
+                            <li className="my-4">
+                                <h4 className="text-brown font-bold my-2">
                                 Micro Massage Therapy
                                 </h4>
                                 <p>
@@ -102,6 +99,10 @@ const UltrasonicFacial = () => {
                                 </p>
                             </li>
                         </ul>
+                        <Button
+                        data={{text: "Learn More", anchor: "ultrasonic-facial-treatments"}}
+                        className="buttonLight my-8 mx-auto md:mx-0"
+                    />
                     </div>
                 </Card>
             </div>
@@ -109,7 +110,7 @@ const UltrasonicFacial = () => {
             <h1 className="mb-2">Ultrasonic Facial Treatments</h1>
             <span>Ultrasonic Facials are particularly effective in treating the following skin conditions:</span>
             <Tabs
-            columns="grid-cols-1 md:grid-cols-3"
+            columns="grid-cols-1 md:grid-cols-3 md:gap-6"
               className="my-8"
               options={[
                 {
@@ -119,49 +120,6 @@ const UltrasonicFacial = () => {
                   <h4 className="mb-2 font-bold">Ultransonic Facials For Acne Treatment</h4>
                   <p>
                   The ultrasound vibration helps to break-up follicular deposits of oil, dirt and dead cells — a veritable breeding ground for bacteria. Ultrasonic frequency has been shown to kill bacteria and decongest the pores resulting in cleaner, healthier skin.
-                  </p>
-                  <h4 className="mt-4 mb-2 font-bold">
-                    The Final Result:
-                  </h4>
-                  <p className="my-1">
-                  When used regularly along with a quality skincare home program, your skin will be smoother, healthier and younger looking. Who isn’t interested in that?
-                  </p>
-                  <p className="my-1">
-                  Long-term results are achieved when Ultrasound treatments and quality products are regularly performed together—and while one treatment may be all that is necessary to affect a change in some, a series of treatments may be needed by others. However, you will find the results are cumulative, especially when combined with 302. Ultrasound and 302 treatment twice yearly series of treatment can reverse visible aging and restore metabolic functionality in chronologic and environmentally age skin.
-                    </p>
-                    <p className="my-1">
-                    As a tool for rejuvenation, ultrasound is powerful. Simple and effective. It will give you the immediate result without using harmful chemicals exfoliates and continue its effects for months after applications. Your friends will notice the difference, your skin will love the benefits and you will love the results.
-                    </p>
-                    <h4 className="mt-4 mb-1 font-bold">
-                    Contraindications:
-                    </h4>
-                    <ul className="my-2 list-disc ml-4">
-                        <li className="my-1 italic">
-                        Not suitable for those wearing a pace maker or electrical implants
-                        </li>
-                        <li className="my-1 italic">
-                        Inadvisable if you are diagnosed with a heart condition
-                        </li>
-                        <li className="my-1 italic">
-                        Not recommended for pregnant women
-                        </li>
-                    </ul>
-                    <div className="my-8">
-                    <Button
-                        data={{text: "Learn More", link: "/302-fountain-of-youth"}}
-                        className="buttonLight my-8 mx-auto md:mx-0"
-                    />
-                    </div>
-                  </>
-                  )
-                },
-                {
-                  name: "Fine Lines & Wrinkles",
-                  content: (
-                <>
-                <h4 className="mb-2 font-bold">Ultransonic Facials For Fine Lines & Wrinkles</h4>
-                  <p>
-                  Ultrasound helps stimulate and promote collagen and elastin production for more youthful skin. It also helps with hydration. The “plumping” of the skin fills out fine lines and wrinkles.
                   </p>
                   <h4 className="mt-4 mb-2 font-bold">
                     The Final Result:
@@ -241,6 +199,49 @@ const UltrasonicFacial = () => {
                   </>
                   )
                 },
+                {
+                    name: "Fine Lines & Wrinkles",
+                    content: (
+                  <>
+                  <h4 className="mb-2 font-bold">Ultransonic Facials For Fine Lines & Wrinkles</h4>
+                    <p>
+                    Ultrasound helps stimulate and promote collagen and elastin production for more youthful skin. It also helps with hydration. The “plumping” of the skin fills out fine lines and wrinkles.
+                    </p>
+                    <h4 className="mt-4 mb-2 font-bold">
+                      The Final Result:
+                    </h4>
+                    <p className="my-1">
+                    When used regularly along with a quality skincare home program, your skin will be smoother, healthier and younger looking. Who isn’t interested in that?
+                    </p>
+                    <p className="my-1">
+                    Long-term results are achieved when Ultrasound treatments and quality products are regularly performed together—and while one treatment may be all that is necessary to affect a change in some, a series of treatments may be needed by others. However, you will find the results are cumulative, especially when combined with 302. Ultrasound and 302 treatment twice yearly series of treatment can reverse visible aging and restore metabolic functionality in chronologic and environmentally age skin.
+                      </p>
+                      <p className="my-1">
+                      As a tool for rejuvenation, ultrasound is powerful. Simple and effective. It will give you the immediate result without using harmful chemicals exfoliates and continue its effects for months after applications. Your friends will notice the difference, your skin will love the benefits and you will love the results.
+                      </p>
+                      <h4 className="mt-4 mb-1 font-bold">
+                      Contraindications:
+                      </h4>
+                      <ul className="my-2 list-disc ml-4">
+                          <li className="my-1 italic">
+                          Not suitable for those wearing a pace maker or electrical implants
+                          </li>
+                          <li className="my-1 italic">
+                          Inadvisable if you are diagnosed with a heart condition
+                          </li>
+                          <li className="my-1 italic">
+                          Not recommended for pregnant women
+                          </li>
+                      </ul>
+                      <div className="my-8">
+                      <Button
+                          data={{text: "Learn More", link: "/302-fountain-of-youth"}}
+                          className="buttonLight my-8 mx-auto md:mx-0"
+                      />
+                      </div>
+                    </>
+                    )
+                  },
               ]}
             />
             </div>

@@ -119,7 +119,7 @@ const AcneTreatment = () => {
             <div className="max-w-screen-lg mx-auto my-8">
                     <div className="flex flex-col items-center my-4">
                         <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
-                        <span className="mb-8">Comparing before & treatment</span>
+                        <span className="mb-8">Comparing before & after treatment</span>
                     </div>
                 <Gallery 
                     className="grid grid-col-1 md:grid-cols-2 gap-4"

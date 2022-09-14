@@ -17,7 +17,7 @@ const FacialTreatments = () => {
             />
             <PageWrapper>
                 <div className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8">
-                    <div className="flex flex-col lg:w-1/2 lg:mx-auto md:mr-8">
+                    <div className="flex flex-col lg:w-1/2 lg:mx-auto">
                         <h1 className="my-3 font-bold">Facial Treatments Designed For You!</h1>
                         <h4 className="mt-1 mb-2">Essence of Beauty is the FIRST <strong>organic and chemical free</strong> Holistic Anti-Aging Skincare Clinic in Ottawa.</h4>
                         <p className="my-1">
@@ -28,12 +28,13 @@ const FacialTreatments = () => {
                         </p>
                         <Button
                             data={{text: "View Treatment Menu", anchor: "facial-treatment-options"}}
-                            className="buttonLight mt-8 mx-auto lg:mx-0"
+                            className="buttonLight my-8 lg:mt-8 mx-auto lg:mx-0"
                         />
                     </div>
-                    <div className="lg:w-1/3 lg:mx-auto my-8 lg:my-0">
+
                         <iframe 
-                            className="my-8 md:my-0 h-[485px] md:h-[450px] w-full"
+                            width="582" height="328"
+                            className="my-8 md:my-0 mx-auto"
                             src="https://www.youtube.com/embed/ZCLPUWGVBis" 
                             title="Advance Deep Pore Cleansing Facial Treatment with Extractions" 
                             frameborder="0" 
@@ -42,7 +43,7 @@ const FacialTreatments = () => {
                             mozallowfullscreen="true" 
                             allowfullscreen
                         />
-                    </div>
+                    
                     </div>
                     <div id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" >
                         <div className="ml-8">

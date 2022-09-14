@@ -146,17 +146,23 @@ const FountainOfYouth = () => {
                         In conjunction with the use of 302, Ultrasound treatments have been shown to produce a number of very positive and rejuvenating results including improved waste removal of toxins, firmer, cleaner, more toned and healthier skin. Please <Link className="font-bold hover:text-green" to="/ultrasonic-facial" >click here</Link> for further information on Ultrasound Treatments.
                         </p>
                     </div>
-                    <Gallery 
-                        className="flex flex-col md:w-1/3 p-4 md:px-8"
-                        imageClass="w-full my-2"
-                        images={[
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before1.png?raw=true" alt="Essence of Beauty Before 302 Skincare" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after1.png?raw=true" alt="Essence of Beauty After 302 Skincare" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before2.png?raw=true" alt="Essence of Beauty Before 302 Skincare" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after2.png?raw=true" alt="Essence of Beauty After 302 Skincare" />
-                        ]}
-                    />
                 </Card>
+            </div>
+            <div className="md:px-4 my-8">
+                    <div className="flex flex-col items-center my-8">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span>Comparing before & after 302 Use</span>
+                    </div>
+                    <Gallery 
+                    className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 lg:p-8"
+                    imageClass="rounded-sm shadow-lg min-h-[300px]"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before1.png?raw=true" alt="Essence of Beauty Before 302 Skincare in 2004" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after1.png?raw=true" alt="Essence of Beauty After 302 Skincare in 2008" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before2.png?raw=true" alt="Essence of Beauty Before 302 Skincare in 2004" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after2.png?raw=true" alt="Essence of Beauty After 302 Skincare in 2008" />
+                    ]}
+                />
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>

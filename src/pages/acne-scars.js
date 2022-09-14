@@ -30,16 +30,17 @@ const AcneScars = () => {
                     </p>
                     <Button 
                             data={{ text: "Learn More", anchor: "acne-scarring-info"}}
-                            className="buttonLight my-8 md:my-auto"
+                            className="buttonLight my-8 md:mt-8 md:mb-auto"
                         />
                 </div>
                 
                 <StaticImage 
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true" 
-                    alt="Essence of Beauty New Client Acne Treatment"
-                    className="lg:mx-16 rounded-sm shadow-md" 
+                    alt="Essence of Beauty Acne Treatment"
+                    className="lg:mx-16 md:mt-8 rounded-sm shadow-md h-[460px]" 
                 />
                 
+            </div>
             </div>
             <div id="acne-scarring-info" className="md:p-8">
             <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:my-8" >
@@ -71,7 +72,7 @@ const AcneScars = () => {
           <div className="max-w-screen-lg mx-auto my-8">
                     <div className="flex flex-col items-center my-4">
                         <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
-                        <span className="mb-8">Comparing before & treatment</span>
+                        <span className="mb-8">Comparing before & after treatment</span>
                     </div>
                     <Gallery 
                     className="grid grid-col-1 md:grid-cols-2 gap-4"

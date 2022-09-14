@@ -15,7 +15,7 @@ const DMKTherapy = () => {
             <div className="">
                 <div className="flex flex-col-reverse xl:flex-row lg:items-center">
                     <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
-                        <h1 className="mt-8 xl:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">The Power of DMK Enzyme Therapy</h1>
+                        <h1 className="mt-8 lg:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">The Power of DMK Enzyme Therapy</h1>
                         <p className="my-2">
                             At Essence of Beauty, we are leading experts in the use of DMK Enzyme Therpy for treating a multitude of conditions, including acne, rosecea, sun-damaged skin, agiing effects, pigmentation, scarring and reactive skin to name just a few.
                         </p>
@@ -50,13 +50,13 @@ const DMKTherapy = () => {
                             className="buttonLight my-8 mx-auto lg:mx-0"
                         />
                     </div>
-                    <div className="xl:w-1/2 h-full">
+                    <div className="xl:w-1/2 h-[680px]">
                         {playVideo ?
-                            <video height="200" autoPlay playsInline controls muted loop className="w-full">
+                            <video height="600" autoPlay playsInline controls muted loop className="h-full w-full">
                                 <source src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/dmkVideo.mp4?raw=true" type="video/mp4"/>
                             </video>
                         :
-                            <button className="relative" onClick={() => setPlayVideo(true)}>
+                            <button className="relative h-full" onClick={() => setPlayVideo(true)}>
                                 <div className="transition-colors hover:bg-darkGreen flex flex-col items-center justify-center absolute left-1/2 xl:left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-50 rounded-full bg-green h-[100px] w-[100px] xl:h-[200px] xl:w-[200px]">
                                     <IoPlaySharp className="ml-2 xl:ml-4 text-6xl xl:text-8xl text-white" />
                                 </div>   
@@ -64,7 +64,7 @@ const DMKTherapy = () => {
                                 <StaticImage 
                                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
                                     alt="Essence of Beauty DMK Enzyme Therapy"
-                                    className="z-30"
+                                    className="z-30 h-full"
                                 />
                             </button>
                         }
@@ -73,7 +73,7 @@ const DMKTherapy = () => {
             </div>
             <div id="dmk-enyzyme-therapy-more-info">
                 <div className="flex flex-col lg:flex-row md:items-center bg-lightGreen rounded-sm shadow-lg mb-8 p-4 md:p-8">
-                    <div className="flex flex-col lg:w-2/3">
+                    <div className="flex flex-col lg:w-2/3 md:mx-8">
                         <h1 className="mb-4">Why Choose DMK Over Other Therapies?</h1>
                         <p className="my-2">
                         DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK. Also, many of these other treatments are considered unhealthy and dangerous, possibly even worsening underlying skin conditions.
@@ -120,7 +120,7 @@ const DMKTherapy = () => {
                 <h1 className="font-bold text-center my-8">
                 DMK Results for Various Conditions
                 </h1>
-            <ul className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-4 mt-8 mx-auto max-w-screen-xxl w-full">
+            <ul className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-16 mt-8 mx-auto max-w-screen-xxl w-full">
                 <li 
                     className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
                     onClick={() => setGallery('acne')}
@@ -161,7 +161,7 @@ const DMKTherapy = () => {
             <div className="p-4 md:p-8 max-w-screen-xxl mx-auto">
                 {gallery === 'acne' ?
                 <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap8 lg:gap-16"
                     imageClass="rounded-sm shadow-md"
                     images={[
                         <StaticImage 
@@ -303,8 +303,8 @@ const DMKTherapy = () => {
             </div>
             <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8 md:my-16">
                 <h1 className="font-bold mb-4">DMK Pricing</h1>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
-                    <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
+                    <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 1</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
@@ -327,11 +327,11 @@ const DMKTherapy = () => {
                     <StaticImage 
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-1.jpg?raw=true" 
                         alt="Enzyme Therapy Level 1" 
-                        className="md:w-1/3"
+                        className="lg:w-1/2 xl:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
-                    <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
+                    <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 2</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
@@ -350,11 +350,11 @@ const DMKTherapy = () => {
                     <StaticImage 
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-2.jpg?raw=true" 
                         alt="Enzyme Therapy Level 2" 
-                        className="md:w-1/3"
+                        className="lg:w-1/2 xl:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
-                    <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
+                    <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Enzyme Therapy Level 3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
@@ -373,11 +373,11 @@ const DMKTherapy = () => {
                     <StaticImage 
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-3.jpg?raw=true" 
                         alt="Enzyme Therapy Level 3" 
-                        className="md:w-1/3"
+                        className="lg:w-1/2 xl:w-1/3"
                     />
                 </Card>
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
-                    <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
+                    <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h1 className="font-bold">Muscle Banding with A-lift - Enzyme Masque #2 & #3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
@@ -399,7 +399,7 @@ const DMKTherapy = () => {
                     <StaticImage 
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk-muscle-banding.png?raw=true" 
                         alt="Muscle Banding with A-lift - Enzyme Masque #2 & #3" 
-                        className="md:w-1/3"
+                        className="lg:w-1/2 xl:w-1/3"
                     />
                 </Card>
             </div>

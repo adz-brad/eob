@@ -88,7 +88,7 @@ const AnteageStemCell = () => {
                 </div>
             </div>
             <div id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center">
-                <div className="flex flex-col md:w-1/2 md:m-4">
+                <div className="flex flex-col md:w-1/2 md:m-4 lg:ml-16">
                     <h1 className="font-bold mb-4">The Benefits of AnteAge®</h1>
                     <h4 className="mt-2 mb-4">This innovative, natural approach to skin rejuvenation allows us to achieve immediate as well as long - lasting results that include: </h4>
                     <ul className="my-4 ml-4 list-disc">
@@ -124,23 +124,18 @@ const AnteageStemCell = () => {
                 </div>
                 <div className="flex flex-col items-center md:w-1/3 md:mx-auto">
                 <Gallery 
-                    className="grid grid-cols-1 gap-4"
+                    className="flex"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage7.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage3.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage4.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage5.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage6.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage7.jpg?raw=true" alt="AnteAge Before & After Treatment" />
                     ]}
                 />
                 <span className="mt-4 text-sm">Amazing results from AnteAge Treatment</span>
                 </div>
             </div>
             <div className="md:p-8">
-                <Card cardBodyClass="flex flex-col md:flex-row" cardWrapperClass="my-8">
-                    <div className="flex flex-col md:w-2/3 p-4 md:p-8">
+                <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
+                    <div className="flex flex-col p-4 md:p-8">
                         <h1 className="font-bold mb-4">AnteAGE® Homecare System</h1>
                         <div className="my-4">
                         <h4 className="font-bold mb-2">AnteAge® Serum</h4>
@@ -157,11 +152,28 @@ const AnteageStemCell = () => {
                         <span className="my-auto"><strong>$145</strong>/ 1 hr + Anti-aging, brightening or clarifying.</span>
                     </div>
                     <StaticImage 
-                        src="../assets/images/anteageHome.png"
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageHome.png?raw=true"
                         alt="Essence of Beauty AnteAge Homecare System"
-                        className="md:w-1/4 mx-auto"
+                        className="lg:w-1/2 xl:w-1/3 xxl:w-1/4 shrink-0 mx-auto"
                     />
                 </Card>
+            </div>
+            <div className="max-w-screen-xxl mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</span>
+                        <span className="mb-8">Comparing Before & After AnteAge Treatment</span>
+                    </div>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage3.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage4.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage5.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage6.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/AnteAGE-3.jpg?raw=true" alt="AnteAge Before & After Treatment" />
+                    ]}    
+                />
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>

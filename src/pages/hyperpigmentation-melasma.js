@@ -16,7 +16,7 @@ const Hyperpigmentation = () => {
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row justify-center">
-                    <div className="flex flex-col lg:w-2/3 md:p-8" >
+                    <div className="flex flex-col lg:w-2/5 md:p-8 mx-auto" >
                         <h1 className="mt-8 mb-4 font-semibold">What Is Hyperpigmentation?</h1>
                         <h4 className="mt-2 mb-4">Hyperpigmentation is a general term that is used by medical professionals to characterize patches of skin which are darker in color than the rest of the skin due to the overproduction of melanin.</h4>
                         <p className="mt-1 mb-4">
@@ -28,11 +28,11 @@ const Hyperpigmentation = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true" className="lg:w-1/3 max-h-[520px] lg:m-4 rounded-sm shadow-lg" />
+                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true" className="lg:w-1/3 rounded-sm shadow-lg mx-auto" />
                 </div>
             </div>
-            <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-8 flex flex-col lg:flex-row">
-                <div id="hyperpigmentation-melasma-info" className="flex flex-col lg:w-1/2 p-4 md:p-8">
+            <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-4 flex flex-col lg:flex-row">
+                <div id="hyperpigmentation-melasma-info" className="flex flex-col lg:w-1/2 p-4 md:p-8 md:ml-4">
                    <h1 className="mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h1>
                    <p className="my-1">
                    There are two types of hyperpigmentation – <strong>sun derived and internally derived.</strong>
@@ -55,13 +55,17 @@ const Hyperpigmentation = () => {
                             className="buttonLight bg-white my-8 md:my-auto"
                         />
                 </div>
-                <div className="flex flex-col lg:w-1/2 p-4 md:p-8">
-                <StaticImage 
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/reactiveskin1.png?raw=true" 
-                    alt="Hyperpigmentation & Melasma After Treatment Image" 
-                    className="max-h-[500px] rounded-sm shadow-md"
-                />
-                <span className="text-center mt-4 text-sm">Comparing before and after hyperpigmentation treatment</span>
+                <div className="flex flex-col lg:w-1/2 p-4 md:p-16">
+                    <Gallery
+                        imageClass="rounded-sm shadow-lg"
+                        images={[
+                            <StaticImage 
+                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/reactiveskin1.png?raw=true" 
+                            alt="Hyperpigmentation & Melasma After Treatment Image"
+                        />
+                        ]}
+                    />
+                    <span className="text-center mt-4 font-bold text-brown">Comparing before and after hyperpigmentation treatment</span>
                 </div>
             </div>
             <div id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col my-4">
@@ -79,22 +83,6 @@ const Hyperpigmentation = () => {
                     <p className="my-1">
                     Micro needling is also a very effective treatment for hyperpigmentation because it restores normal cell function and increases cell-to-cell communication, helping to regulate the production of melanin. Micro needling can also be combined with mesotherapy ampules with a cocktail of vitamins and minerals specifically blended to treat hyperpigmentation. 
                     </p>
-                </div>
-                <div className="flex flex-col lg:p-8">     
-                <span className="text-center text-sm mt-2">Before & After Treatment</span>
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">   
-                        <Gallery
-                            className="grid grid-cols-1 md:grid-cols-2 gap-2"
-                            imageClass="rounded-sm shadow-lg max-h-[400px]"
-                            images={[
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation1.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation2.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation3.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation4.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation5.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                            ]}
-                        />
-                    </div>
                 </div>
             </div>
             <div className="p-4 lg:p-8">
@@ -128,6 +116,23 @@ const Hyperpigmentation = () => {
                     <span>Essence of Beauty offers options for all skin types and ethnic backgrounds. A consultation is needed prior to the treatment <strong>$50</strong></span>
                     </div>
                 </Card>
+            </div>
+            <div className="md:px-4 my-8 md:my-16">
+                    <div className="flex flex-col items-center my-8">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span>Comparing before & after treatment</span>
+                    </div>
+                    <Gallery 
+                    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation1.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation2.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation3.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation4.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation5.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                    ]}
+                />
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>

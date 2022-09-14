@@ -35,22 +35,11 @@ const AgingAndDehydratedSkin = () => {
                     className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
                 />
             </div>
-
-            <div>
-                <span>Before & After Treatment</span>
-                <Gallery 
-                    className="grid grid-col-1 md:grid-cols-4 gap-4"
-                    imageClass="rounded-sm shadow-lg max-h-[400px]"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging.jpg?raw=true" alt="Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging2.jpg?raw=true" alt="Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging3.jpg?raw=true" alt="Before & After Treatment" />
-                    ]}    
-                />
-            </div>
-            
-
             <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
+            <div className="mb-8 lg:pt-8 text-center">
+            <h1 className="mb-2 font-semibold">Treatment Options</h1>
+            <span>Choose a treatment option to learn more</span>
+            </div>
                 <Tabs
                     columns="grid-cols-1 md:grid-cols-5"
                     options={[
@@ -163,20 +152,20 @@ const AgingAndDehydratedSkin = () => {
                             )
                         },
                         {
-                            name: "Micro-needling",
+                            name: "Growth Factor Microneedling",
                             content: (
                                 <div className="flex flex-col lg:px-4">
                                     <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
-                                    Micro-Needling
+                                    Growth Factor Microneedling
                                     </h1>
                                     <span className="italic text-brown font-bold">Fine lines getting you down?</span>
                                     <p className="my-2">
-                                    Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure. 
+                                    Growth Factor Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure. 
                                     </p>
                                     <strong>$295</strong>
                             
                                     <Button
-                                        data={{text: "Learn More", link: "/microneedling"}}
+                                        data={{text: "Learn More", link: "/growth-factor-microneedling"}}
                                         className="buttonLight my-4"
                                     />
                                 </div>
@@ -209,6 +198,21 @@ const AgingAndDehydratedSkin = () => {
                             )
                         },
                     ]}
+                />
+            </div>
+            <div className="max-w-screen-xl mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & after treatment</span>
+                    </div>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging.jpg?raw=true" alt="Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging2.jpg?raw=true" alt="Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging3.jpg?raw=true" alt="Before & After Treatment" />
+                    ]}    
                 />
             </div>
             <div className="flex flex-col items-center p-4">
