@@ -109,7 +109,7 @@ const SpecialPeels = () => {
                       <Button
                         data={{
                           text: "Learn More About Vitamin A Infusion Peel",
-                          link: "/skin-remodeling",
+                          link: "/vitamin-a-infusion-peel",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -225,6 +225,10 @@ const SpecialPeels = () => {
                   },
             ]}
             />
+            </div>
+            <div className="flex flex-col items-center p-4">
+                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
     )

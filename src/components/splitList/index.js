@@ -17,9 +17,10 @@ const SplitList = ({ _key, heading, caption, image, anchor, listTitle, listItems
                                 {item}
                             </li>
                         )
-                    })}
+                    })} 
                 </ul>
-                {button ? <Button data={button} className="buttonLight my-8 md:my-auto"/> : null }
+                {button ? <Button data={button} className="buttonLight my-8
+                lg:my-auto"/> : null }
             </div>
             {image ?
             <div className="lg:w-2/5 mt-8 -mx-8 md:m-0">

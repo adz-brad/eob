@@ -26,7 +26,7 @@ const AnteageStemCell = () => {
                     />
                 </div>
                 <StaticImage 
-                    src="../assets/images/anteageStemCell.png"
+                    src="../assets/images/anteage1.jpg"
                     alt="Essence of Beauty AnteAge Stem Cell Facial"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
@@ -81,8 +81,7 @@ const AnteageStemCell = () => {
                     className="grid grid-cols-1 gap-4 my-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageBefore1.png?raw=true" alt="AnteAge Before Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageAfter1.png?raw=true" alt="AnteAge After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Treatment" />
                     ]}
                 />
                 <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
@@ -128,11 +127,15 @@ const AnteageStemCell = () => {
                     className="grid grid-cols-1 gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageBefore2.png?raw=true" alt="AnteAge Before Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageAfter2.png?raw=true" alt="AnteAge After Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage7.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage3.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage4.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage5.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage6.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
                     ]}
                 />
-                <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
+                <span className="mt-4 text-sm">Amazing results from AnteAge Treatment</span>
                 </div>
             </div>
             <div className="md:p-8">

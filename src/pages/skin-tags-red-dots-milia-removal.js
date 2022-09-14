@@ -56,6 +56,13 @@ const SkinTags = () => {
                         </li>
                     </ul>
                 </Card>
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skin-tags.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cherry-angions-ruby-spots.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/milia.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/sebaceous-hyperplasia.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/seborrheic-keratosis.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/flat-hyperpigmentation-sun-age-spots.jpg?raw=true" className="" />
+                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/telangiectasia-spider-angiomas.jpg?raw=true" className="" />
             </div>
         </>
     )

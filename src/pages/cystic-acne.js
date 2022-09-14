@@ -48,6 +48,14 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         In three months normalizing of oil output and acne production, improvement of texture and scar removal, as well as reduction in inflammation and redness to skin.      
                         </p>
                     </Card>
+                    <Gallery 
+                    className="grid grid-cols-1 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter1.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter2.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />
+                    ]}
+                />
                     <div className="p-4 md:p-8 md:w-1/2 md:mx-auto">
                         <h1 className="my-4">
                         Who Usually Develops Cystic Acne?

@@ -13,7 +13,7 @@ const AgingAndDehydratedSkin = () => {
                 caption="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections. "
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialAgingHeader.jpg?raw=true"/>}
             />
-            <div className="flex flex-col lg:flex-row lg:items-center p-4 lg:p-8">
+            <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8">
                 <div className="lg:w-2/3 lg:m-8">
                     <h1 className="mb-4 font-semibold">Turning Back The Clock On Aging Skin</h1>
                     <h4 className="my-6">Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections.</h4>
@@ -34,18 +34,21 @@ const AgingAndDehydratedSkin = () => {
                     className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
                 />
             </div>
-            <div className="p-4 md:p-8 flex flex-col md:flex-row lg:my-4">
-            <StaticImage 
-                    src="../assets/images/aging.jpg" 
-                    alt="Essence of Beauty Anti Aging Image"
-                    className="lg:w-1/2 max-h-[520px] rounded-sm shadow-lg lg:m-4"
-                />
-                                <StaticImage 
-                    src="../assets/images/aging2.jpg" 
-                    alt="Essence of Beauty Anti Aging Image"
-                    className="lg:w-1/2 max-h-[520px] rounded-sm shadow-lg lg:m-4"
+
+            <div>
+                <span>Before & After Treatment</span>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-4 gap-4"
+                    imageClass="rounded-sm shadow-lg max-h-[400px]"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging1.jpg?raw=true" alt="Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging2.jpg?raw=true" alt="Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging3.jpg?raw=true" alt="Before & After Treatment" />
+                    ]}    
                 />
             </div>
+            
+
             <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
                 <Tabs
                     columns="grid-cols-1 md:grid-cols-5"

@@ -81,25 +81,20 @@ const Hyperpigmentation = () => {
                     </p>
                 </div>
                 <div className="flex flex-col lg:p-8">     
+                <span className="text-center text-sm mt-2">Before & After Treatment</span>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">   
                         <Gallery
                             className="grid grid-cols-1 md:grid-cols-2 gap-2"
                             imageClass="rounded-sm shadow-lg max-h-[400px]"
                             images={[
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationBefore2.png?raw=true" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationAfter2.png?raw=true" alt="Hyperpigmentation & Melasma After Treatment Image" />
-                            ]}
-                        />
-                        <Gallery
-                            className="grid grid-cols-1 md:grid-cols-2 gap-2"
-                            imageClass="rounded-sm shadow-lg max-h-[400px]"
-                            images={[
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationBefore3.png?raw=true" alt="Hyperpigmentation & Melasma Before Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationAfter3.png?raw=true" alt="Hyperpigmentation & Melasma After Treatment Image" />
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation1.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation2.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation3.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation4.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation5.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
                             ]}
                         />
                     </div>
-                    <span className="text-center text-sm mt-2">Comparing before and after hyperpigmentation treatment</span>
                 </div>
             </div>
             <div className="p-4 lg:p-8">

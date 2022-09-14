@@ -31,14 +31,7 @@ const BackAcne = () => {
                         <span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>
                     </div>
                     <span className='ml-4 font-semibold'>Before & After Back Acne Treatment:</span>
-                    <Gallery 
-                        className="grid grid-cols-1 md:grid-cols-2 m-4 gap-4"
-                        imageClass="rounded-sm shadow-lg h-[400px]"
-                        images={[
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneBefore.png?raw=true" alt="Back Acne Before Treatment Image" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneAfter.png?raw=true" alt="Back Acne After Treatment Image" />
-                                ]}
-                    />
+                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne8.jpg?raw=true" alt="Back Acne Before Treatment Image" />,
                 </div>
             </div>
             <div className="flex flex-col items-center p-4">

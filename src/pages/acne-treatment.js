@@ -16,8 +16,8 @@ const AcneTreatment = () => {
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatmentHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
-            <div className="flex flex-col md:flex-row md:items-center">
-                <div className="flex flex-col md:w-3/5 md:p-4 mx-8">
+            <div className="flex flex-col lg:flex-row lg:items-center">
+                <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
                     <h1 className="mt-2 mb-4 font-semibold">Acne Treatment</h1>
                     <h4 className="mt-2 mb-4">
                     Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body.
@@ -40,7 +40,8 @@ const AcneTreatment = () => {
                 />
                 </Image>
             </div>
-            <div id="acne-treatment-info" className="flex flex-col md:m-2 p-4 lg:p-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
+            
+            <div id="acne-treatment-info" className="flex flex-col md:m-2 p-4 md:p-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
                         <h1 className="my-4 md:mt-2 md:mb-4">What's Included?</h1>
                         <p className="my-1">
                         Our in-spa acne treatments are completely individualized, but all include exfoliation and extraction. The type of exfoliation we do is dependent on your skin’s needs and tolerances. Extractions vary according to how many you need and your tolerance. This treatment is combined with Blue or Red LED Lights, Ultrasound Therapy or Acne-Microcurrent for a better and faster results. All of our acne treatments provide the following:
@@ -72,6 +73,17 @@ const AcneTreatment = () => {
                         Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation">here.</Link>      
                         </span>
                         </div>
+                        <div>
+                <span>Before & After Treatment</span>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-4 gap-4"
+                    imageClass="rounded-sm shadow-lg max-h-[400px]"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment1.jpg?raw=true" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment2.jpg?raw=true" alt="Before & After Acne Treatment" />
+                    ]}    
+                />
+            </div>
             <div className="p-4 lg:p-8 md:mx-auto md:my-8">
             <Card cardBodyClass="flex flex-col p-4 lg:p-8" cardWrapperClass="lg:mx-4">
                         <div className="flex flex-col md:m-2">

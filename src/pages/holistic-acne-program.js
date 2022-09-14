@@ -17,8 +17,8 @@ const HolisticAcneProgram = () => {
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"/>}
             />
             <div className="">
-                <div className="flex flex-col md:flex-row md:items-center">
-                    <div className="flex flex-col md:w-1/2 lg:mx-auto md:mr-8 p-4 md:p-8 lg:px-16">
+                <div className="flex flex-col lg:flex-row lg:items-center">
+                    <div className="flex flex-col lg:w-1/2 lg:mx-auto lg:mr-8 p-4 md:p-8 lg:px-16">
                         <h1 className="my-2">Holistically Heal Your Skin!</h1>
                         <h4 className="mb-4">If you are struggling with acne, your typical acne facial products might not be cutting it!</h4>
                         <p className="my-2">
@@ -41,7 +41,7 @@ const HolisticAcneProgram = () => {
             </div>
             <div className="bg-lightGreen rounded-lg shadow-lg flex flex-col lg:flex-row lg:py-8">
                 <div id="holistic-acne-different-approach" className="flex flex-col lg:w-2/3 p-4 md:p-8 lg:px-16">
-                   <h1 className="mb-4 border-b-2 border-darkGreen pb-2 filter drop-shadow-md">A Different Approach</h1>
+                   <h1 className="mb-4 filter drop-shadow-md">A Different Approach</h1>
                    <p className="my-1">
                    The approach I take is different than most because I believe educating the client about their skin condition is key. Understanding there are many variables in what causes acne to form, is the best way to control it. My training as an Acne Specialist, combined with my extensive knowledge of environmental and nutritional acne triggers allow me to successfully assist my clients take control of their acne without prescription drugs. I work closely with each individual taking into consideration their type of acne, skin type, diet, and overall health and life style choices to develop their customized skin care protocol.
                    </p>
@@ -52,21 +52,10 @@ const HolisticAcneProgram = () => {
                     I mean business when it comes to clearing your skin. My specific proven process is easy to follow, when done correctly, garnishes huge results for you.
                     </p>
                 </div>
-                <div className="flex flex-col p-4 md:p-8 lg:mx-auto">
-                <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2"
-                    imageClass="rounded-sm shadow-lg h-[400px] w-full"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore1.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter1.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
-                    ]}
-                />
-                <span className="text-center mt-4 text-sm">Slide to compare before and after holistic acne treatment</span>
-                </div>
             </div>
                 <div className="p-4 md:p-8">
                 <Card cardBodyClass="flex flex-col p-4 lg:p-8">
-                    <h1 className="mb-4 border-b-2 border-darkGreen pb-2 filter drop-shadow-md">How It Works</h1>
+                    <h1 className="mb-4 filter drop-shadow-md">How It Works</h1>
                     <p className="my-2">
                     When you come to us for your initial visit, we will do a thorough consultation including products you are using, lifestyle, diet and other treatments and products you have tried.  We will decide on the products that will be best for your skin and acne type.  You will receive an acne treatment every 1-2 weeks for the first 8 weeks then we do on a monthly basis, most clients see completely clear skin in 4-6 months This is a time where you will see significant changes in your skin. In order for this to work, you must be willing to make lifestyle and product changes with the program.  If you are willing to do the work, your life can change. Expect to make dietary changes to manage your acne.
                     </p>
@@ -76,46 +65,21 @@ const HolisticAcneProgram = () => {
                 </Card>
                 </div>
                 <div className="flex flex-col items-center">
-                <div className="grid grid-cols-1 lg:grid-cols-2 p-1 lg:px-8">
-
-                <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
-                    imageClass="rounded-sm shadow-lg h-[400px] w-full"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore2.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter2.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
-                    ]}
-                />
-
-                <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
-                    imageClass="rounded-sm shadow-lg h-[400px] w-full"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore3.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter3.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
-                    ]}
-                />
-
-                <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
-                    imageClass="rounded-sm shadow-lg h-[400px] w-full"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore4.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter4.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
-                    ]}
-                />
-
-                <Gallery
-                    className="grid grid-cols-1 md:grid-cols-2 gap-2 m-1"
-                    imageClass="rounded-sm shadow-lg h-[400px] w-full"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter5.png?raw=true" alt="Holistic Acne Program Before Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter5.png?raw=true" alt="Holistic Acne Program After Treatment Image" />
-                    ]}
-                />
-       
-                </div>
-                <span className="text-sm mt-0">Before and after holistic acne treatment</span>
+                    <span>Before & After Four Acne Treatments</span>
+                    <Gallery
+                        className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4 w-full"
+                        imageClass="rounded-sm shadow-lg w-full"
+                        images={[
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne1.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne2.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne3.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne4.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne5.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne6.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne7.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne8.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />
+                        ]}
+                    /> 
                 </div>
             <div className="p-4 lg:p-8 flex flex-col items-center lg:m-8">
                 <h1 className="mt-4 mb-8">Frequently Asked Questions</h1>

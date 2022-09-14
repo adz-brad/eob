@@ -100,10 +100,10 @@ const Rosacea = () => {
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"
                 imageClass="rounded-sm shadow-lg h-[400px] md:h-[300px]"
                 images={[
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaBefore2.png?raw=true" alt="Rosacea Before Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaAfter2.png?raw=true" alt="Rosacea After Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaBefore3.png?raw=true" alt="Rosacea Before Treatment Image" />,
-                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaAfter3.png?raw=true" alt="Rosacea After Treatment Image" />
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+                  <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
 
                 ]}
               />

@@ -57,12 +57,9 @@ const VirtualAcneProgram = () => {
                         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 my-8"
                         imageClass="rounded-sm shadow-md h-[400px]"
                         images={[
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore1.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter1.png?raw=true" alt="Virtual Acne Program After Treatment Image" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore2.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter2.png?raw=true" alt="Virtual Acne Program After Treatment Image" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneBefore3.png?raw=true" alt="Virtual Acne Program Before Treatment Image" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneAfter4.png?raw=true" alt="Virtual Acne Program After Treatment Image" />
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne1.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne4.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />,
+                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne6.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />
                         ]}
                     />
 

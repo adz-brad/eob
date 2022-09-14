@@ -1,9 +1,7 @@
-import React, { useState, useRef } from 'react'
-import SignatureCanvas from 'react-signature-canvas'
+import React, { useState } from 'react'
 
 const PracticePolicies = () => {
 
-    const signatureRef = useRef()
     const d = new Date()
 
     const provinces = [

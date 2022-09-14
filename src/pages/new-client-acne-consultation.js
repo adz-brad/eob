@@ -35,10 +35,22 @@ const NewClientAcneConsultation = () => {
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
             </div>
+
+            <div>
+                <span>Before & After Treatment</span>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-4 gap-4"
+                    imageClass="rounded-sm shadow-lg max-h-[400px]"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation1.jpg?raw=true" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation2.jpg?raw=true" alt="Before & After Acne Treatment" />
+                    ]}    
+                />
+            </div>
             <div id="new-client-info" className="p-4 lg:p-8">
                         <Card cardBodyClass="p-4" cardWrapperClass="mt-8 mb-4">
                         <h1 className="m-4">How It Works</h1>
-                        <ul className="ml-4 list-disc">
+                        <ul className="ml-8 list-disc">
                             <li className="my-1">
                             An acne assessment begins with a questionnaire that will capture your relevant  medical history. We will be taking pictures of the effective areas so that we can identify signs of improvement during future visits. 
                             </li>
