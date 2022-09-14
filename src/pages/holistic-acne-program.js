@@ -34,7 +34,7 @@ const HolisticAcneProgram = () => {
                     </div>
                     <div className="lg:w-1/2">
                     <video autoPlay playsInline controls muted className="w-full">
-                            <source src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/holisticAcneVideo.mp4?raw=true" type="video/mp4"/>
+                            <source src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/holisticAcneVideo.mp4?raw=true#t=17" type="video/mp4"/>
                         </video>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const HolisticAcneProgram = () => {
                     </p>
                 </div>
             </div>
-                <div className="p-4 md:p-8">
+                <div className="p-4 md:p-8 my-8">
                 <Card cardBodyClass="flex flex-col p-4 lg:p-8">
                     <h1 className="mb-4 filter drop-shadow-md">How It Works</h1>
                     <p className="my-2">
@@ -64,11 +64,12 @@ const HolisticAcneProgram = () => {
                     </p>
                 </Card>
                 </div>
-                <div className="flex flex-col items-center">
-                    <span>Before & After Four Acne Treatments</span>
+                <div className="flex flex-col items-center p-4 md:p-8">
+                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <span className="mb-8">Comparing before & after four treatments</span>
                     <Gallery
-                        className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-4 w-full"
-                        imageClass="rounded-sm shadow-lg w-full"
+                        className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 w-full"
+                        imageClass="rounded-sm shadow-lg"
                         images={[
                             <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne1.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,
                             <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne2.jpg?raw=true" alt="Holistic Acne Program Before & After Treatment Image" />,

@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Card from '../components/card'
 import { Link } from 'gatsby'
 import Button from '../components/button'
-import Image from '../components/image'
 import Gallery from '../components/gallery'
 
 const AcneTreatment = () => {
@@ -34,15 +33,16 @@ const AcneTreatment = () => {
                         className="buttonLight m-8 mx-auto md:mx-0"
                     />
                 </div>
-                <Image className="max-h-[480px] rounded-sm shadow-lg my-8 md:mx-auto">
+                
                 <StaticImage 
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true" 
-                    alt="Essence of Beauty New Client Acne Treatment" 
+                    alt="Essence of Beauty New Client Acne Treatment"
+                    className="lg:mx-16 rounded-sm shadow-md" 
                 />
-                </Image>
+                
             </div>
             
-            <div id="acne-treatment-info" className="flex flex-col md:m-2 p-4 md:p-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
+            <div id="acne-treatment-info" className="flex flex-col my-4 p-4 md:p-8 md:my-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
                         <h1 className="my-4 md:mt-2 md:mb-4">What's Included?</h1>
                         <p className="my-1">
                         Our in-spa acne treatments are completely individualized, but all include exfoliation and extraction. The type of exfoliation we do is dependent on your skin’s needs and tolerances. Extractions vary according to how many you need and your tolerance. This treatment is combined with Blue or Red LED Lights, Ultrasound Therapy or Acne-Microcurrent for a better and faster results. All of our acne treatments provide the following:
@@ -74,17 +74,7 @@ const AcneTreatment = () => {
                         Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation">here.</Link>      
                         </span>
                         </div>
-                        <div>
-                <span>Before & After Treatment</span>
-                <Gallery 
-                    className="grid grid-col-1 md:grid-cols-4 gap-4"
-                    imageClass="rounded-sm shadow-lg max-h-[400px]"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment1.jpg?raw=true" alt="Before & After Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment2.jpg?raw=true" alt="Before & After Acne Treatment" />
-                    ]}    
-                />
-            </div>
+
             <div className="p-4 lg:p-8 md:mx-auto md:my-8">
             <Card cardBodyClass="flex flex-col p-4 lg:p-8" cardWrapperClass="lg:mx-4">
                         <div className="flex flex-col md:m-2">
@@ -125,6 +115,20 @@ const AcneTreatment = () => {
                         </div>
                         </div>
                         </Card>
+            </div>
+            <div className="max-w-screen-lg mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & treatment</span>
+                    </div>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 gap-4"
+                    imageClass="rounded-sm shadow-lg max-h-[400px]"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment1.jpg?raw=true" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment2.jpg?raw=true" alt="Before & After Acne Treatment" />
+                    ]}    
+                />
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>

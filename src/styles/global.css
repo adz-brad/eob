@@ -122,3 +122,7 @@ textarea {
 .blogContent li {
     @apply my-1;
 }
+
+.image-wrapper div {
+    @apply h-full w-full;
+}

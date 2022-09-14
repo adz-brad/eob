@@ -6,7 +6,7 @@ const Gallery = ({ className, images, imageClass }) => {
 
     const Image = ({ _key, image }) => {
         return(
-            <div key={_key} className={`${image.props.className} cursor-pointer hover:shadow-xl`}>
+            <div key={_key} className="image-wrapper cursor-pointer hover:shadow-xl">
                 <SRLWrapper
                     options={{
                         buttons: { 
@@ -21,7 +21,7 @@ const Gallery = ({ className, images, imageClass }) => {
                         }
                     }}
                 >
-                    <GatsbyImage image={image.props.__imageData} alt={image.props.alt} className={imageClass}/>
+                    <GatsbyImage image={image.props.__imageData} alt={image.props.alt} className={`h-full w-full ${imageClass}`}/>
                 </SRLWrapper>
             </div>
         )

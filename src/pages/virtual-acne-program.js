@@ -16,11 +16,11 @@ const VirtualAcneProgram = () => {
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/virtualAcneHeader.png?raw=true"/>}
                 noFade
             />
-            <div className="p-4 lg:p-8">
-                <div className="flex flex-col md:flex-row my-8 lg:mx-8 md:items-center">
-                    <div className="flex flex-col md:w-3/5 lg:mr-8">
-                        <h1 className="my-2">Achieve Great Results, Virtually.</h1>
-                        <p className="my-1">
+            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+                <div className="flex flex-col md:w-1/2 mx-auto">
+                    <h1 className="font-bold mb-2">Achieve Great Results, Virtually.</h1>
+                    <h4 className="mt-2 mb-4">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.</h4>
+                    <p className="my-1">
                         Our virtual acne program and coaching is the solution for our long distance acne clients, especially during Covid-19 social distancing. This program is designed to be a convenient, highly effective step-by-step system that includes coaching and education using the right products with the right ingredients in order to achieve real results. The key to your success is your consistency and commitment to your plan, since this will determine the clients results.
                         </p>
                         <p className="my-1">
@@ -30,13 +30,22 @@ const VirtualAcneProgram = () => {
                             data={{text: "Learn More", anchor: "virtual-acne-program-faq"}}
                             className="buttonLight my-4"
                         />
-                    </div>
-                    <Card cardWrapperClass="md:w-2/5 my-8" cardBodyClass="p-4 md:px-8">
-                        <h1 className="mt-2 mb-4 lg:text-3xl">More Than Just Products</h1>
+                </div>
+                <StaticImage 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"
+                    alt="Essence of Beauty Virtual Acne Clinic"
+                    className="md:w-1/3 mx-auto rounded-sm shadow-md"
+                />
+            </div>
+
+                        
+                    <div className="flex flex-col p-4 md:p-8">
+                    <Card cardWrapperClass="my-8" cardBodyClass="p-4 md:px-8">
+                        <h1 className="mt-4 mb-4 lg:text-3xl">More Than Just Products</h1>
                         <p className="my-1">
                         As an extension of the in-house holistic acne program, the virtual program is designed to be a convenient, highly effective step-by-step system that features:
                         </p>
-                        <ul className="list-disc ml-4 my-2">
+                        <ul className="list-disc ml-4 my-4">
                             <li className="my-1">
                             Coaching and education using the right products with the right ingredients in order to achieve real results.
                             </li>
@@ -48,22 +57,21 @@ const VirtualAcneProgram = () => {
                             </li>
                         </ul>
                     </Card>
-                </div>
-            </div>
             <div className="p-4 lg:p-8 flex flex-col items-center">
-                <h1>Check out these amazing results!</h1>
+                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <span className="mb-8">Comparing before & after treatment</span>
                  
                     <Gallery
-                        className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 my-8"
-                        imageClass="rounded-sm shadow-md h-[400px]"
+                        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8"
+                        imageClass="rounded-sm shadow-md"
                         images={[
                             <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne1.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />,
                             <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne4.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />,
                             <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcne6.jpg?raw=true" alt="Virtual Acne Program Before & After Treatment Image" />
                         ]}
                     />
-
-                    <span className="text-center my-2 text-sm">Comparing before and after treatment</span>   
+  
+            </div>
             </div>
             <div id="virtual-acne-program-faq" className="p-4 lg:p-8 flex flex-col items-center lg:m-8">
                 <h1 className="mt-4 mb-8">Acne Treatment FAQ</h1>

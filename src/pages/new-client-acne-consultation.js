@@ -36,18 +36,6 @@ const NewClientAcneConsultation = () => {
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
             </div>
-
-            <div>
-                <span>Before & After Treatment</span>
-                <Gallery 
-                    className="grid grid-col-1 md:grid-cols-4 gap-4"
-                    imageClass="rounded-sm shadow-lg max-h-[400px]"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation1.jpg?raw=true" alt="Before & After Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation2.jpg?raw=true" alt="Before & After Acne Treatment" />
-                    ]}    
-                />
-            </div>
             <div id="new-client-info" className="p-4 lg:p-8">
                         <Card cardBodyClass="p-4" cardWrapperClass="mt-8 mb-4">
                         <h1 className="m-4">How It Works</h1>
@@ -78,6 +66,20 @@ const NewClientAcneConsultation = () => {
                         </div>
                         </Card>
                     </div>
+                    <div className="max-w-screen-lg mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & after four treatments</span>
+                    </div>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation1.jpg?raw=true" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation2.jpg?raw=true" alt="Before & After Acne Treatment" />
+                    ]}    
+                />
+            </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>

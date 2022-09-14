@@ -17,7 +17,7 @@ const CysticAcne = () => {
             />
             <div className="p-4 lg:p-8">
                 <div className="flex flex-col md:flex-row my-8">
-                    <div className="flex flex-col p-4 md:p-8 md:w-3/5" >
+                    <div className="flex flex-col p-4 md:p-8 md:w-3/5 md:mr-8" >
                         <h1 className="my-4 font-semibold">Is There Cystic Acne Treatment?</h1>
                         <h4 className="mb-2">Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance.</h4>
                         <p className="my-1">
@@ -28,10 +28,10 @@ const CysticAcne = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true" className="max-h-[480px] md:m-4 rounded-sm shadow-lg" />
+                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true" className="md:m-4 rounded-sm shadow-lg" />
                 </div>
-                <div id="cystic-acne-info" className="flex flex-col md:flex-row md:items-center my-4 md:my-8">
-                    <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4 md:w-2/5 md:mx-auto" >
+                <div id="cystic-acne-info" className="flex flex-col my-4 md:my-8">
+                    <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4" >
                         <h1 className="my-4">
                         How Does Cystic Acne Develop?
                         </h1>
@@ -48,17 +48,9 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         <p className="mt-1 mb-2 font-semibold text-brown">
                         In three months normalizing of oil output and acne production, improvement of texture and scar removal, as well as reduction in inflammation and redness to skin.      
                         </p>
-                    </Card>
-                    <Gallery 
-                    className="grid grid-cols-1 gap-4"
-                    imageClass="rounded-sm shadow-lg"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter1.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter2.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />
-                    ]}
-                />
-                    <div className="p-4 md:p-8 md:w-1/2 md:mx-auto">
-                        <h1 className="my-4">
+                        
+
+                        <h1 className="mt-8 mb-4">
                         Who Usually Develops Cystic Acne?
                         </h1>
                         <p className="mt-1 mb-2">
@@ -76,23 +68,36 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         <p className="mt-1 mb-2">
                         Cystic acne most commonly presents on the face but can also occur on the back, chest, upper arms and shoulders. Overall cystic acne is much more common in males but women can also develop this skin disorder. When it occurs in women, the cystic acne usually occurs below the cheeks and around the mouth and chin area.    
                             </p>
-                    </div>
-                </div>
-                <div className="flex flex-col md:m-8 p-4 md:p-8">
-                        <h1 className="my-4">
+
+                        <h1 className="mt-8 mb-4">
                         What Should I Expect?
                         </h1>
-                        <div className="h-[5px] w-full rounded-t-lg bg-green mb-8"/>
                         <p className="mt-1 mb-2">
                         The good news is that cystic acne generally clears up quickly with the protocol we use at Acne Clinic in Essence of Beauty. We treat cystic acne with a combination of topical products and clinical treatments to calm the existing inflammation and to keep it from returning. We also recommend certain supplements to use along with your home care which have been clinically proven to reduce inflammation. To prevent scarring, it is best to not wait if you have cystic acne. Invest in Yourself… You are Worth it! 
                         </p>
                         <p className="mt-1 mb-2">
                         Please read more about our Acne-Clearing program by clicking <Link to="/acne-treatment" className="font-bold text-brown hover:text-green">here.</Link>  
                         </p>
+                    </Card>
+
+</div>
+            </div>
+            <div className="max-w-screen-lg mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & treatment</span>
                     </div>
+                    <Gallery 
+                    className="flex flex-col md:flex-row gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter1.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter2.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />
+                    ]}
+                />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>

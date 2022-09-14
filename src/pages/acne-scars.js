@@ -16,32 +16,30 @@ const AcneScars = () => {
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
-            <div className="flex flex-col md:flex-row">
-                    <div className="flex flex-col p-4 md:p-8 md:w-2/3" >
-                        <h1 className="my-4 font-semibold">Safe and effective treatments</h1>
-                        <p className="mt-1 mb-2">
-                        We all want to look and feel our best, both inside and out, every day. But for those who have suffered acne throughout their life and still show their physical scars that can be easier said than done. While it’s most prominent in adolescence, acne scarring can actually affect skin at any age. Scarring can affect not just a person’s physical appearance but also their self-confidence
-                        </p>
-                        <p className="mt-1 mb-2">
-                        Scars are can appear to be normal skin color or dark. Acne scars are permanent textural changes and indentations that occur on the skin because of severe acne. As the bumps and lumps of active acne come and go, it often leaves our skin red, irritated, inflamed, uneven and, pigmented. This is what we call acne scarring
-                        </p>
-                        <Button 
+            <div className="flex flex-col lg:flex-row lg:items-center">
+                <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
+                    <h1 className="mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
+                    <h4 className="mt-2 mb-4">
+                    Say goodbye to the scarring that compromises your complexion long after your acne is healed.
+                    </h4>
+                    <p className="my-1">
+                    We all want to look and feel our best, both inside and out, every day. But for those who have suffered acne throughout their life and still show their physical scars that can be easier said than done. While it’s most prominent in adolescence, acne scarring can actually affect skin at any age. Scarring can affect not just a person’s physical appearance but also their self-confidence.           
+                    </p>
+                    <p className="my-1">
+                    Scars are can appear to be normal skin color or dark. Acne scars are permanent textural changes and indentations that occur on the skin because of severe acne. As the bumps and lumps of active acne come and go, it often leaves our skin red, irritated, inflamed, uneven and, pigmented. This is what we call acne scarring.
+                    </p>
+                    <Button 
                             data={{ text: "Learn More", anchor: "acne-scarring-info"}}
                             className="buttonLight my-8 md:my-auto"
                         />
-                    </div>                
                 </div>
-            </div>
-            <div>
-                <span>Before & After Treatment</span>
-                <Gallery 
-                    className="grid grid-col-1 md:grid-cols-4 gap-4"
-                    imageClass="rounded-sm shadow-lg max-h-[400px]"
-                    images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarring.jpg?raw=true" alt="Before & After Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScars1.jpg?raw=true" alt="Before & After Acne Treatment" />
-                    ]}    
+                
+                <StaticImage 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true" 
+                    alt="Essence of Beauty New Client Acne Treatment"
+                    className="lg:mx-16 rounded-sm shadow-md" 
                 />
+                
             </div>
             <div id="acne-scarring-info" className="md:p-8">
             <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:my-8" >
@@ -70,8 +68,22 @@ const AcneScars = () => {
                         </div>
             </Card>
           </div>
-          <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+          <div className="max-w-screen-lg mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <span className="mb-8">Comparing before & treatment</span>
+                    </div>
+                    <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 gap-4"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarring.jpg?raw=true" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScars1.jpg?raw=true" alt="Before & After Acne Treatment" />
+                    ]}    
+                />
+            </div>
+            <div className="flex flex-col items-center p-4">
+                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
