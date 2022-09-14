@@ -40,22 +40,40 @@ export const data = {
             "description": "The clinic specializes in natural, organic skin care that rebuilds and regenerates the skin from the inside out using state of art, non-surgical, non-invasive, acne, acne scarring, rosacea and anti-aging facial treatments. These include Ultrasound, Micro-current, LED Lights, DMK Enzyme Treatments, Derma Ray, Dermal Infusion and Herbal Green Peel® therapies. More traditional treatments include acne, acne scars, rosacea, skin tag and red spot removal and repair of damaged facial capillaries with Vasculyse.",
             "items": [
                 {
-                    "name": "AnteAge Stem Cell Facial",
-                    "description": "Restore your skin’s health on a cellular level with AnteAGE®. The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageStemCell.png?raw=true"/>,
-                    "link": "/anteage-stem-cell-facial" 
+                    "name": "Facial Treatments",
+                    "description": "Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials that address your skin’s unique needs and your dreams and goals for your complexion, integrating the health of your body in the treatment equation for immediately noticeable and long-lasting results.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Facial Treatments" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true"/>,
+                    "link": "/facial-treatments" 
+                },
+                {
+                    "name": "Needle-Free Mesotherapy",
+                    "description": "Nano Infusion Mesotherapy otherwise known as nano-needling is an innovative, non-invasive transdermal serum delivery system designed to rejuvenate your skin and remedy many common issues like lack of tone, uneven texture, excessive pigmentation, scarring, and loss of elasticity.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Needle-Free Mesotherapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/needleFreeMesotherapy.jpeg?raw=true"/>,
+                    "link": "/needle-free-mesotherapy-skin-tightening" 
+                },
+                {
+                    "name": "Growth Factor Microneedling",
+                    "description": "Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Growth Factor Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-feature.jpg?raw=true"/>,
+                    "link": "/growth-factor-microneedling" 
+                },
+                {
+                    "name": "Special Peels" ,
+                    "description": "At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"/>,
+                    "link": "/special-peels" 
+                },
+                {
+                    "name": "Ultrasonic Facial" ,
+                    "description": "Ultrasonic frequency has been shown to kill bacteria and decongest the pores resulting in cleaner, healthier skin. When used regularly along with a quality skincare home program, your skin will be smoother, healthier and younger looking.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Ultrasonic Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true?raw=true"/>,
+                    "link": "/ultrasonic-facial" 
                 },
                 {
                     "name": "DMK Enzyme Therapy" ,
                     "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true"/>,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - DMK Enzyme Therapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true"/>,
                     "link": "/dmk-enzyme-therapy" 
-                },
-                {
-                    "name": "Herbal Green Peel®" ,
-                    "description": "Green Peel® is a herbal formulation composed of natural active substances offering you an opportunity to experience all the benefits of other treatments that are often associated with acids WITHOUT the questionable immediate and longer-terms disadvantages.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel.png?raw=true"/>,
-                    "link": "/herbal-green-peel" 
                 },
             ],
             "button": {

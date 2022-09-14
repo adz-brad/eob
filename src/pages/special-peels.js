@@ -16,7 +16,7 @@ const SpecialPeels = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Special Peels – Making a major difference</h1>
-                    <h4 className="mt-2 mb-4">At the Essence of Beauty, I offer two No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h4>
+                    <h4 className="mt-2 mb-4">At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h4>
                     <p className="my-1">
                     When properly administered, peels provide powerful, non-invasive, pro-youth improvement to the skin. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
                     </p>
