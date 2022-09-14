@@ -21,7 +21,7 @@ Even though skim milk is a big culprit when it comes to skin issues, both dermat
 
 It’s important to keep in mind that you won’t see any major changes in your skin overnight if you decide to cut foods like milk and cheese from your diet. It takes approximately 90 days to see improvement in your skin once you remove dairy from your diet and allow your body to detox from it. Patience is key when it comes to any new skin treatments, and cutting dairy is no exception.
 
-![Essence of Beauty: Does Milk Trigger Acne? Feature Image 2](https://www.essenceofbeauty.ca/wp-content/uploads/2020/02/dairy-products-1-768x512.jpg)
+![Essence of Beauty: Does Milk Trigger Acne? Feature Image 2](https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dairy-products.jpg?raw=true)
 
 ## There are plenty of vegan options to replace your favorite dairy foods and drinks.
 

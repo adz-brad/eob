@@ -1,0 +1,16 @@
+---
+title: Choosing the Right Retinol (Vitamin A) for Your Skin
+excerpt: Retinol, Retinaldehyde, and Retin-A are all popular Retinoids used in the skin care industry. Choosing your Vitamin A can be very confusing as there are many different forms, all claiming they are the best.
+featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/the-right-retinol.jpg?raw=true
+date: 2019-03-05T00:00:00Z
+---
+
+## Choosing The Right Retinol
+
+Vitamin A in skin care products works by normalising skin functions which equals a correction of all skin conditions. It is a very exciting ingredient to add to your skin regime. It was conclusively proven in 1996 that Vitamin A as a topical skin ingredient is capable of reprogramming cellular function – WOW! This is why we all should be using it, not only to help us age more gracefully and have clear skin, but, more importantly so our skin is healthier as we age. 
+
+Regardless of the skin issues or concerns you have, Vitamin A has a place in your skin care regimen. Vitamin A (aka Retinoid) has been a gold standard skin care ingredient for years. It actively solves texture issues, clears blemishes, acne, firms, lifts, and fades dark spots. Retinol, Retinaldehyde, and Retin-A (pure retinoic acid) are all popular Retinoids used in the skin care industry. Choosing your Vitamin A can be very confusing as there are many different forms, all claiming they are the best. Our favourite is stabilised Retinaldehyde, found in the Osmosis MD. The skin likes this form due to its efficacy at the deep cellular level. 
+
+When combined with a penetrating delivery system Retinaldehyde is able to reach the required cells quickly, jumping in and healing with minimal or no irritation, sun sensitivity, or redness. These are the problems traditionally associated with Vitamin A serums. Anyone who has been unable to tolerate Retinol in the past, should consider giving Retinaldehyde a try. Due to its gentle nature, Retinaldehyde is the newest form of Vitamin A to hit the market and is a wonderful solution for those with sensitive and dry skin types. For years, scientists were unable to utilize this form because it can be highly unstable. Ultimately, they found that it worked wonderfully in a lower concentration as a gentle form of Vitamin A. Since it doesn’t need to convert through as many stages, Retinaldehyde can produce results without as many side effects such as dryness and peeling. Those with dry and sensitive skin can use it daily. 
+
+Getting advice The best place to start is with a skin care professional who can recommend the best option for you. Sure, you could skip this and head to your local supermarket, but, it’s doubtful you’ll find any brand with enough of what you need to do anything more than (at best) provide you with antioxidant protection. Your skin care professional will go through any precautions you should take if you’re pregnant or have any other allergies or conditions that would prevent you from using topical vitamin A and will probably have a high-quality formulation on hand to recommend you. Come in for a consultation! You’ll quickly see that I have lots of great tools for treatments and great product lines with safe, quality ingredients to help you in a non-invasive and non-irritating way.

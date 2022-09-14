@@ -1,7 +1,6 @@
 
 import React from 'react'
-import { graphql } from 'gatsby'
-import { Link } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 
 const BlogTemplate = ({ data }) => {
 
@@ -21,7 +20,7 @@ const BlogTemplate = ({ data }) => {
                     : null}
                 </div>
                 {frontmatter.featuredImage ?
-                    <img src={frontmatter.featuredImage} className="rounded-sm shadow-md mb-8" alt=""/>
+                    <img src={frontmatter.featuredImage} className="rounded-sm shadow-md mb-8 max-h-[500px] object-cover" alt={frontmatter.title}/>
                 : null}
                 {html ?
                     <div 
