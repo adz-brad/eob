@@ -40,7 +40,7 @@ const SpecialPeels = () => {
             <span>Choose a treatment option to learn more</span>
             </div>
             <Tabs
-            columns="grid-cols-1 md:grid-cols-3"
+            columns="grid-cols-1 md:grid-cols-4 lg:gap-8"
               className="my-8"
               options={[
                 {
@@ -113,6 +113,63 @@ const SpecialPeels = () => {
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
+                    </div>
+                  ),
+                },
+                {
+                  name: "Afterglow Peel",
+                  content: (
+                    <div className="flex flex-col lg:px-4 pb-4">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      Afterglow Peel
+                      </h1>
+                      <p className="my-2">
+                      The AfterGlow Peel is tailored to fit all clients’ individual skin type and long-term goals.
+                      </p>
+                      <p className="my-2">
+                      The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
+                      </p>
+                      <ul className="list-disc my-4">
+                        <p className="text-brown italic font-semibold text-lg my-1">
+                        The Afterglow Peel is excellent in treating:
+                        </p>
+                        <li className="my-1 ml-4">
+                        Hyperpigmentation , melasma & events of skin discoloration/pigmentation
+                        </li>
+                        <li className="my-1 ml-4">
+                        Acne breakouts, scarring, whiteheads, blackheaders & milia
+                        </li>
+                        <li className="my-1 ml-4">
+                        Coarse skin & enlarged pores
+                        </li>
+                        <li className="my-1 ml-4">
+                        Psoriasis, facial redness / rosacea & eczema 
+                        </li>
+                        <li className="my-1 ml-4">
+                        Dark circles under the eyes
+                        </li>
+                        <li className="my-1 ml-4">
+                        Sun damaged skin   
+                        </li>
+                      </ul>
+                        <h4 className="font-bold text-brown mt-4 mb-2">
+                            Treatment Options
+                        </h4>
+                        <div className="flex flex-col">
+                            <h4 className="my-1">
+                                This peel is best done in a series of 3 or more, depending on your skin care goals.
+                            </h4>
+                            <span><strong className="mr-2 text-brown">One Treatment:</strong>$255</span>
+                            <span><strong className="mr-2 text-brown">3 Treatments (package price when pre-booked / pre-paid):</strong>$710</span>
+                            <span><strong className="mr-2 text-brown">Extraction and AfterGlow Peeling :</strong>$310</span>
+                        </div>
+                        <Button
+                          data={{
+                            text: "Learn More About Afterglow Peel",
+                            link: "/afterglow-peel",
+                          }}
+                          className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
+                        />
                     </div>
                   ),
                 },

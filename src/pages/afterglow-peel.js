@@ -3,6 +3,7 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Gallery from '../components/gallery'
 
 const AfterglowPeel = () => {
     return(
@@ -10,7 +11,7 @@ const AfterglowPeel = () => {
             <Banner
                 heading="AfterGlow Peel"
                 gradient="from-black/10 via-black/20 to-black/50"
-                caption="The AfterGlow Peeling is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. "
+                caption="The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. "
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglowHeader.webp?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
@@ -18,7 +19,7 @@ const AfterglowPeel = () => {
                     <h1 className="font-bold mb-2">Get Your Glow Back!</h1>
                     <h4 className="mt-2 mb-4">The AfterGlow Peeling is tailored to fit all clients’ individual skin type and long-term goals.</h4>
                     <p className="my-1">
-                    The AfterGlow Peeling is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
+                    The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "afterglow-peel-info"}}
@@ -37,7 +38,7 @@ const AfterglowPeel = () => {
                             Afterglow Peel Treatment Benefits
                         </h1>
                         <h4 className="my-2">
-                        There is no peeling which rivals its safety and at the same time, produces such excellent results.
+                        There is no peel which rivals its safety and at the same time, produces such excellent results.
                         </h4>
                         <p className="my-1">
                         Due to its safety, it can be used on all skin types and absolutely all skin conditions and colours.  It can also be applied to the face, neck & eyelids as well as can be applied all year round. The peel itself is in a cream form, ensuring easy and uniform application. During application, a very mild warm sensation is experienced and clients experience very little discomfort.
@@ -52,7 +53,7 @@ const AfterglowPeel = () => {
                             Hyperpigmentation , melasma & events of skin discoloration/pigmentation
                             </li>
                             <li className="my-1">
-                            Acne breakouts, scarring, whiteheads, blackheaders & millia
+                            Acne breakouts, scarring, whiteheads, blackheaders & milia
                             </li>
                             <li className="my-1">
                             Coarse skin & enlarged pores
@@ -96,6 +97,50 @@ const AfterglowPeel = () => {
                             className="buttonLight my-8 mx-auto md:mx-0"
                         />
                 </Card>
+            </div>
+            <div className="max-w-screen-xxl mx-auto my-8">
+                    <div className="flex flex-col items-center my-4">
+                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</span>
+                        <span className="mb-8">Comparing Before & After Afterglow Peel</span>
+                    </div>
+                <Gallery 
+                    className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-8"
+                    imageClass="rounded-sm shadow-lg"
+                    images={[
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow1.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow2.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow3.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow4.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow5.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow6.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow7.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow8.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow9.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow10.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow11.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow12.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow13.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow14.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow15.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow16.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow17.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow18.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow19.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow20.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow21.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow22.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow23.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow24.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow25.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow26.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow27.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow28.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow29.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow30.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow31.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow32.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                    ]}    
+                />
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="font-bold my-4">Are you ready to get started?</h2>
