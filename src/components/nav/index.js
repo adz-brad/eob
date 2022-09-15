@@ -127,6 +127,7 @@ const Navbar = () => {
                 <button 
                     className={`${mobileNavOpen === true ? 'fixed top-4' : 'absolute top-1/2 transform -translate-y-1/2'} right-3 h-12 w-12 z-50`}
                     onClick={mobileNavOpen === true ? () => closeMobileNav() : () => setMobileNavOpen(true)}
+                    name="Toggle Navigation"
                 >
                     <div
                         className={`absolute top-1/2 left-1/2 -translate-x-1/2 h-1 rounded-lg shadow-md transform transition duration-150 ease-in-out ${
@@ -166,7 +167,7 @@ const Navbar = () => {
                                         to={link.slug === '/' ? link.slug : `/${link.slug}`}
                                         onClick={() => closeMobileNav()}
                                         onKeyDown={() => closeMobileNav()}
-                                        tabIndex={i}
+                                        tabIndex={-i}
                                     >
                                         <span className="text-3xl font-headers font-semibold">{link.title}</span>
                                     </Link>
@@ -177,7 +178,7 @@ const Navbar = () => {
                                         onClick={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         onKeyDown={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
                                         role="button"
-                                        tabIndex={i}
+                                        tabIndex={-i}
                                     >
 
                                     <span className="text-3xl font-headers font-semibold">{link.title}</span>

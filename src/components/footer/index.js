@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className="flex flex-col items-center my-10 mx-5 md:mx-2">
                 <h1 className="font-bold mb-4 text-3xl md:text-4xl">Let's Get In Touch</h1>
-                <p className="font-medium md:text-lg text-white">Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
+                <p className="font-medium md:text-lg">Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
             </div>
 
             <form name="Contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className="flex flex-row flex-wrap px-3 md:px-6">
@@ -146,10 +146,10 @@ const Footer = () => {
 
         </div>
 
-        <div className="text-white bg-green rounded-t-lg shadow-lg p-4 pb-8 -mt-4">
+        <div className="bg-green rounded-t-lg shadow-lg p-4 pb-8 -mt-4">
             <div className="flex flex-col md:flex-row max-w-screen-xxl mx-auto">
             <div className="md:w-1/3 p-4">
-                <h3 className="border-b text-black border-black pb-1">Location</h3>
+                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">Location</h1>
                 <div className="flex flex-col my-4 leading-tight">
                     <span><strong>Pebb Building</strong></span>
                     <span>2197 Riverside Drive  suite 200</span>
@@ -159,7 +159,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="md:w-1/3 p-4">
-                <h3 className="border-b text-black border-black pb-1">Hours</h3>
+                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">Hours</h1>
                 <div className="flex flex-col my-4 leading-tight">
                     <span><strong>Wednesday:</strong> 10am - 6pm</span>
                     <span><strong>Thursday</strong> - <strong>Friday:</strong> 10am - 6pm</span>
@@ -167,7 +167,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="md:w-1/3 p-4">
-                <h3 className="border-b text-black border-black pb-1">More Info</h3>
+                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">More Info</h1>
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Parking</strong></span>
                 <span>Paid parking at the building.</span>

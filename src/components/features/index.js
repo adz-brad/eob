@@ -28,7 +28,7 @@ const Features = ({ _key, title, caption, description, items }) => {
     return(
         <div key={_key} className="flex flex-col px-4 md:p-8 bg-lightGreen">
             <h1 className="text-3xl md:text-5xl m-4">{title}</h1>
-            <h4 className="font-bold text-brown ml-4">{caption}</h4>
+            <h2 className="font-bold text-brown ml-4 text-base md:text-xl">{caption}</h2>
             <p className="mt-4 mb-8 mx-4">{description}</p>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:p-4">
                 {items ?

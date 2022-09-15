@@ -6140,6 +6140,11 @@ gatsby-parcel-config@0.8.0:
     "@parcel/transformer-raw" "2.6.0"
     "@parcel/transformer-react-refresh-wrap" "2.6.0"
 
+gatsby-plugin-csp-nonce@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-csp-nonce/-/gatsby-plugin-csp-nonce-1.2.0.tgz#f95589699a4f95e34d0a80884fbbadda94de34df"
+  integrity sha512-f0iD8Hy19j4qcbSgx4XEK46CfU4SoEPh3rYZrNleOzmvZ8h93hyfXv7OBNE4KY6RQTGVu1PRb4mNpJ5S1+gq0A==
+
 gatsby-plugin-image@^2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.17.0.tgz#8106818cf09409f22356a61c7e1a2ceefc4f934b"
@@ -6237,11 +6242,6 @@ gatsby-plugin-react-helmet@^5.23.0:
   integrity sha512-xS8WjuyRoeYv8U2YSHNfnF1o4LPq2YMY6Za04tGnGd+g3C8dSXcQO6mP4Pr5jDzFxOpCitwAG7C22peK8a/zIQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
-
-gatsby-plugin-remove-serviceworker@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
-  integrity sha512-8uQ/6PiM718BTZAgmQeEO6ULrJgLugmDVAkUGv5xxF0luBNrbboDgpsG0z1fbsotSDTzLWyULR0zzGNfWZaY7w==
 
 gatsby-plugin-robots-txt@^1.7.1:
   version "1.7.1"
