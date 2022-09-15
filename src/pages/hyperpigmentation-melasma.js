@@ -4,10 +4,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Gallery from '../components/gallery'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const Hyperpigmentation = () => {
     return(
         <>
+        <Seo
+        pageTitle="Hyperpigmentation & Melasma"
+        pageDescription="If you’re at a loss for why your complexion is suddenly riddled with various forms of hyperpigmentation, know that you are not alone. We can help you minimize any spots or blemishes from hyperpigmentation, no matter what your skin type."
+        pageKeywords="Hyperpigmentation, Melasma, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/hyperpigmentation-melasma"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"
+        />
             <Banner
                 heading="Hyperpigmentation & Melasma"
                 gradient="from-black/30 via-black/40 to-black/60"

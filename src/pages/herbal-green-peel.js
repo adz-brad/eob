@@ -4,10 +4,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Card from '../components/card'
 import Button from '../components/button'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const HerbalGreenPeel = () => {
     return(
         <>
+        <Seo
+        pageTitle="Herbal Green Peel"
+        pageDescription="GREEN PEEL® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere - you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®!"
+        pageKeywords="Herbal, Herbal Green Peel, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/herbal-green-peel"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true"
+        />
             <Banner
                 heading="Skin Rejuvenation with Herbal Green Peel®"
                 gradient="from-black/10 via-black/30 to-black/10"
@@ -130,7 +138,7 @@ const HerbalGreenPeel = () => {
                         </div>
                         <div className="flex flex-col">
                         <div className="flex flex-col my-8 mx-auto">
-                            <h1 className="font-bold mb-4">
+                            <h1 className="mb-4">
                             The Herbal Green Peel
                             </h1>
                             <h4 className="my-2">
@@ -175,17 +183,17 @@ const HerbalGreenPeel = () => {
                     </div>
                 </div>
                 <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8">
-                <h1 className="font-bold mb-4">
+                <h1 className="mb-4">
                             Herbal Green Peel Options
                             </h1>
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                         <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
-                            <h1 className="font-bold">Green Peel® Classic</h1>
+                            <h1>Green Peel® Classic</h1>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$399</strong>plus products</span>
                             <h4 className="my-1">
                             The success of the original GREEN PEEL® Herbal Peeling Treatment Classic for decades speaks for itself. "New Skin in Five Days"
                             </h4>
-                            <h5 className="my-2 font-bold text-lg">
+                            <h5 className="font-bold my-2 text-lg">
                                 The Green Peel® Classic is ideal for:
                             </h5>
                             <ul className="my-2 ml-4 list-disc">
@@ -227,7 +235,7 @@ const HerbalGreenPeel = () => {
                     </Card>
                     <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                         <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
-                            <h1 className="font-bold">Green Peel® Energy</h1>
+                            <h1>Green Peel® Energy</h1>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
                             <h4 className="my-1">
                             The vitality & regeneration kick without peeling effect - this treatment with natural herbs noticeably provides energy. 
@@ -271,7 +279,7 @@ const HerbalGreenPeel = () => {
                     </Card>
                     <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col p-4 md:p-8">
-                        <h1 className="font-bold">Green Peel® Fresh Up</h1>
+                        <h1>Green Peel® Fresh Up</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
                         <h4 className="my-1">
                         Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling. 

@@ -58,7 +58,7 @@ const Navbar = () => {
                                 onClick={() => setDropdownOpen(link.title)}
                                 onKeyDown={() => setDropdownOpen(link.title)}
                                 role="button"
-                                tabIndex={i}
+                                tabIndex={-i}
                             >
                                 <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                             </Link>
@@ -71,7 +71,7 @@ const Navbar = () => {
                                     onClick={() => setDropdownOpen(link.title)}
                                     onKeyDown={() => setDropdownOpen(link.title)}
                                     role="button"
-                                    tabIndex={i}
+                                    tabIndex={-i}
                                 >
                                     <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                                 

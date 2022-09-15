@@ -4,10 +4,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Tabs from '../components/tabs'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const AgingAndDehydratedSkin = () => {
     return(
         <>
+        <Seo
+        pageTitle="Aging & Dehydrated Skin"
+        pageDescription="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections."
+        pageKeywords="Aging, Antiaging, Anti-aging, Dehydrated skin, Dry skin, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"
+        />
             <Banner
                 heading="Aging & Dehydrated Skin"
                 gradient="from-black/50 via-black/30 to-black/10"
@@ -31,14 +39,14 @@ const AgingAndDehydratedSkin = () => {
                 </div>
                 <StaticImage 
                         loading="eager"
-                    src="../assets/images/antiAging.jpg" 
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true" 
                     alt="Essence of Beauty Anti Aging Image"
                     className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
                 />
             </div>
             <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
             <div className="mb-8 lg:pt-8 text-center">
-            <h1 className="mb-2 font-semibold">Treatment Options</h1>
+            <h1 className="mb-2">Treatment Options</h1>
             <span>Choose a treatment option to learn more</span>
             </div>
                 <Tabs
@@ -77,7 +85,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Professional Peels",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl">
                                     Professional Peels
                                     </h1>
                                     <p className="my-2">
@@ -100,7 +108,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "DMK Muscle Banding",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl">
                                     DMK Muscle Banding
                                     </h1>
                                     <p className="my-2">
@@ -156,7 +164,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Growth Factor Microneedling",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl">
                                     Growth Factor Microneedling
                                     </h1>
                                     <span className="italic text-brown font-bold">Fine lines getting you down?</span>
@@ -176,7 +184,7 @@ const AgingAndDehydratedSkin = () => {
                             name: "Herbal Green Peel",
                             content: (
                                 <div className="flex flex-col lg:px-4">
-                                    <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
+                                    <h1 className="text-lg md:text-xl lg:text-2xl">
                                     Herbal Green Peel
                                     </h1>
                                     <p className="my-2">

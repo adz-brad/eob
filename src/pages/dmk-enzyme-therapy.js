@@ -4,6 +4,7 @@ import Button from '../components/button'
 import Card from '../components/card'
 import { IoPlaySharp } from 'react-icons/io5'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const DMKTherapy = () => {
 
@@ -12,6 +13,13 @@ const DMKTherapy = () => {
 
     return(
         <>
+        <Seo
+        pageTitle="DMK Enzyme Therapy"
+        pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK."
+        pageKeywords="DMK Enzyme Therapy, DMK, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
+        />
             <div className="">
                 <div className="flex flex-col-reverse xl:flex-row lg:items-center">
                     <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
@@ -121,7 +129,7 @@ const DMKTherapy = () => {
                 </div>
             </div>
             <div className="my-8 flex flex-col p-4 md:p-8">
-                <h1 className="font-bold text-center my-8">
+                <h1 className="text-center my-8">
                 DMK Results for Various Conditions
                 </h1>
             <ul className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-16 mt-8 mx-auto max-w-screen-xxl w-full">
@@ -306,10 +314,10 @@ const DMKTherapy = () => {
 
             </div>
             <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8 md:my-16">
-                <h1 className="font-bold mb-4">DMK Pricing</h1>
+                <h1 className="mb-4">DMK Pricing</h1>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1 className="font-bold">Enzyme Therapy Level 1</h1>
+                        <h1>Enzyme Therapy Level 1</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -337,7 +345,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1 className="font-bold">Enzyme Therapy Level 2</h1>
+                        <h1>Enzyme Therapy Level 2</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -361,7 +369,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1 className="font-bold">Enzyme Therapy Level 3</h1>
+                        <h1>Enzyme Therapy Level 3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -385,7 +393,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1 className="font-bold">Muscle Banding with A-lift - Enzyme Masque #2 & #3</h1>
+                        <h1>Muscle Banding with A-lift - Enzyme Masque #2 & #3</h1>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">

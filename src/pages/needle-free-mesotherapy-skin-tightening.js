@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const NoNeedleMesotherapy = () => {
     return(
         <>
+        <Seo
+        pageTitle="Needle Free Mesotherapy Infusion"
+        pageDescription="Nano Infusion Mesotherapy otherwise known as nano-needling is an innovative, non-invasive transdermal serum delivery system designed to rejuvenate your skin and remedy many common issues like lack of tone, uneven texture, excessive pigmentation, scarring, and loss of elasticity."
+        pageKeywords="Needle Free, Needle-free, No Needles, Mesotherapy, Infusion, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/needle-free-mesotherapy-skin-tightening"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/needleFreeMesotherapy.jpeg?raw=true"
+        />
             <Banner
                 heading="Needle Free Mesotherapy Infusion"
                 gradient="from-black/50 via-black/30 to-black/10"

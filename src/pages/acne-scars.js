@@ -4,11 +4,19 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const AcneScars = () => {
 
     return(
         <>
+        <Seo
+        pageTitle="Acne Scars Revision"
+        pageDescription="Say goodbye to the scarring that compromises your complexion long after your acne is healed. We create individual programs for each client to treat a range of problems including active acne and acne scarring."
+        pageKeywords="Acne Scars, Scarring, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/acne-scars"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"
+        />
             <Banner
                 heading="Acne Scars Revision"
                 gradient="from-black/70 via-black/50 to-black/30"

@@ -5,10 +5,18 @@ import Card from '../components/card'
 import { Link } from 'gatsby'
 import Button from '../components/button'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const AcneTreatment = () => {
     return(
         <>
+        <Seo
+        pageTitle="Acne Treatment"
+        pageDescription="Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body."
+        pageKeywords="Acne Treatment, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/acne-treatment"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true"
+        />
             <Banner
                 heading="Acne Treatment"
                 gradient="from-black/60 via-black/30 to-black/10"

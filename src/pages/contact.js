@@ -1,10 +1,18 @@
 import React from 'react'
 import { MdLocationPin, MdPhoneInTalk, MdAccessTimeFilled, MdLocalParking, MdPayments } from 'react-icons/md'
 import { Link } from 'gatsby'
+import Seo from '../components/seo'
 
 const Contact = () => {
     return(
         <>
+        <Seo
+        pageTitle="Contact"
+        pageDescription="Contact Essence of Beauty Spa today to book your first consultation or treatment!"
+        pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/contact"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
             <div 
                 className="flex flex-col lg:flex-row max-w-screen-xl my-16 mx-auto"
             >     

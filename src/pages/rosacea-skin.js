@@ -4,12 +4,20 @@ import { StaticImage } from "gatsby-plugin-image"
 import Gallery from '../components/gallery'
 import Button from "../components/button"
 import Tabs from "../components/tabs"
+import Seo from '../components/seo'
 
 const Rosacea = () => {
   return (
     <>
+    <Seo
+    pageTitle="Rosacea & Sensitive Skin"
+    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
+    pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+    pageUrl="https://www.essenceofbeauty.ca/rosacea-skin"
+    pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+    />
       <Banner
-        heading="Rosacea and Sensitive Skin"
+        heading="Rosacea & Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
         caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
         image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
@@ -103,7 +111,7 @@ const Rosacea = () => {
       </div>
       <div id="rosacea-treatment-options">
           <div className="my-8 lg:pt-8 text-center">
-            <h1 className="mb-2 font-semibold">How We Treat Rosacea at Essence of Beauty</h1>
+            <h1 className="mb-2">How We Treat Rosacea at Essence of Beauty</h1>
             <span>Choose a treatment option to learn more</span>
             <Tabs
             columns="grid-cols-1 md:grid-cols-3"
@@ -113,7 +121,7 @@ const Rosacea = () => {
                   name: "Ultrasonic Skin Rejuvenation",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Customized Ultrasound-Galvanic Treatment for
                         Ultra-Sensitive skin / Rosacea with Lymph Drainage
                       </h1>
@@ -193,7 +201,7 @@ const Rosacea = () => {
                   name: "DMK Enzyme Therapy Facial",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         DMK Enzyme Therapy Facial
                       </h1>
                       <p className="my-2">
@@ -291,7 +299,7 @@ const Rosacea = () => {
                   name: "OsmosisMD",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                       OsmosisMD
                       </h1>
                       <p className="my-2">

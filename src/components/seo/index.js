@@ -57,4 +57,4 @@ const Seo = ({ children, pageDescription, pageTitle, pageImage, pageUrl, pageKey
   );
 }
 
-export { Seo } ;
+export default Seo ;

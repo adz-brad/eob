@@ -1,12 +1,22 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Button from '../components/button'
+import Seo from '../components/seo'
 
 const Blog = ({ data }) => {
 
     const posts = data.allBlog.nodes
     
     return(
+        <>
+        
+        <Seo
+        pageTitle="Blog"
+        pageDescription="Essence of Beauty blog features articles full of expert skin care, health and beauty tips, tricks and advice."
+        pageKeywords="Blog, Articles, Expert, Advice, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/blog"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
         <div className="max-w-screen-xl mx-auto p-4 md:p-8">
             <h1 className="font-bold mt-4">Essence of Beauty Blog</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 my-8">
@@ -36,6 +46,7 @@ const Blog = ({ data }) => {
             })}
         </div>
         </div>
+        </>
     )
 }
 

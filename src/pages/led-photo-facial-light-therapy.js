@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const LEDPhotoFacial = () => {
     return(
         <>
+        <Seo
+        pageTitle="LED Photo Facial Light Therapy"
+        pageDescription="Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone."
+        pageKeywords="LED, Photo Facial, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
+        />
             <Banner
                 heading="LED Photo Facial"
                 gradient="from-black/20 to-black/0"
@@ -36,7 +44,7 @@ const LEDPhotoFacial = () => {
             <div id="led-therapy-benefits" className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row md:items-center">
                     <div className="flex flex-col md:w-1/2">
-                    <h1 className="font-bold">
+                    <h1>
                         LED Photo Facial Benefits
                     </h1>
                     <h4 className="my-2">
@@ -73,7 +81,7 @@ const LEDPhotoFacial = () => {
                     </ul>
                     </div>
                     <div className="flex flex-col md:w-1/2">
-                        <h3 className="font-bold mt-2">Initial treatment sessions are as follows:</h3>
+                        <h3 className="font-bold text-brown mt-2">Initial treatment sessions are as follows:</h3>
                         <ul className="list-disc my-2 ml-4">
                             <li className="my-1">
                             $60 per treatment depending on the severity of the problem being treated-recommended in series of 8-12 treatments.

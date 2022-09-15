@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const OsmosisMakeup = () => {
     return(
         <>
+        <Seo
+        pageTitle="Osmosis + Colour Mineral Makeup"
+        pageDescription="Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis +colour Minerals."
+        pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/mineral-makeup"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
+        />
             <Banner
                 heading="Osmosis + Colour Mineral Makeup"
                 gradient="from-black/50 via-black/20 to-black/10"
@@ -33,7 +41,7 @@ const OsmosisMakeup = () => {
                 />
             </div>
             <div id="osmosis-makeup-benefits" className="p-4 md:p-8 bg-lightGreen lg:m-8">
-                    <h1 className="font-bold mt-2 mb-4">
+                    <h1 className="mt-2 mb-4">
                         Benefits of Using Osmosis+Color
                     </h1>
                     <ul className="my-4">
@@ -139,7 +147,7 @@ const OsmosisMakeup = () => {
             <div className="p-4 lg:p-8">
                 <Card cardBodyClass="flex flex-col lg:flex-row">
                     <div className="p-4 lg:p-8">
-                        <h1 className="font-bold mb-4">
+                        <h1 className="mb-4">
                             Color Matching
                         </h1>
                         <p className="my-2">
@@ -185,7 +193,7 @@ const OsmosisMakeup = () => {
             <div className="p-4 lg:p-8">
                 <Card cardBodyClass="flex flex-col lg:flex-row-reverse">
                     <div className="p-4 lg:p-8">
-                        <h1 className="font-bold mb-4">
+                        <h1 className="mb-4">
                         Foundation Application
                         </h1>
                         <p className="my-2">

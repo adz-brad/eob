@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import Seo from '../components/seo'
 
 const BlogTemplate = ({ data }) => {
 
@@ -10,11 +11,11 @@ const BlogTemplate = ({ data }) => {
     return(
         <div className="flex flex-col lg:flex-row">
             <Seo
-                pageTitle=""
-                pageDescription=""
-                pageKeywords=""
-                pageUrl=""
-                pageImage=""
+                pageTitle={frontmatter.title}
+                pageDescription={frontmatter.excerpt}
+                pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}`}
+                pageImage={frontmatter.featuredImage}
             />
             <div className="flex flex-col lg:w-3/4 p-4 lg:p-8">
                 {frontmatter.title?

@@ -4,10 +4,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
 import Tabs from "../components/tabs"
+import Seo from '../components/seo'
 
 const UltrasonicFacial = () => {
     return(
         <>
+        <Seo
+        pageTitle="Ultrasonic Regenerative Facials"
+        pageDescription="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
+        pageKeywords="Ultrasonic Facial, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/ultrasonic-facial"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
+        />
             <Banner
                 heading="Ultrasonic Regenerative Facial"
                 gradient="from-black/20 via-black-40 to-black/50"
@@ -36,7 +44,7 @@ const UltrasonicFacial = () => {
             <div id="ultrasonic-facial-benefits" className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col">
                     <div className="flex flex-col">
-                    <h1 className="font-bold">
+                    <h1 className="">
                         Ultrasonic Facial Benefits
                     </h1>
                     <h4 className="my-2">

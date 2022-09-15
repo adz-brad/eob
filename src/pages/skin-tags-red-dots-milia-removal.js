@@ -4,6 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Card from '../components/card'
 import Button from '../components/button'
 import { animateScroll as scroll } from "react-scroll"
+import Seo from '../components/seo'
 
 const SkinTags = () => {
 
@@ -16,6 +17,13 @@ const SkinTags = () => {
 
     return(
         <>
+        <Seo
+        pageTitle="Skin Tags, Milia, Red Dots & Skin Growth Removal"
+        pageDescription="If you have a predisposition to various skin growths such as skin tags, keratosis, ruby pints these targeted skin revision therapies will effectively solve this problem. A safe, non-invasive treatment that permanently removes unsightly skin growths from your face and body in just one session!"
+        pageKeywords="Skin Tags, Milia, Red Dots, Skin Growth Removal, Seborrheic Keratosis, Telangiectasia, Spider Angiomas, Cherry Angiomas, Sebaceous Hyperplasia, Hyperpigmentation, Broken Capillaries, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"
+        />
             <Banner
                 heading="Skin Tags, Milia, Red Dots & Skin Growth Removal"
                 gradient="from-black/60 via-black/30 to-black/20"
@@ -43,7 +51,7 @@ const SkinTags = () => {
             </div>
             <div className="p-4 md:p-8 my-8">
             <Card cardBodyClass="p-4 md:p-8" cardWrapperClass="">
-                    <h1 className="my-2 font-bold">
+                    <h1 className="my-2">
                         Common Vascular Imperfections
                     </h1>
                     <span>Click on a topic to read more</span>
@@ -64,7 +72,7 @@ const SkinTags = () => {
                         Sebaceous Hyperplasia
                         </li>
                         <li onClick={() => scrollTo('hyperpigmentation')} className="my-1 text-lg cursor-pointer">
-                        Flat Hyper pigmentation (Age & Sun Spots)
+                        Flat Hyperpigmentation (Age & Sun Spots)
                         </li>
                         <li onClick={() => scrollTo("seborreic-keratosis")} className="my-1 text-lg cursor-pointer">
                         Seborrheic Keratosis
@@ -77,7 +85,7 @@ const SkinTags = () => {
                 </div>
             <div id="skin-tags-more-info" className="flex flex-col lg:flex-row bg-lightGreen">
                 <div id="skin-tags" className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                         Skin Tags
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -88,7 +96,7 @@ const SkinTags = () => {
             </div>
             <div id="cherry-angiomas" className="flex flex-col lg:flex-row-reverse bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Cherry Angiomas (Ruby Points)
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -99,7 +107,7 @@ const SkinTags = () => {
             </div>
             <div id="milia" className="flex flex-col lg:flex-row bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Milia
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -110,7 +118,7 @@ const SkinTags = () => {
             </div>
             <div id="sebaceous-hyperplasia" className="flex flex-col lg:flex-row-reverse bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Sebaceous Hyperplasia
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -121,7 +129,7 @@ const SkinTags = () => {
             </div>
             <div id="seborreic-keratosis" className="flex flex-col lg:flex-row bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Seborrheic Keratosis
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -132,7 +140,7 @@ const SkinTags = () => {
             </div>
             <div id="hyperpigmentation" className="flex flex-col lg:flex-row-reverse bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Flat Hyperpigmentation (Sun & Age Spots)
                     </h1>
                     <p className="mt-4 mb-auto">
@@ -143,7 +151,7 @@ const SkinTags = () => {
             </div>
             <div id="telangiectasia-spider-angiomas" className="flex flex-col lg:flex-row bg-lightGreen">
                 <div className="flex flex-col lg:w-1/2 p-4 md:p-8 lg:px-16">
-                    <h1 className="mt-auto font-bold">
+                    <h1 className="mt-auto">
                     Telangiectasia & Spider Angiomas
                     </h1>
                     <p className="mt-4 mb-auto">

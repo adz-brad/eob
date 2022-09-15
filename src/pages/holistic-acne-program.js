@@ -5,11 +5,19 @@ import Button from '../components/button'
 import Gallery from '../components/gallery'
 import Accordion from '../components/accordion'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const HolisticAcneProgram = () => {
 
     return(
         <>
+        <Seo
+        pageTitle="Holistic Acne Program"
+        pageDescription="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
+        pageKeywords="Holistic Acne Program, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/holistic-acne-program"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"
+        />
             <Banner
                 heading="Holistic Acne Program"
                 gradient="from-black/20 via-black/20 to-black/10"
@@ -19,7 +27,7 @@ const HolisticAcneProgram = () => {
             <div className="">
                 <div className="flex flex-col lg:flex-row lg:items-center">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto lg:mr-8 p-4 md:p-8 lg:px-16">
-                        <h1 className="my-2">Holistically Heal Your Skin!</h1>
+                        <h1 className="my-2 font-bold">Holistically Heal Your Skin!</h1>
                         <h4 className="mb-4">If you are struggling with acne, your typical acne facial products might not be cutting it!</h4>
                         <p className="my-2">
                         I specialize in clearing acne that dermatologists and other traditional methods have not been able to clear. Don’t give up on your skin!

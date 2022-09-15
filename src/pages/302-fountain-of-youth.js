@@ -6,10 +6,19 @@ import Card from '../components/card'
 import { Link } from 'gatsby'
 import Image from '../components/image'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const FountainOfYouth = () => {
     return(
-        <>
+        <>            
+        <Seo
+        pageTitle="302 Fountain of Youth"
+        gradient="from-black/40 via-black/20 to-black/10"
+        pageDescription="Avogen™ is a natural and unique lipid family found in avocado the result of a laboratory process that isolates a molecule from the leaves of a particular rainforest avocado that researchers discovered provides amazing skin protective measures against sun damage and aging. This particular “Fountain of Youth” ingredient, Avogen, has the molecular weight of 302 daltons, thus the name of the skincare line, 302."
+        pageKeywords="302, Fountain of Youth, Avogen, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Skincare, Safe, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/302-fountain-of-youth"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
+        />
             <Banner
                 heading="302 Fountain of Youth"
                 caption="I am very excited to be the first Canadian spa to carry a completely different skincare line that is very effective for aging, acne, rosacea, treats scars and uneven texture, clears visible sun damage as well as other skin conditions – it’s called 302"
@@ -35,7 +44,7 @@ const FountainOfYouth = () => {
                 />
             </div>
             <div id="302-fountain-of-youth-info" className="flex flex-col p-4 md:p-8 bg-lightGreen rounded-sm shadow-sm md:m-8">
-                    <h1 className="font-bold mb-4">
+                    <h1 className="mb-4">
                         The Fountain of Youth - All About Avogen™
                     </h1>
                     <p className="my-1">
@@ -79,7 +88,7 @@ const FountainOfYouth = () => {
             <div id="302-fountain-of-youth-benefits" className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row items-center">
                     <div className="flex flex-col md:w-2/3">
-                        <h1 className="font-bold">
+                        <h1>
                             302 Skincare Benefits
                         </h1>
                         <h4 className="my-2">
@@ -93,7 +102,7 @@ const FountainOfYouth = () => {
                         </h3>
                         <ul className="my-2">
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Sustainable
                                 </h4>
                                 <p className="my-1">
@@ -101,7 +110,7 @@ const FountainOfYouth = () => {
                                 </p>
                             </li>
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Saves Money
                                 </h4>
                                 <p className="my-1">
@@ -109,7 +118,7 @@ const FountainOfYouth = () => {
                                 </p>
                             </li>
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Saves Time
                                 </h4>
                                 <p className="my-1">
@@ -117,7 +126,7 @@ const FountainOfYouth = () => {
                                 </p>
                             </li>
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Simple
                                 </h4>
                                 <p className="my-1">
@@ -125,7 +134,7 @@ const FountainOfYouth = () => {
                                 </p>
                             </li>
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Safe
                                 </h4>
                                 <p className="my-1">
@@ -133,7 +142,7 @@ const FountainOfYouth = () => {
                                 </p>
                             </li>
                             <li className="my-1 flex flex-col">
-                                <h4 className="font-bold mt-1">
+                                <h4 className="font-bold text-brown mt-1">
                                 Science-based
                                 </h4>
                                 <p className="my-1">

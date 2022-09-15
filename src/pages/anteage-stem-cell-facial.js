@@ -4,12 +4,21 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const AnteageStemCell = () => {
     return(
         <>
+        <Seo
+        pageTitle="AnteAge Stem Cell Facial"
+        pageDescription="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
+        pageKeywords="AnteAge, Stem Cell Facial, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
+        />
             <Banner
                 heading="AnteAge Stem Cell Facial"
+                gradient="from-black/40 via-black/20 to-black/10"
                 caption="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteagestemcellHeader.png?raw=true"/>}
             />
@@ -37,7 +46,7 @@ const AnteageStemCell = () => {
                 className="flex flex-col md:flex-row bg-lightGreen rounded-md shadow-md p-4 md:p-8 md:m-4"
             >
                 <div className="flex flex-col md:w-2/3 md:mx-4">     
-                    <h1 className="font-bold mb-4">AnteAge® MD Targeted Treatments</h1>
+                    <h1 className="mb-4">AnteAge® MD Targeted Treatments</h1>
                     <p className="my-1">
                     To really supercharge the amazing benefits of the treatment, we have combined AnteAGE® with the transdermal delivery of microchanneling system which creates tiny channels on the skin to deliver a condition targeted solution containing growth factors and cytokines derived from adult bone marrow stem cells. 
                     </p>
@@ -90,7 +99,7 @@ const AnteageStemCell = () => {
             </div>
             <div id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center">
                 <div className="flex flex-col md:w-1/2 md:m-4 lg:ml-16">
-                    <h1 className="font-bold mb-4">The Benefits of AnteAge®</h1>
+                    <h1 className="mb-4">The Benefits of AnteAge®</h1>
                     <h4 className="mt-2 mb-4">This innovative, natural approach to skin rejuvenation allows us to achieve immediate as well as long - lasting results that include: </h4>
                     <ul className="my-4 ml-4 list-disc">
                         <li className="my-1 md:text-lg">
@@ -137,15 +146,15 @@ const AnteageStemCell = () => {
             <div className="md:p-8">
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col p-4 md:p-8">
-                        <h1 className="font-bold mb-4">AnteAGE® Homecare System</h1>
+                        <h1 className="mb-4">AnteAGE® Homecare System</h1>
                         <div className="my-4">
-                        <h4 className="font-bold mb-2">AnteAge® Serum</h4>
+                        <h4 className="mb-2">AnteAge® Serum</h4>
                         <p className="my-1">
                             Restore your skin’s ability to heal itself with AnteAGE® regenerating serum. This elegant formula quickly absorbs into your skin, and contains physiologically balanced Stem Cytokines™, potent peptides and protective Antioxidants. Utilizing nanotechnology, this symphony of ingredients act in concert to deliver powerful results at the cellular level.
                         </p>
                         </div>
                         <div className="my-4">
-                        <h4 className="font-bold mb-2">AnteAge®  Accelerator</h4>
+                        <h4 className="mb-2">AnteAge®  Accelerator</h4>
                         <p className="my-1">
                         The AnteAGE Accelerator is a performance driven treatment rich in powerful moisturizers and revitalizing actives. Stem Cytokines™, vitamins, and targeted antioxidants work to deeply hydrate and nourish the skin, while two research-backed molecules (a defensin peptide and retinoid-like compound) enhance the pro-healing, regenerative and anti-inflammatory potential of the AnteAGE system.
                         </p>

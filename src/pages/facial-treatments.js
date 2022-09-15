@@ -4,11 +4,19 @@ import { treatmentMenu } from '../data/pages/facialTreatments'
 import Banner from '../components/banner'
 import PageWrapper from '../components/pageWrapper'
 import Button from '../components/button'
+import Seo from '../components/seo'
 
 const FacialTreatments = () => {
 
     return(
         <>
+        <Seo
+        pageTitle="Facials For Women & Men"
+        pageDescription="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
+        pageKeywords="Facials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/facial-treatments"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"
+        />
             <Banner
                 heading="Facials For Women & Men"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -68,7 +76,7 @@ const FacialTreatments = () => {
                                             </div>
                                         : null }
                                         <div className={`flex flex-col ${treatment.image ? 'md:w-2/3' : 'w-full'} p-4 md:p-8`}>
-                                        <h1 className="pb-2 mb-2 font-semibold">
+                                        <h1 className="pb-2 mb-2">
                                             {treatment.name}
                                         </h1>
                                         <div className="my-2">

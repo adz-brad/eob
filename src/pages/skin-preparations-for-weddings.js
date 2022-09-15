@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import { Link } from 'gatsby'
+import Seo from '../components/seo'
 
 const SkinPrep = () => {
     return(
         <>
+        <Seo
+        pageTitle="Skin Preparations for Weddings"
+        pageDescription="Creating lasting wedding memories comes from mapping out a beauty regiment that not only makes you look the best you can, but makes you feel relaxed and confident as well."
+        pageKeywords="Skin Preparation, Wedding, Weddings, Special Events, Bride, Bridesmaid, Brides, Bridesmaids, Groom, Groomsman, Groomsmen, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/skin-preparations-for-weddings"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/weddingPreparation.jpg?raw=true"
+        />
             <Banner
                 heading="Skin Preparations for Weddings"
                 gradient="from-black/60 via-black/20 to-black/10"

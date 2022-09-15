@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
+import Seo from '../components/seo'
 
 const VitaminAInfusion = () => {
     return(
         <>
+        <Seo
+        pageTitle="Vitamin A Infusion Peel"
+        pageDescription="In the past few years, new approaches to peeling and rejuvenating the skin have emerged. One of the most effective and innovative of these is the vitamin A infusion peel. This non-acid peel is transforming the way people think about peels, and the results are incredible."
+        pageKeywords="Vitamin A, Infusion, Peel, Chemical Free, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/vitamin-a-infusion-peel"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"
+        />
             <Banner
                 heading="Vitamin A Infusion Peel"
                 gradient="from-black/40 via-black/20 to-black/0"
@@ -29,7 +37,7 @@ const VitaminAInfusion = () => {
                  loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true" 
                     alt="Essence of Beauty Vitamin A Peel Skin Remodeling" 
-                    className="md:w-1/3 mx-auto rounded-sm shadow-md"
+                    className="md:w-[550px] md:h-[600px] md:-ml-2 mx-auto rounded-sm shadow-md transform -rotate-90"
                 />
             </div>
             <div id="vitamimn-a-skin-remodeling-info" className="flex flex-col lg:m-8 p-4 lg:p-8 bg-lightGreen rounded-sm shadow-lg">

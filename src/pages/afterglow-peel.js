@@ -4,10 +4,18 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Card from '../components/card'
 import Gallery from '../components/gallery'
+import Seo from '../components/seo'
 
 const AfterglowPeel = () => {
     return(
         <>
+        <Seo
+        pageTitle="AfterGlow Peel"
+        pageDescription="The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process."
+        pageKeywords="Afterglow, Peel, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/afterglow-peel"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
+        />
             <Banner
                 heading="AfterGlow Peel"
                 gradient="from-black/10 via-black/20 to-black/50"

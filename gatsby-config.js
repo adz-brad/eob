@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Essence of Beauty`,
     description:
-      "Essence of Beauty is Ottawa’s Premier Holistic Skin Rejuvenation Clinic. Book your consultation today!",
+      "Essence of Beauty is Ottawa’s premier holistic skin rejuvenation clinic, specializing in natural, organic skincare treatments for acne and other common skin issues. Book your consultation today!",
     keywords:
-      "Facial, Facials, Peel, Peels, Holistic, Acne, Natural, Organic, Treatment, Microneedling, Facials, Spa, Ottawa, Beauty, Esthetics, Esthetician, Professional, Clean",
+      "Facial, Facials, Peel, Peels, Holistic, Acne, Natural, Organic, Treatment, Microneedling, Facials, Spa, Ottawa, Beauty, Esthetics, Esthetician, Professional, Clean, Safe, Skincare, Anti Aging, Dry Skin, Glow",
     siteUrl: "https://www.essenceofbeauty.ca",
   },
   plugins: [
@@ -24,6 +24,12 @@ module.exports = {
         icon_options: {
           purpose: `any maskable`,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/*`],
       },
     },
     {

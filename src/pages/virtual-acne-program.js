@@ -6,10 +6,18 @@ import Button from '../components/button'
 import Card from '../components/card'
 import Gallery from '../components/gallery'
 import Accordion from '../components/accordion'
+import Seo from '../components/seo'
 
 const VirtualAcneProgram = () => {
     return(
         <>
+        <Seo
+        pageTitle="Virtual Acne Program"
+        pageDescription="Not able to come into the studio for hands on treatment? You can still achieve great results with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
+        pageKeywords="Virtual, Heal at Home, Remote, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/virtual-acne-program"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"
+        />
             <Banner
                 heading="Virtual Acne Program"
                 caption="Not able to come into the studio for hands on treatment? You can still achieve great results with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."

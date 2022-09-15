@@ -3,10 +3,18 @@ import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
 import Tabs from '../components/tabs'
+import Seo from '../components/seo'
 
 const SpecialPeels = () => {
     return(
         <>
+        <Seo
+        pageTitle="No-Acid Natural Grade Facial Peels"
+        pageDescription="At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
+        pageKeywords="No Acid, Acid free, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/special-peels"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
+        />
             <Banner
                 heading="No-Acid Natural Grade Facial Peels"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -28,16 +36,17 @@ const SpecialPeels = () => {
                         className="buttonLight m-8 mx-auto md:mx-0"
                     />
                 </div>
+                
                 <StaticImage 
                  loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
                     alt="Essence of Beauty Special Peels"
-                    className="h-[500px] mx-auto rounded-sm shadow-md"
+                    className="md:w-1/3 h-[480px] mx-auto rounded-sm shadow-md"
                 />
             </div>
             <div id="special-peels-info" className="p-4 md:p-8">
             <div className="m-4">
-            <h1 className="mb-2 font-semibold">Essence of Beauty Special Peels</h1>
+            <h1 className="mb-2">Essence of Beauty Special Peels</h1>
             <span>Choose a treatment option to learn more</span>
             </div>
             <Tabs
@@ -48,7 +57,7 @@ const SpecialPeels = () => {
                   name: "Vitamin A (Retinaldehyde) Infusion Peel",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Vitamin A (Retinaldehyde) Infusion Peel
                       </h1>
                       <p className="my-2">
@@ -121,7 +130,7 @@ const SpecialPeels = () => {
                   name: "Afterglow Peel",
                   content: (
                     <div className="flex flex-col lg:px-4 pb-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                       Afterglow Peel
                       </h1>
                       <p className="my-2">
@@ -178,7 +187,7 @@ const SpecialPeels = () => {
                     name: "Herbal Green Peel",
                     content: (
                       <div className="flex flex-col lg:px-4">
-                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Herbal Green Peel
                         </h1>
                         <p className="my-2">
@@ -234,7 +243,7 @@ const SpecialPeels = () => {
                     name: "Salicylic Acid Peel",
                     content: (
                       <div className="flex flex-col lg:px-4 pb-4">
-                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4 font-semibold">
+                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Salicylic Acid Peel
                         </h1>
                         <p className="my-2">

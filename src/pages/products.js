@@ -2,12 +2,22 @@ import React from 'react'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'
+import Seo from '../components/seo'
 
 const Products = () => {
     return(
         <>
+        
+        <Seo
+        pageTitle="Products"
+        pageDescription="View the wide range of expertly sourced, high quality products used for treatment and available for purchase from Essence of Beauty."
+        pageKeywords="Yonka, 302 Skincare, Osmosis MD, DMK, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/products"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
+        />
             <Banner
                 heading="Products"
+                gradient="from-black/40 via-black/20 to-black/10"
                 caption=""
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"/>}
             />
@@ -20,7 +30,7 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h1 className="font-bold mb-2">
+                    <h1 className="mb-2">
                         Yonk-Ka
                     </h1>
                     <p className='my-2'>
@@ -30,7 +40,7 @@ const Products = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h1 className="font-bold mb-2">
+                    <h1 className="mb-2">
                     302 Skincare
                     </h1>
                     <p className='mt-4 mb-8'>
@@ -60,7 +70,7 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="font-bold mb-2">
+                <h1 className="mb-2">
                 Osmosis+BeautyMD
                     </h1>
                     <p className='mt-4 mb-8'>
@@ -76,7 +86,7 @@ const Products = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="font-bold mb-2">
+                <h1 className="mb-2">
                 AnteAGE
                     </h1>
                     <p className='mt-4 mb-8'>
@@ -106,7 +116,7 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="font-bold mb-2">
+                <h1 className="mb-2">
                 DMK Skin Care
                     </h1>
                     <p className='mt-4 mb-8'>
