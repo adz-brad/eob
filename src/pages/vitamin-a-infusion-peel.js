@@ -37,7 +37,7 @@ const VitaminAInfusion = () => {
                  loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true" 
                     alt="Essence of Beauty Vitamin A Peel Skin Remodeling" 
-                    className="md:w-[550px] md:h-[600px] md:-ml-2 mx-auto rounded-sm shadow-md transform -rotate-90"
+                    className="md:h-[460px] md:w-[500px] md:-ml-2 mx-auto rounded-sm shadow-md transform -rotate-90"
                 />
             </div>
             <div id="vitamimn-a-skin-remodeling-info" className="flex flex-col lg:m-8 p-4 lg:p-8 bg-lightGreen rounded-sm shadow-lg">
