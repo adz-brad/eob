@@ -26,6 +26,7 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
