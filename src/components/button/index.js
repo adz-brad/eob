@@ -15,6 +15,7 @@ const Button = ({ data: button, className }) => {
           onClick={() => scrollTo()}
           onKeyDown={() => scrollTo()}
           className={className}
+          aria-label={button.accessibleText}
         >
           {button.icon ? button.icon : null}
           {button.text}
@@ -22,7 +23,7 @@ const Button = ({ data: button, className }) => {
       )
     }
     else if(button.link){
-      return <Link className={className} to={button.link}>{button.icon ? button.icon : null}{button.text}<text className="hidden">{button.accessibleText}</text></Link>
+      return <Link aria-label={button.accessibleText} className={className} to={button.link}>{button.icon ? button.icon : null}{button.text}</Link>
     }
     else{
       return(

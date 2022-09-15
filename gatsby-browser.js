@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 const wrapPageElement = ({ element }) => {
     return(
         <Layout>
-            <Helmet>
+            <Helmet htmlAttributes={{ lang: 'en-US' }}>
                 <script type="application/ld+json">
                     {`{
                         "@context": "https://schema.org",
