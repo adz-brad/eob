@@ -60,7 +60,7 @@ export const data = {
                 {
                     "name": "Special Peels" ,
                     "description": "At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"/>,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"/>,
                     "link": "/special-peels" 
                 },
                 {
@@ -76,10 +76,10 @@ export const data = {
                     "link": "/dmk-enzyme-therapy" 
                 },
             ],
-            "button": {
+            /*"button": {
                 "text": "View More Treatments",
                 "link": "/treatments"
-            }
+            }*/
         },
         { 
             "type": "meetEva"

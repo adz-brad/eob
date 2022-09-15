@@ -37,10 +37,10 @@ const Features = ({ _key, title, caption, description, items }) => {
                     })
                 : null }
             </div>
-            <Button
+            {/*<Button
                 data={{ text: "View All Treatments", link: "/treatments"}}
                 className="buttonLight mt-12 mb-8 mx-auto bg-white"
-            />
+                />*/}
         </div>
     )
 }
