@@ -11,14 +11,35 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: "Essence of Beauty",
+        short_name: `Essence of Beauty`,
+        background_color: `#e6eed7`,
+        lang: `en`,
+        theme_color: `#7cc16c`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
         display: `standalone`,
+        cache_busting_mode: "none",
+        icon: `src/assets/icons/favicon.png`,
+        include_favicon: true,
+        icon_options: {
+          purpose: `any maskable`,
+        },
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.essenceofbeauty.ca',
+        sitemap: 'https://www.essenceofbeauty.ca/sitemap.xml',
+        policy: [
+          { 
+            userAgent: '*', 
+            allow: '/' 
+          }
+        ]
+      },
+    },
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
