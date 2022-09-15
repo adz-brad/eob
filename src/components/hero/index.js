@@ -19,11 +19,12 @@ const Hero = ({ bgType, bgSrc, _key, title, caption, button }) => {
           className="px-5 py-2 my-8 border-2 border-white rounded-sm shadow-md text-2xl text-white hover:bg-white/20 transition-all"
         >
           {button.text}
+          <span className="hidden">{button.accessibleText}</span>
         </button>
       )
     }
     else if(button.pageLink){
-      <Link to={`/${button.pageLink}/`}>{button.text}</Link>
+      <Link to={`/${button.pageLink}/`}>{button.text}<span className="hidden">{button.accessibleText}</span></Link>
     }
     else{
       return(

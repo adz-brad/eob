@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const MeetEva = ({ _key }) => {
     return(
         <div key={_key} className="pt-20 pb-10 md:py-20 px-4 md:px-12 flex flex-col lg:flex-row">
-            <StaticImage  loading="lazy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true" className="w-full lg:w-2/5 rounded-sm shadow-md" />
+            <StaticImage  loading="lazy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true" className="w-full lg:w-2/5 rounded-sm shadow-md" alt=""/>
             <div className="flex flex-col w-full mt-16 lg:w-3/5 lg:my-0 p-4 md:p-0 lg:ml-16">
                 <h1 className="text-5xl">Meet Eva</h1>
                 <h2 className="text-brown text-medium text-lg md:text-2xl">Your Natural and Organic Skincare Specialist</h2>

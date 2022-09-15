@@ -22,7 +22,7 @@ const Button = ({ data: button, className }) => {
       )
     }
     else if(button.link){
-      return <Link className={className} to={button.link}>{button.icon ? button.icon : null}{button.text}</Link>
+      return <Link className={className} to={button.link}>{button.icon ? button.icon : null}{button.text}<text className="hidden">{button.accessibleText}</text></Link>
     }
     else{
       return(

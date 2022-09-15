@@ -12,6 +12,7 @@ export const data = {
             "caption": "Reminding you of the importance and enjoyment of feeling beautiful every single day.",
             "button": {
                 "text": "Learn More",
+                "accessibleText": "Learn More About Essence of Beauty Skin Rejuvenation",
                 "anchorLink": "inspire"
             }
         },
@@ -30,6 +31,7 @@ export const data = {
             ],
             "button": {
                 "text": "Schedule An Appointment",
+                "accessibleText": "Schedule An Appointment at Essence of Beauty",
                 "anchor": "contact"
             }
         },

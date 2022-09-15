@@ -17,7 +17,7 @@ const Features = ({ _key, title, caption, description, items }) => {
                     <p className="mt-4 mb-8">{item.description}</p>
                     {item.link ?
                         <Button 
-                            data={{ text: "Learn More", link: item.link }}
+                            data={{ text: "Learn More", link: item.link, accessibleText: `Learn More About ${item.name} at Essence of Beauty` }}
                             className="buttonLight mt-auto bg-white" 
                         />
                     : null }
