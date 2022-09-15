@@ -242,6 +242,7 @@ const Navbar = () => {
 
                     <div className="absolute top-0 left-0 h-full w-full z-10">
                         <StaticImage
+                         loading="lazy"
                             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mobile-bg.jpg?raw=true"
                             alt=""
                             style={{

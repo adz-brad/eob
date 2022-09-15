@@ -26,6 +26,7 @@ const OsmosisMakeup = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true" 
                     alt="Essence of Beauty Osmosis+ Makeup" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
@@ -128,6 +129,7 @@ const OsmosisMakeup = () => {
                 </div>
                 <div className="shrink-0 flex flex-col justify-center my-4 lg:m-0">
                     <StaticImage 
+                    loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisShades.jpg?raw=true" 
                         alt="Essence of Beauty Osmosis+Color Mineral Makeup"
                         className="h-full lg:h-fit"
@@ -172,6 +174,7 @@ const OsmosisMakeup = () => {
                     </div>
                     <div className="shrink-0">
                         <StaticImage 
+                        loading="lazy"
                             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup2.jpg?raw=true" 
                             alt="Essence of Beauty Osmosis+Color Makeup Color Matching" 
                             className="w-full lg:h-full"
@@ -244,6 +247,7 @@ const OsmosisMakeup = () => {
                     </div>
                     <div className="shrink-0">
                         <StaticImage 
+                        loading="lazy"
                             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup3.jpg?raw=true" 
                             alt="Essence of Beauty Osmosis+Color Makeup Foundation Application" 
                             className="w-full lg:h-full"

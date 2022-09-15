@@ -9,7 +9,7 @@ const Features = ({ _key, title, caption, description, items }) => {
             <div key={_key} className="flex flex-col shadow-lg bg-white">
                 {item.image ?
                 <div className="h-96">
-                    <GatsbyImage image={item.image.props.__imageData} className="h-full w-full shadow-lg" />
+                    <GatsbyImage loading="lazy" image={item.image.props.__imageData} className="h-full w-full shadow-lg" />
                 </div>  
                 : null }  
                 <div className="flex flex-col grow p-4 md:p-8">

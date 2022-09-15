@@ -27,6 +27,7 @@ const AfterglowPeel = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
                     alt="Essence of Beauty Afterglow Peel Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"

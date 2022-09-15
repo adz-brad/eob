@@ -27,6 +27,7 @@ const Microneedling = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
                     alt="Essence of Beauty ACS Pen Microneedling for Scars, Acne, Wrinkles, Age Spots and Hyperpigmentation"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
@@ -53,6 +54,7 @@ const Microneedling = () => {
                     />
                 </div>                   
                     <StaticImage 
+                    loading="lazy"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true" 
                     alt="Essence of Beauty Growth Factor Microneedling Treatment" 
                     className="lg:w-1/3 shrink-0 shadow-md rounded-sm mx-4"

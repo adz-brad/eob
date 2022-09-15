@@ -27,6 +27,7 @@ const UltrasonicFacial = () => {
                     />
                 </div>
                 <StaticImage 
+                 loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
                     alt="Essence of Beauty Ultrasonic Regenerative Facial Treatment"
                     className="lg:w-1/3 mx-auto rounded-sm shadow-md"

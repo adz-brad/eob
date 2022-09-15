@@ -62,6 +62,7 @@ const DMKTherapy = () => {
                                 </div>   
                                 <div className="w-full h-full bg-gradient-to-t from-green/50 to-green/10 absolute top-0 left-0 z-40"></div>
                                 <StaticImage 
+                                    loading="eager"
                                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
                                     alt="Essence of Beauty DMK Enzyme Therapy"
                                     className="z-30 h-full"
@@ -93,7 +94,10 @@ const DMKTherapy = () => {
                         />
                     </div>
                     <div className="bg-white p-4 my-8 lg:my-0 shadow-md rounded-sm mx-auto">
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkPlasmaticEffect.jpg?raw=true" />
+                    <StaticImage 
+                    loading="lazy"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkPlasmaticEffect.jpg?raw=true" 
+                    />
                     </div>
                 </div>
             </div>
@@ -325,6 +329,7 @@ const DMKTherapy = () => {
                         />
                     </div>
                     <StaticImage 
+                        loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-1.jpg?raw=true" 
                         alt="Enzyme Therapy Level 1" 
                         className="lg:w-1/2 xl:w-1/3"
@@ -348,6 +353,7 @@ const DMKTherapy = () => {
                         />
                     </div>
                     <StaticImage 
+                    loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-2.jpg?raw=true" 
                         alt="Enzyme Therapy Level 2" 
                         className="lg:w-1/2 xl:w-1/3"
@@ -371,6 +377,7 @@ const DMKTherapy = () => {
                         />
                     </div>
                     <StaticImage 
+                    loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/DMK-level-3.jpg?raw=true" 
                         alt="Enzyme Therapy Level 3" 
                         className="lg:w-1/2 xl:w-1/3"
@@ -397,6 +404,7 @@ const DMKTherapy = () => {
                         />
                     </div>
                     <StaticImage 
+                    loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk-muscle-banding.png?raw=true" 
                         alt="Muscle Banding with A-lift - Enzyme Masque #2 & #3" 
                         className="lg:w-1/2 xl:w-1/3"

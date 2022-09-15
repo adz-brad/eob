@@ -35,6 +35,7 @@ const AcneScars = () => {
                 </div>
                 
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true" 
                     alt="Essence of Beauty Acne Treatment"
                     className="lg:mx-16 md:mt-8 rounded-sm shadow-md h-[460px]" 

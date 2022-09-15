@@ -28,6 +28,7 @@ const FountainOfYouth = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
                     alt="Essence of Beauty 302 Fountain of Youth"
                     className="md:w-1/3 mx-auto"
@@ -51,6 +52,7 @@ const FountainOfYouth = () => {
                     </div>
                     <Image className="md:w-1/3 rounded-sm shadow-md my-8 md:mx-auto md:my-4">
                     <StaticImage
+                        loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302products.jpeg?raw=true"
                         alt="302 Professional Skincare Products"
                     />

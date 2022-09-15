@@ -26,6 +26,7 @@ const SkinPrep = () => {
                     />
                 </div>
                 <StaticImage 
+                    loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/weddingPreparation.jpg?raw=true" 
                     alt="Essence of Beauty Skin Preparation For Weddings" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"

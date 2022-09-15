@@ -26,6 +26,7 @@ const AnteageStemCell = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
                     alt="Essence of Beauty AnteAge Stem Cell Facial"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"

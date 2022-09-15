@@ -28,7 +28,11 @@ const CysticAcne = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true" className="md:m-4 rounded-sm shadow-lg" />
+                    <StaticImage 
+                        loading="eager"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true" 
+                    className="md:m-4 rounded-sm shadow-lg" 
+                    />
                 </div>
                 <div id="cystic-acne-info" className="flex flex-col my-4 md:my-8">
                     <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4" >

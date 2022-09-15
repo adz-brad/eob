@@ -56,7 +56,7 @@ const Contact = () => {
                     title="Essence of Beauty Location"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9424.968962117386!2d-75.67422041416864!3d45.38795971836509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05aba3e9e72f%3A0x4520727243764e04!2sAcne%20and%20Scars%20Revision%20Clinic-Pigmentation%2C%20Melasma%20Essence%20of%20Beauty!5e0!3m2!1sen!2sca!4v1660153843479!5m2!1sen!2sca" 
                     allowfullscreen="" 
-                    loading="lazy" 
+                    loading="eager" 
                     referrerpolicy="no-referrer-when-downgrade"
                     className='h-[500px] lg:h-auto lg:w-1/2 lg:ml-8'
                 />

@@ -14,7 +14,7 @@ const Blog = ({ data }) => {
                 return(
                     <div key={i} className="flex flex-col shadow-sm hover:shadow-lg rounded-sm">
                         <div className="h-1/2 overflow-hidden">
-                            <img src={post.frontmatter.featuredImage} className="object-cover w-full h-[300px]" />
+                            <img loading="lazy" src={post.frontmatter.featuredImage} className="object-cover w-full h-[300px]" />
                         </div>
                         <div className="flex flex-col h-1/2 p-4">
                             <h1 className="font-bold text-2xl mb-2">

@@ -29,6 +29,7 @@ const SpecialPeels = () => {
                     />
                 </div>
                 <StaticImage 
+                 loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
                     alt="Essence of Beauty Special Peels"
                     className="h-[500px] mx-auto rounded-sm shadow-md"

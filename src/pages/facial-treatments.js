@@ -34,6 +34,7 @@ const FacialTreatments = () => {
 
                         <iframe 
                             width="582" height="328"
+                            loading="lazy"
                             className="my-8 md:my-0 mx-auto"
                             src="https://www.youtube.com/embed/ZCLPUWGVBis" 
                             title="Advance Deep Pore Cleansing Facial Treatment with Extractions" 

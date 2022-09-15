@@ -26,6 +26,7 @@ const NoNeedleMesotherapy = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/needleFreeMesotherapy.jpeg?raw=true"
                     alt="Essence of Beauty Needle-free Mesotherapy Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"

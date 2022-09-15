@@ -9,6 +9,13 @@ const BlogTemplate = ({ data }) => {
 
     return(
         <div className="flex flex-col lg:flex-row">
+            <Seo
+                pageTitle=""
+                pageDescription=""
+                pageKeywords=""
+                pageUrl=""
+                pageImage=""
+            />
             <div className="flex flex-col lg:w-3/4 p-4 lg:p-8">
                 {frontmatter.title?
                     <h1 className="font-bold mt-4">{frontmatter.title}</h1>
@@ -20,7 +27,7 @@ const BlogTemplate = ({ data }) => {
                     : null}
                 </div>
                 {frontmatter.featuredImage ?
-                    <img src={frontmatter.featuredImage} className="rounded-sm shadow-md mb-8 max-h-[500px] object-cover" alt={frontmatter.title}/>
+                    <img loading='eager' src={frontmatter.featuredImage} className="rounded-sm shadow-md mb-8 max-h-[500px] object-cover" alt={frontmatter.title}/>
                 : null}
                 {html ?
                     <div 
@@ -57,6 +64,7 @@ export const pageQuery = graphql`
                 }
                 html
               }
+              slug
             }
         allBlog {
             nodes {

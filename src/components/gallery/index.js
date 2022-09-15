@@ -23,7 +23,7 @@ const Gallery = ({ className, images, imageClass }) => {
         return(
             <div key={_key} className="image-wrapper cursor-pointer hover:shadow-xl">
 
-                    <GatsbyImage image={image.props.__imageData} alt={image.props.alt} className={`h-full w-full ${imageClass}`}/>
+                    <GatsbyImage loading="lazy" image={image.props.__imageData} alt={image.props.alt} className={`h-full w-full ${imageClass}`}/>
                 
             </div>
         )

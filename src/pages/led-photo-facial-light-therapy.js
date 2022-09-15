@@ -27,6 +27,7 @@ const LEDPhotoFacial = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
                     alt="Essence of Beauty LED Light Therapy Photo Facial Treatment"
                     className="md:w-1/3 h-[500px] mx-auto rounded-sm shadow-md"

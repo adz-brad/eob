@@ -17,6 +17,7 @@ const HerbalGreenPeel = () => {
             <div className="p-4 lg:p-16">
                 <div className="flex flex-col-reverse lg:flex-row">
                     <StaticImage 
+                        loading="eager"
                             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true" 
                             alt="Essence of Beauty Herbal Green Peel®"
                             className="my-8 lg:my-0 lg:w-1/2 lg:mr-12 rounded-sm shadow-lg"
@@ -215,6 +216,7 @@ const HerbalGreenPeel = () => {
                         </div>
                         <div className="xl:w-1/2 xxl:w-1/3">
                             <iframe 
+                            loading="lazy"
                                 className="w-full h-[400px] lg:h-full"
                                 src="https://www.youtube.com/embed/CZF6C5yt818" 
                                 title="GREEN PEEL® Herbal Peeling Classic - by Dr. med. Schrammek Kosmetik" frameborder="0" 
@@ -258,6 +260,7 @@ const HerbalGreenPeel = () => {
                         </div>
                         <div className="xl:w-1/2 xxl:w-1/3">
                             <iframe 
+                            loading="lazy"
                                 className="w-full h-[400px] xl:h-full"
                                 src="https://www.youtube.com/embed/-2U4r-dmpI4" 
                                 title="GREEN PEEL® Herbal Peeling Energy- by Dr. med. Schrammek Kosmetik" frameborder="0" 

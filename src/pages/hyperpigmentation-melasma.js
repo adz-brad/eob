@@ -28,7 +28,11 @@ const Hyperpigmentation = () => {
                             className="buttonLight my-8 md:my-auto"
                         />
                     </div>
-                    <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true" className="lg:w-1/3 rounded-sm shadow-lg mx-auto" />
+                    <StaticImage 
+                        loading="eager"
+                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true" 
+                    className="lg:w-1/3 rounded-sm shadow-lg mx-auto" 
+                    />
                 </div>
             </div>
             <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-4 flex flex-col lg:flex-row">

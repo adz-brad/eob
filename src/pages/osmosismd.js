@@ -25,6 +25,7 @@ const OsmosisMd = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true" 
                     alt="Essence of Beauty Osmosis+Beauty MD Skin Care Products" 
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"

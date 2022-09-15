@@ -46,7 +46,8 @@ const Rosacea = () => {
             />
           </div>
           <div className="md:w-2/5 md:m-4">
-          <StaticImage
+          <StaticImage 
+                    loading="eager"
                   src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
                   alt="Rosacea Before & After Treatment Image"
                   className="max-h-[420px] m-8 rounded-sm shadow-md"
@@ -94,7 +95,8 @@ const Rosacea = () => {
             />
           </div>
       </div>
-          <StaticImage
+          <StaticImage 
+                    loading="lazy"
             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinTreatmentApproach.jpg?raw=true"
             className="rounded-lg shadow-lg mx-auto"
           />

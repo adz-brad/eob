@@ -30,6 +30,7 @@ const AgingAndDehydratedSkin = () => {
                     />
                 </div>
                 <StaticImage 
+                        loading="eager"
                     src="../assets/images/antiAging.jpg" 
                     alt="Essence of Beauty Anti Aging Image"
                     className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
