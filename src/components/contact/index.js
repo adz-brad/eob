@@ -12,9 +12,9 @@ const Contact = () => {
     })
 
     return(
-        
-<form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className="flex flex-row flex-wrap px-3 md:px-6">
-            <input type="hidden" name="form-name" value="contact" />
+
+<form name="Contact Form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" className="flex flex-row flex-wrap px-3 md:px-6">
+            <input type="hidden" name="form-name" value="Contact Form" />
             <div className="flex flex-col p-1 w-full md:w-1/2 my-1 md:p-2">
                                 <label 
                                     htmlFor="firstName"

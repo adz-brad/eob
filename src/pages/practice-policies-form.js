@@ -135,8 +135,8 @@ const PracticePolicies = () => {
                 By giving your e-signature, you agree to our policies and authorize Essence of Beauty Spa LTD to charge your credit card on file for missed visits, no shows, late cancellations or late arrivals. As well, this will also authorize the use of the before and after pictures to track your progress.
                 </p>      
             </div>
-            <form name="PracticePolicies" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
-            <input type="hidden" name="form-name" value="PracticePolicies" />
+            <form name="Practice Policies Form" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
+            <input type="hidden" name="form-name" value="Practice Policies Form" />
             <div className="my-4 md:my-8">
                 <h1 className="text-center my-4 md:my-8">Practice Policies Consent Form</h1>
                 <div className="flex flex-col md:flex-row md:justify-center max-w-screen-lg mx-auto">
