@@ -48,10 +48,10 @@ export const data = {
                     "link": "/facial-treatments" 
                 },
                 {
-                    "name": "Needle-Free Mesotherapy",
-                    "description": "Nano Infusion Mesotherapy otherwise known as nano-needling is an innovative, non-invasive transdermal serum delivery system designed to rejuvenate your skin and remedy many common issues like lack of tone, uneven texture, excessive pigmentation, scarring, and loss of elasticity.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Needle-Free Mesotherapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/needleFreeMesotherapy.jpeg?raw=true"/>,
-                    "link": "/needle-free-mesotherapy-skin-tightening" 
+                    "name": "Signature Radiance Infusion",
+                    "description": "Our Signature Radiance Infusion Skin Rejuvenating Facial Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow, boost in hydration & brightening effect for that coveted lit-from-within glow! Best of all, the treatment is non-invasive with absolutely no downtime!",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Infusion Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"/>,
+                    "link": "/radiance-infusion" 
                 },
                 {
                     "name": "Growth Factor Microneedling",

@@ -76,6 +76,10 @@
                 "title": "Clinical Treatments",
                 "pages": [
                     {
+                        "title": "Radiance Infusion",
+                        "slug": "radiance-infusion"
+                    },
+                    {
                         "title": "DMK Enyzme Therapy",
                         "slug": "dmk-enzyme-therapy"
                     },
@@ -86,10 +90,6 @@
                     {
                         "title": "Growth Factor Microneedling",
                         "slug": "growth-factor-microneedling"
-                    },
-                    {
-                        "title": "Needle Free Mesotherapy",
-                        "slug": "needle-free-mesotherapy-skin-tightening"
                     },
                     {
                         "title": "LED PhotoFacial Light Therapy",

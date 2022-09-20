@@ -16,10 +16,27 @@ export const treatmentMenu = [
         link: null,
     },
     {
-        name: "Signature Ultrasonic Facial",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/signatureUltrasonicFacial.png?raw=true" className="h-full w-full" />,
+        name: "Signature Radiance Infusion",
+        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true" className="h-full w-full" />,
         imagePosition: 'right',
-        content: <p className="my-1">This Signature Ultrasonic Facial is Essence of Beauty’s premiere high-performance. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
+        content: <>
+        <p className="my-1">
+        Our Signature Radiance Infusion Skin Rejuvenating Facial Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone. It also has a brightening effect for that coveted lit-from-within glow! Throughout the treatment, the skin is literally being drenched with wonderful elixirs and serums. The best part is that it’s non-invasive and there is absolutely no downtime!
+        </p>
+        </>,
+        pricing: [
+            {
+                description: "Single Treatment",
+                cost: "$178",
+            }
+        ],
+        link: "/radiance-infusion",
+    },
+    {
+        name: "Ultrasonic Facial",
+        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/signatureUltrasonicFacial.png?raw=true" className="h-full w-full" />,
+        imagePosition: 'left',
+        content: <p className="my-1">This Ultrasonic Facial is Essence of Beauty’s premiere high-performance. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
         pricing: [
             {
                 description: "85 Minute Session",
@@ -124,26 +141,6 @@ export const treatmentMenu = [
         pricing: null,
         link: "/special-peels",
 
-    },
-    {
-        name: "Needle Free Mesotherapy",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mesotherapy.png?raw=true" className="h-full w-full" />,
-        imagePosition: 'left',
-        content: <>
-        <p className="my-1">
-        For those who wish to improve their skin’s radiance, firmness and vitality are finding that Needle Free Mesotherapy is an excellent way to achieve subtle beauty preservation, a firm favourite with celebrities–giving beautiful, glowing skin.
-        </p>
-        <p className="my-1">
-        The treatment involves multiple nano needle infusion of a vitamin, amino-acids, minerals grow factors & hyaluronic acid cocktail under the skin’s surface, which stimulates collagen production and improves the elasticity, pigmentation and texture of the skin. It replaces the essential vitamins, minerals and hyaluronic acid that is lost with lifestyle factors and ageing.  This treatment helps improve dull, tired looking skin; dry, lifeless skin, superficial wrinkles and is ideal for pre- or post-operative skin conditioning. Nano Mesotherapy is commonly used as a treatment for anti-ageing including preventative treatments to keep good skin health.
-        </p>
-        </>,
-        pricing: [
-            {
-                description: "60 Minute Session",
-                cost: "$178",
-            }
-        ],
-        link: "/needle-free-mesotherapy-skin-tightening",
     },
     {
         name: "Growth Factor Microneedling",

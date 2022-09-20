@@ -53,30 +53,26 @@ const AgingAndDehydratedSkin = () => {
                     columns="grid-cols-1 md:grid-cols-5"
                     options={[
                         {
-                            name: "Needle Free Mesotherapy",
+                            name: "Signature Radiance Infusion",
                             content: (
                                 <div className="flex flex-col lg:px-4">
                                     <h1 className="text-lg md:text-xl lg:text-2xl font-semibold">
-                                    Needle Free Mesotherapy
-                                    </h1>
+                                    Signature Radiance Infusion
+                                    </h1>   
                                     <p className="my-2">
-                                    For those who wish to improve their skin’s radiance, firmness and vitality are finding that Needle Free Mesotherapy is an excellent way to achieve subtle beauty preservation, a firm favourite with celebrities–giving beautiful, glowing skin.
-                                    </p>    
-                                    <p className="my-2">
-                                    The treatment involves multiple nano needle infusion of a vitamin, amino-acids, minerals grow factors & hyaluronic acid cocktail under the skin’s surface, which stimulates collagen production and improves the elasticity, pigmentation and texture of the skin. It replaces the essential vitamins, minerals and hyaluronic acid that is lost with lifestyle factors and ageing.  This treatment helps improve dull, tired looking skin; dry, lifeless skin, superficial wrinkles and is ideal for pre- or post-operative skin conditioning. Nano Mesotherapy is commonly used as a treatment for anti-ageing including preventative treatments to keep good skin health. 
+                                    Our Signature Radiance Infusion Skin Rejuvenating Facial Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone. It also has a brightening effect for that coveted lit-from-within glow! Throughout the treatment, the skin is literally being drenched with wonderful elixirs and serums. The best part is that it’s non-invasive and there is absolutely no downtime! 
                                     </p>
                                     <span className="font-bold text-brown italic">Package Price when pre-pooked and pre-paid:</span>
                                     <span>
-                                        <strong className="mr-2 text-brown">Single treatment:</strong>$165
-                                    </span>      
+                                        <strong className="mr-2 text-brown">Single treatment:</strong>$178
+                                    </span>         
                                     <span>
-                                        <strong className="mr-2 text-brown">Add LED Lights:</strong>$195
-                                    </span>    
-                                    <span>
-                                        <strong className="mr-2 text-brown">Package of 6:</strong>$900
+                                        <strong className="mr-2 text-brown">Package of 4:</strong>$650
                                     </span>   
                                     <span>
-                                        <strong className="mr-2 text-brown">Package of 6 w/ LED:</strong>$1080
+                                        <strong className="mr-2 text-brown">
+                                        Advanced Add-ons available with Radiance Infusion
+                                        </strong>
                                     </span>  
                                 </div>
                             )
