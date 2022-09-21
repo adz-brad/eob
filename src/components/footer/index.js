@@ -33,8 +33,7 @@ const Footer = () => {
             <div className="md:w-1/3 p-4">
                 <h1 className="border-b border-black pb-1 text-lg md:text-2xl">Hours</h1>
                 <div className="flex flex-col my-4 leading-tight">
-                    <span><strong>Wednesday:</strong> 10am - 6pm</span>
-                    <span><strong>Thursday</strong> - <strong>Friday:</strong> 10am - 6pm</span>
+                    <span><strong>Wednesday</strong> - <strong>Friday:</strong>10:00am - 6:30pm</span>
                     <span><strong>Saturday</strong> - <strong>Tuesday:</strong> Closed</span>
                 </div>
             </div>
@@ -53,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="text-sm bg-darkGreen text-white font-light md:text-center p-4 rounded-t-lg shadow-lg -mt-2">
-        Hair Removal, Acne Clinic, Facial Treatments, Waxing, Spas | © 2018 Essence of Beauty. Powered by <a href="https://www.adrenalizedigital.ca" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green">Adrenalize Digital</a>.
+        Holistic, Natural, Organic Skin Treatments & Rejuvenation | © 2018 Essence of Beauty. Powered by <a href="https://www.adrenalizedigital.ca" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green">Adrenalize Digital</a>.
         </div>
 
         </div>

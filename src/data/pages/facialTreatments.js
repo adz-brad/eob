@@ -125,11 +125,12 @@ export const treatmentMenu = [
 
     },
     {
-        name: "Professional Peels",
-        image: null,
+        name: "Special Peels",
+        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true" className="h-full w-full" />,
+        imagePosition: 'left',
         content: <>
         <p className="my-1">
-        Our professional peels are deep skin exfoliation and hydration treatments that improve the skin’s appearance. We offer a unique combination of facial peels that have immediately visible results: your skin is hydrated, rejuvenated and you look and feel younger.
+        Our special peels are deep skin exfoliation and hydration treatments that improve the skin’s appearance. We offer a unique combination of facial peels that have immediately visible results: your skin is hydrated, rejuvenated and you look and feel younger.
         </p>
         <p className="my-1">
         Peels can be applied to the face and body. They work by exfoliating the outer layers of the skin and dead skin cells, thus revealing the healthier, younger skin beneath. The peel can treat a number of skin concerns including sun damage and aging, acne scarring, pigmentation, uneven skin tone and texture, redness, and rosacea, fine lines, and wrinkles.

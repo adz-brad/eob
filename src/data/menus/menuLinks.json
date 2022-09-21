@@ -109,12 +109,16 @@
                 "title": "Special Peels",
                 "pages": [
                     {
-                        "title": "Herbal Green Peel®",
-                        "slug": "herbal-green-peel"
+                        "title": "Restorative Bio Peel",
+                        "slug": "restorative-bio-peel"
                     },
                     {
                         "title": "AfterGlow Peel",
                         "slug": "afterglow-peel"
+                    },
+                    {
+                        "title": "Herbal Green Peel®",
+                        "slug": "herbal-green-peel"
                     },
                     {
                         "title": "Vitamin A Infusion Peel",

@@ -107,7 +107,7 @@ const Products = () => {
                     />
                 </div>
             </div>
-            <div className="flex flex-col-reverse lg:flex-row lg:items-center">
+            <div className="flex flex-col lg:flex-row-reverse lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
                 <h1 className="mb-2">
                 HubisLab
@@ -124,7 +124,7 @@ const Products = () => {
                     />
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row lg:items-center">
+            <div className="flex flex-col-reverse lg:flex-row-reverse lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage  
                     loading="lazy"

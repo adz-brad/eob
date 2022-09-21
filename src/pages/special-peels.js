@@ -240,53 +240,61 @@ const SpecialPeels = () => {
                     ),
                   },
                   {
-                    name: "Salicylic Acid Peel",
+                    name: "Restorative Bio Peel",
                     content: (
                       <div className="flex flex-col lg:px-4 pb-4">
                         <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                        Salicylic Acid Peel
+                        Restorative Bio Peel
                         </h1>
                         <p className="my-2">
-                        Different skin problems respond to different peels. In the case of oily and acne-prone skin, it responds well to salicylic acid as it is oil-soluble and penetrates deeper into the skin as well it’s an anti-inflammatory component which makes it ideal for combination, congested and acne skin. This peel system helps to balance skin hydration and oil production in the skin while decreasing bacteria, decongesting the follicles and reducing acne activity. It is perfect for clearing oily and clogged pores, removing dirt and sebum, improving skin texture, discoloration and leaving the skin glowing. Salicylic acid may be used as a once-off peel or a series of 2-3 peels spaced every 2 weeks.
+                        Restorative Bio Peel it’s a customized vegan facial peeling which brings new energy to the skin from the natural freshwater sponge, rich in minerals. It works as a microparticles are embedded into the skin and remove dead skin cells and skin waste. It has exceptional curative properties for every skin type. Stimulate the healing response of the body and increase the regeneration of skin cells, improves elasticity and softens the texture of the skin. It is safe for common address concerns, including sunspots, acne scars, and an aging, dull complexion.
+
                         </p>
-                        <p className="my-2">
-                        Home-care preparation is required prior to having this peel.
-                        </p>
-                        <ul className="list-disc my-4">
+                        <ul className="list-disc my-4 ml-4">
                           <p className="text-brown italic font-semibold text-lg my-1">
-                          Salicylic acid can also:
+                          The Benefits:
                           </p>
-                          <li className="my-1 ml-4">
-                          Reduce overproduction of sebum resulting in normalized oil production
-                          </li>
-                          <li className="my-1 ml-4">
-                          Reduction & often complete clearing of acne 
-                          </li>
-                          <li className="my-1 ml-4">
-                          Smoothing & softening of facial scars
-                          </li>
-                          <li className="my-1 ml-4">
-                          Cleanse the skin oil, dirt and debris
-                          </li>
-                          <li className="my-1 ml-4">
-                          Penetrate clogged pores and follicles
-                          </li>
-                          <li className="my-1 ml-4">
-                          Accelerate collagen production for firmer, healthier skin   
-                          </li>
-                          <li className="my-1 ml-4">
-                          Gently exfoliate damaged skin cells to remove fine lines, wrinkles and hyperpigmentation
-                          </li>
+                          <li className="my-1">
+                    Elimination of fine wrinkles, Smoothing out furrows and deep wrinkles
+                    </li>
+                    <li className="my-1">
+                    Improves the structure of the skin
+                    </li>
+                    <li className="my-1">
+                    Whitening
+                    </li>
+                    <li className="my-1">
+                    Can aid in the fading of dark patches and pigmentation from sun exposure or aging
+                    </li>
+                    <li className="my-1">
+                    Stimulates the production of collagen
+                    </li>
+                    <li className="my-1">
+                    Skin rejuvenation
+                    </li>
+                    <li className="my-1">
+                    Significant improvement in the condition of dull and tired skin
+                    </li>
+                    <li className="my-1">
+                    Acne, pimples, enlarged pores, blackheads
+                    </li>
+                    <li className="my-1">
+                    Scars from acne can be successfully treated, and an inconsistent texture can be smoothed out
+                    </li>
+                    <li className="my-1">
+                    Uneven skin tone, gray complexion, bad skin condition
+                    </li>
+                    <li className="my-1">
+                    Regulation of sebaceous glands 
+                    </li>
                         </ul>
-                          <h4 className="font-bold text-brown mt-4 mb-2">
-                              Treatment Options
-                          </h4>
-                        <p className="my-2">
-                        After the peel you must protect treated skin with a sun block
-                        </p>
-                        <span>
-                          <strong className="mr-2 text-brown">Per Treatment:</strong>$155
-                        </span>
+                        <Button
+                          data={{
+                            text: "Learn More About Restorative Bio Peel",
+                            link: "/restorative-bio-peel",
+                          }}
+                          className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
+                        />
                       </div>
                     ),
                   },

@@ -38,8 +38,7 @@ const Contact = () => {
                         <MdAccessTimeFilled className="text-4xl text-green filter drop-shadow-lg -ml-1 mr-4 mt-2" />
                         <div className="flex flex-col my-2">
                             <span className="my-2"><strong>Hours of Operation:</strong></span>
-                            <span><strong className="mr-2">Wednesday</strong>10am - 6pm</span>
-                            <span><strong className="mr-2">Thursday - Friday</strong>10am - 6pm</span>
+                            <span><strong className="mr-2">Wednesday - Friday</strong>10:00am - 6:30pm</span>
                             <span><strong className="mr-2">Saturday - Tuesday</strong>Closed</span>
                         </div>
                     </div>   
