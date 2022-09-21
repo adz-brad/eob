@@ -65,7 +65,7 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage  
                     loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/products-osmosis.jpg?raw=true" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisProduct.jpg?raw=true" 
                         alt="Essence of Beauty Products - Osmosis+BeautyMD" 
                     />
                 </div>
@@ -118,9 +118,10 @@ const Products = () => {
                 </div>
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage  
-                    loading="lazy"
+                        loading="lazy"
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/products-hubislab.jpg?raw=true" 
-                        alt="Essence of Beauty Products - AnteAge" 
+                        alt="Essence of Beauty Products - AnteAge"
+                        className="lg:min-h-[400px] w-full" 
                     />
                 </div>
             </div>

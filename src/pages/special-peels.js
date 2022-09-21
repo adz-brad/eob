@@ -54,72 +54,58 @@ const SpecialPeels = () => {
               className="my-8"
               options={[
                 {
-                  name: "Vitamin A (Retinaldehyde) Infusion Peel",
+                  name: "Restorative Bio Peel",
                   content: (
-                    <div className="flex flex-col lg:px-4">
+                    <div className="flex flex-col lg:px-4 pb-4">
                       <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                        Vitamin A (Retinaldehyde) Infusion Peel
+                      Restorative Bio Peel
                       </h1>
                       <p className="my-2">
-                      The first non-chemical peel in the skin care industry that creates a substantial increase in your cellular activity and significantly stimulates collagen production.
+                      Restorative Bio Peel it’s a customized vegan facial peeling which brings new energy to the skin from the natural freshwater sponge, rich in minerals. It works as a microparticles are embedded into the skin and remove dead skin cells and skin waste. It has exceptional curative properties for every skin type. Stimulate the healing response of the body and increase the regeneration of skin cells, improves elasticity and softens the texture of the skin. It is safe for common address concerns, including sunspots, acne scars, and an aging, dull complexion.
+
                       </p>
-                      <p className="my-2">
-                      Instead of wounding the epidermis (visible skin) with overly aggressive ingredients, The Infusion will gently resurface your skin by feeding retinaldehyde, vitamins and nutrients to the dermis below, where your skin cells are born and aging begins, which results in an increase in cellular turnover where renewal can effectively take place in  youthful, glowing skin! Facial Infusion peel has a healing effect in the the dermis and is great for every skin condition and tolerated by all skin types. The quality of the products linked with innovative technology allows for the rehabilitation of aging skin and cells. Facial Infusion can be customized to specifically treat acne, pigmentation, scarring, rosacea, lax skin tone and skin that show unwanted signs of aging. Your naturally transformed skin will appear brighter and rejuvenated.
-                      </p>
-                      <ul className="list-disc my-4">
+                      <ul className="list-disc my-4 ml-4">
                         <p className="text-brown italic font-semibold text-lg my-1">
-                        Dermal Infusion Advantages:
+                        The Benefits:
                         </p>
-                        <li className="my-1 ml-4">
-                        30 days collagen and elastin production increase without trauma
-                        </li>
-                        <li className="my-1 ml-4">
-                        Restore capillary flow and increasing nutrition in the skin
-                        </li>
-                        <li className="my-1 ml-4">
-                        Thicken the dermis (where aging occurs)
-                        </li>
-                        <li className="my-1 ml-4">
-                        Fully customized to your individual needs all the time
-                        </li>
-                        <li className="my-1 ml-4">
-                        Does not break the skin down like other peels
-                        </li>
-                        <li className="my-1 ml-4">
-                        Reduce overproduction of sebum resulting in normalized oil production
-                        </li>
-                        <li className="my-1 ml-4">
-                        Calm acne and rosacea symptoms
-                        </li>
-                        <li className="my-1 ml-4">
-                        Lift hyperpigmentation
-                        </li>
-                        <li className="my-1 ml-4">
-                        Kills Demodex Mite that is linked to rosacea
-                        </li>
-                        <li className="my-1 ml-4">
-                        Reduce fine lines and increase firmness
-                        </li>
-                        <li className="my-1 ml-4">
-                        Normalize skin tone and heal red/inflamed spots on the skin
-                        </li>
-                        <li className="my-1 ml-4">
-                        Unlike a traditional peel, The Infusion feels comfortable, relaxing, and luxuries
-                        </li>
+                        <li className="my-1">
+                  Elimination of fine wrinkles, Smoothing out furrows and deep wrinkles
+                  </li>
+                  <li className="my-1">
+                  Improves the structure of the skin
+                  </li>
+                  <li className="my-1">
+                  Whitening
+                  </li>
+                  <li className="my-1">
+                  Can aid in the fading of dark patches and pigmentation from sun exposure or aging
+                  </li>
+                  <li className="my-1">
+                  Stimulates the production of collagen
+                  </li>
+                  <li className="my-1">
+                  Skin rejuvenation
+                  </li>
+                  <li className="my-1">
+                  Significant improvement in the condition of dull and tired skin
+                  </li>
+                  <li className="my-1">
+                  Acne, pimples, enlarged pores, blackheads
+                  </li>
+                  <li className="my-1">
+                  Scars from acne can be successfully treated, and an inconsistent texture can be smoothed out
+                  </li>
+                  <li className="my-1">
+                  Uneven skin tone, gray complexion, bad skin condition
+                  </li>
+                  <li className="my-1">
+                  Regulation of sebaceous glands 
+                  </li>
                       </ul>
-                        <h4 className="font-bold text-brown mt-4 mb-2">
-                            Treatment Options
-                        </h4>
-                      <p className="my-2">
-                      Best results come from monthly visits. May be repeated every 3-4 weeks, not to exceed 12 in a year. It is recommended that you be using a recommended Osmosis Vitamin A serum for a month prior to receiving an infusion, but I can customize to occasionally make an exception.
-                      </p>
-                      <span>
-                        <strong className="mr-2 text-brown">Per Treatment:</strong>$178
-                      </span>
                       <Button
                         data={{
-                          text: "Learn More About Vitamin A Infusion Peel",
-                          link: "/vitamin-a-infusion-peel",
+                          text: "Learn More About Restorative Bio Peel",
+                          link: "/restorative-bio-peel",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -127,7 +113,7 @@ const SpecialPeels = () => {
                   ),
                 },
                 {
-                  name: "Afterglow Peel",
+                  name: "AfterGlow Peel",
                   content: (
                     <div className="flex flex-col lg:px-4 pb-4">
                       <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
@@ -240,58 +226,72 @@ const SpecialPeels = () => {
                     ),
                   },
                   {
-                    name: "Restorative Bio Peel",
+                    name: "Vitamin A Infusion Peel",
                     content: (
-                      <div className="flex flex-col lg:px-4 pb-4">
+                      <div className="flex flex-col lg:px-4">
                         <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                        Restorative Bio Peel
+                          Vitamin A Infusion Peel
                         </h1>
                         <p className="my-2">
-                        Restorative Bio Peel it’s a customized vegan facial peeling which brings new energy to the skin from the natural freshwater sponge, rich in minerals. It works as a microparticles are embedded into the skin and remove dead skin cells and skin waste. It has exceptional curative properties for every skin type. Stimulate the healing response of the body and increase the regeneration of skin cells, improves elasticity and softens the texture of the skin. It is safe for common address concerns, including sunspots, acne scars, and an aging, dull complexion.
-
+                        The first non-chemical peel in the skin care industry that creates a substantial increase in your cellular activity and significantly stimulates collagen production.
                         </p>
-                        <ul className="list-disc my-4 ml-4">
+                        <p className="my-2">
+                        Instead of wounding the epidermis (visible skin) with overly aggressive ingredients, The Infusion will gently resurface your skin by feeding retinaldehyde, vitamins and nutrients to the dermis below, where your skin cells are born and aging begins, which results in an increase in cellular turnover where renewal can effectively take place in  youthful, glowing skin! Facial Infusion peel has a healing effect in the the dermis and is great for every skin condition and tolerated by all skin types. The quality of the products linked with innovative technology allows for the rehabilitation of aging skin and cells. Facial Infusion can be customized to specifically treat acne, pigmentation, scarring, rosacea, lax skin tone and skin that show unwanted signs of aging. Your naturally transformed skin will appear brighter and rejuvenated.
+                        </p>
+                        <ul className="list-disc my-4">
                           <p className="text-brown italic font-semibold text-lg my-1">
-                          The Benefits:
+                          Dermal Infusion Advantages:
                           </p>
-                          <li className="my-1">
-                    Elimination of fine wrinkles, Smoothing out furrows and deep wrinkles
-                    </li>
-                    <li className="my-1">
-                    Improves the structure of the skin
-                    </li>
-                    <li className="my-1">
-                    Whitening
-                    </li>
-                    <li className="my-1">
-                    Can aid in the fading of dark patches and pigmentation from sun exposure or aging
-                    </li>
-                    <li className="my-1">
-                    Stimulates the production of collagen
-                    </li>
-                    <li className="my-1">
-                    Skin rejuvenation
-                    </li>
-                    <li className="my-1">
-                    Significant improvement in the condition of dull and tired skin
-                    </li>
-                    <li className="my-1">
-                    Acne, pimples, enlarged pores, blackheads
-                    </li>
-                    <li className="my-1">
-                    Scars from acne can be successfully treated, and an inconsistent texture can be smoothed out
-                    </li>
-                    <li className="my-1">
-                    Uneven skin tone, gray complexion, bad skin condition
-                    </li>
-                    <li className="my-1">
-                    Regulation of sebaceous glands 
-                    </li>
+                          <li className="my-1 ml-4">
+                          30 days collagen and elastin production increase without trauma
+                          </li>
+                          <li className="my-1 ml-4">
+                          Restore capillary flow and increasing nutrition in the skin
+                          </li>
+                          <li className="my-1 ml-4">
+                          Thicken the dermis (where aging occurs)
+                          </li>
+                          <li className="my-1 ml-4">
+                          Fully customized to your individual needs all the time
+                          </li>
+                          <li className="my-1 ml-4">
+                          Does not break the skin down like other peels
+                          </li>
+                          <li className="my-1 ml-4">
+                          Reduce overproduction of sebum resulting in normalized oil production
+                          </li>
+                          <li className="my-1 ml-4">
+                          Calm acne and rosacea symptoms
+                          </li>
+                          <li className="my-1 ml-4">
+                          Lift hyperpigmentation
+                          </li>
+                          <li className="my-1 ml-4">
+                          Kills Demodex Mite that is linked to rosacea
+                          </li>
+                          <li className="my-1 ml-4">
+                          Reduce fine lines and increase firmness
+                          </li>
+                          <li className="my-1 ml-4">
+                          Normalize skin tone and heal red/inflamed spots on the skin
+                          </li>
+                          <li className="my-1 ml-4">
+                          Unlike a traditional peel, The Infusion feels comfortable, relaxing, and luxuries
+                          </li>
                         </ul>
+                          <h4 className="font-bold text-brown mt-4 mb-2">
+                              Treatment Options
+                          </h4>
+                        <p className="my-2">
+                        Best results come from monthly visits. May be repeated every 3-4 weeks, not to exceed 12 in a year. It is recommended that you be using a recommended Osmosis Vitamin A serum for a month prior to receiving an infusion, but I can customize to occasionally make an exception.
+                        </p>
+                        <span>
+                          <strong className="mr-2 text-brown">Per Treatment:</strong>$178
+                        </span>
                         <Button
                           data={{
-                            text: "Learn More About Restorative Bio Peel",
-                            link: "/restorative-bio-peel",
+                            text: "Learn More About Vitamin A Infusion Peel",
+                            link: "/vitamin-a-infusion-peel",
                           }}
                           className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                         />

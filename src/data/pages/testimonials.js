@@ -51,14 +51,6 @@ export const testimonials = [
         </>
     },
     {
-        name: "Kerri",
-        body: <>
-        <p>
-        “I wanted to say “Thank You” for making my “first” Brazilian wax a comfortable experience. I was a bit apprehensive, but your professionalism and expertise made me feel at ease with the procedure. The pain was nowhere near what I had expected. You are the “BEST” esthetician I know. See you in four weeks.”
-        </p>
-        </>
-    },
-    {
         name: "Anna",
         body: <>
         <p>
@@ -91,43 +83,10 @@ export const testimonials = [
         </>
     },
     {
-        name: "Ulku",
-        body: <>
-        <p>
-        “Eva is very skilled at what she does. I have had many Brazilian waxes and others don’t compare. She is meticulous, professional and her studio is refreshing yet relaxing. I feel totally at ease during the whole session. She is a delight to work with. Thank you, Eva for making a potentially uncomfortable situation quite pleasant.
-        </p>
-        <p>
-        Absolutely the best place I’ve been to in Ottawa for waxing services. Check it out!”
-        </p>
-        </>
-    },
-    {
-        name: "Lidia D",
-        body: <>
-        <p>
-        “Guaranteed the most painless waxing!
-        </p>
-        <p>
-        But seriously, I am a huge weenie/wimp and hate to get waxed. I once went to one of those mall places that also do nails and I swear to God I thought I was going to be maimed for life, and swore to never do a bikini wax again. A friend suggested Eva who has a little place in Ottawa downtown and uses a warm wax and is super-fast and distracts you and ba-bing! no bikini hair. Really, it barely hurt at all! Reasonably priced, soothing Zen kinda space.
-        </p>
-        <p>
-        Eva also does facials with ultrasound. My friend had the latter and said that after three of them she felt it made a big difference.”
-        </p>
-        </>
-    },
-    {
         name: "Maria",
         body: <>
         <p>
         “I started going to Essence of Beauty in hopes of helping my acne problem. I was ready to go on antibiotics to clear up my face as a last resort. Thankfully, with the facials that I received from Eva along with product recommendations, my face cleared up….I couldn’t be happier. I will continue to get facials here and plan to try out some of their other treatments. I have also recommended Eva to friends and family.”
-        </p>
-        </>
-    },
-    {
-        name: "Elle",
-        body: <>
-        <p>
-        “Eva at Essence of Beauty truly works from the essence outwards. I always feel comfortable and always look forward to the next visit. Her spa is extremely clean and the environment is so serene. I regularly receive the Brazilian wax and of course, you go in with the fear of the pain but the results are more than worth it. It is so quick, you can’t even believe it’s over (15 min. I promise!). I leave feeling confident, not only because of the results but because I was well informed by a trained and knowledgeable professional who gives you a realistic expectation of the results. I recommend Eva to everyone that I know because she is just that good! Thank you Eva for all of your wonderful work!”
         </p>
         </>
     },
@@ -178,17 +137,6 @@ export const testimonials = [
         </>
     },
     {
-        name: "Adora P",
-        body: <>
-        <p>
-        “I went here today for a brazillian, and eyebrow wax for the first time and I was thrilled with the service and the products used. Eva was exceptionally friendly and put me at ease throughout the entire process. I think she’d also be a great person to go to if you’re a little nervous about going in for your first wax. I was feeling comfortable every step of the way.
-        </p>
-        <p>
-        Absolutely the best place I’ve been to in Ottawa for waxing services. Check it out!”
-        </p>
-        </>
-    },
-    {
         name: "KF",
         body: <>
         <p>
@@ -201,17 +149,6 @@ export const testimonials = [
         body: <>
         <p>
         “After 16 years of fighting with my acne I realize that there is a treatment that suits me. I’ve tried everything! From lotions to creams, tetracycline, Pro-Activ….even Acutane, nothing worked…well until now, after 2 Green Peel treatments (and using 302skincare products) the results are AMAZING!! I can see my skin at its best… no makeup! Wow. Thanks Eva.”
-        </p>
-        </>
-    },
-    {
-        name: "Isabelle",
-        body: <>
-        <p>
-        “Best Wax Ever!!
-        </p>
-        <p>
-        I have been waxing on and off for about 5 years now on and off. Every experience was either uncomfortable, painful or disappointing in some way or another. I had almost given up on the whole idea of it. When I finally decided to try waxing again I found Eva’s site and decided to try it out. I was very nervous despite the fact I had done it many times before. She immediately made me feel relaxed and at ease during the entire procedure. I almost forgot I was getting a Brazilian. It was almost pain free and so quick and the results were amazing. Thanks to her I will never have to endure another bad wax experience again. Thank you Eva!!”
         </p>
         </>
     },

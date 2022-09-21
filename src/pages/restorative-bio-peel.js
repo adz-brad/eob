@@ -277,7 +277,7 @@ const RestorativeBioPeel = () => {
                     Essence of Beauty offers two types of Restorative Bio Peels. The first, is the Revitalizing Bio Peel and the second type is the Rejuvenating Anti-Aging Bio Peel. The two strengths of Bio Peel can be adjusted according to the problems and needs of the client's skin. 
                     </p>
                     <div className="flex flex-col my-4">
-                        <h3 className="font-bold mb-2 text-brown">Revitalizing Bio Peel</h3>
+                        <h4 className="font-bold mb-2 text-brown">Revitalizing Bio Peel</h4>
                         <p className="my-1">
                         Intended for skin with sun or hormonal discoloration, acne scars, flabby skin with a loss of firmness, and restores the hydro-lipid balance. Has an anti-aging effect, is ideal for dry skin with clear signs of fatigue and loss of vitality, and is perfect for sensitive skin. It helps to achieve cell regeneration in the epidermis. After use, the skin will be relatively smoother and much more delicate.
                         </p>
@@ -290,7 +290,7 @@ const RestorativeBioPeel = () => {
                         </div>
                     </div>
                     <div className="flex flex-col my-4">
-                        <h3 className="font-bold mb-2 text-brown">Rejuvenation Anti-Aging Bio Peel</h3>
+                        <h4 className="font-bold mb-2 text-brown">Rejuvenation Anti-Aging Bio Peel</h4>
                         <p className="my-1">
                         The perfect combination of bio-microparticles and various peptide ingredients is recommended for aging, skin. With clear signs of aging, and wrinkles. The anti-aging set firms and lifts the skin, improves its elasticity, remodels, and rejuvenates.
                         </p>

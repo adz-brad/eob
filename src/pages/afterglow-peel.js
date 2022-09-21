@@ -44,7 +44,7 @@ const AfterglowPeel = () => {
             <div id="afterglow-peel-info" className="p-4 md:p-8">
                 <Card cardBodyClass="flex flex-col p-4 md:p-8">
                         <h1 className="font-bold">
-                            Afterglow Peel Treatment Benefits
+                        AfterGlow Peel Treatment Benefits
                         </h1>
                         <h4 className="my-2">
                         There is no peel which rivals its safety and at the same time, produces such excellent results.
@@ -110,44 +110,44 @@ const AfterglowPeel = () => {
             <div className="max-w-screen-xxl mx-auto my-8">
                     <div className="flex flex-col items-center my-4">
                         <span className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</span>
-                        <span className="mb-8">Comparing Before & After Afterglow Peel</span>
+                        <span className="mb-8">Comparing Before & After AfterGlow Peel</span>
                     </div>
                 <Gallery 
                     className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-8"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow1.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow2.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow3.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow4.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow5.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow6.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow7.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow8.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow9.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow10.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow11.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow12.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow13.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow14.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow15.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow16.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow17.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow18.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow19.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow20.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow21.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow22.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow23.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow24.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow25.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow26.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow27.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow28.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow29.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow30.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow31.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow32.jpg?raw=true" alt="Afterglow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow1.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow2.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow3.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow4.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow5.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow6.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow7.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow8.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow9.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow10.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow11.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow12.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow13.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow14.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow15.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow16.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow17.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow18.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow19.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow20.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow21.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow22.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow23.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow24.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow25.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow26.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow27.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow28.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow29.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow30.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow31.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow32.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
                     ]}    
                 />
             </div>
