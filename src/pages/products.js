@@ -65,7 +65,7 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage  
                     loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisProduct.jpg?raw=true" 
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/products-osmosis.jpg?raw=true" 
                         alt="Essence of Beauty Products - Osmosis+BeautyMD" 
                     />
                 </div>
@@ -108,6 +108,23 @@ const Products = () => {
                 </div>
             </div>
             <div className="flex flex-col-reverse lg:flex-row lg:items-center">
+                <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
+                <h1 className="mb-2">
+                HubisLab
+                    </h1>
+                    <p className='mt-4 mb-8'>
+                    HubisLab is a Korean skin research and development brand based on Human Bio Science. This company offers a wide range of innovative Pro products designed to maintain healthy skin. HubisLab produces ‘improvement cosmetics’ to promote continuous enhancement results. Incorporate these products into modality driven treatments such as: Microneedling, Chemical Peels and many more.
+                    </p>
+                </div>
+                <div className="lg:w-1/3 lg:p-8">
+                    <StaticImage  
+                    loading="lazy"
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/products-hubislab.jpg?raw=true" 
+                        alt="Essence of Beauty Products - AnteAge" 
+                    />
+                </div>
+            </div>
+            <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage  
                     loading="lazy"
