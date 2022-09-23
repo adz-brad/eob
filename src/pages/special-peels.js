@@ -8,13 +8,6 @@ import Seo from '../components/seo'
 const SpecialPeels = () => {
     return(
         <>
-        <Seo
-        pageTitle="No-Acid Natural Grade Facial Peels"
-        pageDescription="At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
-        pageKeywords="No Acid, Acid free, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/special-peels"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
-        />
             <Banner
                 heading="No-Acid Natural Grade Facial Peels"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -310,3 +303,16 @@ const SpecialPeels = () => {
 }
 
 export default SpecialPeels
+
+export const Head = () => {
+  return(
+    <Seo
+    pageTitle="No-Acid Natural Grade Facial Peels"
+    pageTitleDescription="Acid-Free Natural Skin Peels To Treat Acne, Scarring, Rosecea, Sun Damage & More!"
+    pageDescription="At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
+    pageKeywords="No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+    pageUrl="https://www.essenceofbeauty.ca/special-peels"
+    pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
+    />
+  )
+} 

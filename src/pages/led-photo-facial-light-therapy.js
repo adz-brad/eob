@@ -8,13 +8,6 @@ import Seo from '../components/seo'
 const LEDPhotoFacial = () => {
     return(
         <>
-        <Seo
-        pageTitle="LED Photo Facial Light Therapy"
-        pageDescription="Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone."
-        pageKeywords="LED, Photo Facial, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
-        />
             <Banner
                 heading="LED Photo Facial"
                 gradient="from-black/20 to-black/0"
@@ -111,3 +104,16 @@ const LEDPhotoFacial = () => {
 }
 
 export default LEDPhotoFacial
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="LED Photo Facial Light Therapy"
+        pageTitleDescription="Pain-free Treatment To Reduce Pigmentation, Scarring, Inflamation & More at Essence of Beauty Ottawa"
+        pageDescription="Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone."
+        pageKeywords="LED, Photo Facial, Pain-free, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
+        />
+    )
+  } 

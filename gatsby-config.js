@@ -74,7 +74,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
-    'gatsby-plugin-react-helmet',
     `gatsby-plugin-netlify`,
     'gatsby-plugin-preact'
   ],

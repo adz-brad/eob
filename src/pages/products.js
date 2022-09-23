@@ -7,14 +7,6 @@ import Seo from '../components/seo'
 const Products = () => {
     return(
         <>
-        
-        <Seo
-        pageTitle="Products"
-        pageDescription="View the wide range of expertly sourced, high quality products used for treatment and available for purchase from Essence of Beauty."
-        pageKeywords="Yonka, 302 Skincare, Osmosis MD, DMK, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/products"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
-        />
             <Banner
                 heading="Products"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -157,3 +149,16 @@ const Products = () => {
 }
 
 export default Products
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Products"
+        pageTitleDescription="Treat Your Skin With Leading Products From Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
+        pageDescription="View the wide range of expertly sourced, high quality products used for treatment and available for purchase from Essence of Beauty."
+        pageKeywords="Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/products"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
+        />
+    )
+  } 

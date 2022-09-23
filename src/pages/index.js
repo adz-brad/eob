@@ -5,20 +5,12 @@ import SplitList from '../components/splitList'
 import Features from '../components/features'
 import MeetEva from '../components/meetEva'
 import Testimonials from "../components/testimonials"
-import Seo from '../components/seo'
+import Seo from "../components/seo"
 
 const Home = () => {
 
   return(
     <>
-
-<Seo
-        pageTitle="Home"
-        pageDescription="Essence of Beauty, Ottawa’s Premier Holistic Acne, Scars, Rosacea and Anti-Aging Skincare Clinic specializes in facial rejuvenation treatments using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements."
-        pageKeywords="Essence of Beauty, Scars, Rosacea, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
       {data.components?.map((component, i) => {
         if(component.type === 'hero'){
           return(
@@ -72,3 +64,15 @@ const Home = () => {
 }
 
 export default Home
+
+export const Head = () => {
+  return(
+    <Seo
+        pageTitle="Home"
+        pageDescription="Essence of Beauty, Ottawa’s Premier Holistic Acne, Scars, Rosacea and Anti-Aging Skincare Clinic specializes in facial rejuvenation treatments using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements."
+        pageKeywords="Essence of Beauty, Scars, Rosacea, Acne Scars, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+      />
+  )
+}

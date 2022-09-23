@@ -10,13 +10,6 @@ const BlogTemplate = ({ data }) => {
 
     return(
         <div className="flex flex-col lg:flex-row">
-            <Seo
-                pageTitle={frontmatter.title}
-                pageDescription={frontmatter.excerpt}
-                pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}`}
-                pageImage={frontmatter.featuredImage}
-            />
             <div className="flex flex-col lg:w-3/4 p-4 lg:p-8">
                 {frontmatter.title?
                     <h1 className="font-bold mt-4">{frontmatter.title}</h1>
@@ -79,3 +72,16 @@ export const pageQuery = graphql`
 `
 
 export default BlogTemplate
+
+export const Head = ({ data }) => {
+    const frontmatter = data.blog.childMarkdownRemark.frontmatter
+    return (
+        <Seo
+            pageTitle={frontmatter.title}
+            pageDescription={frontmatter.excerpt}
+            pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+            pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}`}
+            pageImage={frontmatter.featuredImage}
+        />
+    )
+  }

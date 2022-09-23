@@ -7,13 +7,6 @@ import Seo from '../components/seo'
 const OsmosisMd = () => {
     return(
         <>
-        <Seo
-        pageTitle="Osmosis + Beauty MD"
-        pageDescription="Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature. The organic and anti-oxidant ingredient formulation of Osmosis+Beauty MD gently replenishes, restores and repairs the surface skin cells."
-        pageKeywords="Osmosis, Beauty, MD, Osmosis + Beauty MD, Medical Skin Care, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/osmosismd"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true"
-        />
             <Banner
                 heading="Osmosis + Beauty MD"
                 gradient="from-black/30 via-black/20 to-black/10"
@@ -96,3 +89,16 @@ const OsmosisMd = () => {
 }
 
 export default OsmosisMd
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Osmosis + Beauty MD"
+        pageTitleDescription="Treat Acne, Rosecea, Hyperpigmentation & More With OsmosisMD at Essence of Beauty Ottawa"
+        pageDescription="Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature. The organic and anti-oxidant ingredient formulation of Osmosis+Beauty MD gently replenishes, restores and repairs the surface skin cells."
+        pageKeywords="Osmosis, Beauty, MD, Osmosis + Beauty MD, Medical Skin Care, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/osmosismd"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true"
+        />
+    )
+  } 

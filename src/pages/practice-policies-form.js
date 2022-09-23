@@ -34,14 +34,7 @@ const PracticePolicies = () => {
 
     return(
         <>
-        
-        <Seo
-        pageTitle="Practice Policies Form"
-        pageDescription="Essence of Beauty Practice Policies form for new clients."
-        pageKeywords="Practice Policies, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/practice-policies-form"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
+
         <div className="flex flex-col p-4 md:p-8 max-w-screen-xxl mt-8 mx-auto">
             <h1 className="text-center mt-4 md:mt-8 font-bold">Practice Policies</h1>
             <h2 className="text-center my-2">Welcome to Essence of Beauty Acne Clinic</h2>
@@ -424,3 +417,15 @@ const PracticePolicies = () => {
 }
 
 export default PracticePolicies
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Practice Policies Form"
+        pageDescription="Essence of Beauty Practice Policies form for new clients."
+        pageKeywords="Practice Policies, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/practice-policies-form"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
+    )
+  } 

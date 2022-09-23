@@ -10,13 +10,7 @@ import Seo from '../components/seo'
 const NewClientAcneConsultation = () => {
     return(
         <>
-        <Seo
-        pageTitle="New Client Acne Consultation"
-        pageDescription="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
-        pageKeywords="New Clients, New Patient, Consultation, Information, Learn, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"
-        />
+
             <Banner  
                 heading="New Client Acne Consultation"
                 gradient="from-black/50 via-black/30 to-black/10"
@@ -98,3 +92,16 @@ const NewClientAcneConsultation = () => {
 }
 
 export default NewClientAcneConsultation
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="New Client Acne Consultation"
+        pageTitleDescription="Treat Your Skin With The Care It Deserves At Essence of Beauty Ottawa"
+        pageDescription="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
+        pageKeywords="New Clients, New Patient, Consultation, Information, Rosecea, Hyperpigmentation, Acid-free, Natural, Learn, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"
+        />
+    )
+  } 

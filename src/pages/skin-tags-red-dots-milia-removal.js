@@ -17,13 +17,7 @@ const SkinTags = () => {
 
     return(
         <>
-        <Seo
-        pageTitle="Skin Tags, Milia, Red Dots & Skin Growth Removal"
-        pageDescription="If you have a predisposition to various skin growths such as skin tags, keratosis, ruby pints these targeted skin revision therapies will effectively solve this problem. A safe, non-invasive treatment that permanently removes unsightly skin growths from your face and body in just one session!"
-        pageKeywords="Skin Tags, Milia, Red Dots, Skin Growth Removal, Seborrheic Keratosis, Telangiectasia, Spider Angiomas, Cherry Angiomas, Sebaceous Hyperplasia, Hyperpigmentation, Broken Capillaries, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"
-        />
+
             <Banner
                 heading="Skin Tags, Milia, Red Dots & Skin Growth Removal"
                 gradient="from-black/60 via-black/30 to-black/20"
@@ -188,3 +182,16 @@ const SkinTags = () => {
 }
 
 export default SkinTags
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Skin Tags, Milia, Red Dots & Skin Growth Removal"
+        pageTitleDescription="Heal Your Skin With Safe, Non-invasive Skin Growth Treatments!"
+        pageDescription="If you have a predisposition to various skin growths such as skin tags, keratosis, ruby points these targeted skin revision therapies will effectively solve this problem. A safe, non-invasive treatment that permanently removes unsightly skin growths from your face and body in just one session!"
+        pageKeywords="Skin Tags, Milia, Red Dots, Skin Growth Removal, Seborrheic Keratosis, Telangiectasia, Spider Angiomas, Cherry Angiomas, Sebaceous Hyperplasia, Hyperpigmentation, Broken Capillaries, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"
+        />
+    )
+  } 

@@ -8,13 +8,7 @@ import Seo from '../components/seo'
 const BackAcne = () => {
     return(
         <>
-        <Seo
-        pageTitle="Back Acne"
-        pageDescription="If dealing with facial acne isn’t enough, your body can also be prone to breakouts. Odds are, if you experience acne on your face, pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
-        pageKeywords="Back Acne, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/back-acne"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"
-        />
+
             <Banner
                 heading="Back Acne"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -63,3 +57,16 @@ const BackAcne = () => {
 }
 
 export default BackAcne
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Back Acne"
+        pageTitleDescription="Treat Acne Breakouts On Your Neck, Chest & Back With Individualized Treatments For All Skin Types at Essence of Beauty Ottawa!"
+        pageDescription="If dealing with facial acne isn’t enough, your body can also be prone to breakouts. Odds are, if you experience acne on your face, pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
+        pageKeywords="Back Acne, Neck acne, chest acne, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/back-acne"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"
+        />
+    )
+  } 

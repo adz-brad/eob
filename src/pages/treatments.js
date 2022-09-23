@@ -4,6 +4,15 @@ import Seo from '../components/seo'
 const Treatments = () => {
     return(
         <>
+        Treatments
+        </>
+    )
+}
+
+export default Treatments
+
+export const Head = () => {
+    return(
         <Seo
         pageTitle="Treatment Options"
         pageDescription="Essence of Beauty Treatment Options"
@@ -11,9 +20,5 @@ const Treatments = () => {
         pageUrl="https://www.essenceofbeauty.ca/treatments"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
         />
-        Treatments
-        </>
     )
-}
-
-export default Treatments
+  } 

@@ -3,7 +3,14 @@ import Seo from '../components/seo'
 
 const NotFoundPage = () => {
     return(
-        <>
+        <div>404 Page Not Found</div>  
+    )
+}
+
+export default NotFoundPage
+
+  export const Head = () => {
+    return(
         <Seo
         pageTitle="Page Not Found"
         pageDescription="404 Page Not Found"
@@ -11,10 +18,5 @@ const NotFoundPage = () => {
         pageUrl="https://www.essenceofbeauty.ca/404"
         pageImage=""
         />
-        <div>404 Page Not Found</div>
-        </>
-        
     )
-}
-
-export default NotFoundPage
+  } 

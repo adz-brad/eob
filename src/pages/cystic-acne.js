@@ -10,13 +10,7 @@ import Seo from '../components/seo'
 const CysticAcne = () => {
     return(
         <>
-        <Seo
-        pageTitle="Cystic Acne"
-        pageDescription="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
-        pageKeywords="Cystic Acne, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/cystic-acne"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
-        />
+
             <Banner
                 heading="Cystic Acne"
                 gradient="from-black/30 via-black/20 to-black/10"
@@ -117,3 +111,16 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
 }
 
 export default CysticAcne
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Cystic Acne"
+        pageTitleDescription="Treat Cystic Acne Inflammation & Scars With a Customized Skin Treatment Regiment from Essence of Beauty Ottawa"
+        pageDescription="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
+        pageKeywords="Cystic Acne, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/cystic-acne"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
+        />
+    )
+  } 

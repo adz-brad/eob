@@ -11,13 +11,7 @@ const HolisticAcneProgram = () => {
 
     return(
         <>
-        <Seo
-        pageTitle="Holistic Acne Program"
-        pageDescription="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
-        pageKeywords="Holistic Acne Program, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/holistic-acne-program"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"
-        />
+
             <Banner
                 heading="Holistic Acne Program"
                 gradient="from-black/20 via-black/20 to-black/10"
@@ -139,3 +133,16 @@ const HolisticAcneProgram = () => {
 }
 
 export default HolisticAcneProgram
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Holistic Acne Program"
+        pageTitleDescription="Heal Your Acne, Scarring, Pigmentation & Other Skin Issues With Holistic, Organic & Natural Treatments From Essence of Beauty Ottawa"
+        pageDescription="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
+        pageKeywords="Holistic Acne Program, Scarring, Pigmentation, Inflammation, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/holistic-acne-program"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"
+        />
+    )
+  } 

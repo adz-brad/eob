@@ -13,13 +13,7 @@ const DMKTherapy = () => {
 
     return(
         <>
-        <Seo
-        pageTitle="DMK Enzyme Therapy"
-        pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK."
-        pageKeywords="DMK Enzyme Therapy, DMK, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
-        />
+
             <div className="">
                 <div className="flex flex-col-reverse xl:flex-row lg:items-center">
                     <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
@@ -428,3 +422,16 @@ const DMKTherapy = () => {
 }
 
 export default DMKTherapy
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="DMK Enzyme Therapy"
+        pageTitleDescription="Effective Treatment For Acne, Aging, Pigmentation, Scarring & More With DMK at Essence of Beauty Ottawa"
+        pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK."
+        pageKeywords="DMK Enzyme Therapy, DMK, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
+        />
+    )
+  } 

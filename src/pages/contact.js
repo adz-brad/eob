@@ -6,13 +6,7 @@ import Seo from '../components/seo'
 const Contact = () => {
     return(
         <>
-        <Seo
-        pageTitle="Contact"
-        pageDescription="Contact Essence of Beauty Spa today to book your first consultation or treatment!"
-        pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/contact"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
+
             <div 
                 className="flex flex-col lg:flex-row max-w-screen-xl my-16 mx-auto"
             >     
@@ -87,3 +81,16 @@ const Contact = () => {
 }
 
 export default Contact
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Contact"
+        pageTitleDescription="Find Out How Essence of Beauty, Ottawa's FIRST Holistic Skincare Clinic, Can Help You See Results!"
+        pageDescription="Contact Essence of Beauty Spa today to book your first consultation or treatment!"
+        pageKeywords="No acid, acid free, chemical free, no chemicals, acne scarring, pigmentation, rosecea, skincare, treatment, sensitive skin, consultation, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/contact"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
+    )
+  } 

@@ -13,13 +13,7 @@ const RestorativeBioPeel = () => {
 
   return (
     <>
-        <Seo
-            pageTitle="Restorative Bio Peel"
-            pageDescription="Restorative Bio Peel is a new dimension of facial treatments which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type"
-            pageKeywords="Restorative, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-            pageUrl="https://www.essenceofbeauty.ca/afterglow-peel"
-            pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
-        />
+        
         <Banner
             heading="Restorative Bio Peel"
             gradient="from-black/10 via-black/20 to-black/50"
@@ -317,3 +311,16 @@ const RestorativeBioPeel = () => {
 }
 
 export default RestorativeBioPeel
+
+export const Head = () => {
+    return(
+<Seo
+            pageTitle="Restorative Bio Peel"
+            pageTitleDescription="Natural, Acid-free, Vegan Skin Treatment To Help Restore Your Skin To It's Natural Beauty!"
+            pageDescription="Restorative Bio Peel is a new dimension of facial treatments which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type"
+            pageKeywords="Restorative, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+            pageUrl="https://www.essenceofbeauty.ca/afterglow-peel"
+            pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
+        />
+    )
+  } 

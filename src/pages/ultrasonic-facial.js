@@ -9,13 +9,7 @@ import Seo from '../components/seo'
 const UltrasonicFacial = () => {
     return(
         <>
-        <Seo
-        pageTitle="Ultrasonic Regenerative Facials"
-        pageDescription="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
-        pageKeywords="Ultrasonic Facial, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/ultrasonic-facial"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
-        />
+
             <Banner
                 heading="Ultrasonic Regenerative Facial"
                 gradient="from-black/20 via-black-40 to-black/50"
@@ -263,3 +257,16 @@ const UltrasonicFacial = () => {
 }
 
 export default UltrasonicFacial
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Ultrasonic Regenerative Facials"
+        pageTitleDescription="Safe, Gentle & Non-invasive Treatment of Rosecea & Acne For All Skin Types!"
+        pageDescription="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
+        pageKeywords="Ultrasonic Facial, Safe, Gentle, Non-invasive, Rosecea, All skin types, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/ultrasonic-facial"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
+        />
+    )
+  } 

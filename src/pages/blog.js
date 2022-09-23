@@ -9,14 +9,7 @@ const Blog = ({ data }) => {
     
     return(
         <>
-        
-        <Seo
-        pageTitle="Blog"
-        pageDescription="Essence of Beauty blog features articles full of expert skin care, health and beauty tips, tricks and advice."
-        pageKeywords="Blog, Articles, Expert, Advice, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/blog"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
+
         <div className="max-w-screen-xl mx-auto p-4 md:p-8">
             <h1 className="font-bold mt-4">Essence of Beauty Blog</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 my-8">
@@ -66,3 +59,16 @@ export const pageQuery = graphql`
 `
 
 export default Blog
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Blog"
+        pageTitleDescription="Learn About Different Skin Care Treatments With Expert Advice From Essence of Beauty Ottawa"
+        pageDescription="Essence of Beauty blog features articles full of expert skin care, health and beauty tips, tricks and advice."
+        pageKeywords="Blog, Articles, Expert, Advice, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/blog"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
+    )
+  } 

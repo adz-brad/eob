@@ -1,15 +1,12 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import { Helmet } from 'react-helmet';
  
-const Seo = ({ children, pageDescription, pageTitle, pageImage, pageUrl, pageKeywords }) => {
+const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, pageUrl, pageKeywords }) => {
   
   const data = useStaticQuery(graphql`
     query {
       site {
         siteMetadata {
-          description
-          siteUrl
           title
           keywords
         }
@@ -18,21 +15,16 @@ const Seo = ({ children, pageDescription, pageTitle, pageImage, pageUrl, pageKey
   `);
 
   const siteData = data.site.siteMetadata;
+  const title = pageTitleDescription ? `${siteData.title} - ${pageTitle} - ${pageTitleDescription}` : `${siteData.title} - ${pageTitle}`
 
   return (
 
     <>
 
-      <Helmet
-        defaultTitle={siteData.title}
-        htmlAttributes={{ lang: 'en' }}
-        titleTemplate={`${siteData.title} | ${pageTitle}`}
-      >
-
-        <title>{pageTitle || pageDescription}</title>
+        <title>{title}</title>
 
         <meta name="description" content={pageDescription} />
-        <meta name="keywords" content={pageKeywords} />
+        <meta name="keywords" content={`${pageKeywords}, ${siteData.keywords}`} />
 
         {/* FB Meta Tags */}
 
@@ -47,11 +39,7 @@ const Seo = ({ children, pageDescription, pageTitle, pageImage, pageUrl, pageKey
         <meta name="twitter:description" content={pageDescription}/>
         <meta name="twitter:image" content={pageImage}/>
         <meta name="twitter:card" content="summary_large_image"/>
-
-        {children}
-        
-      </Helmet>
-      
+         
     </>
 
   );

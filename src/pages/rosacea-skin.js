@@ -9,13 +9,7 @@ import Seo from '../components/seo'
 const Rosacea = () => {
   return (
     <>
-    <Seo
-    pageTitle="Rosacea & Sensitive Skin"
-    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
-    pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-    pageUrl="https://www.essenceofbeauty.ca/rosacea-skin"
-    pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
-    />
+
       <Banner
         heading="Rosacea & Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
@@ -369,3 +363,16 @@ const Rosacea = () => {
 }
 
 export default Rosacea
+
+export const Head = () => {
+  return(
+    <Seo
+    pageTitle="Rosacea & Sensitive Skin"
+    pageTitleDescription="Treat Rosecea With Essence of Beauty Natural Treatments For All Skin Types!"
+    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
+    pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+    pageUrl="https://www.essenceofbeauty.ca/rosacea-skin"
+    pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+    />
+  )
+} 

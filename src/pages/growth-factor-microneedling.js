@@ -9,13 +9,7 @@ import Seo from '../components/seo'
 const Microneedling = () => {
     return(
         <>
-        <Seo
-        pageTitle="Growth Factor Microneedling"
-        pageDescription="At Essence of Beauty, Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles."
-        pageKeywords="Growth Factor Microneedling, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/growth-factor-microneedling"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
-        />
+
             <Banner
                 heading="Growth Factor Microneedling"
                 gradient="from-black/60 via-black/30 to-black/10"
@@ -145,3 +139,16 @@ const Microneedling = () => {
 }
 
 export default Microneedling
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Growth Factor Microneedling"
+        pageTitleDescription="Treat Sun Damaged Skin, Acne Scarring & More With Microneedling at Essence of Beauty Ottawa"
+        pageDescription="At Essence of Beauty, Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles."
+        pageKeywords="Growth Factor Microneedling, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/growth-factor-microneedling"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
+        />
+    )
+  } 

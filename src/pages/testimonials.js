@@ -5,13 +5,7 @@ import Seo from '../components/seo'
 const Testimonials = () => {
     return(
         <>
-        <Seo
-        pageTitle="Testimonials"
-        pageDescription="See what clients of Essence of Beauty are saying about the amazing treatments we offer!"
-        pageKeywords="Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/testimonials"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
+
             <div className="p-4 lg:p-8 bg-lightGreen">
                 <h1 className="text-center font-bold my-16">
                     What My Clients Are Saying
@@ -38,3 +32,16 @@ const Testimonials = () => {
 }
 
 export default Testimonials
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Testimonials"
+        pageDescription="See what clients of Essence of Beauty are saying about the amazing treatments we offer!"
+        pageTitleDescription="Our Clients Love The Results They Have Achieved Treating Their Skin!"
+        pageKeywords="Rosecea, Skin Peels, Sensitive Skin, Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/testimonials"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        />
+    )
+  } 

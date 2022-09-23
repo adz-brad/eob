@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 
-
 const Contact = () => {
 
     const [ formData, setFormData ] = useState({
@@ -139,4 +138,3 @@ const Contact = () => {
 }
 
 export default Contact
-

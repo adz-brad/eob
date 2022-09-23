@@ -8,13 +8,7 @@ import Seo from '../components/seo'
 const OsmosisMakeup = () => {
     return(
         <>
-        <Seo
-        pageTitle="Osmosis + Colour Mineral Makeup"
-        pageDescription="Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis +colour Minerals."
-        pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/mineral-makeup"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
-        />
+
             <Banner
                 heading="Osmosis + Colour Mineral Makeup"
                 gradient="from-black/50 via-black/20 to-black/10"
@@ -272,3 +266,16 @@ const OsmosisMakeup = () => {
 }
 
 export default OsmosisMakeup
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Osmosis + Colour Mineral Makeup"
+        pageTitleDescription="Enhance & Repair Your Skin Simultaneously With Osmosis Mineral Makeup at Essence of Beauty Ottawa"
+        pageDescription="Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis + colour Minerals."
+        pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/mineral-makeup"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
+        />
+    )
+  } 

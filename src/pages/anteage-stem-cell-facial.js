@@ -9,13 +9,6 @@ import Seo from '../components/seo'
 const AnteageStemCell = () => {
     return(
         <>
-        <Seo
-        pageTitle="AnteAge Stem Cell Facial"
-        pageDescription="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
-        pageKeywords="AnteAge, Stem Cell Facial, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
-        />
             <Banner
                 heading="AnteAge Stem Cell Facial"
                 gradient="from-black/40 via-black/20 to-black/10"
@@ -194,3 +187,16 @@ const AnteageStemCell = () => {
 }
 
 export default AnteageStemCell
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="AnteAge Stem Cell Facial"
+        pageTitleDescription="Award Winning Holistic Skin Treatment from Essence of Beauty Ottawa"
+        pageDescription="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
+        pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
+        />
+    )
+  } 

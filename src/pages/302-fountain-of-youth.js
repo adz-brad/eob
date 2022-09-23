@@ -10,15 +10,7 @@ import Seo from '../components/seo'
 
 const FountainOfYouth = () => {
     return(
-        <>            
-        <Seo
-        pageTitle="302 Fountain of Youth"
-        gradient="from-black/40 via-black/20 to-black/10"
-        pageDescription="Avogen™ is a natural and unique lipid family found in avocado the result of a laboratory process that isolates a molecule from the leaves of a particular rainforest avocado that researchers discovered provides amazing skin protective measures against sun damage and aging. This particular “Fountain of Youth” ingredient, Avogen, has the molecular weight of 302 daltons, thus the name of the skincare line, 302."
-        pageKeywords="302, Fountain of Youth, Avogen, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Skincare, Safe, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/302-fountain-of-youth"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
-        />
+        <>           
             <Banner
                 heading="302 Fountain of Youth"
                 caption="I am very excited to be the first Canadian spa to carry a completely different skincare line that is very effective for aging, acne, rosacea, treats scars and uneven texture, clears visible sun damage as well as other skin conditions – it’s called 302"
@@ -184,4 +176,17 @@ const FountainOfYouth = () => {
 }
 
 export default FountainOfYouth
+
+export const Head = () => {
+    return(
+      <Seo
+      pageTitle="302 Fountain of Youth"
+      pageTitleDescription="Amazing Results from Natural Fountain of Youth Ingredient Avogen!"
+      pageDescription="Avogen™ is a natural and unique lipid family found in avocado the result of a laboratory process that isolates a molecule from the leaves of a particular rainforest avocado that researchers discovered provides amazing skin protective measures against sun damage and aging. This particular “Fountain of Youth” ingredient, Avogen, has the molecular weight of 302 daltons, thus the name of the skincare line, 302."
+      pageKeywords="302, Fountain of Youth, Avogen, Sustainable, Sensitive Skin, Non-Toxic, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Skincare, Safe, Acne, Beauty, Spa"
+      pageUrl="https://www.essenceofbeauty.ca/302-fountain-of-youth"
+      pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
+      />
+    )
+  } 
 

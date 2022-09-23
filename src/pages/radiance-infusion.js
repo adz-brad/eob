@@ -8,13 +8,7 @@ import Seo from '../components/seo'
 const RadianceInfusion = () => {
     return(
         <>
-        <Seo
-        pageTitle="Radiance Infusion Skin Rejuvenation"
-        pageDescription="Radiance Infusion Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone."
-        pageKeywords="Radiance, Infusion, Rejuvenation, Mano Infusion, Facial Infusion, Hydro Facial, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/radiance-infusion"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
-        />
+        
             <Banner
                 heading="Radiance Infusion"
                 gradient="from-black/50 via-black/30 to-black/10"
@@ -191,3 +185,16 @@ const RadianceInfusion = () => {
 }
 
 export default RadianceInfusion
+
+export const Head = () => {
+    return(
+<Seo
+        pageTitle="Radiance Infusion Skin Rejuvenation"
+        pageTitleDescription="Improve The Glow & Hydration Of Your Skin With Radiance Infusion Skin Rejuvenation!"
+        pageDescription="Radiance Infusion Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone."
+        pageKeywords="Radiance, Infusion, Large Pores, Rejuvenation, Mano Infusion, Facial Infusion, Hydro Facial, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/radiance-infusion"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
+        />
+    )
+  } 

@@ -8,13 +8,6 @@ import Seo from '../components/seo'
 const VitaminAInfusion = () => {
     return(
         <>
-        <Seo
-        pageTitle="Vitamin A Infusion Peel"
-        pageDescription="In the past few years, new approaches to peeling and rejuvenating the skin have emerged. One of the most effective and innovative of these is the vitamin A infusion peel. This non-acid peel is transforming the way people think about peels, and the results are incredible."
-        pageKeywords="Vitamin A, Infusion, Peel, Chemical Free, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/vitamin-a-infusion-peel"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"
-        />
             <Banner
                 heading="Vitamin A Infusion Peel"
                 gradient="from-black/40 via-black/20 to-black/0"
@@ -180,3 +173,16 @@ const VitaminAInfusion = () => {
 }
 
 export default VitaminAInfusion
+
+export const Head = () => {
+    return(
+        <Seo
+        pageTitle="Vitamin A Infusion Peel"
+        pageTitleDescription="Acid-free Peel for Anti-aging, Rosecea, Acne Treatment + More!"
+        pageDescription="In the past few years, new approaches to peeling and rejuvenating the skin have emerged. One of the most effective and innovative of these is the vitamin A infusion peel. This non-acid peel is transforming the way people think about peels, and the results are incredible."
+        pageKeywords="Vitamin A, Infusion, Peel, Dermal Rejuvenation, Gentle, Sensitive Skin, Non-acid, Sun damage, Rosacea, Diabetes, Pregnancy, Post-surgery, Dull skin, Menopause, Chemical Free, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/vitamin-a-infusion-peel"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"
+        />
+    )
+  } 
