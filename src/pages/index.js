@@ -69,6 +69,7 @@ export const Head = () => {
   return(
     <Seo
         pageTitle="Home"
+        pageTitleDescription="Treat Your Acne, Rosecea, Pigmentation, Scarring & Other Skin Issues With Specialized Rejuventation & Repair Treatments From Essence of Beauty Ottawa"
         pageDescription="Essence of Beauty, Ottawa’s Premier Holistic Acne, Scars, Rosacea and Anti-Aging Skincare Clinic specializes in facial rejuvenation treatments using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements."
         pageKeywords="Essence of Beauty, Scars, Rosacea, Acne Scars, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca"
