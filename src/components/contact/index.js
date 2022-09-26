@@ -20,6 +20,7 @@ const Contact = () => {
         else{
           e.preventDefault()
           const data = {
+            type: 'contact',
             template: 'contact-form-submission',
             form: {
                 firstname: formData.firstName,

@@ -5,8 +5,9 @@ const client = new postmark.ServerClient(serverToken);
 
 exports.handler = async function(e) {
   const body = JSON.parse(`${e.body}`)
+  const origin = body.type === 'contact' ? 'contact@essenceofbeauty.ca' : 'practicepolicies@essenceofbeauty.ca'
   const submit = await client.sendEmailWithTemplate({
-    "From": process.env.GATSBY_POSTMARK_ORIGIN_EMAIL,
+    "From": origin,
     "To": process.env.GATSBY_POSTMARK_DESTINATION_EMAIL,
     "ReplyTo": body.form.email,
     "TemplateAlias": body.template,

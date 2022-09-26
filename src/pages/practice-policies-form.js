@@ -41,6 +41,7 @@ const PracticePolicies = () => {
         else{
           e.preventDefault()
           const data = {
+            type: 'practicepolicies',
             template: 'practice-policies-form-submission',
             form: {
                 firstname: formData.firstName,
