@@ -28,9 +28,68 @@ const PracticePolicies = () => {
         province: provinces[6],
         postalCode: '',
         date: d.toString(),
-        consent: false,
-        signature: null
+        consent: false
     })
+
+    const [ honeypot, setHoneypot ] = useState(null)
+    const [ sent, setSent ] = useState({ open: false, status: 'Idle' })
+
+    const submit = async (e) => {
+        if(honeypot){
+            return null;
+        } 
+        else{
+          e.preventDefault()
+          const data = {
+            template: 'practice-policies-form-submission',
+            form: {
+                firstname: formData.firstName,
+                lastname: formData.lastName,
+                email: formData.email,
+                phone: formData.phone,
+                address: formData.address,
+                city: formData.city,
+                province: formData.province,
+                postalcode: formData.postalCode,
+                date: formData.date,
+                consent: formData.consent,
+            }
+          }
+          const JSONdata = JSON.stringify(data)
+          const endpoint = '/.netlify/functions/submit'
+          const options = {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          body: JSONdata,
+          }
+          await fetch(endpoint, options).then(res => {
+            if(res.status === 200) {
+              setSent({ open: true, status: 'Sent' });
+              setFormData({
+                firstName: '',
+                lastName: '',
+                email: '',
+                phone: '',
+                address: '',
+                city: '',
+                province: provinces[6],
+                postalCode: '',
+                date: d.toString(),
+                consent: false,
+            })
+            }
+            else {
+               setSent({ open: true, status: 'Failed' });
+            }
+          }).catch(err => {
+            if(err) {
+                setSent({ open: true, status: 'Failed' });
+            }
+          })
+        }
+      }
 
     return(
         <>
@@ -128,8 +187,27 @@ const PracticePolicies = () => {
                 By giving your e-signature, you agree to our policies and authorize Essence of Beauty Spa LTD to charge your credit card on file for missed visits, no shows, late cancellations or late arrivals. As well, this will also authorize the use of the before and after pictures to track your progress.
                 </p>      
             </div>
-            <form name="Practice Policies Form" method="post" data-netlify="true" data-netlify-honeypot="bot-field" >
-            <input type="hidden" name="form-name" value="Practice Policies Form" />
+            <form name="Practice Policies Form" onSubmit={submit} >
+            {sent.open ?
+                <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[calc(100vh/2)] w-[calc(100vw_-_20px)] max-h-[400px] max-w-[600px] z-50 bg-white rounded-md shadow-lg flex flex-col items-center justify-center p-4 md:p-8">
+                    {sent.status === 'Sent' ? <span className="text-xl md:text-2xl font-bold">Your message has been sent.</span> : null }
+                    {sent.status === 'Sent' ? 
+                        <span>We will be in touch with you as soon as possible!</span>
+                    : 
+                        <span>We're sorry, there was a problem sending your form, but we'd still love to hear from you! Please try giving us a call at <a href="tel:1-(603)-220-2101">1-(603)-220-2101</a></span>
+                    }
+                    <button 
+                        onClick={() => setSent({ open: false, status: 'Idle' })} onKeyDown={() => setSent({ open: false, status: 'Idle' })} 
+                        className="buttonLight bg-green hover:bg-darkGreen text-white mt-8"
+                    >
+                        OK
+                    </button>
+                </div>
+            :
+                null
+            }
+            <input type="text" className="w-0 h-0 opacity-0" id="name" name="name" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabindex="-1"/>
+            <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabindex="-1"/>
             <div className="my-4 md:my-8">
                 <h1 className="text-center my-4 md:my-8">Practice Policies Consent Form</h1>
                 <div className="flex flex-col md:flex-row md:justify-center max-w-screen-lg mx-auto">
@@ -141,6 +219,7 @@ const PracticePolicies = () => {
                             First Name
                         </label>
                         <input 
+                        required
                             id="firstName"
                             name="firstName"
                             type="text" 
@@ -168,7 +247,8 @@ const PracticePolicies = () => {
                         >
                             Last Name
                         </label>
-                        <input 
+                        <input  
+                        required
                             id="lastName"
                             name="lastName"
                             type="text" 
@@ -193,14 +273,15 @@ const PracticePolicies = () => {
                 <div className="flex flex-col md:flex-row md:justify-center max-w-screen-lg mx-auto">
                     <div className="flex flex-col md:w-1/2 m-2 md:m-4">
                         <label 
-                            htmlFor="email"
+                            htmlFor="clientEmail"
                             className="text-sm ml-1 font-bold"
                         >
                             Email
                         </label>
-                        <input 
-                            id="email"
-                            name="email"
+                        <input  
+                        required
+                            id="clientEmail"
+                            name="clientEmail"
                             type="email" 
                             className="border border-black/20 rounded-md shadow-sm px-4 py-2" 
                             value={formData.email}
@@ -226,7 +307,8 @@ const PracticePolicies = () => {
                         >
                             Phone
                         </label>
-                        <input 
+                        <input  
+                        required
                             id="phone"
                             name="phone"
                             type="tel" 
@@ -256,7 +338,8 @@ const PracticePolicies = () => {
                         >
                             Street Address
                         </label>
-                        <input 
+                        <input  
+                        required
                             id="streetAddress"
                             name="streetAddress"
                             type="text" 
@@ -284,7 +367,8 @@ const PracticePolicies = () => {
                         >
                             City
                         </label>
-                        <input 
+                        <input  
+                        required
                             id="city"
                             name="city"
                             type="text" 
@@ -314,7 +398,8 @@ const PracticePolicies = () => {
                         >
                             Province
                         </label>
-                        <select 
+                        <select  
+                        required
                             id="province"
                             name="province"
                             className="border border-black/20 rounded-md shadow-sm p-2" 
@@ -347,7 +432,8 @@ const PracticePolicies = () => {
                         >
                             Postal Code
                         </label>
-                        <input 
+                        <input  
+                        required
                             id="postalCode"
                             name="postalCode"
                             type="text" 
@@ -372,7 +458,8 @@ const PracticePolicies = () => {
                 <div className="flex flex-col max-w-screen-lg mx-auto p-3 md:p-5">
                     <h5>Consent</h5>
                     <div className="flex flex-row items-center">
-                    <input
+                    <input 
+                        required
                         id="consent"
                         name="consent"
                         type="checkbox"
