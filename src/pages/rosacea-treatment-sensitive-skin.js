@@ -375,7 +375,7 @@ export const Head = () => {
     pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
     />
-    <link rel="canonical" href="http://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
+    <link rel="canonical" href="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
     </>
   )
 } 

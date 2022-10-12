@@ -197,7 +197,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/radiance-infusion-nano-channeling/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/radiance-infusion-nano-channeling/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/radiance-infusion-nano-channeling/" />
         </>
     )
   } 

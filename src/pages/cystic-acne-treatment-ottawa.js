@@ -126,7 +126,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/" />
         </>
     )
   } 

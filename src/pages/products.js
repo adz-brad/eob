@@ -161,7 +161,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/products/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/products/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/products/" />
         </>
     )
   } 

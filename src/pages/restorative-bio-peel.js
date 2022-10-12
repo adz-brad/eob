@@ -323,7 +323,7 @@ export const Head = () => {
             pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/restorative-bio-peel/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/restorative-bio-peel/" />
         </>
     )
   } 

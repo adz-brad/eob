@@ -326,7 +326,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/herbal-green-peel/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/herbal-green-peel/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/herbal-green-peel/" />
         </>
     )
   } 

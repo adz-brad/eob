@@ -70,7 +70,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/back-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/back-acne-treatment-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/back-acne-treatment-ottawa/" />
         </>
     )
   } 

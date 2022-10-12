@@ -235,7 +235,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/aging-and-dehydrated-skin/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/" />
         </>
     )
   } 

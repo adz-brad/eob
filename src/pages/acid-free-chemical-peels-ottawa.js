@@ -315,7 +315,7 @@ export const Head = () => {
     pageUrl="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
     />
-    <link rel="canonical" href="http://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/" />
+    <link rel="canonical" href="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/" />
         </>
   )
 } 

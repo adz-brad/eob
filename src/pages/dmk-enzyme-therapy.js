@@ -434,7 +434,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/dmk-enzyme-therapy/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/dmk-enzyme-therapy/" />
         </>
     )
   } 

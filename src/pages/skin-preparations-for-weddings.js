@@ -95,7 +95,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/skin-preparations-for-weddings/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/weddingPreparation.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/skin-preparations-for-weddings/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/skin-preparations-for-weddings/" />
         </>
     )
   } 

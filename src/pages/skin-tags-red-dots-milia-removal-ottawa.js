@@ -194,7 +194,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/" />
         </>
     )
   } 

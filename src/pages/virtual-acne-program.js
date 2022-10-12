@@ -194,7 +194,7 @@ export const Head = () => {
             pageUrl="https://www.essenceofbeauty.ca/virtual-acne-program/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/virtual-acne-program/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/virtual-acne-program/" />
         </>
     )
   } 

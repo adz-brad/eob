@@ -107,7 +107,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/" />
         </>
     )
   } 

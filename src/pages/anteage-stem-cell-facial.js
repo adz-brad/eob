@@ -199,7 +199,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/anteage-stem-cell-facial/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/" />
         </>
     )
   } 

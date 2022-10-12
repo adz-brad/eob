@@ -185,7 +185,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/acid-free-vitamin-a-skin-peel/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/acid-free-vitamin-a-skin-peel/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/acid-free-vitamin-a-skin-peel/" />
         </>
     )
   } 

@@ -269,7 +269,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/" />
         </>
     )
   } 

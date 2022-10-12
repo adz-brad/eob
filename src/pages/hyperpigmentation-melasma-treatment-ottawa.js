@@ -161,7 +161,7 @@ export const Head = () => {
             pageUrl="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/" />
         </>
     )
   } 

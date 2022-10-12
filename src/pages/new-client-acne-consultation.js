@@ -103,7 +103,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"
         />
-        <link rel="canonical" href="http://www.essenceofbeauty.ca/new-client-acne-consultation/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/new-client-acne-consultation/" />
         </>
     )
   } 
