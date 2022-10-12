@@ -17,7 +17,7 @@ const SpecialPeels = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
-                    <h2 className="mt-2 mb-4">At Essence of Beauty Ottawa Acne Clinic, we offer both acid-free natural grade facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
+                    <h2 className="mt-2 mb-4 subheader">At Essence of Beauty Ottawa Acne Clinic, we offer both acid-free natural grade facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
                     <p className="my-1">
                     When properly administered, peels provide powerful, non-invasive, pro-youth improvement to the skin. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
                     </p>
