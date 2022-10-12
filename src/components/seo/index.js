@@ -49,20 +49,20 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
           "@graph":[
             {
               "@type":"WebPage",
-              "@id":${pageUrl},
-              "url":${pageUrl},
+              "@id":"${pageUrl}",
+              "url":"${pageUrl}",
               "name":"Essence of Beauty Ottawa | ${pageTitle}",
               "isPartOf":{
                 "@id":"https://www.essenceofbeauty.ca/"
               },
               "primaryImageOfPage":{
-                "@id": ${pageImage}
+                "@id": "${pageImage}"
               },
               "image":{
-                "@id": ${pageImage}
+                "@id": "${pageImage}"
               },
-              "thumbnailUrl": ${pageImage},
-              "description": ${pageDescription},
+              "thumbnailUrl": "${pageImage}",
+              "description": "${pageDescription}",
               "breadcrumb":{
                 "@id": "${pageUrl}#breadcrumb"
               },
@@ -70,19 +70,19 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
                 "potentialAction":[
                   {
                     "@type":"ReadAction",
-                    "target":[${pageUrl}]
+                    "target":["${pageUrl}"]
                   }
                 ]
               },
               {
                 "@type":"ImageObject",
                 "inLanguage":"en-US",
-                "@id":${pageImage},
-                "url":${pageImage},
-                "contentUrl":${pageImage},
+                "@id":"${pageImage}",
+                "url":"${pageImage}",
+                "contentUrl":"${pageImage}",
                 "width":1920,
                 "height":700,
-                "caption": ${pageTitle}
+                "caption": "${pageTitle}"
               },
               {
                 "@type":"BreadcrumbList",
@@ -97,7 +97,7 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
                   {
                     "@type":"ListItem",
                     "position":2,
-                    "name": ${pageTitle}
+                    "name": "${pageTitle}"
                   }
                 ]
               },
