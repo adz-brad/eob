@@ -40,6 +40,7 @@
     "simple-react-lightbox": "^3.6.9-0"
   },
   "devDependencies": {
+    "@netlify/plugin-sitemap": "^0.8.1",
     "autoprefixer": "^10.4.7",
     "gatsby-plugin-postcss": "^5.17.0",
     "postcss": "^8.4.14",
