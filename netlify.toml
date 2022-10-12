@@ -30,6 +30,11 @@ package = "@netlify/plugin-sitemap"
   to = "/back-acne-treatment-ottawa/"
   status = 200
 
+    [[redirects]]
+  from = "/cystic-acne"
+  to = "/cystic-acne-treatment-ottawa/"
+  status = 200
+
   [[redirects]]
   from = "/hyperpigmentation-melasma"
   to = "/hyperpigmentation-melasma-treatment-ottawa/"
