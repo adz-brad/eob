@@ -31,7 +31,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.essenceofbeauty.ca',
+        host: 'https://www.essenceofbeauty.ca/',
         sitemap: 'https://www.essenceofbeauty.ca/sitemap.xml',
         policy: [
           { 
