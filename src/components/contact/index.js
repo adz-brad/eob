@@ -83,8 +83,19 @@ const Contact = () => {
                 null
             }
 
-
+            <label 
+                htmlFor="name"
+                className="w-0 h-0 opacity-0"
+            >
+                Name
+            </label>
             <input type="text" className="w-0 h-0 opacity-0" id="name" name="name" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
+            <label 
+                htmlFor="email"
+                className="w-0 h-0 opacity-0"
+            >
+                Email
+            </label>
             <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
             <div className="flex flex-col p-1 w-full md:w-1/2 my-1 md:p-2">
                                 <label 
