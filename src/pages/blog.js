@@ -62,13 +62,16 @@ export default Blog
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Blog"
         pageTitleDescription="Learn About Different Skin Care Treatments With Expert Advice From Essence of Beauty Ottawa"
         pageDescription="Essence of Beauty blog features articles full of expert skin care, health and beauty tips, tricks and advice."
         pageKeywords="Blog, Articles, Expert, Advice, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/blog"
+        pageUrl="https://www.essenceofbeauty.ca/blog/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/blog/" />
+        </>
     )
   } 

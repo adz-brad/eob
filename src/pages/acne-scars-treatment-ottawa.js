@@ -14,16 +14,16 @@ const AcneScars = () => {
             <Banner
                 heading="Acne Scars Revision"
                 gradient="from-black/70 via-black/50 to-black/30"
-                caption="Scars can compromise your complexion long after acne heals. At Essence of Beauty, we create individual programs for each client to treat a range of problems including active acne and acne scarring."
+                caption="Scars can compromise your complexion long after acne heals. At Essence of Beauty Ottawa, we create individual programs for each client to treat a range of problems including active acne and acne scarring."
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
                     <h1 className="mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
-                    <h4 className="mt-2 mb-4">
-                    Say goodbye to the scarring that compromises your complexion long after your acne is healed.
-                    </h4>
+                    <h2 className="mt-2 mb-4 subheader">
+                    With customized treatment options from Essence of Beauty Ottawa, you can say goodbye to the scarring that compromises your complexion long after your acne is healed.
+                    </h2>
                     <p className="my-1">
                     We all want to look and feel our best, both inside and out, every day. But for those who have suffered acne throughout their life and still show their physical scars that can be easier said than done. While it’s most prominent in adolescence, acne scarring can actually affect skin at any age. Scarring can affect not just a person’s physical appearance but also their self-confidence.           
                     </p>
@@ -98,13 +98,16 @@ export default AcneScars
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Acne Scars Revision"
         pageTitleDescription="Safe & Effective Treatment of Acne Scars For All Skin Types at Essence of Beauty Ottawa!"
         pageDescription="Say goodbye to the scarring that compromises your complexion long after your acne is healed. We create individual programs for each client to treat a range of problems including active acne and acne scarring."
         pageKeywords="Acne Scars, Scarring, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/acne-scars"
+        pageUrl="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/" />
+        </>
     )
   } 

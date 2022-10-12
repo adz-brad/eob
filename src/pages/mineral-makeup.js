@@ -18,7 +18,7 @@ const OsmosisMakeup = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">What makes Osmosis + colour the best mineral makeup?</h1>
-                    <h4 className="mt-2 mb-4">Osmosis takes the worry out of mineral makeup by making the most medically safe mineral powder foundations in the world.</h4>
+                    <h2 className="mt-2 mb-4 subheader">Osmosis takes the worry out of mineral makeup by making the most medically safe mineral powder foundations in the world.</h2>
                     <p className="my-1">
                     In designing the formulation for Osmosis + colour Minerals, Osmosis wanted to raise the standard of what mineral makeup should be by enhancing the natural radiance of the skin without the potential of health risks that can be found in most other mineral makeup. In further advancing the formula, Osmosis focused on improving skin health. An ingredient that is unique to Osmosis, SRGF -7™, optimizes the sun protection qualities of this beautiful makeup collection. Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis +colour Minerals.
                     </p>
@@ -269,13 +269,16 @@ export default OsmosisMakeup
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Osmosis + Colour Mineral Makeup"
         pageTitleDescription="Enhance & Repair Your Skin Simultaneously With Osmosis Mineral Makeup at Essence of Beauty Ottawa"
         pageDescription="Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis + colour Minerals."
         pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/mineral-makeup"
+        pageUrl="https://www.essenceofbeauty.ca/mineral-makeup/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/mineral-makeup/" />
+        </>
     )
   } 

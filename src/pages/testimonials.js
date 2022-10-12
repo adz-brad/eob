@@ -35,13 +35,16 @@ export default Testimonials
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Testimonials"
         pageDescription="See what clients of Essence of Beauty are saying about the amazing treatments we offer!"
-        pageTitleDescription="Our Clients Love The Results They Have Achieved Treating Their Skin!"
-        pageKeywords="Rosecea, Skin Peels, Sensitive Skin, Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/testimonials"
+        pageTitleDescription="Our Clients in Ottawa Love The Results They Have Achieved Treating Their Acne, Rosacea & More Using Our Advanced Organic, Holistic & Safe Treatment Options!"
+        pageKeywords="Rosacea, Skin Peels, Sensitive Skin, Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/testimonials/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/testimonials/" />
+        </>
     )
   } 

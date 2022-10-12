@@ -17,13 +17,13 @@ const DMKTherapy = () => {
             <div className="">
                 <div className="flex flex-col-reverse xl:flex-row lg:items-center">
                     <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
-                        <h1 className="mt-8 lg:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">The Power of DMK Enzyme Therapy</h1>
+                        <h1 className="mt-8 lg:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">Treat Acne, Rosacea & More With The Power of DMK</h1>
                         <p className="my-2">
-                            At Essence of Beauty, we are leading experts in the use of DMK Enzyme Therpy for treating a multitude of conditions, including acne, rosecea, sun-damaged skin, agiing effects, pigmentation, scarring and reactive skin to name just a few.
+                            At Essence of Beauty Ottawa, we are leading experts in the use of DMK Enzyme Therpy for treating a multitude of conditions including acne, rosacea, sun-damaged skin, aging effects, pigmentation, scarring and reactive skin to name just a few.
                         </p>
-                        <h4 className="mt-2">
+                        <h2 className="mt-2 subheader">
                             Benefits of choosing DMK Enyzme therapy include:
-                        </h4>
+                        </h2>
                         <ul className="list-disc ml-4 my-2">
                             <li className="my-1">
                             Glowing complexion & Hydrated skin
@@ -66,7 +66,7 @@ const DMKTherapy = () => {
                                 <StaticImage 
                                     loading="eager"
                                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
-                                    alt="Essence of Beauty DMK Enzyme Therapy"
+                                    alt="Essence of Beauty Ottawa DMK Enzyme Therapy"
                                     className="z-30 h-full"
                                 />
                             </button>
@@ -425,13 +425,16 @@ export default DMKTherapy
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="DMK Enzyme Therapy"
         pageTitleDescription="Effective Treatment For Acne, Aging, Pigmentation, Scarring & More With DMK at Essence of Beauty Ottawa"
         pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK."
         pageKeywords="DMK Enzyme Therapy, DMK, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy"
+        pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/dmk-enzyme-therapy/" />
+        </>
     )
   } 

@@ -30,20 +30,20 @@ export const treatmentMenu = [
                 cost: "$178",
             }
         ],
-        link: "/radiance-infusion",
+        link: "/radiance-infusion-nano-channeling/",
     },
     {
         name: "Ultrasonic Facial",
         image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/signatureUltrasonicFacial.png?raw=true" className="h-full w-full" />,
         imagePosition: 'left',
-        content: <p className="my-1">This Ultrasonic Facial is Essence of Beauty’s premiere high-performance. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
+        content: <p className="my-1">This Ultrasonic Facial is Essence of Beauty’s premiere high-performance non-invasive facial. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
         pricing: [
             {
                 description: "85 Minute Session",
                 cost: "$158",
             }
         ],
-        link: "/ultrasonic-facial",
+        link: "/non-invasive-ultrasonic-facial/",
     },
     {
         name: "Customize Treatment for Sensitive / Rosacea Skin",
@@ -94,7 +94,7 @@ export const treatmentMenu = [
                 cost: "$178",
             }
         ],
-        link: '/vitamin-a-infusion-peel',
+        link: '/acid-free-vitamin-a-skin-peel/',
     },
     {
         name: "DMK Enzyme Treatment",
@@ -107,7 +107,7 @@ export const treatmentMenu = [
                 cost: "$188",
             }
         ],
-        link: "/dmk-enzyme-therapy",
+        link: "/dmk-enzyme-therapy/",
     },
     {
         name: "Hubislab Healing & Repairing Facial with Ultrasound",
@@ -140,7 +140,7 @@ export const treatmentMenu = [
         </p>
         </>,
         pricing: null,
-        link: "/special-peels",
+        link: "/acid-free-chemical-peels-ottawa/",
 
     },
     {
@@ -155,7 +155,7 @@ export const treatmentMenu = [
                 cost: "$295",
             }
         ],
-        link: "/growth-factor-microneedling",
+        link: "/growth-factor-microneedling-ottawa/",
     },
     {
         name: "Intensive Acne Treatment (with LED lights or/and Micro-current)",
@@ -175,7 +175,7 @@ export const treatmentMenu = [
                 cost: "$178",
             }
         ],
-        link: '/led-photo-facial-light-therapy',
+        link: '/led-photo-facial-light-therapy/',
     },
     {
         name: "Nourishing Facial",

@@ -20,8 +20,11 @@ const CysticAcne = () => {
             <div className="p-4 lg:p-8">
                 <div className="flex flex-col md:flex-row my-8">
                     <div className="flex flex-col p-4 md:p-8 md:w-3/5 md:mr-8" >
-                        <h1 className="my-4 font-semibold">Is There Cystic Acne Treatment?</h1>
-                        <h4 className="mb-2">Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance.</h4>
+                        <h1 className="my-4 font-semibold">Treatments For Cystic Acne</h1>
+                        <h2 className="mb-2 subheader">Essence of Beauty Ottawa Acne Clinic specializes cystic acne treatment that helps clear cystic acne quickly.</h2>
+                        <p className="my-1">
+                        Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance
+                        </p>
                         <p className="my-1">
                         Cystic acne is the most severe acne infliction that someone can suffer from. It manifests itself in large, deeply-embedded, red, painful, and often swollen lumps in the skin. In some cases, these lumps (called cysts) are so deeply embedded that they are not visible from the surface of the skin.
                         </p>
@@ -82,7 +85,7 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         The good news is that cystic acne generally clears up quickly with the protocol we use at Acne Clinic in Essence of Beauty. We treat cystic acne with a combination of topical products and clinical treatments to calm the existing inflammation and to keep it from returning. We also recommend certain supplements to use along with your home care which have been clinically proven to reduce inflammation. To prevent scarring, it is best to not wait if you have cystic acne. Invest in Yourself… You are Worth it! 
                         </p>
                         <p className="mt-1 mb-2">
-                        Please read more about our Acne-Clearing program by clicking <Link to="/acne-treatment" className="font-bold text-brown hover:text-green">here.</Link>  
+                        Please read more about our Acne-Clearing program by clicking <Link to="/acne-treatment-ottawa/" className="font-bold text-brown hover:text-green">here.</Link>  
                         </p>
                     </Card>
 
@@ -114,13 +117,16 @@ export default CysticAcne
 
 export const Head = () => {
     return(
+        <>
         <Seo
-        pageTitle="Cystic Acne"
+        pageTitle="Cystic Acne Treatment Ottawa"
         pageTitleDescription="Treat Cystic Acne Inflammation & Scars With a Customized Skin Treatment Regiment from Essence of Beauty Ottawa"
         pageDescription="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
         pageKeywords="Cystic Acne, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/cystic-acne"
+        pageUrl="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/" />
+        </>
     )
   } 

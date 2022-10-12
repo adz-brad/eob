@@ -18,10 +18,10 @@ const Microneedling = () => {
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Growth Factor Microneedling</h1>
-                    <h4 className="mt-2 mb-4">A safe, simple procedure that can give your skin a fresh, even appearance.</h4>
+                    <h1 className="font-bold mb-2">Repair Acne Scarring With Growth Factor Microneedling</h1>
+                    <h2 className="mt-2 mb-4 subheader">This safe, simple procedure from Essence of Beauty Ottawa can give your skin a fresh, even appearance.</h2>
                     <p className="my-1">
-                    At Essence of Beauty, Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles. This procedure is relatively quick, and can be performed in approximately one hour when treating the entire face. Since microneedling is minimally invasive, doesn’t cause significant wounding to the skin, and isn’t light-based, most people can safely undergo microneedling therapy with minimal risk of long-term adverse effects. Typically, important factors such as age and skin colour doesn’t matter. Many clients prefer microneedling because of its minimal downtime. Although some redness may occur immediately after the procedure, any irritation should subside by the following day. The procedure is most commonly used on the face, neck, and décolletage with appealing results.
+                    Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles. This procedure is relatively quick, and can be performed in approximately one hour when treating the entire face. Since microneedling is minimally invasive, doesn’t cause significant wounding to the skin, and isn’t light-based, most people can safely undergo microneedling therapy with minimal risk of long-term adverse effects. Typically, important factors such as age and skin colour doesn’t matter. Many clients prefer microneedling because of its minimal downtime. Although some redness may occur immediately after the procedure, any irritation should subside by the following day. The procedure is most commonly used on the face, neck, and décolletage with appealing results.
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "microneedling-info"}}
@@ -58,7 +58,7 @@ const Microneedling = () => {
                     <StaticImage 
                     loading="lazy"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true" 
-                    alt="Essence of Beauty Growth Factor Microneedling Treatment" 
+                    alt="Essence of Beauty Ottawa Growth Factor Microneedling Treatment" 
                     className="lg:w-1/3 shrink-0 shadow-md rounded-sm mx-4"
                     />
                     
@@ -81,16 +81,16 @@ const Microneedling = () => {
                     className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-8"
                     imageClass="rounded-sm shadow-lg max-h-[300px]"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-1.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-2.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling8.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling1.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling2.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling3.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling4.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling5.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling6.jpg?raw=true" alt="Microneedling Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling7.jpg?raw=true" alt="Microneedling Before & After Treatment" />,        
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-1.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-beforeafter-2.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling8.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling1.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling2.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling3.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling4.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling5.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling6.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling7.jpg?raw=true" alt="Microneedling Before & After Treatment at Essence of Beauty Ottawa" />,        
                     ]}    
                 />
              </div>
@@ -142,13 +142,16 @@ export default Microneedling
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Growth Factor Microneedling"
         pageTitleDescription="Treat Sun Damaged Skin, Acne Scarring & More With Microneedling at Essence of Beauty Ottawa"
         pageDescription="At Essence of Beauty, Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles."
         pageKeywords="Growth Factor Microneedling, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/growth-factor-microneedling"
+        pageUrl="https://www.essenceofbeauty.ca/microneedling-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/microneedling-ottawa/" />
+        </>
     )
   } 

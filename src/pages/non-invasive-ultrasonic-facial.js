@@ -19,7 +19,7 @@ const UltrasonicFacial = () => {
             <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col lg:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">State of the Art Ultrasonic Facials</h1>
-                    <h4 className="mt-2 mb-4">Ultrasonic Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins, meaning that even the most sensitive skin will benefit from Ultrasound treatments!</h4>
+                    <h2 className="mt-2 mb-4 subheader">Treat your acne, rosacea and more with Ultrasonic Facials from Essence of Beauty Ottawa - a gentle, non-invasive, safe and suitable treatment option for all skin types, including even the most sensitive skin!</h2>
                     <p className="my-1">
                     It’s an exciting yet simple and powerfully effective tool to rejuvenate your skin. Ultrasound has been widely used around the world in medical applications and is now available for state of the art skincare treatments. Ultrasound uses the cutting-edge technology of very high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. But what does that mean for you? In short, it means Ultrasound is superior at cleansing, exfoliating, product infusion restoring elasticity, clearing of pigmentation problems & dramatically improves texture and smoothness…all without using chemicals, dangerous acids or other harsh abrasives.
                     </p>
@@ -152,7 +152,7 @@ const UltrasonicFacial = () => {
                     </ul>
                     <div className="my-8">
                     <Button
-                        data={{text: "Learn More", link: "/302-fountain-of-youth"}}
+                        data={{text: "Learn More", link: "/302-fountain-of-youth/"}}
                         className="buttonLight my-8 mx-auto md:mx-0"
                     />
                     </div>
@@ -195,7 +195,7 @@ const UltrasonicFacial = () => {
                     </ul>
                     <div className="my-8">
                     <Button
-                        data={{text: "Learn More", link: "/302-fountain-of-youth"}}
+                        data={{text: "Learn More", link: "/302-fountain-of-youth/"}}
                         className="buttonLight my-8 mx-auto md:mx-0"
                     />
                     </div>
@@ -238,7 +238,7 @@ const UltrasonicFacial = () => {
                       </ul>
                       <div className="my-8">
                       <Button
-                          data={{text: "Learn More", link: "/302-fountain-of-youth"}}
+                          data={{text: "Learn More", link: "/302-fountain-of-youth/"}}
                           className="buttonLight my-8 mx-auto md:mx-0"
                       />
                       </div>
@@ -260,13 +260,16 @@ export default UltrasonicFacial
 
 export const Head = () => {
     return(
+        <>
         <Seo
-        pageTitle="Ultrasonic Regenerative Facials"
-        pageTitleDescription="Safe, Gentle & Non-invasive Treatment of Rosecea & Acne For All Skin Types!"
-        pageDescription="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
+        pageTitle="Ultrasonic Regenerative Facials Ottawa"
+        pageTitleDescription="Safe, Gentle, Non-invasive Treatment of Rosecea Acne For All Skin Types"
+        pageDescription="Treat rosacea acne & other skin problems with the gentle, non-invasive, Ultrasonic Regenerative Facial. This amazing facial is safe and suitable for all skin types meaning even those with sensitive skin can benefit from this acne and rosacea treatment facial. Essence of Beauty Ottawa."
         pageKeywords="Ultrasonic Facial, Safe, Gentle, Non-invasive, Rosecea, All skin types, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/ultrasonic-facial"
+        pageUrl="https://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/" />
+        </>
     )
   } 

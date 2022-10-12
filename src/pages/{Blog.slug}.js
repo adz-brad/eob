@@ -76,12 +76,15 @@ export default BlogTemplate
 export const Head = ({ data }) => {
     const frontmatter = data.blog.childMarkdownRemark.frontmatter
     return (
+        <>
         <Seo
             pageTitle={frontmatter.title}
             pageDescription={frontmatter.excerpt}
-            pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-            pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}`}
+            pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+            pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}/`}
             pageImage={frontmatter.featuredImage}
         />
+        <link rel="canonical" href={`https://www.essenceofbeauty.ca${data.blog.slug}/`} />
+        </>
     )
   }

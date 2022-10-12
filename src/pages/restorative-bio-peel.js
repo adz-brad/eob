@@ -22,9 +22,9 @@ const RestorativeBioPeel = () => {
         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
             <div className="flex flex-col md:w-1/2 mx-auto">
                 <h1 className="font-bold mb-2">Enhance The Natural Beauty of Your Skin!</h1>
-                <h4 className="mt-2 mb-4">Treat yourself to a restorative and reinvigorating customized Vegan Facial Peel</h4>
+                <h2 className="mt-2 mb-4 subheader">Treat yourself to a restorative and reinvigorating customized Vegan Facial Peel</h2>
                 <p className="my-1">
-                Restorative Bio Peel is a new dimension of facial treatments which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type. Stimulate the body’s scar-healing response and increase skin cell renewal. The creation of collagen and elastin is initiated as your skin heals, giving you an almost instant plumping effect. It also aids in the treatment of scars, acne, dark marks, sun exposure, and skin aging. 
+                Restorative Bio Peel is a new dimension of facial treatment offered by Essence of Beauty Ottawa which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type. Stimulate the body’s scar-healing response and increase skin cell renewal. The creation of collagen and elastin is initiated as your skin heals, giving you an almost instant plumping effect. It also aids in the treatment of scars, acne, dark marks, sun exposure, and skin aging. 
                 </p>
                 <Button
                     data={{text: "Learn More", anchor: "restorative-bio-peel-info"}}
@@ -314,13 +314,16 @@ export default RestorativeBioPeel
 
 export const Head = () => {
     return(
-<Seo
+        <>
+        <Seo
             pageTitle="Restorative Bio Peel"
             pageTitleDescription="Natural, Acid-free, Vegan Skin Treatment To Help Restore Your Skin To It's Natural Beauty!"
-            pageDescription="Restorative Bio Peel is a new dimension of facial treatments which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type"
+            pageDescription="Restorative Bio Peel is a new dimension of facial treatment offered by Essence of Beauty Ottawa which can be used as a replacement for laser therapy and exfoliating acid. It has exceptional curative properties for every skin type."
             pageKeywords="Restorative, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-            pageUrl="https://www.essenceofbeauty.ca/afterglow-peel"
+            pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/restorative-bio-peel/" />
+        </>
     )
   } 

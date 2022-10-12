@@ -29,7 +29,7 @@ That is why today I’d like to share smoothies made with natural ingredients th
 
 That being said, even if you add in all these “blemish blasting foods,” keep in mind that if you are still eating or doing something that is fueling the fire of acne for your unique body, you won’t see complete results. Treating acne naturally requires a multi-pronged, holistic approach, as well as time.
 
-In my [acne program](https://www.essenceofbeauty.ca/holistic-acne-program/ "Holistic Acne Program"), I guide you towards figuring out your personal acne triggers, and how to reverse them, so you can achieve the clear, flawless skin you desire. While there are multiple causes of acne, as well as effective treatment approaches, it will depend on your unique situation, there are certain foods that can help bring down the redness and inflammation of breakouts more quickly.
+In my [acne program](https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/ "Holistic Acne Program"), I guide you towards figuring out your personal acne triggers, and how to reverse them, so you can achieve the clear, flawless skin you desire. While there are multiple causes of acne, as well as effective treatment approaches, it will depend on your unique situation, there are certain foods that can help bring down the redness and inflammation of breakouts more quickly.
 
 For more information on the benefits of healthy acne free skin contact Eva at the Essence of Beauty Acne Clinic to talk about our acne treatments options today.
 

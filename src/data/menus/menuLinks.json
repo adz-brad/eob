@@ -10,36 +10,36 @@
         "slug": null,
         "pages": [
             {
-                "title": "Holistic Acne Program",
-                "slug": "holistic-acne-program"
+                "title": "Holistic Acne Clinic",
+                "slug": "holistic-acne-clinic-ottawa/"
             },
             {
                 "title": "Virtual Acne Clinic",
-                "slug": "virtual-acne-program"
+                "slug": "virtual-acne-program/"
             },
             {
                 "title": "New Client Acne Consultation",
-                "slug": "new-client-acne-consultation"
+                "slug": "new-client-acne-consultation/"
             },
             {
                 "title": "Acne Treatment",
-                "slug": "acne-treatment"
+                "slug": "acne-treatment-ottawa/"
             },
             {
                 "title": "Cystic Acne",
-                "slug": "cystic-acne"
+                "slug": "cystic-acne-treatment-ottawa/"
             },
             {
                 "title": "Acne Scars",
-                "slug": "acne-scars"
+                "slug": "acne-scars-treatment-ottawa/"
             },
             {
                 "title": "Back Acne",
-                "slug": "back-acne"
+                "slug": "back-acne-treatment-ottawa/"
             },
             {
                 "title": "Practice Policies Form",
-                "slug": "practice-policies-form"
+                "slug": "practice-policies-form/"
             }
         ],
         "subMenus": []
@@ -50,19 +50,19 @@
         "pages": [
             {
                 "title": "Facial Treatments",
-                "slug": "facial-treatments"
+                "slug": "facial-treatments-ottawa/"
             },
             {
-                "title": "Rosacea Skin",
-                "slug": "rosacea-skin"
+                "title": "Rosacea & Sensitive Skin",
+                "slug": "rosacea-treatment-sensitive-skin/"
             },
             {
                 "title": "Aging and Dehydrated Skin",
-                "slug": "aging-and-dehydrated-skin"
+                "slug": "aging-and-dehydrated-skin/"
             },
             {
                 "title": "Hyperpigmentation & Melasma",
-                "slug": "hyperpigmentation-melasma"
+                "slug": "hyperpigmentation-melasma-treatment-ottawa/"
             }
         ],
         "subMenus": []
@@ -77,31 +77,31 @@
                 "pages": [
                     {
                         "title": "Radiance Infusion",
-                        "slug": "radiance-infusion"
+                        "slug": "radiance-infusion-nano-channeling/"
                     },
                     {
                         "title": "DMK Enyzme Therapy",
-                        "slug": "dmk-enzyme-therapy"
+                        "slug": "dmk-enzyme-therapy/"
                     },
                     {
                         "title": "AnteAge Stem Cell Facial",
-                        "slug": "anteage-stem-cell-facial"
+                        "slug": "anteage-stem-cell-facial/"
                     },
                     {
                         "title": "Growth Factor Microneedling",
-                        "slug": "growth-factor-microneedling"
+                        "slug": "microneedling-ottawa/"
                     },
                     {
                         "title": "LED PhotoFacial Light Therapy",
-                        "slug": "led-photo-facial-light-therapy"
+                        "slug": "led-photo-facial-light-therapy/"
                     },
                     {
                         "title": "Ultrasonic Facial",
-                        "slug": "ultrasonic-facial"
+                        "slug": "non-invasive-ultrasonic-facial/"
                     },
                     {
                         "title": "302 Fountain Of Youth",
-                        "slug": "302-fountain-of-youth"
+                        "slug": "302-fountain-of-youth/"
                     }
                 ]
             },
@@ -110,23 +110,23 @@
                 "pages": [
                     {
                         "title": "Restorative Bio Peel",
-                        "slug": "restorative-bio-peel"
+                        "slug": "restorative-bio-peel/"
                     },
                     {
-                        "title": "AfterGlow Peel",
-                        "slug": "afterglow-peel"
+                        "title": "AfterGlow Chemical Peel",
+                        "slug": "afterglow-chemical-peel-ottawa/"
                     },
                     {
                         "title": "Herbal Green Peel®",
-                        "slug": "herbal-green-peel"
+                        "slug": "herbal-green-peel/"
                     },
                     {
-                        "title": "Vitamin A Infusion Peel",
-                        "slug": "vitamin-a-infusion-peel"
+                        "title": "Acid-Free Vitamin A Infusion Peel",
+                        "slug": "acid-free-vitamin-a-skin-peel/"
                     },
                     {
-                        "title": "Special Peels",
-                        "slug": "special-peels"
+                        "title": "Acid-Free & Chemical Peels",
+                        "slug": "acid-free-chemical-peels-ottawa/"
                     }
                 ]
             },
@@ -134,12 +134,12 @@
                 "title": "Services",
                 "pages": [
                     {
-                        "title": "Skin Tags",
-                        "slug": "skin-tags-red-dots-milia-removal"
+                        "title": "Skin Tag Removal & More",
+                        "slug": "skin-tags-red-dots-milia-removal-ottawa/"
                     },
                     {
                         "title": "Skin Preparations For Weddings",
-                        "slug": "skin-preparations-for-weddings"
+                        "slug": "skin-preparations-for-weddings/"
                     }
                 ]
             }
@@ -151,32 +151,32 @@
         "pages": [
             {
                 "title": "Osmosis+Beauty MD",
-                "slug": "osmosismd"
+                "slug": "osmosismd/"
             },
             {
                 "title": "Mineral Makeup",
-                "slug": "mineral-makeup"
+                "slug": "mineral-makeup/"
             },
             {
                 "title": "302 Fountain Of Youth",
-                "slug": "302-fountain-of-youth"
+                "slug": "302-fountain-of-youth/"
             },
             {
                 "title": "Skincare Products",
-                "slug": "products"
+                "slug": "products/"
             }
         ],
         "subMenus": []
     },
     {
         "title": "Testimonials",
-        "slug": "testimonials",
+        "slug": "testimonials/",
         "pages": [],
         "subMenus": []
     },
     {
         "title": "Blog",
-        "slug": "blog",
+        "slug": "blog/",
         "pages": [],
         "subMenus": []
     },
@@ -186,14 +186,14 @@
         "pages": [
             {
                 "title": "Practice Policies Form",
-                "slug": "practice-policies-form"
+                "slug": "practice-policies-form/"
             }
         ],
         "subMenus": []
     },
     {
         "title": "Contact",
-        "slug": "contact",
+        "slug": "contact/",
         "pages": [],
         "subMenus": []
     }

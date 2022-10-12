@@ -42,26 +42,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://www.essenceofbeauty.ca`,
-      },
-    },
-    'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        host: 'https://www.adrenalizedigital.ca',
-        sitemap: 'https://www.adrenalizedigital.ca/sitemap.xml',
-        policy: [
-          { 
-            userAgent: '*', 
-            allow: '/' 
-          }
-        ]
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         "name": "pages",

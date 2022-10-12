@@ -73,7 +73,7 @@ const Contact = () => {
             Appointments are recommended to be made in advance so we can accommodate your specific requests. If your appointment needs to be re-arranged or cancelled, please notify us at least 48 hours ahead of time to avoid unnecessary charges. To fully enjoy your treatment, please arrive 10 minutes before your appointment.  
             </p>
             <p className="my-2">
-            All appointments are subject to a 48 hour cancellation/no show policy.  <Link to="/practice-policies-form" className="text-brown hover:text-green font-bold">Read policy here.</Link>
+            All appointments are subject to a 48 hour cancellation/no show policy.  <Link to="/practice-policies-form/" className="text-brown hover:text-green font-bold">Read policy here.</Link>
             </p>
             </div>   
         </>
@@ -84,13 +84,16 @@ export default Contact
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Contact"
         pageTitleDescription="Find Out How Essence of Beauty, Ottawa's FIRST Holistic Skincare Clinic, Can Help You See Results!"
         pageDescription="Contact Essence of Beauty Spa today to book your first consultation or treatment!"
         pageKeywords="No acid, acid free, chemical free, no chemicals, acne scarring, pigmentation, rosecea, skincare, treatment, sensitive skin, consultation, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/contact"
+        pageUrl="https://www.essenceofbeauty.ca/contact/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/contact/" />
+        </>
     )
   } 

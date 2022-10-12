@@ -20,13 +20,13 @@ const VirtualAcneProgram = () => {
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Achieve Great Results, Virtually.</h1>
-                    <h4 className="mt-2 mb-4">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.</h4>
+                    <h1 className="font-bold mb-2">Treat Your Acne With Amazing Results, Virtually!</h1>
+                    <h2 className="mt-2 mb-4 subheader">Essence of Beauty Ottawa uses products from AnteAGE® stem-cell based skincare and microchanneling to help treat acne & more, all from the comfort of your home.</h2>
                     <p className="my-1">
-                        Our virtual acne program and coaching is the solution for our long distance acne clients, especially during Covid-19 social distancing. This program is designed to be a convenient, highly effective step-by-step system that includes coaching and education using the right products with the right ingredients in order to achieve real results. The key to your success is your consistency and commitment to your plan, since this will determine the clients results.
+                        Our virtual acne program and coaching is the solution for our long distance acne clients who are unable to come into our Ottawa clinc, especially during Covid-19 social distancing. This program is designed to be a convenient, highly effective step-by-step system that includes coaching and education using the right products with the right ingredients in order to achieve real results. The key to your success is your consistency and commitment to your plan, since this will determine the clients results.
                         </p>
                         <p className="my-1">
-                            The Virtual and <Link to="/holistic-acne-program">Holistic Acne Programs</Link> are effective for all types of acne and were created for people who are absolutely excited and serious about getting their acne under control. They are ready to end their struggles and frustrations dealing with their embarrassment of their problem skin. Please be prepared to make a commitment to lifestyle changes. If you do, you will see results. Achieving acne free, clear skin is not an overnight process!!! It requires patience and compliance. But if you follow our recommendations and be consistent with your home-care, you will achieve great results.
+                            The Virtual and <Link to="/holistic-acne-clinic-ottawa/">Holistic Acne Treatment Programs</Link> are effective for all types of acne and were created for people who are absolutely excited and serious about getting their acne under control. They are ready to end their struggles and frustrations dealing with their embarrassment of their problem skin. Please be prepared to make a commitment to lifestyle changes. If you do, you will see results. Achieving acne free, clear skin is not an overnight process!!! It requires patience and compliance. But if you follow our recommendations and be consistent with your home-care, you will achieve great results.
                         </p>
                         <Button
                             data={{text: "Learn More", anchor: "virtual-acne-program-faq"}}
@@ -86,7 +86,7 @@ const VirtualAcneProgram = () => {
                             content:  
                                 <>
                                     <p className="my-1">
-                                    To begin the process, please email or call me to purchase your virtual consultation, this will schedule you a Zoom or Skype appointment. All appointments are booked here, requiring FULL payment upfront in order to secure your date and time. You should receive a notification in your email with the appointment information and link to connect with me via Zoom or Skype. Also, I will email you the questionnaire form for you to fill out. The more detailed information you provide me, the better! Please ensure you do these appointments with a fresh clean face, no makeup. Your Virtual Appointments will be booked during our business hours listed below. This will guarantee our clients valuable time together. All appointments are subject to a 48 hour cancellation/no show policy. <Link to="/practice-policies-form">Read policy here.</Link>
+                                    To begin the process, please email or call me to purchase your virtual consultation, this will schedule you a Zoom or Skype appointment. All appointments are booked here, requiring FULL payment upfront in order to secure your date and time. You should receive a notification in your email with the appointment information and link to connect with me via Zoom or Skype. Also, I will email you the questionnaire form for you to fill out. The more detailed information you provide me, the better! Please ensure you do these appointments with a fresh clean face, no makeup. Your Virtual Appointments will be booked during our business hours listed below. This will guarantee our clients valuable time together. All appointments are subject to a 48 hour cancellation/no show policy. <Link to="/practice-policies-form/">Read policy here.</Link>
                                     </p>
                                     <p className="my-1">
                                     It is important to send me some close-up pictures of your skin in natural light so that I could analyze your skin for the best recommendations. No filters, please.
@@ -185,13 +185,16 @@ export default VirtualAcneProgram
 
 export const Head = () => {
     return(
+        <>
         <Seo
-        pageTitle="Virtual Acne Program"
-        pageTitleDescription="Clear Your Acne, Rosecea & Other Skin Problems From Your Home!"
-        pageDescription="Not able to come into the studio for hands on treatment? You can still achieve great results with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
-        pageKeywords="Virtual, Remote, Heal at Home, Remote, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/virtual-acne-program"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"
+            pageTitle="Virtual Acne Program"
+            pageTitleDescription="Clear Your Acne, Rosecea & Other Skin Problems From Your Home!"
+            pageDescription="Not able to come into our Ottawa clinic for hands on treatment? You can still achieve great results for acne treatment with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
+            pageKeywords="Virtual, Remote, Heal at Home, Remote, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+            pageUrl="https://www.essenceofbeauty.ca/virtual-acne-program/"
+            pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/virtual-acne-program/" />
+        </>
     )
   } 

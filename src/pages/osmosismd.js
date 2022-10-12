@@ -16,7 +16,7 @@ const OsmosisMd = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Osmosis+Beauty MD Medical Skin Care</h1>
-                    <h4 className="mt-2 mb-4"> Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature.</h4>
+                    <h2 className="mt-2 mb-4 subheader"> Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature.</h2>
                     <p className="my-1">
                     In order to fully appreciate what these products can achieve for you, it is important to understand that our skin functions within a process dictated by nature. It is the science of this natural process that provides the foundation of the formulation and functioning of Osmosis+Beauty MD. So that rather than products that simply treat the skin’s surface with aggressive topicals that force nature and force temporary change, Osmosis+Beauty MD products are formulated to assist and support nature’s scientific process, products that transform damaged, aging, injured skin into healed, moist, beautiful skin.  The scientific approach behind Osmosis+Beauty MD recognizes that healing and transformative results require that the skin must be replenished, restored and repaired at the deeper skin cells.  However, these products provide more than that.  The organic and anti-oxidant ingredient formulation of Osmosis+Beauty MD also gently replenishes, restores and repairs the surface skin cells.  What this means for you is that the products have a simultaneous dual action  – one that transforms your deeper cells where real change is required, but also one that very quickly and visibly transforms your surface cells for brighter, clearer, smoother, healthier skin.
                     </p>
@@ -92,13 +92,16 @@ export default OsmosisMd
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Osmosis + Beauty MD"
         pageTitleDescription="Treat Acne, Rosecea, Hyperpigmentation & More With OsmosisMD at Essence of Beauty Ottawa"
         pageDescription="Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature. The organic and anti-oxidant ingredient formulation of Osmosis+Beauty MD gently replenishes, restores and repairs the surface skin cells."
         pageKeywords="Osmosis, Beauty, MD, Osmosis + Beauty MD, Medical Skin Care, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/osmosismd"
+        pageUrl="https://www.essenceofbeauty.ca/osmosismd/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/osmosismd/" />
+        </>
     )
   } 

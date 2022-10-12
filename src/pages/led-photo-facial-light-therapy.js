@@ -17,7 +17,7 @@ const LEDPhotoFacial = () => {
                                     <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">How Does Advance LED Light Therapy Work?</h1>
-                    <h4 className="mt-2 mb-4">Light Emitting Diode (LED) therapy is a revolutionary anti-aging skin care procedure that is used to treat multiple adverse skin conditions.</h4>
+                    <h2 className="mt-2 mb-4 subheader">Light Emitting Diode (LED) therapy is a revolutionary anti-aging skin care procedure that is used to treat multiple adverse skin conditions.</h2>
                     <p className="my-1">
                     Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone. Effective on all skin type. Our treatments are the most advanced light treatments available, and we can adapt each session to suit your specific needs. With regular maintenance treatments, our LED facials can result in a noticeable improvement to your skin health. Advance light therapy can also be used to reduce the downtime of advanced aesthetics treatments, enhancing the outcomes of chemical peels or micro-needling. In addition to a more youthful appearance, clients experience a dramatic improvement of acne, rosacea and fine lines.
 
@@ -107,13 +107,16 @@ export default LEDPhotoFacial
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="LED Photo Facial Light Therapy"
         pageTitleDescription="Pain-free Treatment To Reduce Pigmentation, Scarring, Inflamation & More at Essence of Beauty Ottawa"
         pageDescription="Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone."
         pageKeywords="LED, Photo Facial, Pain-free, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy"
+        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/led-photo-facial-light-therapy/" />
+        </>
     )
   } 

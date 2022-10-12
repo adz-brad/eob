@@ -10,7 +10,6 @@ import Seo from '../components/seo'
 const NewClientAcneConsultation = () => {
     return(
         <>
-
             <Banner  
                 heading="New Client Acne Consultation"
                 gradient="from-black/50 via-black/30 to-black/10"
@@ -19,10 +18,10 @@ const NewClientAcneConsultation = () => {
             />
                         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Your First Consultation</h1>
-                    <h4 className="mt-2 mb-4">Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started.</h4>
+                    <h1 className="font-bold mb-2">Treat Acne, Rosacea & More</h1>
+                    <h2 className="mt-2 mb-4 subheader">Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started.</h2>
                     <p className="my-1">
-                    We will take appx. 45 minutes to do a general evaluation of your skin, go over skin history, and talk about your skin care goals and concerns. At that time we can discuss long or short term treatment options and outcome expectations. Your commitment to your acne treatment program will determine your results.  
+                    We will take approx. 45 minutes to do a general evaluation of your skin, go over skin history, and talk about your skin care goals and concerns. At that time we can discuss long or short term treatment options and outcome expectations. Your commitment to your acne treatment program will determine your results.  
                     </p>
                     <p className="my-1">
                     Our Acne Treatment enhances epidermal balance, helps shrink large pores and rapidly improves the skin’s appearance and texture. It helps to fight pimples, clear blackheads, loosen cysts and reduce dark spots. It also erases mild to moderate acne scars.  
@@ -50,7 +49,7 @@ const NewClientAcneConsultation = () => {
                             We recommend herbs and supplements to help re-balance the body from the inside out. We educate you on the lifestyle habits and choices that aggravate acne- like food, birth control pills (they do not always help acne), medications, prescriptions, and stress. Please be prepared to make a commitment to lifestyle changes. If you do, you will see results.  Acne treatment is a long term commitment of weekly or bi-weekly.    
                             </li>
                             <li className="my-1">
-                            Expect to purchase your first set of acne products from us at your first appointment, in addition to your skin treatment costs. You must use OUR acne products.  All appointments are subject to a 48 hour cancellation/no show policy. <Link to="/practice-policies-form">Read policy here.</Link>  
+                            Expect to purchase your first set of acne products from us at your first appointment, in addition to your skin treatment costs. You must use OUR acne products.  All appointments are subject to a 48 hour cancellation/no show policy. <Link to="/practice-policies-form/">Read policy here.</Link>  
                             </li>
                         </ul>
                         <div className="flex flex-col my-4 p-4">
@@ -95,13 +94,16 @@ export default NewClientAcneConsultation
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="New Client Acne Consultation"
         pageTitleDescription="Treat Your Skin With The Care It Deserves At Essence of Beauty Ottawa"
         pageDescription="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
         pageKeywords="New Clients, New Patient, Consultation, Information, Rosecea, Hyperpigmentation, Acid-free, Natural, Learn, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation"
+        pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/new-client-acne-consultation/" />
+        </>
     )
   } 

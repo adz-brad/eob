@@ -27,9 +27,9 @@ const SkinTags = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Skin Tags, Milia, Red Dots, Hyperpigmentation, Skin Growths Removal with Vascu-Lyse</h1>
-                    <h4 className="mt-2 mb-4">If you have a predisposition to various skin growths such as skin tags, keratosis, ruby pints these targeted skin revision therapies will effectively solve this problem.</h4>
+                    <h2 className="mt-2 mb-4 subheader">Essence of Beauty Ottawa treats your predisposition to various skin growths such as skin tags, keratosis and ruby points with our safe, non-invasive skin revision treatment therapies that permanently remove growths from your face and body in just one session!</h2>
                     <p className="my-1">
-                    A safe, non-invasive treatment that permanently removes unsightly skin growths from your face and body in just one session! All treatments are performed using the strictest sanitary procedures. The treatment involves a cauterization machine that has been successfully used for over 30 years by skin care professionals to remove all types of common surface skin growths. The procedure is generally more effective and less painful than liquid nitrogen or laser.
+                    All treatments are performed using the strictest sanitary procedures. The treatment involves a cauterization machine that has been successfully used for over 30 years by skin care professionals to remove all types of common surface skin growths. The procedure is generally more effective and less painful than liquid nitrogen or laser.
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "skin-tags-more-info"}}
@@ -185,13 +185,16 @@ export default SkinTags
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Skin Tags, Milia, Red Dots & Skin Growth Removal"
         pageTitleDescription="Heal Your Skin With Safe, Non-invasive Skin Growth Treatments!"
-        pageDescription="If you have a predisposition to various skin growths such as skin tags, keratosis, ruby points these targeted skin revision therapies will effectively solve this problem. A safe, non-invasive treatment that permanently removes unsightly skin growths from your face and body in just one session!"
+        pageDescription="Let Essence of Beauty Ottawa treat your predisposition to various skin growths such as skin tags, keratosis and ruby points with our safe, non-invasive skin revision treatment therapies that permanently remove growths from your face and body in just one session!"
         pageKeywords="Skin Tags, Milia, Red Dots, Skin Growth Removal, Seborrheic Keratosis, Telangiectasia, Spider Angiomas, Cherry Angiomas, Sebaceous Hyperplasia, Hyperpigmentation, Broken Capillaries, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal"
+        pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/" />
+        </>
     )
   } 

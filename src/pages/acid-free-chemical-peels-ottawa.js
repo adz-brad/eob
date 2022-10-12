@@ -9,15 +9,15 @@ const SpecialPeels = () => {
     return(
         <>
             <Banner
-                heading="No-Acid Natural Grade Facial Peels"
+                heading="Natural Grade Acid-Free & Chemical Facial Peels"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption=""
                 image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeelsHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Special Peels – Making a major difference</h1>
-                    <h4 className="mt-2 mb-4">At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h4>
+                    <h1 className="font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
+                    <h2 className="mt-2 mb-4">At Essence of Beauty Ottawa Acne Clinic, we offer both acid-free natural grade facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
                     <p className="my-1">
                     When properly administered, peels provide powerful, non-invasive, pro-youth improvement to the skin. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
                     </p>
@@ -98,7 +98,7 @@ const SpecialPeels = () => {
                       <Button
                         data={{
                           text: "Learn More About Restorative Bio Peel",
-                          link: "/restorative-bio-peel",
+                          link: "/restorative-bio-peel/",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -155,7 +155,7 @@ const SpecialPeels = () => {
                         <Button
                           data={{
                             text: "Learn More About Afterglow Peel",
-                            link: "/afterglow-peel",
+                            link: "/afterglow-chemical-peel-ottawa/",
                           }}
                           className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                         />
@@ -211,7 +211,7 @@ const SpecialPeels = () => {
                         <Button
                           data={{
                             text: "Learn More About Herbal Green Peel",
-                            link: "/herbal-green-peel",
+                            link: "/herbal-green-peel/",
                           }}
                           className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                         />
@@ -284,7 +284,7 @@ const SpecialPeels = () => {
                         <Button
                           data={{
                             text: "Learn More About Vitamin A Infusion Peel",
-                            link: "/vitamin-a-infusion-peel",
+                            link: "/acid-free-vitamin-a-skin-peel/",
                           }}
                           className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                         />
@@ -306,13 +306,16 @@ export default SpecialPeels
 
 export const Head = () => {
   return(
+    <>
     <Seo
-    pageTitle="No-Acid Natural Grade Facial Peels"
-    pageTitleDescription="Acid-Free Natural Skin Peels To Treat Acne, Scarring, Rosecea, Sun Damage & More!"
-    pageDescription="At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
-    pageKeywords="No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-    pageUrl="https://www.essenceofbeauty.ca/special-peels"
+    pageTitle="Natural Grade Acid-Free & Chemical Facial Peels"
+    pageTitleDescription="Treat Acne, Scarring, Rosecea, Sun Damage & More at Essence of Beauty Ottawa"
+    pageDescription="At Essence of Beauty Ottawa, I offer a variety of peels including both acid-free natural grade and chemical facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
+    pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+    pageUrl="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
     />
+    <link rel="canonical" href="http://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/" />
+        </>
   )
 } 

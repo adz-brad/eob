@@ -19,7 +19,7 @@ const AgingAndDehydratedSkin = () => {
             <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8">
                 <div className="lg:w-2/3 lg:m-8">
                     <h1 className="mb-4 font-semibold">Turning Back The Clock On Aging Skin</h1>
-                    <h4 className="my-6">Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections.</h4>
+                    <h2 className="my-6 subheader">Skin starting to lose it's radiant appearance? At Essence of Beauty Ottawa, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections.</h2>
                     <p className="my-2">
                     As you age, your skin gets drier and thinner and starts to lose its plump, radiant appearance. The loss of collagen in your skin, as well as exposure to the elements, causes wrinkles, skin laxity and gives your skin a dull appearance. You’ll likely notice your face losing its firmness and tightness most around your eyes and mouth. You could opt for Botox injections, cosmetic surgery or laser treatments, however these options can be painful and only provide short term beauty results. <strong>They don’t do anything to help your skin produce more collagen and repair damaged cells.</strong>
                     </p>
@@ -88,7 +88,7 @@ const AgingAndDehydratedSkin = () => {
                                     We recommend that you contact us for advice on the most appropriate treatment for your skin type.  
                                     </p>
                                     <Button
-                                        data={{text: "Learn More", link: "/special-peels"}}
+                                        data={{text: "Learn More", link: "/acid-free-chemical-peels-ottawa/"}}
                                         className="buttonLight my-4"
                                     />
                                 </div>
@@ -144,7 +144,7 @@ const AgingAndDehydratedSkin = () => {
                                     <strong className="text-brown">Price on application.</strong>
                                     
                                     <Button
-                                        data={{text: "Learn More", link: "/dmk-enzyme-therapy"}}
+                                        data={{text: "Learn More", link: "/dmk-enzyme-therapy/"}}
                                         className="buttonLight my-4"
                                     />
                                 </div>
@@ -164,7 +164,7 @@ const AgingAndDehydratedSkin = () => {
                                     <strong>$295</strong>
                             
                                     <Button
-                                        data={{text: "Learn More", link: "/growth-factor-microneedling"}}
+                                        data={{text: "Learn More", link: "/microneedling-ottawa/"}}
                                         className="buttonLight my-4"
                                     />
                                 </div>
@@ -190,7 +190,7 @@ const AgingAndDehydratedSkin = () => {
                                         <strong className="mr-2  text-brown">Package of 3 (when pre-booked & pre-paid):</strong>$1035
                                     </span> 
                                     <Button
-                                        data={{text: "Learn More", link: "/herbal-green-peel"}}
+                                        data={{text: "Learn More", link: "/herbal-green-peel/"}}
                                         className="buttonLight my-4"
                                     />
                                 </div>
@@ -226,13 +226,16 @@ export default AgingAndDehydratedSkin
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Aging & Dehydrated Skin"
         pageTitleDescription="Turn Back The Clock With Facial Rejuvenation At Essence of Beauty Ottawa!"
         pageDescription="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections."
         pageKeywords="Aging, Antiaging, Anti-aging, Dehydrated skin, Dry skin, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin"
+        pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/aging-and-dehydrated-skin/" />
+        </>
     )
   } 

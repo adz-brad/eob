@@ -16,8 +16,8 @@ const VitaminAInfusion = () => {
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">The Ultimate In Dermal Rejuvenation</h1>
-                    <h4 className="mt-2 mb-4">Facial infusion is unique because it is extremely gentle, creating change through stimulation not peeling with specific receptors designed to interact with the fibroblasts for more collagen production.</h4>
+                    <h1 className="font-bold mb-2">Vitamin A Infusion Peel For Acne, Rosacea & More</h1>
+                    <h2 className="mt-2 mb-4 subheader">Essence of Beauty Ottawa clinic specializes in high quality, acid-free peels like the unique Vitamin A Facial infusion because it is extremely gentle, creating change through stimulation not peeling with specific receptors designed to interact with the fibroblasts for more collagen production.</h2>
                     <p className="my-1">
                     The vitamin A infusion peel is non-acid retinaldehyde peel that is boosted with powerful antioxidants and nutrients that help repair and remodel the skin. It is a great choice for face, neck and chest. Retinaldehyde is the most potent and least irritating form of vitamin A. An added benefit of retinaldehyde is that your skin can store it. All these features make retinaldehyde the superior form of vitamin A on the market. The vitamin A infusion peel is customized to meet each client’s specific skin needs and concerns. The skincare practitioner creates a custom blend of antioxidants and nutrients that is mixed with the concentrated vitamin A prior to application. Some of the most common ingredients used are COQ10, hyaluronic acid, peptides, vitamin C, beta glucan, mandelic acid and niacinamide. The vitamin A peel is extremely safe and tolerated well by all skin types. You may see mild to moderate flaking two to three days after the peel, which can last another two to four days. The peel is gentle but the results are significant. Once vitamin A has penetrated deep within the skin to the dermal layer, it stimulates the formation of new, healthy cells and the magic begins, resulting in vibrant, healthy and fresh-looking skin.
                     </p>
@@ -176,13 +176,16 @@ export default VitaminAInfusion
 
 export const Head = () => {
     return(
+        <>
         <Seo
-        pageTitle="Vitamin A Infusion Peel"
-        pageTitleDescription="Acid-free Peel for Anti-aging, Rosecea, Acne Treatment + More!"
-        pageDescription="In the past few years, new approaches to peeling and rejuvenating the skin have emerged. One of the most effective and innovative of these is the vitamin A infusion peel. This non-acid peel is transforming the way people think about peels, and the results are incredible."
+        pageTitle="Acid-Free Vitamin A Infusion Peel"
+        pageTitleDescription="Acid-free Peel for Anti-aging, Rosecea, Acne Treatment Ottawa"
+        pageDescription="Transform the way you think about peels with this effective and innovative non-acid Vitamin A Infusion peel treatment for acne, rosacea and anti-aging with incredible results."
         pageKeywords="Vitamin A, Infusion, Peel, Dermal Rejuvenation, Gentle, Sensitive Skin, Non-acid, Sun damage, Rosacea, Diabetes, Pregnancy, Post-surgery, Dull skin, Menopause, Chemical Free, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/vitamin-a-infusion-peel"
+        pageUrl="https://www.essenceofbeauty.ca/acid-free-vitamin-a-skin-peel/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/acid-free-vitamin-a-skin-peel/" />
+        </>
     )
   } 

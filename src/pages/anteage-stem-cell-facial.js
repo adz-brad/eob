@@ -17,8 +17,8 @@ const AnteageStemCell = () => {
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Restore your skin’s health on a cellular level with AnteAGE®</h1>
-                    <h4 className="mt-2 mb-4">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling.</h4>
+                    <h1 className="font-bold mb-2">Restore Your Skin Health & Fight Aging with AnteAGE®</h1>
+                    <h2 className="mt-2 mb-4 subheader">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling designed for anti-aging and skin restoration treatment.</h2>
                     <p className="my-1">
                      While most on-counter stem cell-containing skincare products use plant stem cells. AnteAGE® is the result of recent advances in Stem Cell science. One specialized population of stem cells that originate in the bone marrow is now known to be the commander in chief of all tissue repair. AnteAGE® has decoded the bio signal language these cells use to manage skin health. Bio signals called Growth Factors & Cytokines can create a natural, youthful healing response at the deepest level of your skin–at any age.  AnteAGE® products do not contain cells or cell remnants.  They are removed during ultrafiltration, the final step in the laboratory culture process. The ultra-filtered extract is fortified with growth factor actives, plus antioxidants and skin-supporting proteins, to create a biogenic skincare concentrate.
                     </p>
@@ -30,7 +30,7 @@ const AnteageStemCell = () => {
                 <StaticImage 
                         loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
-                    alt="Essence of Beauty AnteAge Stem Cell Facial"
+                    alt="Essence of Beauty Ottawa AnteAge Stem Cell Facial"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
             </div>
@@ -84,7 +84,7 @@ const AnteageStemCell = () => {
                     className="grid grid-cols-1 gap-4 my-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Treatment" />
+                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Treatment at Essence of Beauty Ottawa" />
                     ]}
                 />
                 <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
@@ -190,13 +190,16 @@ export default AnteageStemCell
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="AnteAge Stem Cell Facial"
         pageTitleDescription="Award Winning Holistic Skin Treatment from Essence of Beauty Ottawa"
         pageDescription="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
         pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial"
+        pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/anteage-stem-cell-facial/" />
+        </>
     )
   } 

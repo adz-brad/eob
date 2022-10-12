@@ -48,4 +48,4 @@ You probably want to know whether quitting dairy would make your skin Acne – f
 
 The first step when treating acne is to determine how bad the problem is. Severe cases should be handled in the acne skin specialist.
 
-At [Essence of Beauty Acne Clinic](https://www.essenceofbeauty.ca/holistic-acne-program/ "Holistic Acne Clinic"), we have the exceptional clear skin coaches who are ready to educate you and help you achieve clear skin. Book your complexion analysis today to get to know your skin and learn more about our Acne Program.
+At [Essence of Beauty Acne Clinic](https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/ "Holistic Acne Clinic"), we have the exceptional clear skin coaches who are ready to educate you and help you achieve clear skin. Book your complexion analysis today to get to know your skin and learn more about our Acne Program.

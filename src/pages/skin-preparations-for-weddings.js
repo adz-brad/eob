@@ -17,9 +17,9 @@ const SkinPrep = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Look Sensational On Your Wedding Day!</h1>
-                    <h4 className="mt-2 mb-4">Creating lasting wedding memories comes from mapping out a beauty regiment that not only makes you look the best you can, but makes you feel relaxed and confident as well.</h4>
+                    <h2 className="mt-2 mb-4 subheader">Essence of Beauty Ottawa helps you create lasting wedding memories by mapping out a beauty regiment that not only makes you look the best you can, but makes you feel relaxed and confident as well.</h2>
                     <p className="my-1">
-                    <strong>Six months is not too early to start paying serious attention to your skin.</strong> By giving yourself enough time, you can obtain that radiant appearance so many brides are looking for. I recommend having a facial once a month for the next consecutive months, which is the key if you want to have that glowing, almost air brushed look on your wedding day. Once your beauty plan is in place, maintenance at home by using a daily skin care products regime is essential. We use quality professional and most advanced technologies skin care products that will give you results. Start preparing, caring and pampering your skin as early as possible for your Special Day.
+                    <strong>Six months is not too early to start paying serious attention to your skin.</strong> By giving yourself enough time, you can obtain that radiant appearance so many brides are looking for. I recommend visiting our Ottawa clinic for a facial once a month for the next consecutive months, which is the key if you want to have that glowing, almost air-brushed look on your wedding day. Once your beauty plan is in place, maintenance at home by using a daily skin care products regime is essential. We use quality professional and most advanced technologies skin care products that will give you results. Start preparing, caring and pampering your skin as early as possible for your Special Day.
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "wedding-preparation-info"}}
@@ -67,7 +67,7 @@ const SkinPrep = () => {
                     DMK Signature Treatments
                     </h4>
                     <p>
-                    DMK works on your internal structure and function of the skin to bring your skin back to its genetic potential. Revising your skin back to homeostasis is achieved through a course of enzyme therapy treatments, to kick start, boost and activate your skins own processes.  It is suitable for a wide range of conditions such as aging skin, sun damage, acne, rosacea and pigmentation. For more information <Link to="/dmk-enzyme-therapy" className="font-bold text-brown hover:text-green">click here.</Link>
+                    DMK works on your internal structure and function of the skin to bring your skin back to its genetic potential. Revising your skin back to homeostasis is achieved through a course of enzyme therapy treatments, to kick start, boost and activate your skins own processes.  It is suitable for a wide range of conditions such as aging skin, sun damage, acne, rosacea and pigmentation. For more information <Link to="/dmk-enzyme-therapy/" className="font-bold text-brown hover:text-green">click here.</Link>
                     </p>
                 </div>
                 <p className="my-2">
@@ -86,13 +86,16 @@ export default SkinPrep
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Skin Preparations for Weddings"
         pageTitleDescription="Skin Treatment & Preparation for Weddings & Other Events!"
-        pageDescription="Creating lasting wedding memories comes from mapping out a beauty regiment that not only makes you look the best you can, but makes you feel relaxed and confident as well."
+        pageDescription="Creating lasting wedding memories comes from mapping out a beauty regiment that not only makes you look the best you can, but makes you feel relaxed and confident as well with Skin Preparation from Essence of Beauty Ottawa."
         pageKeywords="Skin Preparation, Glow, Skin, Glowing Skin, Radiant, Beautiful, Wedding, Weddings, Special Events, Bride, Bridesmaid, Brides, Bridesmaids, Groom, Groomsman, Groomsmen, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/skin-preparations-for-weddings"
+        pageUrl="https://www.essenceofbeauty.ca/skin-preparations-for-weddings/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/weddingPreparation.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/skin-preparations-for-weddings/" />
+        </>
     )
   } 

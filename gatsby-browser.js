@@ -21,8 +21,8 @@ export const wrapRootElement = ({ element }) => {
                          "@type": "BeautySalon",
                          "name": "Essence of Beauty",
                          "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true",
-                         "@id": "https://www.essenceofbeauty.ca/contact",
-                         "url": "https://www.essenceofbeauty.ca",
+                         "@id": "https://www.essenceofbeauty.ca/contact/",
+                         "url": "https://www.essenceofbeauty.ca/",
                          "telephone": "+1 (613) 220-2101",
                          "address": {
                              "@type": "PostalAddress",

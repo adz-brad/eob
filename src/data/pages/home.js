@@ -45,37 +45,37 @@ export const data = {
                     "name": "Facial Treatments",
                     "description": "Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials that address your skin’s unique needs and your dreams and goals for your complexion, integrating the health of your body in the treatment equation for immediately noticeable and long-lasting results.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Facial Treatments" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true"/>,
-                    "link": "/facial-treatments" 
+                    "link": "/facial-treatments-ottawa/" 
                 },
                 {
                     "name": "Signature Radiance Infusion",
                     "description": "Our Signature Radiance Infusion Skin Rejuvenating Facial Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow, boost in hydration & brightening effect for that coveted lit-from-within glow! Best of all, the treatment is non-invasive with absolutely no downtime!",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Infusion Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"/>,
-                    "link": "/radiance-infusion" 
+                    "link": "/radiance-infusion-nano-channeling/" 
                 },
                 {
                     "name": "Growth Factor Microneedling",
                     "description": "Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Growth Factor Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-feature.jpg?raw=true"/>,
-                    "link": "/growth-factor-microneedling" 
+                    "link": "/microneedling-ottawa/" 
                 },
                 {
                     "name": "Special Peels" ,
                     "description": "At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"/>,
-                    "link": "/special-peels" 
+                    "link": "/acid-free-chemical-peels-ottawa/" 
                 },
                 {
                     "name": "Ultrasonic Facial" ,
                     "description": "Ultrasonic frequency has been shown to kill bacteria and decongest the pores resulting in cleaner, healthier skin. When used regularly along with a quality skincare home program, your skin will be smoother, healthier and younger looking.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Ultrasonic Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true?raw=true"/>,
-                    "link": "/ultrasonic-facial" 
+                    "link": "/non-invasive-ultrasonic-facial/" 
                 },
                 {
                     "name": "DMK Enzyme Therapy" ,
                     "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - DMK Enzyme Therapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true"/>,
-                    "link": "/dmk-enzyme-therapy" 
+                    "link": "/dmk-enzyme-therapy/" 
                 },
             ],
             /*"button": {

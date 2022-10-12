@@ -50,7 +50,7 @@ const FacialTreatments = () => {
                     </div>
                     <div id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" >
                         <div className="ml-8">
-                        <h1 className="mt-4">Special Skin Care Treatments</h1>
+                        <h1 className="mt-4">Skin Care Treatments For Acne, Rosacea & More</h1>
                         <p className="mb-8">Browse our facial menu to find the right treatment for you!</p>
                         </div>
                         <div className="flex flex-col py-4 md:py-8">
@@ -123,13 +123,16 @@ export default FacialTreatments
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Facials For Women & Men"
         pageTitleDescription="Ottawa's First Holistic Acne & Skincare Clinic Uses Organic, Chemical-Free Treatments To Provide Lasting Results For All Skin Types!"
         pageDescription="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
         pageKeywords="Skincare, Checmical-free, No-Acid, Acid free, No Chemicals, Sensitive SkinFacials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/facial-treatments"
+        pageUrl="https://www.essenceofbeauty.ca/facial-treatments-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/facial-treatments-ottawa/" />
+        </>
     )
   } 

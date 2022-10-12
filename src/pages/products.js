@@ -40,7 +40,7 @@ const Products = () => {
                     </p>
                     <div className="mt-8 mb-4">
                         <Button 
-                            data={{ text: "Learn More About 302 Skincare", link: "/302-fountain-of-youth" }}
+                            data={{ text: "Learn More About 302 Skincare", link: "/302-fountain-of-youth/" }}
                             className="buttonLight bg-white"
                         />
                     </div>
@@ -70,7 +70,7 @@ const Products = () => {
                     </p>
                     <div className="mt-8 mb-4">
                         <Button 
-                            data={{ text: "Learn More About Osmosid+BeautyMD", link: "/osmosismd" }}
+                            data={{ text: "Learn More About Osmosid+BeautyMD", link: "/osmosismd/" }}
                             className="buttonLight bg-white"
                         />
                     </div>
@@ -86,7 +86,7 @@ const Products = () => {
                     </p>
                     <div className="mt-8 mb-4">
                         <Button 
-                            data={{ text: "Learn More About AnteAGE", link: "/anteage-stem-cell-facial" }}
+                            data={{ text: "Learn More About AnteAGE", link: "/anteage-stem-cell-facial/" }}
                             className="buttonLight bg-white"
                         />
                     </div>
@@ -134,7 +134,7 @@ const Products = () => {
                     </p>
                     <div className="mt-8 mb-4">
                         <Button 
-                            data={{ text: "Learn More About DMK", link: "/dmk-enzyme-therapy" }}
+                            data={{ text: "Learn More About DMK", link: "/dmk-enzyme-therapy/" }}
                             className="buttonLight bg-white"
                         />
                     </div>
@@ -152,13 +152,16 @@ export default Products
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Products"
         pageTitleDescription="Treat Your Skin With Leading Products From Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
-        pageDescription="View the wide range of expertly sourced, high quality products used for treatment and available for purchase from Essence of Beauty."
+        pageDescription="View the wide range of expertly sourced, high quality products used for acne, scarring, rosacea treatment & more available for purchase from Essence of Beauty."
         pageKeywords="Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/products"
+        pageUrl="https://www.essenceofbeauty.ca/products/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/products/" />
+        </>
     )
   } 

@@ -10,7 +10,7 @@ const RadianceInfusion = () => {
         <>
         
             <Banner
-                heading="Radiance Infusion"
+                heading="Radiance Infusion Nano-Channeling"
                 gradient="from-black/50 via-black/30 to-black/10"
                 caption=""
                 image={<StaticImage src="../assets/images/radianceInfusion1.jpg"/>}
@@ -18,7 +18,7 @@ const RadianceInfusion = () => {
                         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="font-bold mb-2">Rejuvenate Your Skin With Radiance!</h1>
-                    <h4 className="mt-2 mb-4">Radiance Infusion Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty.</h4>
+                    <h2 className="mt-2 mb-4 subheader">Radiance Infusion (also known as nano-channeling) Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments for scarring, large pores, pigmentation & more at Essence of Beauty Ottawa.</h2>
                     <p className="my-1">
                     You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone. It also has a brightening effect for that coveted lit-from-within glow! Throughout the treatment, the skin is literally being drenched with wonderful elixirs and serums. The best part is that it’s non-invasive and there is absolutely no downtime!
                     </p>
@@ -188,13 +188,16 @@ export default RadianceInfusion
 
 export const Head = () => {
     return(
-<Seo
+        <>
+        <Seo
         pageTitle="Radiance Infusion Skin Rejuvenation"
         pageTitleDescription="Improve The Glow & Hydration Of Your Skin With Radiance Infusion Skin Rejuvenation!"
-        pageDescription="Radiance Infusion Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone."
+        pageDescription="Radiance Infusion Skin Rejuvenating Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty Ottawa. You’ll see an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone."
         pageKeywords="Radiance, Infusion, Large Pores, Rejuvenation, Mano Infusion, Facial Infusion, Hydro Facial, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/radiance-infusion"
+        pageUrl="https://www.essenceofbeauty.ca/radiance-infusion-nano-channeling/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/radiance-infusion-nano-channeling/" />
+        </>
     )
   } 

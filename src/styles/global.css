@@ -41,6 +41,10 @@ p {
     @apply text-base;
 }
 
+.subheader {
+    @apply text-base md:text-xl;
+}
+
 /* --- Hero Video --- */
 
 #EOB-Bg-video{

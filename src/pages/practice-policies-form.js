@@ -508,12 +508,15 @@ export default PracticePolicies
 
 export const Head = () => {
     return(
+        <>
         <Seo
         pageTitle="Practice Policies Form"
         pageDescription="Essence of Beauty Practice Policies form for new clients."
         pageKeywords="Practice Policies, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/practice-policies-form"
+        pageUrl="https://www.essenceofbeauty.ca/practice-policies-form/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/practice-policies-form/" />
+        </>
     )
   } 

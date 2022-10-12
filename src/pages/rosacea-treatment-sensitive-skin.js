@@ -19,10 +19,10 @@ const Rosacea = () => {
       <div className="md:p-4 lg:p-8 md:mt-8">
         <div className="flex flex-col md:flex-row md:items-center md:mb-16">
           <div className="flex flex-col px-4 md:w-3/5">
-            <h1 className="mb-4 font-semibold">Rosacea and Sensitive Skin</h1>
-            <h4 className="mt-2 mb-4">
-            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare.
-            </h4>
+            <h1 className="mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
+            <h2 className="mt-2 mb-4 subheader">
+            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare.
+            </h2>
             <p className="my-1">
               Whether your rosacea is active or in remission, your skin is still
               sensitive and needs carefully selected skin care to prevent
@@ -184,7 +184,7 @@ const Rosacea = () => {
                       <Button
                         data={{
                           text: "Learn More About Ultrasonic Facials",
-                          link: "/ultrasonic-facial",
+                          link: "/non-invasive-ultrasonic-facial/",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -282,7 +282,7 @@ const Rosacea = () => {
                       <Button
                         data={{
                           text: "Learn More About DMK Enzyme Therapy",
-                          link: "/dmk-enzyme-therapy",
+                          link: "/dmk-enzyme-therapy/",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -323,7 +323,7 @@ const Rosacea = () => {
                       <Button
                         data={{
                           text: "Learn More About Osmosis MD",
-                          link: "/osmosismd",
+                          link: "/osmosismd/",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />
@@ -366,13 +366,16 @@ export default Rosacea
 
 export const Head = () => {
   return(
+    <>
     <Seo
     pageTitle="Rosacea & Sensitive Skin"
-    pageTitleDescription="Treat Rosecea With Essence of Beauty Natural Treatments For All Skin Types!"
-    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
+    pageTitleDescription="Natural Rosacea Treatments For All Skin Types!"
+    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
     pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-    pageUrl="https://www.essenceofbeauty.ca/rosacea-skin"
+    pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
     />
+    <link rel="canonical" href="http://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
+    </>
   )
 } 

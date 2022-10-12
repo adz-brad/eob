@@ -20,10 +20,13 @@ const AcneTreatment = () => {
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
-                    <h1 className="mt-2 mb-4 font-semibold">Acne Treatment</h1>
-                    <h4 className="mt-2 mb-4">
+                    <h1 className="mt-2 mb-4 font-semibold">Advanced Acne Treatment Options</h1>
+                    <h2 className="mt-2 mb-4 subheader">
+                    Essence of Beauty Ottawa specializes in the treatment of acne with customized skincare protocols designed specifically for YOU!
+                    </h2>
+                    <p className="my-1">
                     Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body.
-                    </h4>
+                    </p>
                     <p className="my-1">
                     The first time you come to visit us, we spend a lot of time together. We will discuss what acne is, because when you understand what it is, what you have to do to get clear makes more sense. Then we will talk about your individual concerns and situation. While you didn’t do anything to cause your acne, you may be doing things that can make it harder to clear and we want to help you understand those blocking factors. Then we go into the treatment room and examine and test your skin to help us to learn what type of skin you have and what type of acne you have. Those two factors help us to put together a home care protocol for you because 55% of getting clear is the daily care you take of your skin. We also provide our first treatment, so what you do at home will work better.           
                     </p>
@@ -74,7 +77,7 @@ const AcneTreatment = () => {
                             </li>
                         </ul>
                         <span>
-                        Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation">here.</Link>      
+                        Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation/">here.</Link>      
                         </span>
                         </div>
 
@@ -146,13 +149,16 @@ export default AcneTreatment
 
 export const Head = () => {
     return(
+        <>
         <Seo
-        pageTitle="Acne Treatment"
+        pageTitle="Acne Treatment Ottawa"
         pageTitleDescription="Heal Your Acne & Acne-Related Skin Issues With Essence of Beauty Ottawa"
         pageDescription="Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body."
         pageKeywords="Acne Treatment, Acne scars, dark spots, lesions, sensitive skin, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/acne-treatment"
+        pageUrl="https://www.essenceofbeauty.ca/acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true"
         />
+        <link rel="canonical" href="http://www.essenceofbeauty.ca/acne-treatment-ottawa/" />
+        </>
     )
   } 
