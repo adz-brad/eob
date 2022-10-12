@@ -145,7 +145,7 @@ export const Head = () => {
         pageUrl="https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"
         />
-        <link rel="canonical" href="https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/" />
+        <link rel="canonical" href="https://www.essenceofbeauty.ca/holistic-acne-cinic-ottawa/" />
         </>
     )
   } 

@@ -4,3 +4,55 @@ package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   prettyURLs = true
   trailingSlash = true
+
+[[redirects]]
+  from = "https://www.essenceofbeauty.ca"
+  to = "https://www.essenceofbeauty.ca/"
+  status = 200
+
+  [[redirects]]
+  from = "/holistic-acne-program"
+  to = "/holistic-acne-clinic-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/special-peels"
+  to = "/acide-free-chemical-peels-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/acne-scars"
+  to = "/acne-scars-treatment-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/back-acne"
+  to = "/back-acne-treatment-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/hyperpigmentation-melasma"
+  to = "/hyperpigmentation-melasma-treatment-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/rosacea-skin"
+  to = "/rosacea-treatment-sensitive-skin/"
+  status = 200
+
+  [[redirects]]
+  from = "/skin-tags-red-dots-milia"
+  to = "/skin-tags-red-dots-milia-removal-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/acne-treatment"
+  to = "/acne-treatment-ottawa/"
+  status = 200
+  
+  [[redirects]]
+  from = "/facial-treatments"
+  to = "/facial-treatments-ottawa/"
+  status = 200
+
+  
