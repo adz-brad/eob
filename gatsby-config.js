@@ -44,7 +44,6 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
-        output: '/sitemap.xml',
         createLinkInHead: true,
       },
     },
