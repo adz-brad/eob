@@ -22,12 +22,12 @@ const HolisticAcneProgram = () => {
                 <div className="flex flex-col lg:flex-row lg:items-center">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto lg:mr-8 p-4 md:p-8 lg:px-16">
                         <h1 className="my-2 font-bold">Holistically Treat Your Acne At Essence of Beauty Ottawa!</h1>
-                        <h2 className="mb-4 subheader">If you are struggling with acne, your typical acne facial products might not be cutting it!</h2>
+                        <h2 className="mb-4 subheader">If you are struggling with acne, acne scarring or other skin issues, your typical acne facial products might not be cutting it.</h2>
                         <p className="my-2">
-                        I specialize in clearing acne that dermatologists and other traditional methods have not been able to clear. Don’t give up on your skin!
+                        Essence of Beauty Ottawa clinic specializes in clearing acne, acne scars, pigmentation and skin problems that dermatologists and other traditional methods have not been able to clear. <strong>Don’t give up on your skin!</strong> Our personalized acne & skin treatment protocols include an array of cutting edge treatments, from non-invasive facials designed specifically for those with sensitive skin to the most modern, holistic, organic & <b>NATURAL</b> regiments. Essence of Beauty treatments are designed & developed through years of research and proven to work through years of successfully treating satisfied, happy clients!
                         </p>
-                        <p className="my-2">
-                        Skin has always been my passion and my clients’ satisfaction is my delight. Years of experience with the most aggressive acne has made me an expert in another by-product of damage and inflammation. My Acne Treatment Program uses a comprehensive approach to treat acne, acne scars and restore healthy skin. Sensitive skin and acne rosacea are taken into consideration.
+                        <p className="my-2"><i>
+                        "Skin has always been my passion and my clients’ satisfaction is my delight. Years of experience with the most aggressive acne has made me an expert in another by-product of damage and inflammation. My Acne Treatment Program uses a comprehensive approach to treat acne, acne scars and restore healthy skin. Sensitive skin and acne rosacea are taken into consideration."</i> - A Message From Eva, Your Personal Skincare Professional at Essence of Beauty Ottawa
                         </p>
                         <Button
                             data={{text: "Learn More", anchor: "holistic-acne-different-approach"}}
@@ -43,12 +43,12 @@ const HolisticAcneProgram = () => {
             </div>
             <div className="bg-lightGreen rounded-lg shadow-lg flex flex-col lg:flex-row lg:py-8">
                 <div id="holistic-acne-different-approach" className="flex flex-col lg:w-2/3 p-4 md:p-8 lg:px-16">
-                   <h1 className="mb-4 filter drop-shadow-md">A Different Approach</h1>
+                   <h1 className="mb-4 filter drop-shadow-md">A Different Approach To Treating Acne</h1>
                    <p className="my-1">
-                   The approach I take is different than most because I believe educating the client about their skin condition is key. Understanding there are many variables in what causes acne to form, is the best way to control it. My training as an Acne Specialist, combined with my extensive knowledge of environmental and nutritional acne triggers allow me to successfully assist my clients take control of their acne without prescription drugs. I work closely with each individual taking into consideration their type of acne, skin type, diet, and overall health and life style choices to develop their customized skin care protocol.
+                   My approach towards acne treatment is different than most because I believe educating the client about their skin condition is key. Understanding there are many variables in what causes acne to form, is the best way to control it. My training as an Acne Specialist, combined with my extensive knowledge of environmental and nutritional acne triggers allow me to successfully assist my clients take control of their acne without prescription drugs. I work closely with each individual taking into consideration their type of acne, skin type, diet, and overall health and life style choices to develop their customized skin care protocol.
                    </p>
                    <p className="my-1">
-                   My in-Spa acne treatments all include deep pore cleansing (exfoliation and extraction), lymphatic drainage, dermal cellular waste removal and healing of the skin.  Each of my procedures effectively reduces pimples, redness, inflammation, acne scars, resolve pigmentation issues  and help the skin rebalance. You should start to see results after one or two acne facials. However, you may need to make multiple visits to achieve desired results depending on the severity of the breakout. While I am all about your health and wellness, don’t think for a minute that my approach is wimpy.
+                   My in-spa acne treatments all include deep pore cleansing (exfoliation and extraction), lymphatic drainage, dermal cellular waste removal and healing of the skin.  Each of my procedures effectively reduces pimples, redness, inflammation, acne scars, resolve pigmentation issues  and help the skin rebalance. You should start to see results after one or two acne facials. However, you may need to make multiple visits to achieve desired results depending on the severity of the breakout. While I am all about your health and wellness, don’t think for a minute that my approach is wimpy.
                     </p>
                     <p className="my-1">
                     I mean business when it comes to clearing your skin. My specific proven process is easy to follow, when done correctly, garnishes huge results for you.
@@ -68,7 +68,7 @@ const HolisticAcneProgram = () => {
                 </div>
                 <div className="flex flex-col items-center p-4 md:p-8">
                     <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
-                    <span className="mb-8">Comparing before & after four treatments</span>
+                    <span className="mb-8">Comparing before & after 4 acne treatments</span>
                     <Gallery
                         className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 w-full"
                         imageClass="rounded-sm shadow-lg"
@@ -138,10 +138,10 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Holistic Acne Program"
-        pageTitleDescription="Heal Your Acne, Scarring, Pigmentation & Other Skin Issues With Holistic, Organic & Natural Treatments From Essence of Beauty Ottawa"
-        pageDescription="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
-        pageKeywords="Holistic Acne Program, Scarring, Pigmentation, Inflammation, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitle="Holistic Acne Treatments Ottawa"
+        pageTitleDescription="Treat Your Acne, Acne Scarring, Pigmentation & Other Skin Issues With Holistic, Organic & Natural Facials & Treatments From Essence of Beauty Ottawa"
+        pageDescription="Trust Essence of Beauty Ottawa to heal your skin with personalized skincare regiments proven to successfully reduce acne, pimples, redness, inflammation, acne scars, pigmentation issues & more."
+        pageKeywords="Acne Treatment, Holistic Acne Program, Scarring, Pigmentation, Inflammation, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"
         />
