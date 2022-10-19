@@ -106,21 +106,21 @@ const SpecialPeels = () => {
                   ),
                 },
                 {
-                  name: "AfterGlow Peel",
+                  name: "AfterGlow Chemical Peel",
                   content: (
                     <div className="flex flex-col lg:px-4 pb-4">
                       <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                      Afterglow Peel
+                      Afterglow Chemical Peel
                       </h1>
                       <p className="my-2">
-                      The AfterGlow Peel is tailored to fit all clients’ individual skin type and long-term goals.
+                      The AfterGlow Chemical Peel is tailored to fit all clients’ individual skin type and long-term goals.
                       </p>
                       <p className="my-2">
-                      The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
+                      The AfterGlow Chemical Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
                       </p>
                       <ul className="list-disc my-4">
                         <p className="text-brown italic font-semibold text-lg my-1">
-                        The Afterglow Peel is excellent in treating:
+                        The Afterglow Chemical Peel is excellent in treating:
                         </p>
                         <li className="my-1 ml-4">
                         Hyperpigmentation , melasma & events of skin discoloration/pigmentation
@@ -154,7 +154,7 @@ const SpecialPeels = () => {
                         </div>
                         <Button
                           data={{
-                            text: "Learn More About Afterglow Peel",
+                            text: "Learn More About Afterglow Chemical Peel",
                             link: "/afterglow-chemical-peel-ottawa/",
                           }}
                           className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
@@ -181,7 +181,7 @@ const SpecialPeels = () => {
                             Green Peel® Classic
                             </h4>
                             <p className="my-1">
-                            The success of the original GREEN PELL® Herbal Peeling Treatment Classic for decades speaks for itself. It is the solution for various problems     
+                            The success of the original GREEN PEEL® Herbal Peeling Treatment Classic for decades speaks for itself. It is the solution for various problems     
                             </p> 
                             <div className="flex flex-col">
                             <span>
