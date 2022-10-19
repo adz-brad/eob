@@ -47,7 +47,7 @@ const Hero = ({ bgType, bgSrc, _key, title, caption, button }) => {
         : null}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center w-full px-8">
           <h1 className="text-white text-3xl md:text-4xl lg:text-6xl font-semiboldtext-center filter drop-shadow-lg">{title}</h1>
-          <p className="text-white text-lg md:text-xl my-4 text-center leading-tight filter drop-shadow-lg font-medium">{caption}</p>
+          <h2 className="text-content text-white text-lg md:text-xl my-4 text-center leading-tight filter drop-shadow-lg font-medium">{caption}</h2>
           { button ? <Button/> : null }
         </div>   
 

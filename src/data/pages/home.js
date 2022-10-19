@@ -8,7 +8,7 @@ export const data = {
         {
             "type": "hero",
             "video": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/eob-video-bg-overlay.mp4?raw=true",
-            "heading": "Ottawa’s Premier Holistic Skin Rejuvenation Clinic",
+            "heading": "Ottawa’s Premier Acne, Rosacea & Skin Rejuvenation Clinic",
             "caption": "Reminding you of the importance and enjoyment of feeling beautiful every single day.",
             "button": {
                 "text": "Learn More",
@@ -19,7 +19,7 @@ export const data = {
         {
             "type": "splitList",
             "heading": "Inspire the Nature of Beauty!",
-            "caption": "Essence of Beauty, Ottawa’s Holistic Acne, Scars, Rosacea and Anti-Aging Skincare Clinic specializes in facial rejuvenation treatments using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements.",
+            "caption": "Essence of Beauty is Ottawa's premier acne, scars, rosacea and anti-aging skincare clinic, specializing in facial rejuvenation treatments & peels using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements.",
             "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true"/>,
             "anchor": "inspire",
             "listTitle": "The Benefits",
@@ -60,7 +60,7 @@ export const data = {
                     "link": "/microneedling-ottawa/" 
                 },
                 {
-                    "name": "Special Peels" ,
+                    "name": "Acid-Free & Chemical Facial Peels" ,
                     "description": "At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true"/>,
                     "link": "/acid-free-chemical-peels-ottawa/" 
