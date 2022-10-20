@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Essence of Beauty`,
@@ -74,6 +76,13 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
     `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-gtag`, 
+      options: {
+        trackingId: process.env.GATSBY_GA_TRACKING_ID,
+        head: false
+      },
+    },
     'gatsby-plugin-preact'
   ],
 }
