@@ -17,7 +17,7 @@ package = "@netlify/plugin-sitemap"
 
   [[redirects]]
   from = "/special-peels"
-  to = "/acide-free-chemical-peels-ottawa/"
+  to = "/acid-free-chemical-peels-ottawa/"
   status = 200
 
   [[redirects]]
@@ -30,7 +30,7 @@ package = "@netlify/plugin-sitemap"
   to = "/back-acne-treatment-ottawa/"
   status = 200
 
-    [[redirects]]
+  [[redirects]]
   from = "/cystic-acne"
   to = "/cystic-acne-treatment-ottawa/"
   status = 200
@@ -46,7 +46,7 @@ package = "@netlify/plugin-sitemap"
   status = 200
 
   [[redirects]]
-  from = "/skin-tags-red-dots-milia"
+  from = "/skin-tags-red-dots-milia-removal"
   to = "/skin-tags-red-dots-milia-removal-ottawa/"
   status = 200
 
@@ -58,6 +58,31 @@ package = "@netlify/plugin-sitemap"
   [[redirects]]
   from = "/facial-treatments"
   to = "/facial-treatments-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/ultrasonic-facial"
+  to = "/non-invasive-ultrasonic-facial/"
+  status = 200
+
+  [[redirects]]
+  from = "/skin-remodeling"
+  to = "/microneedling-ottawa/"
+  status = 200
+
+   [[redirects]]
+  from = "/growth-factor-microneedling"
+  to = "/microneedling-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/afterglow-peel"
+  to = "/afterglow-chemical-peel-ottawa/"
+  status = 200
+
+  [[redirects]]
+  from = "/needle-free-mesotherapy-skin-tightening"
+  to = "/non-invasive-ultrasonic-facial/"
   status = 200
 
   
