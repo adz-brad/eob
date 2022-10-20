@@ -8,81 +8,81 @@ package = "@netlify/plugin-sitemap"
 [[redirects]]
   from = "https://www.essenceofbeauty.ca"
   to = "https://www.essenceofbeauty.ca/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/holistic-acne-program"
   to = "/holistic-acne-clinic-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/special-peels"
   to = "/acid-free-chemical-peels-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/acne-scars"
   to = "/acne-scars-treatment-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/back-acne"
   to = "/back-acne-treatment-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/cystic-acne"
   to = "/cystic-acne-treatment-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/hyperpigmentation-melasma"
   to = "/hyperpigmentation-melasma-treatment-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/rosacea-skin"
   to = "/rosacea-treatment-sensitive-skin/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/skin-tags-red-dots-milia-removal"
   to = "/skin-tags-red-dots-milia-removal-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/acne-treatment"
   to = "/acne-treatment-ottawa/"
-  status = 200
+  status = 301
   
   [[redirects]]
   from = "/facial-treatments"
   to = "/facial-treatments-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/ultrasonic-facial"
   to = "/non-invasive-ultrasonic-facial/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/skin-remodeling"
   to = "/microneedling-ottawa/"
-  status = 200
+  status = 301
 
    [[redirects]]
   from = "/growth-factor-microneedling"
   to = "/microneedling-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/afterglow-peel"
   to = "/afterglow-chemical-peel-ottawa/"
-  status = 200
+  status = 301
 
   [[redirects]]
   from = "/needle-free-mesotherapy-skin-tightening"
   to = "/non-invasive-ultrasonic-facial/"
-  status = 200
+  status = 301
 
   
