@@ -16,10 +16,6 @@ package = "@netlify/plugin-sitemap"
 
 [[redirects]]
 
-  from = "http://www.essenceofbeauty.ca"
-  to = "https://www.essenceofbeauty.ca/"
-  status = 301
-
   from = "https://www.essenceofbeauty.ca"
   to = "https://www.essenceofbeauty.ca/"
   status = 301
