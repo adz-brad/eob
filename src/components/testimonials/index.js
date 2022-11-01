@@ -41,7 +41,7 @@ const onClick = (props) => {
     <div key={_key} className="relative md:mt-20 pt-24 bg-white" style={{height: 494}}>
       <div id="testimonialBG" className="testimonialBG">
         <div className="flex flex-col h-full absolute -top-24 left-1/2 -translate-x-1/2 bg-white h-full max-w-screen-lg rounded-md drop-shadow-xl border border-black/10" style={{width: width - 30}}>
-          <h1 className="mt-10 text-center">Testimonials</h1>
+          <h2 className="text-2xl md:text-4xl mt-10 text-center">Testimonials</h2>
 
           { testimonials ?
           
