@@ -70,7 +70,7 @@ export const Head = () => {
     <>
     <Seo
         pageTitle="Acne, Scarring & Rosacea Treaments, Peels & Facials"
-        pageDescription="Essence of Beauty Ottawa specializes in highly effective facial skin treatments for acne, scars, rosacea, signs of aging & more. Our natural facials, peels & treatments combine age-defying science with nature’s most repairing elements safe even for sensitive skin!"
+        pageDescription="Essence of Beauty Ottawa specializes in highly effective facial skin treatments for acne, scars, rosacea, signs of aging & more. Our natural facials, peels & treatments are safe and gentle enough for the most sensitive skin types!"
         pageKeywords="Essence of Beauty, Chemical Peel, Acid-Free Peel, Sensitive Skin, Scars, Rosacea, Acne Scars, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
