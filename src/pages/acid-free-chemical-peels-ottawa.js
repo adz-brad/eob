@@ -308,9 +308,9 @@ export const Head = () => {
   return(
     <>
     <Seo
-    pageTitle="Natural Acid-Free & Chemical Facial Peels Ottawa"
-    pageTitleDescription="Treatment for Acne, Scarring, Rosacea, Sun Damage & More"
-    pageDescription="Essence of Beauty Ottawa offers acid-free natural grade and chemical facial peels to target skin conditions like acne, scarring, pigmentation, sun damage, fine lines and wrinkles & more."
+    pageTitle="Acid-Free & Chemical Facial Peels"
+    pageTitleDescription="Treat Acne, Scarring, Rosacea, Sun Damage"
+    pageDescription="Essence of Beauty Ottawa offers acid-free natural and chemical facial peels to target skin conditions like acne, scarring, pigmentation, sun damage, fine lines, wrinkles & more."
     pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
     pageUrl="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"

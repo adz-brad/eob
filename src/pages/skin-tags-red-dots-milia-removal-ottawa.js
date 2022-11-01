@@ -187,9 +187,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Skin Tags, Milia, Red Dots & Skin Growth Removal Ottawa"
+        pageTitle="Skin Tag, Milia, Red Dot & Growth Removal"
         pageTitleDescription="Safe, Non-invasive Treatments"
-        pageDescription="Essence of Beauty Ottawa treats various skin growths such as skin tags, milia, keratosis and ruby points with our safe, non-invasive skin revision therapies that permanently remove growths from your face and body in just one session!"
+        pageDescription="Essence of Beauty Ottawa treats various growths such as skin tags, milia, keratosis and ruby points with safe, non-invasive revision therapies that permanently remove growths from your face and body in just one session!"
         pageKeywords="Skin Tags, Milia, Red Dots, Skin Growth Removal, Seborrheic Keratosis, Telangiectasia, Spider Angiomas, Cherry Angiomas, Sebaceous Hyperplasia, Hyperpigmentation, Broken Capillaries, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/skin-tags-red-dots-milia-removal-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/VascuLyse.webp?raw=true"

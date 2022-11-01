@@ -369,8 +369,8 @@ export const Head = () => {
     <>
     <Seo
     pageTitle="Rosacea & Sensitive Skin Ottawa"
-    pageTitleDescription="Natural Rosacea Acne Treatments!"
-    pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
+    pageTitleDescription="Natural Acne Treatments"
+    pageDescription="Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing recommendations based specifically on what's working for them."
     pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
     pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"

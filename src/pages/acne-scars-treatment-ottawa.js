@@ -70,6 +70,7 @@ const AcneScars = () => {
                             During your analysis, we can discuss any questions or concerns you may have and personalize a treatment plan for you.
                             </span>
                         </div>
+                        <p className="my-1">You can <Link to="holistic-acne-clinic-ottawa/">click here</Link> to learn more about the Essence of Beauty <Link to="holistic-acne-clinic-ottawa/">Holistic Acne Clinic.</Link></p>
             </Card>
           </div>
           <div className="max-w-screen-lg mx-auto my-8">
@@ -101,8 +102,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Acne Scars Revision Ottawa"
-        pageTitleDescription="Safe & Effective Treatment of Acne Scars For All Skin Types!"
-        pageDescription="Essence of Beauty Acne Clinic Ottawa creates customized programs for each client to treat skin problems including acne and acne scarring so you can say goodbye to the scarring that compromising your complexion!"
+        pageTitleDescription="Safe & Effective Treatment For All Skin Types"
+        pageDescription="Essence of Beauty Acne Clinic Ottawa creates customized programs for each client to treat acne & scarring so you can say goodbye to skin issues compromising your complexion!"
         pageKeywords="Acne Scars, Scarring, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"

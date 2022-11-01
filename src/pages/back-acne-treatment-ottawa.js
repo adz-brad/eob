@@ -34,6 +34,7 @@ const BackAcne = () => {
                         </p>
                         <span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>
                     </div>
+                    <p className="my-1">You can <Link to="holistic-acne-clinic-ottawa/">click here</Link> to learn more about the Essence of Beauty <Link to="holistic-acne-clinic-ottawa/">Holistic Acne Clinic.</Link></p>
                 </div>
             </div>
             <div className="max-w-screen-lg mx-auto my-8">
@@ -64,8 +65,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Back Acne Treatment Ottawa"
-        pageTitleDescription="Treat Acne Breakouts On Your Neck, Chest & Back With Individualized Treatments For All Skin Types at Essence of Beauty Ottawa!"
-        pageDescription="If dealing with facial acne isn’t enough, your body can also be prone to breakouts. Odds are, if you experience acne on your face, pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
+        pageTitleDescription="Treat Breakouts On Your Neck, Chest & More"
+        pageDescription="If you experience acne on your face, chances are pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
         pageKeywords="Back Acne, Neck acne, chest acne, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/back-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"

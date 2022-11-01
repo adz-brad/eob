@@ -232,9 +232,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Treat Aging & Dehydrated Skin"
-        pageTitleDescription="Turn Back The Clock with Facial Rejuvenation from Essence of Beauty Ottawa"
-        pageDescription="Skin starting to lose it's radiant appearance? At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections."
+        pageTitle="Aging & Dehydrated Skin"
+        pageTitleDescription="Facial Rejuvenation Treatment Ottawa"
+        pageDescription="At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections."
         pageKeywords="Aging, Antiaging, Anti-aging, Dehydrated skin, Dry skin, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"

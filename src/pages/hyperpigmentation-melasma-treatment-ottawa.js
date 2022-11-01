@@ -29,7 +29,7 @@ const Hyperpigmentation = () => {
                         <p className="mt-1 mb-4">
                         Dark spots can develop for a wide variety of reasons, though the most common contributing factor to facial hyperpigmentation is overexposure to the sun. Fluctuations in hormone levels, a genetic predisposition to melasma, the healing process of acne lesions, and skin damage caused by laser treatment, can also all lead to the development of facial hyperpigmentation. Facial hyperpigmentation can occur in individuals of any skin tone and type, and depending on the underlying cause of the hyperpigmentation may appear at any age.
                         </p>
-                        <span className="text-base md:text-xl font-semibold">Real results require effective strategies that work in partnership with the skin.</span>
+                        <span className="text-base md:text-xl font-semibold">Real results require effective strategies that work in partnership with the skin. You can <Link to="radiance-hydro-infusion-facial/">click here to learn more about Essence of Beauty treatment options for hyperpigmentation.</Link></span>
                         <Button 
                             data={{ text: "Learn More", anchor: "hyperpigmentation-melasma-info"}}
                             className="buttonLight my-8 md:my-auto"
@@ -99,7 +99,7 @@ const Hyperpigmentation = () => {
             <div className="p-4 lg:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row">
                     <div className="flex flex-col md:w-1/2">
-                    <h1 className="">5 Strategies For Real Results</h1>
+                    <h2 className="text-2xl md:text-4xl">5 Strategies For Real Results</h2>
                     <ul className="my-4">
                         <li className="my-2">
                         <span className="font-bold mr-2">✓</span> Empowering your skin and body’s immune system by providing ingredients that stimulate repair.
@@ -160,8 +160,8 @@ export const Head = () => {
         <>
         <Seo
             pageTitle="Hyperpigmentation & Melasma Ottawa"
-            pageTitleDescription="Natural Treatment of Blemishes & Spots From Pigmentation"
-            pageDescription=" Essence of Beauty Ottawa helps you to minimize spots and blemishes from hyperpigmentation and melasma, no matter what your skin type."
+            pageTitleDescription="Natural Treatment of Blemishes"
+            pageDescription="Essence of Beauty Ottawa helps you to minimize spots and blemishes from hyperpigmentation and melasma, no matter what your skin type."
             pageKeywords="Hyperpigmentation, Blemishes, Spots, Melasma, Holistic, Beauty, Organic, Treatment, Peels, Ottawa, Skin, Acne, Beauty, Spa"
             pageUrl="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"

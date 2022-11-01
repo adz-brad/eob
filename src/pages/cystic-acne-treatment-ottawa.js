@@ -23,10 +23,10 @@ const CysticAcne = () => {
                         <h1 className="text-2xl md:text-4xl my-4 font-semibold">Specialized Treatment For Cystic Acne</h1>
                         <h2 className="text-xl md:text-2xl mb-2 subheader">Essence of Beauty Ottawa Acne Clinic specializes in cystic acne treatments that helps clear cystic acne quickly.</h2>
                         <p className="my-1">
-                        Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance
+                        Cystic acne is the most severe acne infliction that someone can suffer from. It manifests itself in large, deeply-embedded, red, painful, and often swollen lumps in the skin. In some cases, these lumps (called cysts) are so deeply embedded that they are not visible from the surface of the skin. Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact your facial appearance. 
                         </p>
                         <p className="my-1">
-                        Cystic acne is the most severe acne infliction that someone can suffer from. It manifests itself in large, deeply-embedded, red, painful, and often swollen lumps in the skin. In some cases, these lumps (called cysts) are so deeply embedded that they are not visible from the surface of the skin.
+                        Luckily, Essence of Beauty specializes in the treatment of cystic acne with fast-acting clincal protocols & product combinations designed to calm cystic acne inflammation & help keep your skin clear. 
                         </p>
                         <Button 
                             data={{ text: "Learn More", anchor: "cystic-acne-info"}}
@@ -120,8 +120,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Cystic Acne Treatment Ottawa"
-        pageTitleDescription="Treat Cystic Acne Inflammation, Lesions & Scars"
-        pageDescription="The specialized Acne Clinic protocol at Essence of Beauty helps quickly clear up the painful lesions and other signs of cystic acne impacting the appearance of your face."
+        pageTitleDescription="Treat Inflammation, Lesions & Scars"
+        pageDescription="Essence of Beauty's specialized acne treatment protocol helps quickly clear up painful lesions and other signs of cystic acne impacting the appearance of your face."
         pageKeywords="Cystic Acne, Chemical Peel, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"

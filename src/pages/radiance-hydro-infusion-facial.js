@@ -190,9 +190,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Radiance Hydro Infusion Facial"
-        pageTitleDescription="Rejuventate the Glow & Hydration Of Your Skin!"
-        pageDescription="The Radiance Hydro Infusion Facial is the latest in innovative skin rejuvenating treatments and one of our most requested facial treatments at Essence of Beauty Ottawa. This HydraFacial alternative gives an instant glow and boost in hydration."
+        pageTitle="Hydro Infusion Facial"
+        pageTitleDescription="Rejuventate the Glow & Hydration Of Your Skin"
+        pageDescription="Radiance Hydro Infusion Facial is one of our most requested facial rejuvenation treatments at Essence of Beauty Ottawa. This HydraFacial alternative gives an instant glow and boost in hydration."
         pageKeywords="Radiance, Infusion, Large Pores, Rejuvenation, Mano Infusion, Facial Infusion, Hydro Facial, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/radiance-hydro-infusion-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
