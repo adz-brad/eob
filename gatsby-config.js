@@ -41,8 +41,12 @@ module.exports = {
         directives: {
           "script-src": "'self' www.google-analytics.com",
           "style-src": "'self' 'unsafe-inline'",
-          "img-src": "'self' data: www.google-analytics.com"
-          // you can add your directives or override defaults
+          "img-src": "'self' data: www.google-analytics.com",
+          "script-src": "'unsafe-inline' https://www.googletagmanager.com",
+          "img-src": "www.googletagmanager.com",
+          "script-src":  "https://*.googletagmanager.com",
+          "img-src": "https://*.google-analytics.com https://*.googletagmanager.com",
+          "connect-src": "https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
         }
       }
     },
