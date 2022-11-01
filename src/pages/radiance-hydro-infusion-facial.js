@@ -62,7 +62,7 @@ const RadianceInfusion = () => {
                             </p>
                     <div className="flex flex-col lg:flex-row lg:items-center">
                         <div className="flex flex-col">
-                            <h1 className="mb-4">How Does The Treatment Feel?</h1>
+                            <h2 className="text-2xl md:text-4xl mb-4">How Does The Treatment Feel?</h2>
                             <p className="my-1">
                             Although this treatment affects the dermis, there is no pain, inflammation, bleeding, or discomfort. The Radiance Hydro Infusion Facials is very safe, non-invasive, making it both painless and very effective. Radiance Hydro Infusion is safe for all skin types and tones. There is no risk of post traumatic hyperpigmentation, nor is there any recovery time. You feel a pleasant vibration and sensation that emerges while rejuvenating, hydrating and obtaining a soft glowing look. It is a sensational treatment to help your skin look its best! 
                             </p>

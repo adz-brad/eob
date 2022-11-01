@@ -26,7 +26,7 @@ const HerbalGreenPeel = () => {
                     />
                     <div className="flex flex-col lg:w-1/2 p-2">
                         <h1 className="text-2xl md:text-4xl mb-4">A "New Face" For Skin Peels</h1>
-                        <h2 className="text-xl md:text-3xl mt-1 mb-2">
+                        <h2 className="text-xl md:text-2xl mt-1 mb-2">
                             Acid-Free peels designed to effectively treat acne scars, signs of aging, pigmentation & other skin issues while tightenting & brightening your skin!
                         </h2>
                         <p className="my-1">
@@ -135,10 +135,10 @@ const HerbalGreenPeel = () => {
                         </div>
                         <div className="flex flex-col">
                         <div className="flex flex-col my-8 mx-auto">
-                            <h3 className="mb-4">
+                            <h3 className="text-2xl md:text-4xl mb-4">
                             The Herbal Green Peel
                             </h3>
-                            <h4 className="my-2">
+                            <h4 className="text-lg md:text-2xl my-2">
                             Our clients report wonderful results for their Green Peel® treatments – for example the skin is remarkably firmer, brighter, smoother, pores smaller, damaged capillaries experience significant fading from the increased circulation in the skin.
                             </h4>
                             <p className="my-1">
@@ -187,7 +187,7 @@ const HerbalGreenPeel = () => {
                         <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
                             <h3 className="text-2xl md:text-4xl">Green Peel® Classic</h3>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$399</strong>plus products</span>
-                            <h4 className="my-1">
+                            <h4 className="text-base md:text-xl my-1">
                             The success of the original GREEN PEEL® Herbal Peeling Treatment Classic for decades speaks for itself. "New Skin in Five Days"
                             </h4>
                             <h5 className="font-bold my-2 text-lg">

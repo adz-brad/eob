@@ -51,7 +51,7 @@ const AnteageStemCell = () => {
                     </p>
                     <span className="font-bold mt-4 mb-2">Types of targeted treatments:</span>
                     <div className="my-1 flex flex-col">
-                        <h3 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold text-brown mb-1">
                             Anti-Aging
                         </h3> 
                         <span className="leading-tight">
@@ -59,7 +59,7 @@ const AnteageStemCell = () => {
                         </span>
                     </div>
                     <div className="my-1 flex flex-col">
-                        <h3 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold text-brown mb-1">
                             Clarifying
                         </h3> 
                         <span className="leading-tight">
@@ -67,7 +67,7 @@ const AnteageStemCell = () => {
                         </span>
                     </div>
                     <div className="my-1 flex flex-col">
-                        <h3 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold text-brown mb-1">
                             Brightening
                         </h3> 
                         <span className="leading-tight">
