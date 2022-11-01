@@ -13,12 +13,12 @@ const AnteageStemCell = () => {
                 heading="AnteAge Stem Cell Facial"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteagestemcellHeader.png?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - AnteAge Stem Cell Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteagestemcellHeader.png?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Restore Your Skin Health & Fight Aging with AnteAGE®</h1>
-                    <h2 className="mt-2 mb-4 subheader">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling designed for anti-aging and skin restoration treatment.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Restore Your Skin Health & Fight Aging with AnteAGE®</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling designed for anti-aging and skin restoration treatment.</h2>
                     <p className="my-1">
                      While most on-counter stem cell-containing skincare products use plant stem cells. AnteAGE® is the result of recent advances in Stem Cell science. One specialized population of stem cells that originate in the bone marrow is now known to be the commander in chief of all tissue repair. AnteAGE® has decoded the bio signal language these cells use to manage skin health. Bio signals called Growth Factors & Cytokines can create a natural, youthful healing response at the deepest level of your skin–at any age.  AnteAGE® products do not contain cells or cell remnants.  They are removed during ultrafiltration, the final step in the laboratory culture process. The ultra-filtered extract is fortified with growth factor actives, plus antioxidants and skin-supporting proteins, to create a biogenic skincare concentrate.
                     </p>
@@ -39,7 +39,7 @@ const AnteageStemCell = () => {
                 className="flex flex-col md:flex-row bg-lightGreen rounded-md shadow-md p-4 md:p-8 md:m-4"
             >
                 <div className="flex flex-col md:w-2/3 md:mx-4">     
-                    <h1 className="mb-4">AnteAge® MD Targeted Treatments</h1>
+                    <h2 className="text-2xl md:text-4xl mb-4">AnteAge® MD Targeted Treatments</h2>
                     <p className="my-1">
                     To really supercharge the amazing benefits of the treatment, we have combined AnteAGE® with the transdermal delivery of microchanneling system which creates tiny channels on the skin to deliver a condition targeted solution containing growth factors and cytokines derived from adult bone marrow stem cells. 
                     </p>
@@ -51,25 +51,25 @@ const AnteageStemCell = () => {
                     </p>
                     <span className="font-bold mt-4 mb-2">Types of targeted treatments:</span>
                     <div className="my-1 flex flex-col">
-                        <h4 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold">
                             Anti-Aging
-                        </h4> 
+                        </h3> 
                         <span className="leading-tight">
                         A microchanneling anti-aging treatment designed to increase collagen production and optimize the skin’s ability to repair and rejuvenate itself.
                         </span>
                     </div>
                     <div className="my-1 flex flex-col">
-                        <h4 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold">
                             Clarifying
-                        </h4> 
+                        </h3> 
                         <span className="leading-tight">
                         A microchanneling clarifying treatment designed to target acne.
                         </span>
                     </div>
                     <div className="my-1 flex flex-col">
-                        <h4 className="text-lg font-bold">
+                        <h3 className="text-lg font-bold">
                             Brightening
-                        </h4> 
+                        </h3> 
                         <span className="leading-tight">
                         A microchanneling brightening treatment designed to target pigmentation and enhance tone.
                         </span>
@@ -92,8 +92,8 @@ const AnteageStemCell = () => {
             </div>
             <div id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center">
                 <div className="flex flex-col md:w-1/2 md:m-4 lg:ml-16">
-                    <h1 className="mb-4">The Benefits of AnteAge®</h1>
-                    <h4 className="mt-2 mb-4">This innovative, natural approach to skin rejuvenation allows us to achieve immediate as well as long - lasting results that include: </h4>
+                    <h2 className="text-2xl md:text-4xl mb-4">The Benefits of AnteAge®</h2>
+                    <h3 className="text-base md:text-xl mt-2 mb-4">This innovative, natural approach to skin rejuvenation allows us to achieve immediate as well as long - lasting results that include: </h3>
                     <ul className="my-4 ml-4 list-disc">
                         <li className="my-1 md:text-lg">
                         Delivers the natural stem cell growth factors responsible for collagen stimulation and facial rejuvenation
@@ -139,15 +139,15 @@ const AnteageStemCell = () => {
             <div className="md:p-8">
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col p-4 md:p-8">
-                        <h1 className="mb-4">AnteAGE® Homecare System</h1>
+                        <h2 className="text-2xl md:text-4xl mb-4">AnteAGE® Homecare System</h2>
                         <div className="my-4">
-                        <h4 className="mb-2">AnteAge® Serum</h4>
+                        <h3 className="text-base md:text-xl mb-2">AnteAge® Serum</h3>
                         <p className="my-1">
                             Restore your skin’s ability to heal itself with AnteAGE® regenerating serum. This elegant formula quickly absorbs into your skin, and contains physiologically balanced Stem Cytokines™, potent peptides and protective Antioxidants. Utilizing nanotechnology, this symphony of ingredients act in concert to deliver powerful results at the cellular level.
                         </p>
                         </div>
                         <div className="my-4">
-                        <h4 className="mb-2">AnteAge®  Accelerator</h4>
+                        <h4 className="text-base md:text-xl mb-2">AnteAge®  Accelerator</h4>
                         <p className="my-1">
                         The AnteAGE Accelerator is a performance driven treatment rich in powerful moisturizers and revitalizing actives. Stem Cytokines™, vitamins, and targeted antioxidants work to deeply hydrate and nourish the skin, while two research-backed molecules (a defensin peptide and retinoid-like compound) enhance the pro-healing, regenerative and anti-inflammatory potential of the AnteAGE system.
                         </p>
@@ -179,7 +179,7 @@ const AnteageStemCell = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3x font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -193,8 +193,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="AnteAge Stem Cell Facial"
-        pageTitleDescription="Award Winning Holistic Skin Treatment from Essence of Beauty Ottawa"
-        pageDescription="We are using an award winning holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol. This intriguing treatment is both backed by science and the visible results that you can see for yourself."
+        pageTitleDescription="Award Winning Holistic Anti-Aging Treatment from Essence of Beauty Ottawa"
+        pageDescription="Essence of Beauty Ottawa uses a holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol with amazing results!"
         pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"

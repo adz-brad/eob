@@ -4,10 +4,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 const MeetEva = ({ _key }) => {
     return(
         <div key={_key} className="pt-20 pb-10 md:py-20 px-4 md:px-12 flex flex-col lg:flex-row">
-            <StaticImage  loading="lazy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true" className="w-full lg:w-2/5 rounded-sm shadow-md" alt=""/>
+            <StaticImage  loading="lazy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true" className="w-full lg:w-2/5 rounded-sm shadow-md" alt="Essence of Beauty - Meet Eva"/>
             <div className="flex flex-col w-full mt-16 lg:w-3/5 lg:my-0 p-4 md:p-0 lg:ml-16">
-                <h1 className="text-5xl">Meet Eva</h1>
-                <h2 className="text-brown text-medium text-lg md:text-2xl">Your Natural and Organic Skincare Specialist</h2>
+                <h2 className="text-5xl">Meet Eva</h2>
+                <h3 className="text-brown text-medium text-lg md:text-2xl">Your Natural and Organic Skincare Specialist</h3>
                 <p className="mt-4 mb-1">
                 As a European trained aesthetician with over 28 years of experience, I started Essence of Beauty in 2001. My business continues to grow as I offer my clients the most advanced products and techniques. In short, I love what I do and I love the joy in my clients’ eyes and voices when they tell me how much I have helped them. You inspire me.
                 </p>

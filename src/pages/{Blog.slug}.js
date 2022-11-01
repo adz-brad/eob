@@ -31,7 +31,7 @@ const BlogTemplate = ({ data }) => {
                 : null}
             </div>
             <div className="flex flex-col lg:w-1/4 p-4 lg:p-8 border-l border-black/30">
-                <h1 className="font-bold mt-4">Recent Posts</h1>
+                <h1 className="text-2xl md:text-4xl font-bold mt-4">Recent Posts</h1>
                 <div className="flex flex-col my-4">
                     {data.allBlog.nodes ?
                         data.allBlog.nodes.map((post, i) => {

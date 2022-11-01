@@ -15,14 +15,14 @@ const AcneScars = () => {
                 heading="Acne Scars Revision"
                 gradient="from-black/70 via-black/50 to-black/30"
                 caption="Scars can compromise your complexion long after acne heals. At Essence of Beauty Ottawa, we create individual programs for each client to treat a range of problems including active acne and acne scarring."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Acne Scars Revision" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
-                    <h1 className="mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
-                    <h2 className="mt-2 mb-4 subheader">
-                    With customized treatment options from Essence of Beauty Ottawa, you can say goodbye to the scarring that compromises your complexion long after your acne is healed.
+                    <h1 className="text-2xl md:text-4xl mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
+                    With customized acne treatment options from Essence of Beauty Ottawa, you can say goodbye to the scarring that compromises your complexion long after your acne is healed.
                     </h2>
                     <p className="my-1">
                     We all want to look and feel our best, both inside and out, every day. But for those who have suffered acne throughout their life and still show their physical scars that can be easier said than done. While it’s most prominent in adolescence, acne scarring can actually affect skin at any age. Scarring can affect not just a person’s physical appearance but also their self-confidence.           
@@ -47,9 +47,9 @@ const AcneScars = () => {
             </div>
             <div id="acne-scarring-info" className="md:p-8">
             <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:my-8" >
-            <h1 className="my-4">
+            <h2 className="text-xl md:text-3xl my-4">
             How do acne scars develop?
-                        </h1>
+                        </h2>
                         <p className="my-2">
                         When acne breakouts penetrate the skin deeply, they damage the skin and the tissue beneath it. As the acne clears, the body tries to repair this damage. During the healing process, the body produces collagen a substance that gives the skin support. If the body produces too little or too much collagen, you will see a scar. This collagen can stay in place permanently, creating acne scarring. In some cases, the result is not a true scar, but simply an excess of pigmentation. This may fade away over a few months or years – it generally isn’t permanent as with other acne scars.
                         </p>
@@ -87,7 +87,7 @@ const AcneScars = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -100,9 +100,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Acne Scars Revision"
-        pageTitleDescription="Safe & Effective Treatment of Acne Scars For All Skin Types at Essence of Beauty Ottawa!"
-        pageDescription="Say goodbye to the scarring that compromises your complexion long after your acne is healed. We create individual programs for each client to treat a range of problems including active acne and acne scarring."
+        pageTitle="Acne Scars Revision Ottawa"
+        pageTitleDescription="Safe & Effective Treatment of Acne Scars For All Skin Types!"
+        pageDescription="Essence of Beauty Acne Clinic Ottawa creates customized programs for each client to treat skin problems including acne and acne scarring so you can say goodbye to the scarring that compromising your complexion!"
         pageKeywords="Acne Scars, Scarring, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"

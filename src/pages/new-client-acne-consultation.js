@@ -14,12 +14,12 @@ const NewClientAcneConsultation = () => {
                 heading="New Client Acne Consultation"
                 gradient="from-black/50 via-black/30 to-black/10"
                 caption="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/newClientConsultHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - New Client Acne Consultation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/newClientConsultHeader.jpg?raw=true"/>}
             />
                         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Treat Acne, Rosacea & More</h1>
-                    <h2 className="mt-2 mb-4 subheader">Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Treat Acne, Rosacea & More</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started.</h2>
                     <p className="my-1">
                     We will take approx. 45 minutes to do a general evaluation of your skin, go over skin history, and talk about your skin care goals and concerns. At that time we can discuss long or short term treatment options and outcome expectations. Your commitment to your acne treatment program will determine your results.  
                     </p>
@@ -40,7 +40,7 @@ const NewClientAcneConsultation = () => {
             </div>
             <div id="new-client-info" className="p-4 lg:p-8">
                         <Card cardBodyClass="p-4" cardWrapperClass="mt-8 mb-4">
-                        <h1 className="m-4">How It Works</h1>
+                        <h2 className="text-2xl md:text-4xl m-4">How It Works</h2>
                         <ul className="ml-8 list-disc">
                             <li className="my-1">
                             An acne assessment begins with a questionnaire that will capture your relevant  medical history. We will be taking pictures of the effective areas so that we can identify signs of improvement during future visits. 
@@ -83,7 +83,7 @@ const NewClientAcneConsultation = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -97,8 +97,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="New Client Acne Consultation"
-        pageTitleDescription="Treat Your Skin With The Care It Deserves At Essence of Beauty Ottawa"
-        pageDescription="Let's talk about your skin care goals and concerns. You may book a consultation in combination with your initial skin treatment session or simply just a consultation to get started."
+        pageTitleDescription="Treat Your Skin At Essence of Beauty Ottawa"
+        pageDescription="Let's talk about your skin care goals and concerns. You may book a consultation with Essence of Beauty Ottawa in combination with your initial skin treatment session or simply just a consultation to get started."
         pageKeywords="New Clients, New Patient, Consultation, Information, Rosecea, Hyperpigmentation, Acid-free, Natural, Learn, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/new-client-acne-consultation/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneConsultation.jpg?raw=true"

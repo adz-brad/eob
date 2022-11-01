@@ -14,17 +14,22 @@ const Hyperpigmentation = () => {
                 heading="Hyperpigmentation & Melasma"
                 gradient="from-black/30 via-black/40 to-black/60"
                 caption="If you’re at a loss for why your complexion is suddenly riddled with various forms of hyperpigmentation, know that you are not alone. We can help you minimize any spots or blemishes from hyperpigmentation, no matter what your skin type."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Hyperpigmentation & Melasma" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
             <div className="flex flex-col lg:flex-row justify-center">
                     <div className="flex flex-col lg:w-2/5 md:p-8 mx-auto" >
-                        <h1 className="mt-8 mb-4 font-semibold">Treatment for Hyperpigmentation & Melasma</h1>
-                        <h2 className="mt-2 mb-4 subheader">Hyperpigmentation is a general term that is used by medical professionals to characterize patches of skin which are darker in color than the rest of the skin due to the overproduction of melanin.</h2>
+                        <h1 className="text-2xl md:text-4xl mt-8 mb-4 font-semibold">Treatment for Hyperpigmentation & Melasma</h1>
+                        <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
+                            Essence of Beauty Ottawa helps you to minimize any spots or blemishes from hyperpigmentation & melasma, no matter what your skin type.
+                        </h2>
+                        <p className="my-1">
+                        Hyperpigmentation is a general term that is used by medical professionals to characterize patches of skin which are darker in color than the rest of the skin due to the overproduction of melanin.
+                        </p>
                         <p className="mt-1 mb-4">
                         Dark spots can develop for a wide variety of reasons, though the most common contributing factor to facial hyperpigmentation is overexposure to the sun. Fluctuations in hormone levels, a genetic predisposition to melasma, the healing process of acne lesions, and skin damage caused by laser treatment, can also all lead to the development of facial hyperpigmentation. Facial hyperpigmentation can occur in individuals of any skin tone and type, and depending on the underlying cause of the hyperpigmentation may appear at any age.
                         </p>
-                        <h4 className="font-semibold">Real results require effective strategies that work in partnership with the skin.</h4>
+                        <span className="text-base md:text-xl font-semibold">Real results require effective strategies that work in partnership with the skin.</span>
                         <Button 
                             data={{ text: "Learn More", anchor: "hyperpigmentation-melasma-info"}}
                             className="buttonLight my-8 md:my-auto"
@@ -39,7 +44,7 @@ const Hyperpigmentation = () => {
             </div>
             <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-4 flex flex-col lg:flex-row">
                 <div id="hyperpigmentation-melasma-info" className="flex flex-col lg:w-1/2 p-4 md:p-8 md:ml-4">
-                   <h1 className="mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h1>
+                   <h2 className="text-2xl md:text-4xl mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h2>
                    <p className="my-1">
                    There are two types of hyperpigmentation – <strong>sun derived and internally derived.</strong>
                    </p>
@@ -48,11 +53,11 @@ const Hyperpigmentation = () => {
                    These areas can be like freckles and will more apparent after sun exposure and generally not symmetrical on your face. Or they can appear as a large cluster on some areas of your body.
                    </p>
                    <h3 className="text-xl mt-4 font-semibold">Internally Derived</h3>
-                   <h4 className="text-brown italic mt-3 font-semibold">Melasma</h4>
+                   <h4 className="text-base md:text-xl text-brown italic mt-3 font-semibold">Melasma</h4>
                    <p className="my-1">
                    This will show up on your cheeks, forehead and upper lip. It can also appear anywhere on your face and is usually asymmetrical. That means you’ll likely see it on both sides of your face in the same area and unlike age spots, Melasma will be in large patches.
                    </p>
-                   <h4 className="text-brown italic mt-3 font-semibold">Liver Spots</h4>
+                   <h4 className="text-base md:text-xl text-brown italic mt-3 font-semibold">Liver Spots</h4>
                    <p className="my-1">
                    Liver Spots are asymmetrical. You can see them anywhere on the face in one or more location. They are very large patches of pigmentation.
                    </p>
@@ -76,7 +81,7 @@ const Hyperpigmentation = () => {
             </div>
             <div id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col my-4">
                 <div className="flex flex-col p-4 lg:p-8">
-                    <h1 className="mb-4 pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h1>
+                    <h2 className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h2>
                     <p className="my-1">
                    The initial step is an in-depth skin health consultation and analysis to identify the possible root cause of pigmentation, before a treatment plan can be designed to correct the condition and provide the tools needed to reduce the risk of it retuning. Depending on the type of hyperpigmentation disorder and the causes, the treatment approach will vary.
                    </p>
@@ -114,7 +119,7 @@ const Hyperpigmentation = () => {
                     </ul>
                     </div>
                     <div className="flex flex-col md:w-1/3 mx-auto">
-                    <h1 className="">Important First Steps</h1>
+                    <h2 className="text-2xl md:text-4xl">Important First Steps</h2>
                     <ul className="text-left my-4">
                         <li className="my-1">1. Sun Protection</li>
                         <li className="my-1">2. Proper skin care to address the specific condition causing your pigmentation</li>
@@ -141,7 +146,7 @@ const Hyperpigmentation = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -154,10 +159,10 @@ export const Head = () => {
     return(
         <>
         <Seo
-            pageTitle="Hyperpigmentation & Melasma"
-            pageTitleDescription="Reduce Blemishes & Spots From Pigmentation With Natural Treatment From Essence of Beauty Ottawa"
-            pageDescription="If you’re at a loss for why your complexion is suddenly riddled with various forms of hyperpigmentation, know that you are not alone. We can help you minimize any spots or blemishes from hyperpigmentation, no matter what your skin type."
-            pageKeywords="Hyperpigmentation, Blemishes, Spots, Melasma, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+            pageTitle="Hyperpigmentation & Melasma Ottawa"
+            pageTitleDescription="Natural Treatment of Blemishes & Spots From Pigmentation"
+            pageDescription=" Essence of Beauty Ottawa helps you to minimize spots and blemishes from hyperpigmentation and melasma, no matter what your skin type."
+            pageKeywords="Hyperpigmentation, Blemishes, Spots, Melasma, Holistic, Beauty, Organic, Treatment, Peels, Ottawa, Skin, Acne, Beauty, Spa"
             pageUrl="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/"
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"
         />

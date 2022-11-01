@@ -5,7 +5,21 @@ package = "@netlify/plugin-sitemap"
   prettyURLs = true
   trailingSlash = true
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "same-origin"
+    X-XSS-Protection = "1; mode=block"
+    Strict-Transport-Security = "max-age=31536000"
+    Content-Security-Policy = "default-src 'self';"
+
 [[redirects]]
+
+  from = "http://www.essenceofbeauty.ca"
+  to = "https://www.essenceofbeauty.ca/"
+  status = 301
+
   from = "https://www.essenceofbeauty.ca"
   to = "https://www.essenceofbeauty.ca/"
   status = 301

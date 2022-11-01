@@ -48,10 +48,10 @@ export const data = {
                     "link": "/facial-treatments-ottawa/" 
                 },
                 {
-                    "name": "Signature Radiance Infusion",
-                    "description": "Our Signature Radiance Infusion Skin Rejuvenating Facial Treatment is the latest innovation and is one of our most requested facial treatments at Essence of Beauty. You’ll see an instant glow, boost in hydration & brightening effect for that coveted lit-from-within glow! Best of all, the treatment is non-invasive with absolutely no downtime!",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Infusion Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"/>,
-                    "link": "/radiance-infusion-nano-channeling/" 
+                    "name": "Radiance Hydro Infusion Facial",
+                    "description": " Our signature Radiance Hydro Infusion Facial is the latest innovation in skin rejuvenation and one of our most requested facial treatments at Essence of Beauty. This HydraFacial alternative provides an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone. It also has a brightening effect for that coveted lit-from-within glow! Throughout the treatment, the skin is literally being drenched with wonderful elixirs and serums. The best part is that it’s non-invasive and there is absolutely no downtime!",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Hydro Infusion Facial Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"/>,
+                    "link": "/radiance-hydro-infusion-facial/" 
                 },
                 {
                     "name": "Growth Factor Microneedling",

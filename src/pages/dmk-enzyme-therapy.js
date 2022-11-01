@@ -19,9 +19,9 @@ const DMKTherapy = () => {
                     <div className="flex flex-col xl:w-1/2 lg:mx-auto md:mr-8 px-4 md:px-8 xl:px-16">
                         <h1 className="mt-8 lg:mt-10 mb-2 font-semibold text-2xl xl:text-4xl">Treat Acne, Rosacea & More With The Power of DMK</h1>
                         <p className="my-2">
-                            At Essence of Beauty Ottawa, we are leading experts in the use of DMK Enzyme Therpy for treating a multitude of conditions including acne, rosacea, sun-damaged skin, aging effects, pigmentation, scarring and reactive skin to name just a few.
+                            Essence of Beauty Ottawa is a leading expert in the use of DMK Enzyme Therapy for treating skin conditions including acne, rosacea, sun-damage, signs of aging, pigmentation, scarring and reactive skin, to name just a few.
                         </p>
-                        <h2 className="mt-2 subheader">
+                        <h2 className="text-xl md:text-3xl mt-2 subheader">
                             Benefits of choosing DMK Enyzme therapy include:
                         </h2>
                         <ul className="list-disc ml-4 my-2">
@@ -77,7 +77,7 @@ const DMKTherapy = () => {
             <div id="dmk-enyzyme-therapy-more-info">
                 <div className="flex flex-col lg:flex-row md:items-center bg-lightGreen rounded-sm shadow-lg mb-8 p-4 md:p-8">
                     <div className="flex flex-col lg:w-2/3 md:mx-8">
-                        <h1 className="mb-4">Why Choose DMK Over Other Therapies?</h1>
+                        <h2 className="text-2xl md:text-4xl mb-4">Why Choose DMK Over Other Therapies?</h2>
                         <p className="my-2">
                         DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK. Also, many of these other treatments are considered unhealthy and dangerous, possibly even worsening underlying skin conditions.
                         </p>
@@ -106,7 +106,7 @@ const DMKTherapy = () => {
             <div id="dmk-how-it-works">
                 <div className="flex flex-col lg:flex-row">
                     <div className="flex flex-col lg:w-3/5 lg:mx-auto md:mr-8 px-4 md:px-8 lg:px-16">
-                        <h1 className="mt-8 mb-4">How Does DMK Enzyme Therapy Work?</h1>
+                        <h2 className="text-2xl md:text-4xl mt-8 mb-4">How Does DMK Enzyme Therapy Work?</h2>
                         <p className="my-2">Enzyme Therapy works by utilizing specialized transfer messenger enzymes which bring fresh oxygenated blood and nutrients to the cells by causing Reverse Osmosis which is a “back-flushing” action that forces fluids through the membrane around the cells, cleaning out all impurities and restoring vital cellular nutrition and oxygenation required for cellular regeneration. Reverse Osmosis is the actual effect of the enzyme treatment on your body, specifically within three targeted areas: The lymphatic system, facial blood vessels and facial muscles.</p>
                         <p className="my-2">
                         As the primary filtering system of the body, the lymphatic system consists of a network of organs and tissues whose job it is to remove toxins, waste, and other harmful materials from the vascular system. DMK therapy acts on the lymphatics system, encouraging excellent drainage, which is felt through the facial mask as a pulsating or tightening sensation by the client.
@@ -123,9 +123,9 @@ const DMKTherapy = () => {
                 </div>
             </div>
             <div className="my-8 flex flex-col p-4 md:p-8">
-                <h1 className="text-center my-8">
+                <h2 className="text-2xl md:text-4xl text-center my-8">
                 DMK Results for Various Conditions
-                </h1>
+                </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-5 gap-2 lg:gap-16 mt-8 mx-auto max-w-screen-xxl w-full">
                 <li 
                     className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
@@ -308,10 +308,10 @@ const DMKTherapy = () => {
 
             </div>
             <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8 md:my-16">
-                <h1 className="mb-4">DMK Pricing</h1>
+                <h2 className="text-2xl md:text-4xl mb-4">DMK Pricing</h2>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1>Enzyme Therapy Level 1</h1>
+                        <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 1</h3>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -339,7 +339,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1>Enzyme Therapy Level 2</h1>
+                        <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 2</h3>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -363,7 +363,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1>Enzyme Therapy Level 3</h1>
+                        <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 3</h3>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -387,7 +387,7 @@ const DMKTherapy = () => {
                 </Card>
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
-                        <h1>Muscle Banding with A-lift - Enzyme Masque #2 & #3</h1>
+                        <h3 className="text-2xl md:text-4xl">Muscle Banding with A-lift - Enzyme Masque #2 & #3</h3>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
@@ -414,7 +414,7 @@ const DMKTherapy = () => {
                 </Card>
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -427,9 +427,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="DMK Enzyme Therapy"
-        pageTitleDescription="Effective Treatment For Acne, Aging, Pigmentation, Scarring & More With DMK at Essence of Beauty Ottawa"
-        pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy. While other therapies claim effectiveness through the application of oxygenated creams or even compressed air, in extreme cases, no treatment has proven to be as effective as the deep treatment therapies offered through DMK."
+        pageTitle="DMK Enzyme Therapy Ottawa"
+        pageTitleDescription="Effective Treatment For Acne, Aging, Pigmentation, Scarring & More"
+        pageDescription="DMK has established a global reputation for their enzyme treatments, making them the leader in enzyme oxygen therapy for acne, signs of aging, pigmentation, scarring & more."
         pageKeywords="DMK Enzyme Therapy, DMK, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/dmk-enzyme-therapy/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkHeader.jpg?raw=true"

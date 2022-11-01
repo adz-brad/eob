@@ -7,9 +7,9 @@ const SplitList = ({ _key, heading, caption, image, anchor, listTitle, listItems
     return(
         <div id={anchor} key={_key} className="flex flex-col lg:flex-row py-20 px-8">
             <div className="flex flex-col lg:w-3/5 lg:pl-8 lg:pr-12 grow">
-                <h1 className="lg:text-5xl lg:mt-4">{heading}</h1>
+                <h2 className="text-2xl md:text-4xl lg:text-5xl lg:mt-4">{heading}</h2>
                 <p className="lg:text-lg my-4">{caption}</p>
-                <h2 className="text-2xl lg:text-4xl mt-2 lg:mt-8">{listTitle}</h2>
+                <h3 className="text-2xl md:text-3xl lg:text-4xl mt-2 lg:mt-8">{listTitle}</h3>
                 <ul className="list-disc ml-2 lg:m-4">
                     {listItems?.map((item, i) => {
                         return(

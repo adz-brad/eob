@@ -15,15 +15,15 @@ const FacialTreatments = () => {
                 heading="Facials For Women & Men"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Facials for Women & Men" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"/>}
             />
             <PageWrapper>
                 <div className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto">
-                        <h1 className="my-3 font-bold">Facial Treatments Designed For You!</h1>
-                        <h4 className="mt-1 mb-2">Essence of Beauty is the FIRST <strong>organic and chemical free</strong> Holistic Anti-Aging Skincare Clinic in Ottawa.</h4>
+                        <h1 className="text-2xl md:text-4xl my-3 font-bold">Facial Treatments Designed For You!</h1>
+                        <h2 className="text-xl md:text-2xl mt-1 mb-2">Essence of Beauty Ottawa provides only the best facial treatments for acne, rosacea, hyperpigmentation, anti-aging & more </h2>
                         <p className="my-1">
-                        Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials that address your skin’s unique needs and your dreams and goals for your complexion. The Essence of Beauty approach integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results.
+                        Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials & peels designed to expertly treat acne, scarring, signs of aging, pigmentation, rosacea & more by addressing your skin’s unique needs as well as your dreams and goals for your complexion. The Essence of Beauty approach integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results.
                         </p>
                         <p className="my-1">
                         All of her skin care product formulations have the ability to penetrate below the surface in achieving the deepest therapeutic effects. Their bioenergetic properties are totally unique. All treatments incorporate specialized nutrient rich serums, masques and moisturizers that leave your skin radiant and glowing. Essence of Beauty treatments are unique in that every facial can be customized for any individual, regardless of skin type, conditions, and age. Let  her take care of you and your skin and discover the benefits of her result-oriented treatments with every detail.
@@ -50,7 +50,7 @@ const FacialTreatments = () => {
                     </div>
                     <div id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" >
                         <div className="ml-8">
-                        <h1 className="mt-4">Skin Care Treatments For Acne, Rosacea & More</h1>
+                        <h2 className="text-2xl md:text-4xl mt-4">Skin Care Treatments For Acne, Rosacea & More</h2>
                         <p className="mb-8">Browse our facial menu to find the right treatment for you!</p>
                         </div>
                         <div className="flex flex-col py-4 md:py-8">
@@ -70,9 +70,9 @@ const FacialTreatments = () => {
                                             </div>
                                         : null }
                                         <div className={`flex flex-col ${treatment.image ? 'md:w-2/3' : 'w-full'} p-4 md:p-8`}>
-                                        <h1 className="pb-2 mb-2">
+                                        <h3 className="text-2xl md:text-4xl pb-2 mb-2">
                                             {treatment.name}
-                                        </h1>
+                                        </h3>
                                         <div className="my-2">
                                             {treatment.content}
                                         </div>
@@ -111,7 +111,7 @@ const FacialTreatments = () => {
                         </div>
                 </div>
                 <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
             </PageWrapper>
@@ -125,10 +125,10 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Facials For Women & Men"
-        pageTitleDescription="Ottawa's First Holistic Acne & Skincare Clinic Uses Organic, Chemical-Free Treatments To Provide Lasting Results For All Skin Types!"
-        pageDescription="As the first organic and chemical free Holistic Anti-Aging Skincare Clinic in Ottawa, Essence of Beauty integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results."
-        pageKeywords="Skincare, Checmical-free, No-Acid, Acid free, No Chemicals, Sensitive SkinFacials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitle="Facials For Women & Men Ottawa"
+        pageTitleDescription="Organic, Acid-Free Treatment For All Skin Types!"
+        pageDescription="Essence of Beauty Ottawa integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results in treating acne, scarring, pigmentation, rosacea & more."
+        pageKeywords="Skincare, Checmical-free, No-Acid, Facials, Acid free, No Chemicals, Sensitive SkinFacials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/facial-treatments-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"
         />

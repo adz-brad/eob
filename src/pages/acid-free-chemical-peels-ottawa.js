@@ -12,17 +12,17 @@ const SpecialPeels = () => {
                 heading="Natural Grade Acid-Free & Chemical Facial Peels"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeelsHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Natural Grade Acid-Free & Chemical Facial Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeelsHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
-                    <h2 className="mt-2 mb-4 subheader">At Essence of Beauty Ottawa Acne Clinic, we offer both acid-free natural grade facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">At Essence of Beauty Ottawa Acne Clinic, we offer natural, acid-free facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
                     <p className="my-1">
-                    When properly administered, peels provide powerful, non-invasive, pro-youth improvement to the skin. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
+                    When properly administered, both acid-free and chemical peels provide powerful, non-invasive, pro-youth improvement to the skin for treatment of acne, scarring, rosacea & more. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
                     </p>
                     <p className="my-1">
-                    They are an excellent and non-invasive way to improve your skin and you will results immediately. Our peels are derived form natural products, such as plants, and therefore contain no harsh chemicals or preservatives that may cause irritation or reactions. Our peels will rejuvenate your skin by stimulating cell turnover and delivering vital nutrients deep into your skin. Treatments vary in intensity, and a client’s skin tape and desired results will dictate which peel treatment is best.
+                    They are an excellent and non-invasive way to improve your skin and you will results immediately. Our natural grade acid-free peels are derived from natural products, such as plants, and therefore contain no harsh chemicals or preservatives that may cause irritation or reactions. Our peels will rejuvenate your skin by stimulating cell turnover and delivering vital nutrients deep into your skin. Treatments vary in intensity, and a client’s skin tape and desired results will dictate which peel treatment is best.
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "special-peels-info"}}
@@ -39,7 +39,7 @@ const SpecialPeels = () => {
             </div>
             <div id="special-peels-info" className="p-4 md:p-8">
             <div className="m-4">
-            <h1 className="mb-2">Essence of Beauty Special Peels</h1>
+            <h2 className="text-2xl md:text-4xl mb-2">Essence of Beauty Special Peels</h2>
             <span>Choose a treatment option to learn more</span>
             </div>
             <Tabs
@@ -50,9 +50,9 @@ const SpecialPeels = () => {
                   name: "Restorative Bio Peel",
                   content: (
                     <div className="flex flex-col lg:px-4 pb-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                      <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
                       Restorative Bio Peel
-                      </h1>
+                      </h3>
                       <p className="my-2">
                       Restorative Bio Peel it’s a customized vegan facial peeling which brings new energy to the skin from the natural freshwater sponge, rich in minerals. It works as a microparticles are embedded into the skin and remove dead skin cells and skin waste. It has exceptional curative properties for every skin type. Stimulate the healing response of the body and increase the regeneration of skin cells, improves elasticity and softens the texture of the skin. It is safe for common address concerns, including sunspots, acne scars, and an aging, dull complexion.
 
@@ -109,9 +109,9 @@ const SpecialPeels = () => {
                   name: "AfterGlow Chemical Peel",
                   content: (
                     <div className="flex flex-col lg:px-4 pb-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                      Afterglow Chemical Peel
-                      </h1>
+                      <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                      AfterGlow Chemical Peel
+                      </h3>
                       <p className="my-2">
                       The AfterGlow Chemical Peel is tailored to fit all clients’ individual skin type and long-term goals.
                       </p>
@@ -141,13 +141,13 @@ const SpecialPeels = () => {
                         Sun damaged skin   
                         </li>
                       </ul>
-                        <h4 className="font-bold text-brown mt-4 mb-2">
+                        <h4 className="text-base md:text-xl font-bold text-brown mt-4 mb-2">
                             Treatment Options
                         </h4>
                         <div className="flex flex-col">
-                            <h4 className="my-1">
+                            <h5 className="text-base md:text-xl my-1">
                                 This peel is best done in a series of 3 or more, depending on your skin care goals.
-                            </h4>
+                            </h5>
                             <span><strong className="mr-2 text-brown">One Treatment:</strong>$255</span>
                             <span><strong className="mr-2 text-brown">3 Treatments (package price when pre-booked / pre-paid):</strong>$710</span>
                             <span><strong className="mr-2 text-brown">Extraction and AfterGlow Peeling :</strong>$310</span>
@@ -166,9 +166,9 @@ const SpecialPeels = () => {
                     name: "Herbal Green Peel",
                     content: (
                       <div className="flex flex-col lg:px-4">
-                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                        <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Herbal Green Peel
-                        </h1>
+                        </h3>
                         <p className="my-2">
                         This deep peeling treatment is a natural non-surgical procedure that would re-enhance the skin and correct some of the aging process. It gives you perfect, pure, smooth and youthful skin, by simply smoothing away prematurely aged, damaged or impure skin by regenerating new cells and collagen fibers. This peel does not contain any chemicals or synthetic peeling agents. It is herbal based and perfectly safe. It has no side effects and can be used on all skin types and skin color. Unlike the traditional chemical peel, this method results in a more profound change and can be repeated any number of times. You can try this effective treatment also on the stomach, upper back. A dream that can actually come true naturally. Visible effects can be seen after only a few days.
                         </p>
@@ -177,7 +177,7 @@ const SpecialPeels = () => {
                         </p>
                         
                         <div className="my-2">
-                            <h4 className="font-bold text-brown my-2">
+                            <h4 className="text-base md:text-xl font-bold text-brown my-2">
                             Green Peel® Classic
                             </h4>
                             <p className="my-1">
@@ -193,7 +193,7 @@ const SpecialPeels = () => {
                             </div>
                         </div>
                         <div className="my-2">
-                            <h4 className="font-bold text-brown my-2">                    
+                            <h4 className="text-base md:text-xl font-bold text-brown my-2">                    
                             Green Peel® Energy 
                             </h4>
                             <p className="my-1">
@@ -222,9 +222,9 @@ const SpecialPeels = () => {
                     name: "Vitamin A Infusion Peel",
                     content: (
                       <div className="flex flex-col lg:px-4">
-                        <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                        <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
                           Vitamin A Infusion Peel
-                        </h1>
+                        </h3>
                         <p className="my-2">
                         The first non-chemical peel in the skin care industry that creates a substantial increase in your cellular activity and significantly stimulates collagen production.
                         </p>
@@ -272,7 +272,7 @@ const SpecialPeels = () => {
                           Unlike a traditional peel, The Infusion feels comfortable, relaxing, and luxuries
                           </li>
                         </ul>
-                          <h4 className="font-bold text-brown mt-4 mb-2">
+                          <h4 className="text-base md:text-xl font-bold text-brown mt-4 mb-2">
                               Treatment Options
                           </h4>
                         <p className="my-2">
@@ -295,7 +295,7 @@ const SpecialPeels = () => {
             />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -308,9 +308,9 @@ export const Head = () => {
   return(
     <>
     <Seo
-    pageTitle="Natural Grade Acid-Free & Chemical Facial Peels"
-    pageTitleDescription="Treat Acne, Scarring, Rosecea, Sun Damage & More at Essence of Beauty Ottawa"
-    pageDescription="At Essence of Beauty Ottawa, I offer a variety of peels including both acid-free natural grade and chemical facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles."
+    pageTitle="Natural Acid-Free & Chemical Facial Peels Ottawa"
+    pageTitleDescription="Treatment for Acne, Scarring, Rosacea, Sun Damage & More"
+    pageDescription="Essence of Beauty Ottawa offers acid-free natural grade and chemical facial peels to target skin conditions like acne, scarring, pigmentation, sun damage, fine lines and wrinkles & more."
     pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
     pageUrl="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/"
     pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"

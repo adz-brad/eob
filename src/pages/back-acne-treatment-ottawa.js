@@ -13,13 +13,13 @@ const BackAcne = () => {
                 heading="Back Acne"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption="If dealing with facial acne isn’t enough, your body can also be prone to breakouts. Odds are, if you experience acne on your face, pimples have also popped up on your neck, chest and back. At Essence of Beauty, we create individual programs for each client to achieve desired results for treating back acne!"
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Back Acne Treatment" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/backAcneHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8 md:my-8">
                 <div className="flex flex-col">
                     <div className="flex flex-col p-4 md:p-8" >
-                        <h1 className="my-4 font-semibold">Say Goodbye To Back, Chest & Shoulder Acne</h1>
-                        <h2 className="mb-6 subheader">Essence of Beauty Ottawa Acne Clinic treatments are proven to help clear up body acne with amazing results.</h2>
+                        <h1 className="text-2xl md:text-4xl my-4 font-semibold">Say Goodbye To Back, Chest & Shoulder Acne</h1>
+                        <h2 className="text-xl md:text-2xl mb-6 subheader">Essence of Beauty Ottawa Acne Clinic treatments are proven to help clear up body acne with amazing results.</h2>
                         <p className="mt-1 mb-2">
                         Acne that emerges on your body is caused by imbalances because of toxins from a hypertrophy of candida in the digestive tract. It is often provoked by medication, excessive consumption of sugar, and mucus-producing foods such as dairy and fried foods and eggs and many other factors.
                         </p>
@@ -50,7 +50,7 @@ const BackAcne = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>

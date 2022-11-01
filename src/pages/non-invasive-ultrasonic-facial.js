@@ -14,12 +14,12 @@ const UltrasonicFacial = () => {
                 heading="Ultrasonic Regenerative Facial"
                 gradient="from-black/20 via-black-40 to-black/50"
                 caption="Ultrasonic Regenerative Facials are gentle, non-invasive, safe and suitable for all skin types, from Rosacea/Sensitive to Acne to Mature skins. Yes, even the most sensitive skin will benefit from Ultrasound treatments! This is exciting news for everyone."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacialHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa -Regenerative Ultrasonic Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacialHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col lg:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">State of the Art Ultrasonic Facials</h1>
-                    <h2 className="mt-2 mb-4 subheader">Treat your acne, rosacea and more with Ultrasonic Facials from Essence of Beauty Ottawa - a gentle, non-invasive, safe and suitable treatment option for all skin types, including even the most sensitive skin!</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Non-Invasive Facials For Acne, Rosacea & More</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Treat acne, rosacea and more with Ultrasonic Facials from Essence of Beauty Ottawa - a gentle, non-invasive and safe treatment option for all skin types, including even the most sensitive skin!</h2>
                     <p className="my-1">
                     It’s an exciting yet simple and powerfully effective tool to rejuvenate your skin. Ultrasound has been widely used around the world in medical applications and is now available for state of the art skincare treatments. Ultrasound uses the cutting-edge technology of very high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. But what does that mean for you? In short, it means Ultrasound is superior at cleansing, exfoliating, product infusion restoring elasticity, clearing of pigmentation problems & dramatically improves texture and smoothness…all without using chemicals, dangerous acids or other harsh abrasives.
                     </p>
@@ -38,12 +38,12 @@ const UltrasonicFacial = () => {
             <div id="ultrasonic-facial-benefits" className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col">
                     <div className="flex flex-col">
-                    <h1 className="">
+                    <h2 className="text-2xl md:text-4xl">
                         Ultrasonic Facial Benefits
-                    </h1>
-                    <h4 className="my-2">
+                    </h2>
+                    <h3 className="text-base md:text-xl my-2">
                     Here are just some other important benefits of Ultrasonic treatments in skin rejuvenation:
-                    </h4>
+                    </h3>
                     <ul className="list-disc my-2 ml-4">
                         <li className="my-1">
                         Loosens and removes oil, dirt and cellular debris from follicles for cleaner, healthier skin
@@ -75,10 +75,10 @@ const UltrasonicFacial = () => {
                     </ul>
                     </div>
                     <div className="flex flex-col mt-8">
-                        <h4 className="font-bold lg:text-2xl">Let’s consider the main phases of Ultrasonic Facials</h4>
+                        <h3 className="text-base md:text-xl font-bold lg:text-2xl">Let’s consider the main phases of Ultrasonic Facials</h3>
                         <ul className="my-2">
                             <li className="my-4">
-                                <h4 className="text-brown font-bold my-2">
+                                <h4 className="text-base md:text-xl text-brown font-bold my-2">
                                     Exfoliation
                                 </h4>
                                 <p>
@@ -86,7 +86,7 @@ const UltrasonicFacial = () => {
                                 </p>
                             </li>
                             <li className="my-4">
-                                <h4 className="text-brown font-bold my-2">
+                                <h4 className="text-base md:text-xl text-brown font-bold my-2">
                                 Infusion
                                 </h4>
                                 <p>
@@ -94,7 +94,7 @@ const UltrasonicFacial = () => {
                                 </p>
                             </li>
                             <li className="my-4">
-                                <h4 className="text-brown font-bold my-2">
+                                <h4 className="text-base md:text-xl text-brown font-bold my-2">
                                 Micro Massage Therapy
                                 </h4>
                                 <p>
@@ -110,7 +110,7 @@ const UltrasonicFacial = () => {
                 </Card>
             </div>
             <div id="ultrasonic-facial-treatments" className="text-center p-4 md:p-8">
-            <h1 className="mb-2">Ultrasonic Facial Treatments</h1>
+            <h2 className="text-2xl md:text-4xl mb-2">Ultrasonic Facial Treatments</h2>
             <span>Ultrasonic Facials are particularly effective in treating the following skin conditions:</span>
             <Tabs
             columns="grid-cols-1 md:grid-cols-3 md:gap-6"
@@ -120,11 +120,11 @@ const UltrasonicFacial = () => {
                   name: "Acne",
                   content: (
                   <>
-                  <h4 className="mb-2 font-bold">Ultransonic Facials For Acne Treatment</h4>
+                  <h3 className="text-base md:text-xl mb-2 font-bold">Ultransonic Facials For Acne Treatment</h3>
                   <p>
                   The ultrasound vibration helps to break-up follicular deposits of oil, dirt and dead cells — a veritable breeding ground for bacteria. Ultrasonic frequency has been shown to kill bacteria and decongest the pores resulting in cleaner, healthier skin.
                   </p>
-                  <h4 className="mt-4 mb-2 font-bold">
+                  <h4 className="text-base md:text-xlmt-4 mb-2 font-bold">
                     The Final Result:
                   </h4>
                   <p className="my-1">
@@ -136,7 +136,7 @@ const UltrasonicFacial = () => {
                     <p className="my-1">
                     As a tool for rejuvenation, ultrasound is powerful. Simple and effective. It will give you the immediate result without using harmful chemicals exfoliates and continue its effects for months after applications. Your friends will notice the difference, your skin will love the benefits and you will love the results.
                     </p>
-                    <h4 className="mt-4 mb-1 font-bold">
+                    <h4 className="text-base md:text-xl mt-4 mb-1 font-bold">
                     Contraindications:
                     </h4>
                     <ul className="my-2 list-disc ml-4">
@@ -163,11 +163,11 @@ const UltrasonicFacial = () => {
                   name: "Rosacea & Sensitive Skin",
                   content: (
                   <>
-                  <h4 className="mb-2 font-bold">Ultransonic Facials For Rosacea & Sensitive Skin</h4>
+                  <h3 className="text-base md:text-xl mb-2 font-bold">Ultransonic Facials For Rosacea & Sensitive Skin</h3>
                   <p>
                   Yes, this is an excellent treatment for sensitive skin, even those with Rosacea. Pure, filtered water and hydrating serum is used during the Peel Phase. It is gentle and non-irritating. During the Infusion Phase, only products formulated for sensitive skin are used. No longer will your sensitive skin and/or Rosacea prevent you from exfoliating!
                   </p>
-                  <h4 className="mt-4 mb-2 font-bold">
+                  <h4 className="text-base md:text-xl mt-4 mb-2 font-bold">
                     The Final Result:
                   </h4>
                   <p className="my-1">
@@ -179,7 +179,7 @@ const UltrasonicFacial = () => {
                     <p className="my-1">
                     As a tool for rejuvenation, ultrasound is powerful. Simple and effective. It will give you the immediate result without using harmful chemicals exfoliates and continue its effects for months after applications. Your friends will notice the difference, your skin will love the benefits and you will love the results.
                     </p>
-                    <h4 className="mt-4 mb-1 font-bold">
+                    <h4 className="text-base md:text-xl mt-4 mb-1 font-bold">
                     Contraindications:
                     </h4>
                     <ul className="my-2 list-disc ml-4">
@@ -206,11 +206,11 @@ const UltrasonicFacial = () => {
                     name: "Fine Lines & Wrinkles",
                     content: (
                   <>
-                  <h4 className="mb-2 font-bold">Ultransonic Facials For Fine Lines & Wrinkles</h4>
+                  <h3 className="text-base md:text-xl mb-2 font-bold">Ultransonic Facials For Fine Lines & Wrinkles</h3>
                     <p>
                     Ultrasound helps stimulate and promote collagen and elastin production for more youthful skin. It also helps with hydration. The “plumping” of the skin fills out fine lines and wrinkles.
                     </p>
-                    <h4 className="mt-4 mb-2 font-bold">
+                    <h4 className="text-base md:text-xl mt-4 mb-2 font-bold">
                       The Final Result:
                     </h4>
                     <p className="my-1">
@@ -222,7 +222,7 @@ const UltrasonicFacial = () => {
                       <p className="my-1">
                       As a tool for rejuvenation, ultrasound is powerful. Simple and effective. It will give you the immediate result without using harmful chemicals exfoliates and continue its effects for months after applications. Your friends will notice the difference, your skin will love the benefits and you will love the results.
                       </p>
-                      <h4 className="mt-4 mb-1 font-bold">
+                      <h4 className="text-base md:text-xl mt-4 mb-1 font-bold">
                       Contraindications:
                       </h4>
                       <ul className="my-2 list-disc ml-4">
@@ -249,7 +249,7 @@ const UltrasonicFacial = () => {
             />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -263,9 +263,9 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Ultrasonic Regenerative Facials Ottawa"
-        pageTitleDescription="Safe, Gentle, Non-invasive Treatment of Rosecea Acne For All Skin Types"
-        pageDescription="Treat rosacea acne & other skin problems with the gentle, non-invasive, Ultrasonic Regenerative Facial. This amazing facial is safe and suitable for all skin types meaning even those with sensitive skin can benefit from this acne and rosacea treatment facial. Essence of Beauty Ottawa."
-        pageKeywords="Ultrasonic Facial, Safe, Gentle, Non-invasive, Rosecea, All skin types, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitleDescription="Safe, Gentle, Non-invasive Acne & Rosacea Treatment"
+        pageDescription="For those with sensitive skin, Essence of Beauty Ottawa offers the state of the art Ultrasonic Regenerative Facial, a safe, gentle, non-invasive treatment option designed to treat rosacea, acne & other skin problems."
+        pageKeywords="Ultrasonic Facial, Safe, Gentle, Non-invasive, Rosacea, All skin types, Regenerative, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/non-invasive-ultrasonic-facial/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true"
         />

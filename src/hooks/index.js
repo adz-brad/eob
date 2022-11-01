@@ -1,5 +1,5 @@
-import { useLayoutEffect, useState } from 'react'
-import { window } from 'browser-monads'
+import { useLayoutEffect, useEffect, useState } from 'react'
+import { window, document } from 'browser-monads'
 
 const useWindowWidth = () => {
     const [ width, setWidth ] = useState(0)    

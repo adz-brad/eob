@@ -21,22 +21,6 @@ h1, h2, h3, h4, h5, .font-headers {
     font-family: Marcellus;
 }
 
-h1 {
-    @apply text-2xl md:text-4xl;
-}
-
-h2 {
-    @apply text-xl md:text-3xl;
-}
-
-h3 {
-    @apply text-lg md:text-2xl;
-}
-
-h4 {
-    @apply text-base md:text-xl;
-}
-
 p {
     @apply text-base;
 }
@@ -111,8 +95,20 @@ textarea {
     @apply my-2;
 }
 
+.blogContent h1 {
+    @apply text-2xl md:text-4xl;
+}
+
 .blogContent h2 {
     @apply mt-6 mb-2 text-lg md:text-xl lg:text-2xl font-bold;
+}
+
+.blogContent h3 {
+    @apply text-lg md:text-2xl;
+}
+
+.blogContent h4 {
+    @apply text-base md:text-xl;
 }
 
 .blogContent img {

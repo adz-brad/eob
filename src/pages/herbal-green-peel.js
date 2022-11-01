@@ -14,7 +14,7 @@ const HerbalGreenPeel = () => {
                 heading="Skin Rejuvenation with Herbal Green Peel®"
                 gradient="from-black/10 via-black/30 to-black/10"
                 caption="GREEN PEEL® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere - you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®!"
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelHeader.jpg?raw=true" alt="Page Header"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Herbal Green Peel" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-16">
                 <div className="flex flex-col-reverse lg:flex-row">
@@ -25,7 +25,10 @@ const HerbalGreenPeel = () => {
                             className="my-8 lg:my-0 lg:w-1/2 lg:mr-12 rounded-sm shadow-lg"
                     />
                     <div className="flex flex-col lg:w-1/2 p-2">
-                        <h1 className="mb-4">A "New Face" For Skin Peels</h1>
+                        <h1 className="text-2xl md:text-4xl mb-4">A "New Face" For Skin Peels</h1>
+                        <h2 className="text-xl md:text-3xl mt-1 mb-2">
+                            Acid-Free peels designed to effectively treat acne scars, signs of aging, pigmentation & other skin issues while tightenting & brightening your skin!
+                        </h2>
                         <p className="my-1">
                             All of us are probably well acquainted with the theory everywhere marketed in recent years that one of the most popular approaches to skin brightening and renewal has been through the application to the skin of synthetics and acids of various strengths. The acids themselves are very inexpensive and so can be very appealing means for an attractive return for practitioners and for clients seeking a quick and brighter look to the skin.
                         </p>
@@ -42,9 +45,9 @@ const HerbalGreenPeel = () => {
                 </div>
 
                 <div className="flex flex-col md:my-20">
-                    <h1 className="text-center my-8">
+                    <h2 className="text-2xl md:text-4xl text-center my-8">
                         Herbal Green Peel® – Brighter, Fresher, Smoother, Rejuvenated Appearance
-                    </h1>
+                    </h2>
                     <Gallery 
                     className="grid grid-cols-2 xl:grid-cols-4 gap-4 lg:gap-8 lg:p-8"
                     imageClass="rounded-sm shadow-lg min-h-[400px]"
@@ -73,9 +76,9 @@ const HerbalGreenPeel = () => {
                     <div className="flex flex-col md:flex-row">
                         <div className="md:w-1/2 pr-8">
                             <Card cardBodyClass="p-8">
-                                <h1 className="text-3xl mb-4">
+                                <h3 className="text-3xl mb-4">
                                     Green Peel® Advantages
-                                </h1>
+                                </h3>
                                 <ul className="list-disc ml-4">
                                     <li className="my-1">
                                     A safe, reliable, clinically tested and unique acid free resurfacing method of skin renewal that has been used for over 50 years in over 40 countries in over 2,000 cosmetics institutes in Germany alone
@@ -100,9 +103,9 @@ const HerbalGreenPeel = () => {
                         </div>
                             <div className="md:w-1/2 pr-8">
                             <Card cardBodyClass="p-8">
-                                <h1 className="text-3xl mb-4">
+                                <h3 className="text-3xl mb-4">
                                     Herbal Green Peel® Helps Treat:
-                                </h1>
+                                </h3>
                                 <ul className="list-disc ml-4">
                                     <li className="my-1">
                                     Large pored skin, oily skin, skin impurities, different forms of acne
@@ -132,9 +135,9 @@ const HerbalGreenPeel = () => {
                         </div>
                         <div className="flex flex-col">
                         <div className="flex flex-col my-8 mx-auto">
-                            <h1 className="mb-4">
+                            <h3 className="mb-4">
                             The Herbal Green Peel
-                            </h1>
+                            </h3>
                             <h4 className="my-2">
                             Our clients report wonderful results for their Green Peel® treatments – for example the skin is remarkably firmer, brighter, smoother, pores smaller, damaged capillaries experience significant fading from the increased circulation in the skin.
                             </h4>
@@ -144,7 +147,7 @@ const HerbalGreenPeel = () => {
                             <p className="my-1">
                             The HERBAL GEEEN PEEL® treatment requires that you use 3 of specifically designed products to help lift the epidermal layer of the skin. These 3 home care products have been specially created to work in tandem with the GREEN PEEL® herbs to support the peeling process and avoid irritation of the skin in the process of renewal.  <strong>You must have a consultation “skin assessment” prior to the peel.</strong>
                             </p>
-                            <h4 className="font-bold mt-4 mb-2 text-brown">
+                            <h4 className="text-base md:text-xl font-bold mt-4 mb-2 text-brown">
                             The famous Green Peel ® Herbal Peeling by Dr. Christine Schrammek
                             </h4>
                             <p className="my-1">
@@ -177,12 +180,12 @@ const HerbalGreenPeel = () => {
                     </div>
                 </div>
                 <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8">
-                <h1 className="mb-4">
+                <h2 className="text-2xl md:text-4xl mb-4">
                             Herbal Green Peel Options
-                            </h1>
+                            </h2>
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                         <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
-                            <h1>Green Peel® Classic</h1>
+                            <h3 className="text-2xl md:text-4xl">Green Peel® Classic</h3>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$399</strong>plus products</span>
                             <h4 className="my-1">
                             The success of the original GREEN PEEL® Herbal Peeling Treatment Classic for decades speaks for itself. "New Skin in Five Days"
@@ -229,9 +232,9 @@ const HerbalGreenPeel = () => {
                     </Card>
                     <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                         <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
-                            <h1>Green Peel® Energy</h1>
+                            <h3 className="text-2xl md:text-4xl">Green Peel® Energy</h3>
                             <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
-                            <h4 className="my-1">
+                            <h4 className="text-base md:text-xl my-1">
                             The vitality & regeneration kick without peeling effect - this treatment with natural herbs noticeably provides energy. 
                             </h4>
                             <p className="my-2">
@@ -273,9 +276,9 @@ const HerbalGreenPeel = () => {
                     </Card>
                     <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col p-4 md:p-8">
-                        <h1>Green Peel® Fresh Up</h1>
+                        <h3 className="text-2xl md:text-4xl">Green Peel® Fresh Up</h3>
                         <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
-                        <h4 className="my-1">
+                        <h4 className="text-base md:text-xl my-1">
                         Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling. 
                         </h4>
                         <p className="my-2">
@@ -306,7 +309,7 @@ const HerbalGreenPeel = () => {
                 </Card>
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -319,9 +322,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Herbal Green Peel"
-        pageTitleDescription="Acid-Free, No-Chemical, Natural Peel For Treatment of Sun Damaged Skin, Acne, Stretch Marks & More at Essence of Beauty Ottawa"
-        pageDescription="GREEN PEEL® is a herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere - you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®!"
+        pageTitle="Herbal Green Peel Ottawa"
+        pageTitleDescription="Chemical & Acid-Free, Natural Treatment of Damaged Skin, Stretch Marks & More"
+        pageDescription="GREEN PEEL® is an acid-free herbal formulation of natural active ingredients designed to effectively treat sun-damaged skin, stretch marks, acne scarring & more, even for those with sensitive skin."
         pageKeywords="Herbal, Herbal Green Peel, Acid-free, No-chemical, acid free, no chemical, sun damaged, stretch marks, wrinkles, anti aging, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/herbal-green-peel/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true"

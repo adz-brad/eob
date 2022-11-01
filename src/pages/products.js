@@ -11,7 +11,7 @@ const Products = () => {
                 heading="Products"
                 gradient="from-black/40 via-black/20 to-black/10"
                 caption=""
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Products" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"/>}
             />
             <div className="flex flex-col-reverse lg:flex-row lg:items-center">
                 <div className="lg:w-1/3 lg:p-8">
@@ -22,9 +22,9 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h1 className="mb-2">
+                    <h2 className="text-2xl md:text-4xl mb-2">
                         Yonk-Ka
-                    </h1>
+                    </h2>
                     <p className='my-2'>
                     Yon-ka, one of our best selling product lines, has been the undisputed pioneer of the professional aesthetics aromatherapy since the 1950’s. Yon-ka offers plant, flower and fruit nutrients and natural properties at their highest levels of purity and potency to create the most refined and customized skin care products. With their subtle aromas, the essential oils combined with plant, marine extracts act to balance, soothe, revive and rejuvenate. Each ingredient has a specific role on your skin. Yon-ka, is a pure and natural aromatic composition of lavender, cypress, rosemary, thyme, and geranium essential oils: “the 5 Quintessence E.O.” The exclusive formula is then blended with a wealth of plant extracts from all over the world.     
                     </p>
@@ -32,9 +32,9 @@ const Products = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h1 className="mb-2">
+                    <h2 className="text-2xl md:text-4xl mb-2">
                     302 Skincare
-                    </h1>
+                    </h2>
                     <p className='mt-4 mb-8'>
                     302 Skincare provides acid-free products that use natural and organic ingredients with proven science and clinically observed results. The product line emphasizes treatment of skin depleted by chronologic aging, sun damage, acne and rosacea as well as skin that has become topically addicted to acids. The new, patented compounds from avocado generate a powerful metabolic model that provides an alternative to the inflammatory model at the core of acid and laser based approaches. 302 teaches proper dose scheduling for take home products and back bar procedures employing ultrasound for dramatic, sustainable results. The results of 302 products are cumulative and permanent. Dermatologist tested and approved
                     </p>
@@ -62,9 +62,9 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="mb-2">
+                <h2 className="text-2xl md:text-4xl mb-2">
                 Osmosis+BeautyMD
-                    </h1>
+                    </h2>
                     <p className='mt-4 mb-8'>
                     Osmosis+BeautyMD: An all natural and fresh, exciting new philosophy to skin care that rejects excessive exfoliation in favor of remodeling the deeper dermal skin cells by means of products that are 100% natural, organic, chirally correct, free of parabens, harsh and artificial ingredients. The founder of Osmosis+BeautyMD is Dr. Ben Johnson author of the ground breaking book on skincare Transform Your Skin Naturally.
                     </p>
@@ -78,9 +78,9 @@ const Products = () => {
             </div>
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="mb-2">
+                <h2 className="text-2xl md:text-4xl mb-2">
                 AnteAGE
-                    </h1>
+                    </h2>
                     <p className='mt-4 mb-8'>
                     AnteAGE MD Microneedling Solution contains pro-healing, anti-inflammatory growth factors and cytokines derived from laboratory culture of human bone marrow mesenchymal stem cells, the specialized cells that science has determined function as “command and control” of healing in all injured tissues. Synthesized human TGF-B3 is added to further reduce inflammation and promote less fibrotic, more fetal-like healing.
                     </p>
@@ -101,9 +101,9 @@ const Products = () => {
             </div>
             <div className="flex flex-col lg:flex-row-reverse lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="mb-2">
+                <h2 className="text-2xl md:text-4xl mb-2">
                 HubisLab
-                    </h1>
+                    </h2>
                     <p className='mt-4 mb-8'>
                     HubisLab is a Korean skin research and development brand based on Human Bio Science. This company offers a wide range of innovative Pro products designed to maintain healthy skin. HubisLab produces ‘improvement cosmetics’ to promote continuous enhancement results. Incorporate these products into modality driven treatments such as: Microneedling, Chemical Peels and many more.
                     </p>
@@ -126,9 +126,9 @@ const Products = () => {
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                <h1 className="mb-2">
+                <h2 className="text-2xl md:text-4xl mb-2">
                 DMK Skin Care
-                    </h1>
+                    </h2>
                     <p className='mt-4 mb-8'>
                     Using the principles of biochemistry, DMK has formulated a range of treatments and products designed to educate skin to perform like youthful healthy skin. By matching formulations with the body’s chemistry, the skin is encouraged to respond in a positive manner. DMK’s revolutionary concept of REMOVE, REBUILD, PROTECT, MAINTAIN aims to match an individual’s biochemistry with the appropriate skin therapy. Botanical-based paramedical products make up the DMK skin care program.
                     </p>
@@ -141,7 +141,7 @@ const Products = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center p-4 mt-2">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>

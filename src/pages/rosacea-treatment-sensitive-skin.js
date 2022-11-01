@@ -14,14 +14,14 @@ const Rosacea = () => {
         heading="Rosacea & Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
         caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
-        image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
+        image={<StaticImage alt="Essence of Beauty Ottawa - Rosacea & Sensitive Skin" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
       />
       <div className="md:p-4 lg:p-8 md:mt-8">
         <div className="flex flex-col md:flex-row md:items-center md:mb-16">
           <div className="flex flex-col px-4 md:w-3/5">
-            <h1 className="mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
-            <h2 className="mt-2 mb-4 subheader">
-            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare.
+            <h1 className="text-2xl md:text-4xl mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
+            <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
+            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare with great results, developing recommendations based on what's worked for them.
             </h2>
             <p className="my-1">
               Whether your rosacea is active or in remission, your skin is still
@@ -60,11 +60,11 @@ const Rosacea = () => {
         <div id="wondering-if-you-have-rosacea" className="flex md:flex-row md:items-center bg-lightGreen rounded-md shadow-md">
         <div className="flex flex-col my-4 md:w-1/2 mx-auto">
           <div className="flex flex-col p-4 md:p-8">
-            <h1 className="mb-4 pb-2 filter drop-shadow-md">
+            <h2 className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">
               Wondering If You Have Rosacea?
-            </h1>
+            </h2>
             <ul className="list-disc my-4">
-              <h4 className="my-1 font-bold">Here are the signs to look for:</h4>
+              <h3 className="text-base md:text-xl my-1 font-bold">Here are the signs to look for:</h3>
               <li className="mt-2 ml-4">
                 Red flushing over the cheeks and nose
               </li>
@@ -105,7 +105,7 @@ const Rosacea = () => {
       </div>
       <div id="rosacea-treatment-options">
           <div className="my-8 lg:pt-8 text-center">
-            <h1 className="mb-2">How We Treat Rosacea at Essence of Beauty</h1>
+            <h2 className="text-2xl md:text-4xl mb-2">How We Treat Rosacea at Essence of Beauty</h2>
             <span>Choose a treatment option to learn more</span>
             <Tabs
             columns="grid-cols-1 md:grid-cols-3"
@@ -115,10 +115,10 @@ const Rosacea = () => {
                   name: "Ultrasonic Skin Rejuvenation",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                      <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         Customized Ultrasound-Galvanic Treatment for
                         Ultra-Sensitive skin / Rosacea with Lymph Drainage
-                      </h1>
+                      </h2>
                       <p className="my-2">
                         This treatment is designed for clients for addressing
                         visible sign of rosacea, dermatitis, facial irritation
@@ -195,9 +195,9 @@ const Rosacea = () => {
                   name: "DMK Enzyme Therapy Facial",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                      <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
                         DMK Enzyme Therapy Facial
-                      </h1>
+                      </h2>
                       <p className="my-2">
                         DMK Enzyme Treatment is suitable for all skin types or
                         colour. It is particularly beneficial for treating
@@ -293,9 +293,9 @@ const Rosacea = () => {
                   name: "OsmosisMD",
                   content: (
                     <div className="flex flex-col lg:px-4">
-                      <h1 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                      <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
                       OsmosisMD
-                      </h1>
+                      </h2>
                       <p className="my-2">
                       In order to fully appreciate what
               these products can achieve for you, it is important to understand
@@ -352,7 +352,7 @@ const Rosacea = () => {
                 />
       </div>
       <div className="flex flex-col items-center px-4 lg:pb-8">
-        <h2 className="font-bold my-4">Are you ready to get started?</h2>
+        <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
         <p>
           Book a skin consultation to determine the correct treatment and
           product for your skin type and condition.
@@ -368,8 +368,8 @@ export const Head = () => {
   return(
     <>
     <Seo
-    pageTitle="Rosacea & Sensitive Skin"
-    pageTitleDescription="Natural Rosacea Treatments For All Skin Types!"
+    pageTitle="Rosacea & Sensitive Skin Ottawa"
+    pageTitleDescription="Natural Rosacea Acne Treatments!"
     pageDescription="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them."
     pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
     pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"

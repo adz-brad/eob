@@ -14,12 +14,12 @@ const Microneedling = () => {
                 heading="Growth Factor Microneedling"
                 gradient="from-black/60 via-black/30 to-black/10"
                 caption="Microneedling is a safe, simple procedure used to treat scars, acne, wrinkles, age spots and hyperpigmentation that can give your skin a fresh, even appearance."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Repair Acne Scarring With Growth Factor Microneedling</h1>
-                    <h2 className="mt-2 mb-4 subheader">This safe, simple procedure from Essence of Beauty Ottawa can give your skin a fresh, even appearance.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Repair Acne Scarring With Growth Factor Microneedling</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Microneedling is a safe, simple procedure designed to treat skin issues like sun damage & acne scarring, resulting in a glowing, fresh, even skin appearance!</h2>
                     <p className="my-1">
                     Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles. This procedure is relatively quick, and can be performed in approximately one hour when treating the entire face. Since microneedling is minimally invasive, doesn’t cause significant wounding to the skin, and isn’t light-based, most people can safely undergo microneedling therapy with minimal risk of long-term adverse effects. Typically, important factors such as age and skin colour doesn’t matter. Many clients prefer microneedling because of its minimal downtime. Although some redness may occur immediately after the procedure, any irritation should subside by the following day. The procedure is most commonly used on the face, neck, and décolletage with appealing results.
                     </p>
@@ -40,7 +40,7 @@ const Microneedling = () => {
                 className="flex flex-col lg:flex-row bg-lightGreen rounded-md shadow-md p-4 md:p-8 md:m-4"
             >
                 <div className="flex flex-col md:mx-4">     
-                    <h1 className="mb-4 md:my-4">What’s involved in a Microneedling treatment?</h1>
+                    <h2 className="text-2xl md:text-4xl mb-4 md:my-4">What’s involved in a Microneedling treatment?</h2>
                     <p className="my-1">
                     We use a device called ACS Pen, a handheld automated machine that holds a sterile needle head cartridge. Tiny needles pierce the skin at predetermined depths depending on the results you want to achieve. Shorter needle penetration can enhance product penetration and smooth superficial skin, while longer needle penetration can be used to create collagen response more deeply, such as when treating acne scars.
                     </p>
@@ -66,7 +66,7 @@ const Microneedling = () => {
                 
                 <div className="my-8 p-4 md:p-8">
                 <div id="microneedling-what-to-expect" className="flex flex-col my-8">
-                    <h2 className="mb-2">
+                    <h2 className="text-xl md:text-3xl mb-2">
                     What results can I expect?  
                     </h2>
                     <p className="my-1">
@@ -97,7 +97,7 @@ const Microneedling = () => {
              <div className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col">
                 <div className="flex flex-col m-4">
-                        <h2 className="mb-4">
+                        <h2 className="text-xl md:text-3xl mb-4">
                         Is there downtime?
                         </h2>
                         <p className="my-1">
@@ -108,7 +108,7 @@ const Microneedling = () => {
                         </p>
                     </div>
                     <div className="flex flex-col m-4">
-                        <h2 className="my-4">
+                        <h2 className="text-xl md:text-3xl my-4">
                         How many Microneedling with ASC Pen treatments will you need?
                         </h2>
                         <p className="my-1">
@@ -116,7 +116,7 @@ const Microneedling = () => {
                         </p>
                     </div>
                     <div className="flex flex-col m-4">
-                        <h2 className="my-4">
+                        <h2 className="text-xl md:text-3xl my-4">
                         How much does microneedling cost?
                         </h2>
                         <p className="my-1">
@@ -131,7 +131,7 @@ const Microneedling = () => {
                     </Card>
                     </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -144,10 +144,10 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Growth Factor Microneedling"
-        pageTitleDescription="Treat Sun Damaged Skin, Acne Scarring & More With Microneedling at Essence of Beauty Ottawa"
-        pageDescription="At Essence of Beauty, Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles."
-        pageKeywords="Growth Factor Microneedling, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitle="Microneedling Ottawa"
+        pageTitleDescription="Treat Sun Damaged Skin, Acne Scarring & More"
+        pageDescription="At Essence of Beauty Ottawa, Growth Factor Microneedling is used to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, improve skin roughness, and reduce mild to moderate wrinkles."
+        pageKeywords="Growth Factor Microneedling, Pores, Damaged Skin, Acne Scarring, Micro-needling, micro needle, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/microneedling-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
         />

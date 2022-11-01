@@ -14,14 +14,14 @@ const AfterglowPeel = () => {
                 heading="AfterGlow Peel"
                 gradient="from-black/10 via-black/20 to-black/50"
                 caption="The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. "
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglowHeader.webp?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - AfterGlow Chemical Peel" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglowHeader.webp?raw=true"/>}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Get Your Glow Back With The Afterglow Facial Peel!</h1>
-                    <h2 className="mt-2 mb-4 subheader">The AfterGlow Facial Peel at Essence of Beauty Ottawa is a safe chemical peel designed to fight acne, signs of aging, pigmentation & more.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Get Your Glow Back With The Afterglow Chemical Facial Peel!</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">The AfterGlow Facial Peel at Essence of Beauty Ottawa is a safe chemical peel designed to fight acne, signs of aging, pigmentation & more.</h2>
                     <p className="my-1">
-                    The AfterGlow Chemical Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Peeling is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Peeling procedure, you will notice incremental improvements in the overall appearance of the skin. 
+                    The AfterGlow Chemical Peel is a facial treatment is designed to effectively treat acne, aging, pigmentation & more. The application of a specialized cream to the skin encourages the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Chemical Peel is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Facial Peel procedure, you will notice incremental improvements in the overall appearance of the skin. 
                     </p>
                     <Button
                         data={{text: "Learn More", anchor: "afterglow-peel-info"}}
@@ -37,20 +37,20 @@ const AfterglowPeel = () => {
             </div>
             <div id="afterglow-peel-info" className="p-4 md:p-8">
                 <Card cardBodyClass="flex flex-col p-4 md:p-8">
-                        <h1 className="font-bold">
+                        <h2 className="text-2xl md:text-4xl font-bold">
                         AfterGlow Chemical Peel Treatment Benefits
-                        </h1>
-                        <h4 className="my-2">
+                        </h2>
+                        <h2 className="text-base md:text-xl my-2">
                         There is no facial peel which rivals its safety and at the same time, produces such excellent results.
-                        </h4>
+                        </h2>
                         <p className="my-1">
-                        Due to its safety, it can be used on all skin types and absolutely all skin conditions and colours.  It can also be applied to the face, neck & eyelids as well as can be applied all year round. The peel itself is in a cream form, ensuring easy and uniform application. During application, a very mild warm sensation is experienced and clients experience very little discomfort.
+                        Due to its safety, AfterGlow can be used on all skin types and absolutely all skin conditions and colours.  It can also be applied to the face, neck & eyelids as well as can be applied all year round. The peel itself is in a cream form, ensuring easy and uniform application. During application, a very mild warm sensation is experienced and clients experience very little discomfort.
                         </p>
                         <div className="flex flex-col my-2">
                         <div className="flex flex-col">
-                        <h4 className="font-bold my-2">
+                        <h3 className="text-base md:text-xl font-bold my-2">
                             Excellent results on:
-                        </h4>
+                        </h3>
                         <ul className="list-disc my-2 ml-4">
                             <li className="my-1">
                             Hyperpigmentation , melasma & events of skin discoloration/pigmentation
@@ -73,9 +73,9 @@ const AfterglowPeel = () => {
                         </ul>
                         </div>
                         <div className="flex flex-col">
-                        <h4 className="font-bold my-2">
+                        <h3 className="text-base md:text-xl font-bold my-2">
                             Additional benefits include:
-                        </h4>
+                        </h3>
                         <ul className="list-disc my-2 ml-4">
                             <li className="my-1">
                             Improves skin tone
@@ -88,7 +88,7 @@ const AfterglowPeel = () => {
 
                         </div>
                         <div className="flex flex-col">
-                            <h4 className="my-1">
+                            <h4 className="text-base md:text-xl my-1">
                                 This peel is best done in a series of 3 or more, depending on your skin care goals.
                             </h4>
                             <span><strong className="mr-2 text-brown">One Treatment:</strong>$255</span>
@@ -146,7 +146,7 @@ const AfterglowPeel = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -159,10 +159,10 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="AfterGlow Peel"
-        pageTitleDescription="Treat Hyperpigmentation, Acne Breakouts, Psoriasis, Redness, Rosecea, Eczema & More With The AfterGlow Peel at Essence of Beauty Ottawa"
-        pageDescription="The AfterGlow Peel is a treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process."
-        pageKeywords="Afterglow, Peel, Skincare, Hyperpigmentation, Acne Breakouts, Psoriasis, Redness, Rosecea, Eczema, Sun Damage, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitle="AfterGlow Chemical Facial Peel Ottawa"
+        pageTitleDescription="Treat Pigmentation, Acne, Psoriasis, Rosacea, Eczema & More!"
+        pageDescription="The AfterGlow Chemical Peel is a facial treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin & stimulate the skin’s natural renewal process."
+        pageKeywords="Afterglow, Chemical, Facial, Peel, Skincare, Hyperpigmentation, Acne Breakouts, Psoriasis, Redness, Rosecea, Eczema, Sun Damage, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/afterglow-chemical-peel-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
         />

@@ -16,13 +16,13 @@ const HolisticAcneProgram = () => {
                 heading="Holistic Acne Clinic"
                 gradient="from-black/20 via-black/20 to-black/10"
                 caption="Holistically heal your skin with a personalized skincare regiment designed and proven to successfully reduce pimples, redness, inflammation, acne scars, pigmentation issues while helping the skin rebalance."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Holistic Acne Treatment" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"/>}
             />
             <div className="">
                 <div className="flex flex-col lg:flex-row lg:items-center">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto lg:mr-8 p-4 md:p-8 lg:px-16">
-                        <h1 className="my-2 font-bold">Holistically Treat Your Acne At Essence of Beauty Ottawa!</h1>
-                        <h2 className="mb-4 subheader">If you are struggling with acne, acne scarring or other skin issues, your typical acne facial products might not be cutting it.</h2>
+                        <h1 className="text-2xl md:text-4xl my-2 font-bold">Holistically Treat Your Acne At Essence of Beauty Ottawa!</h1>
+                        <h2 className="text-xl md:text-2xl mb-4 subheader">If you are struggling with acne, acne scarring or other skin issues, your typical acne facial products might not be cutting it.</h2>
                         <p className="my-2">
                         Essence of Beauty Ottawa clinic specializes in clearing acne, acne scars, pigmentation and skin problems that dermatologists and other traditional methods have not been able to clear. <strong>Don’t give up on your skin!</strong> Our personalized acne & skin treatment protocols include an array of cutting edge treatments, from non-invasive facials designed specifically for those with sensitive skin to the most modern, holistic, organic & <b>NATURAL</b> regiments. Essence of Beauty treatments are designed & developed through years of research and proven to work through years of successfully treating satisfied, happy clients!
                         </p>
@@ -43,7 +43,7 @@ const HolisticAcneProgram = () => {
             </div>
             <div className="bg-lightGreen rounded-lg shadow-lg flex flex-col lg:flex-row lg:py-8">
                 <div id="holistic-acne-different-approach" className="flex flex-col lg:w-2/3 p-4 md:p-8 lg:px-16">
-                   <h1 className="mb-4 filter drop-shadow-md">A Different Approach To Treating Acne</h1>
+                   <h2 className="text-2xl md:text-4xl mb-4 filter drop-shadow-md">A Different Approach To Treating Acne</h2>
                    <p className="my-1">
                    My approach towards acne treatment is different than most because I believe educating the client about their skin condition is key. Understanding there are many variables in what causes acne to form, is the best way to control it. My training as an Acne Specialist, combined with my extensive knowledge of environmental and nutritional acne triggers allow me to successfully assist my clients take control of their acne without prescription drugs. I work closely with each individual taking into consideration their type of acne, skin type, diet, and overall health and life style choices to develop their customized skin care protocol.
                    </p>
@@ -57,7 +57,7 @@ const HolisticAcneProgram = () => {
             </div>
                 <div className="p-4 md:p-8 my-8">
                 <Card cardBodyClass="flex flex-col p-4 lg:p-8">
-                    <h1 className="mb-4 filter drop-shadow-md">How It Works</h1>
+                    <h2 className="text-2xl md:text-4xl mb-4 filter drop-shadow-md">How It Works</h2>
                     <p className="my-2">
                     When you come to us for your initial visit, we will do a thorough consultation including products you are using, lifestyle, diet and other treatments and products you have tried.  We will decide on the products that will be best for your skin and acne type.  You will receive an acne treatment every 1-2 weeks for the first 8 weeks then we do on a monthly basis, most clients see completely clear skin in 4-6 months This is a time where you will see significant changes in your skin. In order for this to work, you must be willing to make lifestyle and product changes with the program.  If you are willing to do the work, your life can change. Expect to make dietary changes to manage your acne.
                     </p>
@@ -85,7 +85,7 @@ const HolisticAcneProgram = () => {
                     /> 
                 </div>
             <div className="p-4 lg:p-8 flex flex-col items-center lg:m-8">
-                <h1 className="mt-4 mb-8">Frequently Asked Questions</h1>
+                <h2 className="text-2xl md:text-4xl mt-4 mb-8">Frequently Asked Questions</h2>
                 <Accordion
                     className="p-4 md:p-8 bg-white"
                     items={[
@@ -125,7 +125,7 @@ const HolisticAcneProgram = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -138,9 +138,9 @@ export const Head = () => {
     return(
         <>
         <Seo
-        pageTitle="Holistic Acne Treatments Ottawa"
-        pageTitleDescription="Treat Your Acne, Acne Scarring, Pigmentation & Other Skin Issues With Holistic, Organic & Natural Facials & Treatments From Essence of Beauty Ottawa"
-        pageDescription="Trust Essence of Beauty Ottawa to heal your skin with personalized skincare regiments proven to successfully reduce acne, pimples, redness, inflammation, acne scars, pigmentation issues & more."
+        pageTitle="Holistic Acne Treatment Ottawa"
+        pageTitleDescription="Treat Scarring, Pigmentation & Other Skin Issues With Organic, Natural Facials & Peels"
+        pageDescription="Essence of Beauty Ottawa holistic acne program helps naturally heal your skin with personalized skincare regiments proven to successfully reduce acne, pimples, redness, inflammation, acne scars, pigmentation issues & more."
         pageKeywords="Acne Treatment, Holistic Acne Program, Scarring, Pigmentation, Inflammation, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/holisticAcneClinic.jpg?raw=true"

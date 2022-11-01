@@ -15,7 +15,7 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
   `);
 
   const siteData = data.site.siteMetadata;
-  const title = pageTitleDescription ? `${siteData.title} - ${pageTitle} - ${pageTitleDescription}` : `${siteData.title} - ${pageTitle}`
+  const title = pageTitleDescription ? `${pageTitle} - ${pageTitleDescription}` : `${siteData.title} - ${pageTitle}`
 
   return (
 

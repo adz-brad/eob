@@ -15,13 +15,13 @@ const VirtualAcneProgram = () => {
             <Banner
                 heading="Virtual Acne Program"
                 caption="Not able to come into the studio for hands on treatment? You can still achieve great results with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/virtualAcneHeader.png?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Virtual Acne Program" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/virtualAcneHeader.png?raw=true"/>}
                 noFade
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="font-bold mb-2">Treat Your Acne With Amazing Results, Virtually!</h1>
-                    <h2 className="mt-2 mb-4 subheader">Essence of Beauty Ottawa uses products from AnteAGE® stem-cell based skincare and microchanneling to help treat acne & more, all from the comfort of your home.</h2>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Treat Your Acne With Amazing Results, Virtually!</h1>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Essence of Beauty Ottawa uses products from AnteAGE® stem-cell based skincare and microchanneling to help treat acne & more, all from the comfort of your home.</h2>
                     <p className="my-1">
                         Our virtual acne program and coaching is the solution for our long distance acne clients who are unable to come into our Ottawa clinc, especially during Covid-19 social distancing. This program is designed to be a convenient, highly effective step-by-step system that includes coaching and education using the right products with the right ingredients in order to achieve real results. The key to your success is your consistency and commitment to your plan, since this will determine the clients results.
                         </p>
@@ -44,7 +44,7 @@ const VirtualAcneProgram = () => {
                         
                     <div className="flex flex-col p-4 md:p-8">
                     <Card cardWrapperClass="my-8" cardBodyClass="p-4 md:px-8">
-                        <h1 className="mt-4 mb-4 lg:text-3xl">More Than Just Products</h1>
+                        <h2 className="text-2xl md:text-4xl mt-4 mb-4 lg:text-3xl">More Than Just Products</h2>
                         <p className="my-1">
                         As an extension of the in-house holistic acne program, the virtual program is designed to be a convenient, highly effective step-by-step system that features:
                         </p>
@@ -77,7 +77,7 @@ const VirtualAcneProgram = () => {
             </div>
             </div>
             <div id="virtual-acne-program-faq" className="p-4 lg:p-8 flex flex-col items-center lg:m-8">
-                <h1 className="mt-4 mb-8">Acne Treatment FAQ</h1>
+                <h2 className="text-2xl md:text-4xl mt-4 mb-8">Acne Treatment FAQ</h2>
                 <Accordion
                     className="p-4 md:p-8 bg-white"
                     items={[
@@ -174,7 +174,7 @@ const VirtualAcneProgram = () => {
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold my-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -187,8 +187,8 @@ export const Head = () => {
     return(
         <>
         <Seo
-            pageTitle="Virtual Acne Program"
-            pageTitleDescription="Clear Your Acne, Rosecea & Other Skin Problems From Your Home!"
+            pageTitle="Virtual Acne Program Ottawa"
+            pageTitleDescription="Clear Acne, Rosacea & Other Skin Problems From Home!"
             pageDescription="Not able to come into our Ottawa clinic for hands on treatment? You can still achieve great results for acne treatment with the Virtual Acne Program, an extension of the in-house program that experience has shown is successful in clearing acne."
             pageKeywords="Virtual, Remote, Heal at Home, Remote, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
             pageUrl="https://www.essenceofbeauty.ca/virtual-acne-program/"

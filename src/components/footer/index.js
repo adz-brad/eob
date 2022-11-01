@@ -1,11 +1,14 @@
 import React from "react";
 import Contact from '../contact'
+import Share from "../social";
 
 const Footer = () => {
 
     return(
-
+        <>
+        <Share/>
         <div className="flex flex-col bg-green mt-12 rounded-t-lg shadow-lg">
+        
         <div className="formDivide"/>
         <div className="mx-auto max-w-screen-xl pt-6 pb-14" id="contact">
 
@@ -21,7 +24,7 @@ const Footer = () => {
         <div className="bg-green rounded-t-lg shadow-lg p-4 pb-8 -mt-4">
             <div className="flex flex-col md:flex-row max-w-screen-xxl mx-auto">
             <div className="md:w-1/3 p-4">
-                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">Location</h1>
+                <h2 className="border-b border-black pb-1 text-lg md:text-2xl">Location</h2>
                 <div className="flex flex-col my-4 leading-tight">
                     <span><strong>Pebb Building</strong></span>
                     <span>2197 Riverside Drive  suite 200</span>
@@ -31,14 +34,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className="md:w-1/3 p-4">
-                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">Hours</h1>
+                <h2 className="border-b border-black pb-1 text-lg md:text-2xl">Hours</h2>
                 <div className="flex flex-col my-4 leading-tight">
                     <span><strong>Wednesday</strong> - <strong>Friday:</strong>10:00am - 6:30pm</span>
                     <span><strong>Saturday</strong> - <strong>Tuesday:</strong> Closed</span>
                 </div>
             </div>
             <div className="md:w-1/3 p-4">
-                <h1 className="border-b border-black pb-1 text-lg md:text-2xl">More Info</h1>
+                <h2 className="border-b border-black pb-1 text-lg md:text-2xl">More Info</h2>
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Parking</strong></span>
                 <span>Paid parking at the building.</span>
@@ -56,7 +59,7 @@ const Footer = () => {
         </div>
 
         </div>
-
+        </>
     )
 }
 

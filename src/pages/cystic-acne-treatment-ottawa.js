@@ -15,13 +15,13 @@ const CysticAcne = () => {
                 heading="Cystic Acne"
                 gradient="from-black/30 via-black/20 to-black/10"
                 caption="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
-                image={<StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcneHeader.jpg?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Cystic Acne Treatment" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcneHeader.jpg?raw=true"/>}
             />
             <div className="p-4 lg:p-8">
                 <div className="flex flex-col md:flex-row my-8">
                     <div className="flex flex-col p-4 md:p-8 md:w-3/5 md:mr-8" >
-                        <h1 className="my-4 font-semibold">Treatments For Cystic Acne</h1>
-                        <h2 className="mb-2 subheader">Essence of Beauty Ottawa Acne Clinic specializes cystic acne treatment that helps clear cystic acne quickly.</h2>
+                        <h1 className="text-2xl md:text-4xl my-4 font-semibold">Specialized Treatment For Cystic Acne</h1>
+                        <h2 className="text-xl md:text-2xl mb-2 subheader">Essence of Beauty Ottawa Acne Clinic specializes in cystic acne treatments that helps clear cystic acne quickly.</h2>
                         <p className="my-1">
                         Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance
                         </p>
@@ -41,9 +41,9 @@ const CysticAcne = () => {
                 </div>
                 <div id="cystic-acne-info" className="flex flex-col my-4 md:my-8">
                     <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:m-4" >
-                        <h1 className="my-4">
+                        <h2 className="text-2xl md:text-4xl my-4">
                         How Does Cystic Acne Develop?
-                        </h1>
+                        </h2>
                         <p className="mt-1 mb-2">
                         The exact cause of this condition isn’t known, but hormones play a part, which is why cystic acne often develops in teens.
                         </p>
@@ -59,9 +59,9 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         </p>
                         
 
-                        <h1 className="mt-8 mb-4">
+                        <h2 className="text-2xl md:text-4xl mt-8 mb-4">
                         Who Usually Develops Cystic Acne?
-                        </h1>
+                        </h2>
                         <p className="mt-1 mb-2">
                         Since hormones are largely responsible for cystic acne, the condition usually appears in teens. The condition appears more with men than women.
                         </p>
@@ -78,9 +78,9 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                         Cystic acne most commonly presents on the face but can also occur on the back, chest, upper arms and shoulders. Overall cystic acne is much more common in males but women can also develop this skin disorder. When it occurs in women, the cystic acne usually occurs below the cheeks and around the mouth and chin area.    
                             </p>
 
-                        <h1 className="mt-8 mb-4">
-                        What Should I Expect?
-                        </h1>
+                        <h2 className="text-2xl md:text-4xl mt-8 mb-4">
+                        What Should I Expect During Cystic Acne Treatment?
+                        </h2>
                         <p className="mt-1 mb-2">
                         The good news is that cystic acne generally clears up quickly with the protocol we use at Acne Clinic in Essence of Beauty. We treat cystic acne with a combination of topical products and clinical treatments to calm the existing inflammation and to keep it from returning. We also recommend certain supplements to use along with your home care which have been clinically proven to reduce inflammation. To prevent scarring, it is best to not wait if you have cystic acne. Invest in Yourself… You are Worth it! 
                         </p>
@@ -106,7 +106,7 @@ Cystic lesions begin as fairly normal pimples but continue to worsen beyond typi
                 />
             </div>
             <div className="flex flex-col items-center p-4">
-                <h2 className="font-bold mt-8 mb-4">Are you ready to get started?</h2>
+                <h2 className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
         </>
@@ -120,9 +120,9 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Cystic Acne Treatment Ottawa"
-        pageTitleDescription="Treat Cystic Acne Inflammation & Scars With a Customized Skin Treatment Regiment from Essence of Beauty Ottawa"
-        pageDescription="Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact on your facial appearance. The good news is that cystic acne generally clears up quickly with the Acne Clinic protocol we use at Essence of Beauty."
-        pageKeywords="Cystic Acne, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageTitleDescription="Treat Cystic Acne Inflammation, Lesions & Scars"
+        pageDescription="The specialized Acne Clinic protocol at Essence of Beauty helps quickly clear up the painful lesions and other signs of cystic acne impacting the appearance of your face."
+        pageKeywords="Cystic Acne, Chemical Peel, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
         />

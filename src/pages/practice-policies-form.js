@@ -96,10 +96,10 @@ const PracticePolicies = () => {
         <>
 
         <div className="flex flex-col p-4 md:p-8 max-w-screen-xxl mt-8 mx-auto">
-            <h1 className="text-center mt-4 md:mt-8 font-bold">Practice Policies</h1>
-            <h2 className="text-center my-2">Welcome to Essence of Beauty Acne Clinic</h2>
+            <h1 className="text-2xl md:text-4xl text-center mt-4 md:mt-8 font-bold">Practice Policies</h1>
+            <h2 className="text-xl md:text-3xl text-center my-2">Welcome to Essence of Beauty Acne Clinic</h2>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">General Information:</h3>
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">General Information:</h3>
                 <p className="mt-1 mb-2">
                 Because of the high level of services we deliver, we maintain strict policies that must be followed. Much effort, attention to detail and time is needed for us to deliver this type of care. What follows is an outline of these policies and clarification of what we could and could notdo for you. Please review carefully. We ask that you do not ask us to make exceptions.
                 </p>
@@ -111,7 +111,7 @@ const PracticePolicies = () => {
                 </p>
             </div>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">Required Forms:</h3>
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">Required Forms:</h3>
                 <p className="mt-1 mb-2">
                 In order to serve our clients with the utmost attention, we like to take all of the preparation necessary for our first meetingtogether. We require all new in-clinic and virtual clients to complete the following forms within 48 hours of their scheduled appointment.
                 </p>
@@ -128,7 +128,7 @@ const PracticePolicies = () => {
                 </ul>
             </div>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">
                 Deposit & Payment:</h3>
                 <p className="mt-1 mb-2">
                 When booking a first time <strong>in-clinic appointment</strong>, we require a deposit on hold in order to maintain your appointment time. The amount of the deposit is 50% of the full appointment price payed by credit card(on hold). If you cancel your appointment less the 48 hours you will lose the deposit.
@@ -138,7 +138,7 @@ const PracticePolicies = () => {
                 </p>            
             </div>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">Cancellation:</h3>
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">Cancellation:</h3>
                 <p className="mt-1 mb-2">
                 Essence of Beauty Acne Clinic offers services by appointment only where we reserve time and space especially for you. In order to respect each other’s time and efforts the following needs to be enforced.
                 </p>         
@@ -167,7 +167,7 @@ const PracticePolicies = () => {
                 </p>
             </div>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">
                     Product Returns:
                 </h3>
                 <p className="mt-1 mb-2">
@@ -175,7 +175,7 @@ const PracticePolicies = () => {
                 </p>          
             </div>
             <div className="flex flex-col my-4">
-                <h3 className="my-4 font-semibold">
+                <h3 className="text-lg md:text-2xl my-4 font-semibold">
                     Late Arrival:
                 </h3>
                 <p className="mt-1 mb-2">
@@ -224,7 +224,7 @@ const PracticePolicies = () => {
             </label>
             <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabindex="-1"/>
             <div className="my-4 md:my-8">
-                <h1 className="text-center my-4 md:my-8">Practice Policies Consent Form</h1>
+                <h2 className="text-2xl md:text-4xl text-center my-4 md:my-8">Practice Policies Consent Form</h2>
                 <div className="flex flex-col md:flex-row md:justify-center max-w-screen-lg mx-auto">
                     <div className="flex flex-col md:w-1/2 m-2 md:m-4">
                         <label 
