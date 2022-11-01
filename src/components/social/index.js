@@ -8,7 +8,7 @@ const Share = () => {
     const url = window.location.href
 
     return(
-        <ul className="relative flex flex-row justify-center items-center mt-8">
+        <div className="relative flex flex-row justify-center items-center mt-8">
             <MdShare className="text-xl mr-2" />
             <span className="text-lg text-secondary">Share This Page</span>
 
@@ -54,7 +54,7 @@ const Share = () => {
                         <FaEnvelope className="text-xl filter drop-shadow-md" />
                     </a>
                 </div>
-        </ul>
+        </div>
     )
 }
 
