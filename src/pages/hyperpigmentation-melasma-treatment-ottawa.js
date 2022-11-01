@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Banner from '../components/banner'
 import { StaticImage } from 'gatsby-plugin-image'
 import Button from '../components/button'

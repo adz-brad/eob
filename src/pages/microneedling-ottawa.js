@@ -145,8 +145,8 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Microneedling Ottawa"
-        pageTitleDescription="Treat Sun Damaged Skin, Acne Scarring & More"
-        pageDescription="At Essence of Beauty Ottawa, Growth Factor Microneedling is used to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, improve skin roughness, and reduce mild to moderate wrinkles."
+        pageTitleDescription="Treat Sun Damaged Skin, Acne, Scarring"
+        pageDescription="Essence of Beauty Ottawa uses microneedling to stimulate collagen production, reduce acne scarring and remodel trauma scars, improve photo damaged skin & roughness, and reduce mild to moderate wrinkles."
         pageKeywords="Growth Factor Microneedling, Pores, Damaged Skin, Acne Scarring, Micro-needling, micro needle, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/microneedling-ottawa/"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
