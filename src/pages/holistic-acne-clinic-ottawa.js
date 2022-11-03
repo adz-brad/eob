@@ -139,7 +139,7 @@ export const Head = () => {
         <>
         <Seo
         pageTitle="Holistic Acne Treatment Ottawa"
-        pageTitleDescription="Treat Scarring, Pigmentation & Other Skin Issues With Organic, Natural Facials & Peels"
+        pageTitleDescription="Organic, Natural Facials & Peels for Scarring & Pigmentation"
         pageDescription="Essence of Beauty Ottawa holistic acne program helps naturally heal your skin with personalized skincare regiments proven to successfully reduce acne, pimples, redness, inflammation, acne scars, pigmentation issues & more."
         pageKeywords="Acne Treatment, Holistic Acne Program, Scarring, Pigmentation, Inflammation, Skincare, Regiment, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/holistic-acne-clinic-ottawa/"
