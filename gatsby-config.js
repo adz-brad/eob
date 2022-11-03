@@ -1,6 +1,9 @@
 require('dotenv').config()
 
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     title: `Essence of Beauty`,
     description:
@@ -28,7 +31,7 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-offline',
+    //'gatsby-plugin-offline',
     `gatsby-plugin-csp-nonce`,
     {
       resolve: `gatsby-plugin-csp`,
