@@ -80,7 +80,7 @@ package = "@netlify/plugin-sitemap"
 
   [[redirects]]
   from = "/skin-remodeling"
-  to = "/microneedling-ottawa/"
+  to = "/acid-free-vitamin-a-skin-peel/"
   status = 301
 
   [[redirects]]
