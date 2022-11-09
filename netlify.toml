@@ -54,12 +54,22 @@ package = "@netlify/plugin-sitemap"
   status = 301
 
   [[redirects]]
+  from = "/skin-tags-milia-removal"
+  to = "/skin-tags-red-dots-milia-removal-ottawa/"
+  status = 301
+
+  [[redirects]]
   from = "/acne-treatment"
   to = "/acne-treatment-ottawa/"
   status = 301
   
-  [[redirects]]
+[[redirects]]
   from = "/facial-treatments"
+  to = "/facial-treatments-ottawa/"
+  status = 301
+
+  [[redirects]]
+  from = "/facials-treatments"
   to = "/facial-treatments-ottawa/"
   status = 301
 
@@ -73,8 +83,13 @@ package = "@netlify/plugin-sitemap"
   to = "/microneedling-ottawa/"
   status = 301
 
-   [[redirects]]
+  [[redirects]]
   from = "/growth-factor-microneedling"
+  to = "/microneedling-ottawa/"
+  status = 301
+
+  [[redirects]]
+  from = "/microneedling"
   to = "/microneedling-ottawa/"
   status = 301
 
