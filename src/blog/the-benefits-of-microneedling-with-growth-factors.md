@@ -1,7 +1,7 @@
 ---
 title: The Benefits of Microneedling With Growth Factors
 excerpt: Microneedling is a safe, simple procedure designed to treat skin issues like sun damage & acne scarring, resulting in a glowing, fresh, even skin appearance!
-featuredImage: https://www.essenceofbeauty.ca/static/11501978c1b5a20ceebb04893c0cfe60/ecd2f/microneedling.webp
+featuredImage: https://raw.githubusercontent.com/brad-adrenalize/eob/main/src/assets/images/microneedling.jpg
 date: 2022-12-8T00:00:00Z
 ---
 
