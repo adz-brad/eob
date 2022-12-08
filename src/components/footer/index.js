@@ -1,6 +1,7 @@
 import React from "react";
 import Contact from '../contact'
 import Share from "../social";
+import { FaFacebookF, FaPinterestP, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 const Footer = () => {
 
@@ -50,10 +51,48 @@ const Footer = () => {
                 <span><strong>Payment</strong></span>
                 <span>Debit, E-transfer and cash accepted only.</span>
                 </div>
+                <div className="flex flex-row space-x-2 text-2xl items-center">
+                <a 
+                    href="https://www.facebook.com/essenceofbeautyottawa" 
+                    className="hover:text-brown" 
+                    alt="Essence of Beauty Facebook"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaFacebookF />
+                </a>
+                <a 
+                    href="https://www.instagram.com/essenceofbeauty.ottawa/" 
+                    className="hover:text-brown" 
+                    alt="Essence of Beauty Instagram"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaInstagram />
+                </a>
+                <a 
+                    href="https://www.pinterest.ca/essenceofbeautyottawa/" 
+                    className="hover:text-brown" 
+                    alt="Essence of Beauty Pinterest" 
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaPinterestP />
+                </a>
+                <a 
+                    href="https://www.linkedin.com/company/essence-of-beauty-ottawa/" 
+                    className="hover:text-brown" 
+                    alt="Essence of Beauty LinkedIn"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaLinkedinIn />
+                </a>
+            </div>
             </div>
             </div>
         </div>
-
+   
         <div className="text-sm bg-darkGreen text-white font-light md:text-center p-4 rounded-t-lg shadow-lg -mt-2">
         Holistic, Natural, Organic Skin Treatments & Rejuvenation | © 2018 Essence of Beauty. Powered by <a href="https://www.adrenalizedigital.ca" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green">Adrenalize Digital</a>.
         </div>
