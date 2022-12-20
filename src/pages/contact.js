@@ -25,7 +25,7 @@ const Contact = () => {
                     <div className="flex flex-row mt-4">
                         <MdPhoneInTalk className="text-4xl text-green filter drop-shadow-lg -ml-1 mr-4 mt-2" />
                         <div className="flex flex-col my-2">
-                            <span className="mt-2"><strong>Phone:</strong> <a href="tel:+16032202101">(603) 220-2101</a></span>
+                            <span className="mt-2"><strong>Phone:</strong> <a href="tel:+16132202101">(613) 220-2101</a></span>
                         </div>
                     </div>
                     <div className="flex flex-row mt-4">
