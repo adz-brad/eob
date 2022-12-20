@@ -364,7 +364,7 @@ const DMKTherapy = () => {
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 3</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$199</strong>/ 80 min</span>
                         <div className="my-auto">
                         <p className="my-1 md:text-lg">
                         DMK Signature Enzyme Therapy with a customised Pre-Exfoliation incorporating one of the following Pro Alpha, Prozyme, Quick Peel, Desquamate or Exoderma falowing by extractions.
