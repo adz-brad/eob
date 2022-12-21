@@ -150,7 +150,7 @@ export const Head = () => {
     return (
         <>
             <Seo
-                pageTitle="Acne Treatment Ottawa - Facials & Peels For Acne & Skin Issues"
+                pageTitle="Acne Treatment Toronto - Special Skin Peels & Facials For Acne"
                 pageDescription="Our advanced skin rejuvenation treatments are customized to treat YOUR acne by helping to correct imbalances in your skin and deeply cleanse and clarify congested pores."
                 pageKeywords="Acne Treatment, Acne scars, dark spots, lesions, sensitive skin, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/acne-treatment-ottawa/"
