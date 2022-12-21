@@ -3,7 +3,7 @@ import { testimonials } from '../data/pages/testimonials'
 import Seo from '../components/seo'
 
 const Testimonials = () => {
-    return(
+    return (
         <>
 
             <div className="p-4 lg:p-8 bg-lightGreen">
@@ -12,7 +12,7 @@ const Testimonials = () => {
                 </h1>
                 <div className="max-w-screen-xl mx-auto">
                     {testimonials.map((testimonial, i) => {
-                        return(
+                        return (
                             <div key={i} className="p-4 lg:py-6 lg:px-8 bg-white shadow-lg my-6">
                                 <div className="testimonialBody mb-2">
                                     {testimonial.body}
@@ -34,17 +34,16 @@ const Testimonials = () => {
 export default Testimonials
 
 export const Head = () => {
-    return(
+    return (
         <>
-        <Seo
-        pageTitle="Testimonials"
-        pageDescription="See what clients of Essence of Beauty are saying about the amazing treatments we offer!"
-        pageTitleDescription="Our Clients in Ottawa Love The Results They Have Achieved Treating Their Acne, Rosacea & More Using Our Advanced Organic, Holistic & Safe Treatment Options!"
-        pageKeywords="Rosacea, Skin Peels, Sensitive Skin, Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/testimonials/"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
-        />
-        <link rel="canonical" href="https://www.essenceofbeauty.ca/testimonials/" />
+            <Seo
+                pageTitle="Testimonials - Our Clients Love Our Amazing Treatments!"
+                pageDescription="Our Clients in Ottawa Love The Results They Have Achieved Treating Their Acne, Rosacea & More Using Our Advanced Organic, Holistic & Safe Treatment Options!"
+                pageKeywords="Rosacea, Skin Peels, Sensitive Skin, Testimonials, Reviews, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageUrl="https://www.essenceofbeauty.ca/testimonials/"
+                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+            />
+            <link rel="canonical" href="https://www.essenceofbeauty.ca/testimonials/" />
         </>
     )
-  } 
+} 

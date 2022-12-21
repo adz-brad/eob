@@ -9,11 +9,11 @@ import Seo from "../components/seo"
 
 const Home = () => {
 
-  return(
+  return (
     <>
       {data.components?.map((component, i) => {
-        if(component.type === 'hero'){
-          return(
+        if (component.type === 'hero') {
+          return (
             <Hero
               _key={i}
               title={component.heading}
@@ -24,8 +24,8 @@ const Home = () => {
             />
           )
         }
-        if(component.type === 'splitList'){
-          return(
+        if (component.type === 'splitList') {
+          return (
             <SplitList
               _key={i}
               heading={component.heading}
@@ -38,8 +38,8 @@ const Home = () => {
             />
           )
         }
-        if(component.type === 'features'){
-          return(
+        if (component.type === 'features') {
+          return (
             <Features
               _key={i}
               title={component.title}
@@ -49,13 +49,13 @@ const Home = () => {
             />
           )
         }
-        if(component.type === 'meetEva'){
+        if (component.type === 'meetEva') {
           return <MeetEva key={i} />
         }
-        if(component.type === 'testimonials'){
+        if (component.type === 'testimonials') {
           return <Testimonials _key={i} testimonials={component.testimonials} />
         }
-        else{
+        else {
           return null
         }
       })}
@@ -66,17 +66,16 @@ const Home = () => {
 export default Home
 
 export const Head = () => {
-  return(
+  return (
     <>
-    <Seo
-        pageTitle="Acne, Scarring & Rosacea Treaments, Peels & Facials"
-        pageTitleDescription="Ottawa"
+      <Seo
+        pageTitle="Acne, Scarring & Rosacea Treaments, Peels & Facials Ottawa"
         pageDescription="Essence of Beauty specializes in highly effective skin treatments, natural facials & peels that are safe and gentle enough for the most sensitive skin types!"
         pageKeywords="Essence of Beauty, Chemical Peel, Acid-Free Peel, Sensitive Skin, Scars, Rosacea, Acne Scars, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca"
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
       />
       <link rel="canonical" href="https://www.essenceofbeauty.ca" />
-      </>
+    </>
   )
 }

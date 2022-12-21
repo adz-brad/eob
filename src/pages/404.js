@@ -12,10 +12,10 @@ export default NotFoundPage
   export const Head = () => {
     return(
         <Seo
-        pageTitle="Page Not Found"
+        pageTitle="Essence of Beauty - Page Not Found"
         pageDescription="404 Page Not Found"
         pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/404"
+        pageUrl="https://www.essenceofbeauty.ca/404/"
         pageImage=""
         />
     )

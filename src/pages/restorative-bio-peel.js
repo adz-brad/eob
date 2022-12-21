@@ -316,8 +316,7 @@ export const Head = () => {
     return(
         <>
         <Seo
-            pageTitle="Restorative Bio Peel"
-            pageTitleDescription="Natural, Acid-free, Vegan Facial Peeling"
+            pageTitle="Restorative Bio Peel - Natural, Acid-free, Vegan Facial Peeling"
             pageDescription="Restorative Bio Peel is a new dimension of facial treatment & peeling offered by Essence of Beauty Ottawa as an alternative to laser therapy and exfoliating acid designed to treat acne, scars, signs of aging & more."
             pageKeywords="Restorative, Anti-aging, Aging, Laser replacement, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
             pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"

@@ -13,7 +13,6 @@ const Rosacea = () => {
       <Banner
         heading="Rosacea & Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
-        caption="Anyone with rosacea knows how frustrating it is and how few good treatment options there are. I’ve long been treating my rosacea clients with 302 skincare recommendations with great results, developing my recommendations based on what's worked for them. I’ve never found a skin care product that was even remotely as effective as 302skincare."
         image={<StaticImage alt="Essence of Beauty Ottawa - Rosacea & Sensitive Skin" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
       />
       <div className="md:p-4 lg:p-8 md:mt-8">
@@ -21,7 +20,7 @@ const Rosacea = () => {
           <div className="flex flex-col px-4 md:w-3/5">
             <h1 className="text-2xl md:text-4xl mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
             <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
-            Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare with great results, developing recommendations based on what's worked for them.
+              Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare with great results, developing recommendations based on what's worked for them.
             </h2>
             <p className="my-1">
               Whether your rosacea is active or in remission, your skin is still
@@ -48,67 +47,67 @@ const Rosacea = () => {
             />
           </div>
           <div className="md:w-2/5 md:m-4">
-          <StaticImage 
-                    loading="eager"
-                  src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
-                  alt="Rosacea Before & After Treatment Image"
-                  className="max-h-[420px] m-8 rounded-sm shadow-md"
-                />
+            <StaticImage
+              loading="eager"
+              src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+              alt="Rosacea Before & After Treatment Image"
+              className="max-h-[420px] m-8 rounded-sm shadow-md"
+            />
           </div>
         </div>
 
         <div id="wondering-if-you-have-rosacea" className="flex md:flex-row md:items-center bg-lightGreen rounded-md shadow-md">
-        <div className="flex flex-col my-4 md:w-1/2 mx-auto">
-          <div className="flex flex-col p-4 md:p-8">
-            <h2 className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">
-              Wondering If You Have Rosacea?
-            </h2>
-            <ul className="list-disc my-4">
-              <h3 className="text-base md:text-xl my-1 font-bold">Here are the signs to look for:</h3>
-              <li className="mt-2 ml-4">
-                Red flushing over the cheeks and nose
-              </li>
-              <li className="mt-2 ml-4">
-                Consistent, though random, and often extreme skin sensitivity
-              </li>
-              <li className="mt-2 ml-4">
-                Acne-like bumps (but the bumps are not acne) with underlying
-                diffuse redness
-              </li>
-              <li className="mt-2 ml-4">Blemishes resembling acne</li>
-              <li className="mt-2 ml-4">
-                Flaky skin, sometimes accompanied by oily skin
-              </li>
-              <li className="mt-2 ml-4">
-                Visible tiny blood vessels that may become more noticeable over
-                time
-              </li>
-              <li className="mt-2 ml-4">
-                Other concerns, which can still be present: dry skin, wrinkles,
-                sun damage, and skin discolorations
-              </li>
-            </ul>
-            <Button
-              data={{
-                text: "Rosacea Treatment Options",
-                anchor: "rosacea-treatment-options",
-              }}
-              className="buttonLight bg-white my-8 mx-auto md:mx-0"
-            />
+          <div className="flex flex-col my-4 md:w-1/2 mx-auto">
+            <div className="flex flex-col p-4 md:p-8">
+              <h2 className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">
+                Wondering If You Have Rosacea?
+              </h2>
+              <ul className="list-disc my-4">
+                <h3 className="text-base md:text-xl my-1 font-bold">Here are the signs to look for:</h3>
+                <li className="mt-2 ml-4">
+                  Red flushing over the cheeks and nose
+                </li>
+                <li className="mt-2 ml-4">
+                  Consistent, though random, and often extreme skin sensitivity
+                </li>
+                <li className="mt-2 ml-4">
+                  Acne-like bumps (but the bumps are not acne) with underlying
+                  diffuse redness
+                </li>
+                <li className="mt-2 ml-4">Blemishes resembling acne</li>
+                <li className="mt-2 ml-4">
+                  Flaky skin, sometimes accompanied by oily skin
+                </li>
+                <li className="mt-2 ml-4">
+                  Visible tiny blood vessels that may become more noticeable over
+                  time
+                </li>
+                <li className="mt-2 ml-4">
+                  Other concerns, which can still be present: dry skin, wrinkles,
+                  sun damage, and skin discolorations
+                </li>
+              </ul>
+              <Button
+                data={{
+                  text: "Rosacea Treatment Options",
+                  anchor: "rosacea-treatment-options",
+                }}
+                className="buttonLight bg-white my-8 mx-auto md:mx-0"
+              />
+            </div>
           </div>
-      </div>
-          <StaticImage 
-                    loading="lazy"
+          <StaticImage
+            loading="lazy"
             src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinTreatmentApproach.jpg?raw=true"
             className="rounded-lg shadow-lg mx-auto"
           />
-      </div>
-      <div id="rosacea-treatment-options">
+        </div>
+        <div id="rosacea-treatment-options">
           <div className="my-8 lg:pt-8 text-center">
             <h2 className="text-2xl md:text-4xl mb-2">How We Treat Rosacea at Essence of Beauty</h2>
             <span>Choose a treatment option to learn more</span>
             <Tabs
-            columns="grid-cols-1 md:grid-cols-3"
+              columns="grid-cols-1 md:grid-cols-3"
               className="my-8"
               options={[
                 {
@@ -294,32 +293,32 @@ const Rosacea = () => {
                   content: (
                     <div className="flex flex-col lg:px-4">
                       <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                      OsmosisMD
+                        OsmosisMD
                       </h2>
                       <p className="my-2">
-                      In order to fully appreciate what
-              these products can achieve for you, it is important to understand
-              that our skin functions within a process dictated by nature.
-              OsmosisMD products have been developed to produce their amazing
-              results via an integrated system that works in harmony with
-              nature. It is the science of this natural process that provides
-              the foundation of the formulation and functioning of OsmosisMD. So
-              that rather than products that simply treat the skin’s surface
-              with aggressive topicals that force nature and force temporary
-              change, OsmosisMD products are formulated to assist and support
-              nature’s scientific process, products that transform damaged,
-              aging, injured skin into healed, moist, beautiful skin. The
-              scientific approach behind OsmosisMD recognizes that healing and
-              transformative results require that the skin must be replenished,
-              restored and repaired at the deeper skin cells. However, these
-              products provide more than that. The organic and anti-oxidant
-              ingredient formulation of OsmosisMD also gently replenishes,
-              restores and repairs the surface skin cells. What this means for
-              you is that the products have a simultaneous dual action – one
-              that transforms your deeper cells where real change is required,
-              but also one that very quickly and visibly transforms your surface
-              cells for brighter, clearer, smoother, healthier skin.
-            </p>
+                        In order to fully appreciate what
+                        these products can achieve for you, it is important to understand
+                        that our skin functions within a process dictated by nature.
+                        OsmosisMD products have been developed to produce their amazing
+                        results via an integrated system that works in harmony with
+                        nature. It is the science of this natural process that provides
+                        the foundation of the formulation and functioning of OsmosisMD. So
+                        that rather than products that simply treat the skin’s surface
+                        with aggressive topicals that force nature and force temporary
+                        change, OsmosisMD products are formulated to assist and support
+                        nature’s scientific process, products that transform damaged,
+                        aging, injured skin into healed, moist, beautiful skin. The
+                        scientific approach behind OsmosisMD recognizes that healing and
+                        transformative results require that the skin must be replenished,
+                        restored and repaired at the deeper skin cells. However, these
+                        products provide more than that. The organic and anti-oxidant
+                        ingredient formulation of OsmosisMD also gently replenishes,
+                        restores and repairs the surface skin cells. What this means for
+                        you is that the products have a simultaneous dual action – one
+                        that transforms your deeper cells where real change is required,
+                        but also one that very quickly and visibly transforms your surface
+                        cells for brighter, clearer, smoother, healthier skin.
+                      </p>
                       <Button
                         data={{
                           text: "Learn More About Osmosis MD",
@@ -333,23 +332,23 @@ const Rosacea = () => {
               ]}
             />
           </div>
-      </div>
+        </div>
       </div>
       <div className="mt-8 mb-16">
-                    <div className="flex flex-col items-center my-4">
-                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
-                        <span className="mb-8">Comparing before & after rosacea treatment</span>
-                    </div>
-                    <Gallery 
-                    className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:px-8"
-                    imageClass="rounded-sm shadow-lg"
-                    images={[
-                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-                      <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
-                    ]}    
-                />
+        <div className="flex flex-col items-center my-4">
+          <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+          <span className="mb-8">Comparing before & after rosacea treatment</span>
+        </div>
+        <Gallery
+          className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:px-8"
+          imageClass="rounded-sm shadow-lg"
+          images={[
+            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
+          ]}
+        />
       </div>
       <div className="flex flex-col items-center px-4 lg:pb-8">
         <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
@@ -365,17 +364,16 @@ const Rosacea = () => {
 export default Rosacea
 
 export const Head = () => {
-  return(
+  return (
     <>
-    <Seo
-    pageTitle="Rosacea & Sensitive Skin Ottawa"
-    pageTitleDescription="Natural Acne Treatments"
-    pageDescription="Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing recommendations based specifically on what's working for them."
-    pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-    pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
-    pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
-    />
-    <link rel="canonical" href="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
+      <Seo
+        pageTitle="Rosacea & Sensitive Skin Ottawa - Natural Acne Treatments"
+        pageDescription="Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing recommendations based specifically on what's working for them."
+        pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+        pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
+        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+      />
+      <link rel="canonical" href="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
     </>
   )
 } 

@@ -6,29 +6,28 @@ import Card from '../components/card'
 import Seo from '../components/seo'
 
 const LEDPhotoFacial = () => {
-    return(
+    return (
         <>
             <Banner
                 heading="LED Photo Facial"
                 gradient="from-black/20 to-black/0"
-                caption="Light Emitting Diode (LED) therapy is a revolutionary anti-aging skin care procedure that is used to treat multiple adverse skin conditions"
-                image={<StaticImage alt="Essence of Beauty Ottawa - LED Photo Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cellumaLedTherapy.png?raw=true"/>}
+                image={<StaticImage alt="Essence of Beauty Ottawa - LED Photo Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cellumaLedTherapy.png?raw=true" />}
             />
-                                    <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="text-2xl md:text-4xl font-bold mb-2">Reduce Inflammation, Scarring & More with LED Photo Facial</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Light Emitting Diode (LED) therapy from Essence of Beauty Ottawa is a revolutionary procedure used to treat multiple adverse skin conditions such as signs of aging, pigmentation, scarring & more.</h2>
                     <p className="my-1">
-                    Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone. Effective on all skin type. Our treatments are the most advanced light treatments available, and we can adapt each session to suit your specific needs. With regular maintenance treatments, our LED facials can result in a noticeable improvement to your skin health. Advance light therapy can also be used to reduce the downtime of advanced aesthetics treatments, enhancing the outcomes of chemical peels or micro-needling. In addition to a more youthful appearance, clients experience a dramatic improvement of acne, rosacea and fine lines.
+                        Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone. Effective on all skin type. Our treatments are the most advanced light treatments available, and we can adapt each session to suit your specific needs. With regular maintenance treatments, our LED facials can result in a noticeable improvement to your skin health. Advance light therapy can also be used to reduce the downtime of advanced aesthetics treatments, enhancing the outcomes of chemical peels or micro-needling. In addition to a more youthful appearance, clients experience a dramatic improvement of acne, rosacea and fine lines.
 
                     </p>
                     <Button
-                        data={{text: "Learn About The Benefits", anchor: "led-therapy-benefits"}}
+                        data={{ text: "Learn About The Benefits", anchor: "led-therapy-benefits" }}
                         className="buttonLight my-8 mx-auto md:mx-0"
                     />
                 </div>
-                <StaticImage 
-                        loading="eager"
+                <StaticImage
+                    loading="eager"
                     src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
                     alt="Essence of Beauty LED Light Therapy Photo Facial Treatment"
                     className="md:w-1/3 h-[500px] mx-auto rounded-sm shadow-md"
@@ -37,59 +36,59 @@ const LEDPhotoFacial = () => {
             <div id="led-therapy-benefits" className="p-4 md:p-8">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row md:items-center">
                     <div className="flex flex-col md:w-1/2">
-                    <h2 className="text-2xl md:text-4xl">
-                        LED Photo Facial Benefits
-                    </h2>
-                    <h3 className="text-base md:text-xl my-2">
-                        Some of the benefits of LED photo facial light therapy include:
-                    </h3>
-                    <ul className="list-disc my-2 ml-4">
-                        <li className="my-1">
-                        Reduces wound healing time
-                        </li>
-                        <li className="my-1">
-                        Reduces inflammation      
-                        </li>
-                        <li className="my-1">
-                        Smoothes and improved surface
-                        </li>
-                        <li className="my-1">
-                        Stimulates collagen formation
-                        </li>
-                        <li className="my-1">
-                        Increases ATP (fuel for cells)  
-                        </li>
-                        <li className="my-1">
-                        Stimulates cell turnover
-                        </li>
-                        <li className="my-1">
-                        Reduces mild scarring, hyperpigmentation and pore size
-                        </li>
-                        <li className="my-1">
-                        Reduces pigmentation caused from acne lesions
-                        </li>
-                        <li className="my-1">
-                        Increases circulation and moisture retention
-                        </li>
-                    </ul>
+                        <h2 className="text-2xl md:text-4xl">
+                            LED Photo Facial Benefits
+                        </h2>
+                        <h3 className="text-base md:text-xl my-2">
+                            Some of the benefits of LED photo facial light therapy include:
+                        </h3>
+                        <ul className="list-disc my-2 ml-4">
+                            <li className="my-1">
+                                Reduces wound healing time
+                            </li>
+                            <li className="my-1">
+                                Reduces inflammation
+                            </li>
+                            <li className="my-1">
+                                Smoothes and improved surface
+                            </li>
+                            <li className="my-1">
+                                Stimulates collagen formation
+                            </li>
+                            <li className="my-1">
+                                Increases ATP (fuel for cells)
+                            </li>
+                            <li className="my-1">
+                                Stimulates cell turnover
+                            </li>
+                            <li className="my-1">
+                                Reduces mild scarring, hyperpigmentation and pore size
+                            </li>
+                            <li className="my-1">
+                                Reduces pigmentation caused from acne lesions
+                            </li>
+                            <li className="my-1">
+                                Increases circulation and moisture retention
+                            </li>
+                        </ul>
                     </div>
                     <div className="flex flex-col md:w-1/2">
                         <h3 className="font-bold text-brown mt-2">Initial treatment sessions are as follows:</h3>
                         <ul className="list-disc my-2 ml-4">
                             <li className="my-1">
-                            $60 per treatment depending on the severity of the problem being treated-recommended in series of 8-12 treatments.
+                                $60 per treatment depending on the severity of the problem being treated-recommended in series of 8-12 treatments.
                             </li>
                             <li className="my-1">
-                            For acne best results, for 3 sessions per week for 4 weeks with maintenance sessions every 1 to 2 months after these initial 4 weeks of treatment      
+                                For acne best results, for 3 sessions per week for 4 weeks with maintenance sessions every 1 to 2 months after these initial 4 weeks of treatment
                             </li>
                             <li className="my-1">
-                            Conditions like rosacea, fine lines, wrinkles, hyperpigmentation, sun damage, anti-aging, collagen stimulation and irregular skin texture: One session per week for 6 weeks with maintenance therapy sessions once every 1 to 2 months.   
+                                Conditions like rosacea, fine lines, wrinkles, hyperpigmentation, sun damage, anti-aging, collagen stimulation and irregular skin texture: One session per week for 6 weeks with maintenance therapy sessions once every 1 to 2 months.
                             </li>
                         </ul>
                         <p>After your LED facial, you should immediately notice a healthy glow. When treating acne, many clients begin seeing results in as little as four weeks. For wrinkle reduction, patients begin to see results at eight weeks. However, individual experiences may vary.
                         </p>
                         <Button
-                            data={{text: "Book Now", anchor: "contact"}}
+                            data={{ text: "Book Now", anchor: "contact" }}
                             className="buttonLight my-8 mx-auto md:mx-0"
                         />
                     </div>
@@ -106,17 +105,16 @@ const LEDPhotoFacial = () => {
 export default LEDPhotoFacial
 
 export const Head = () => {
-    return(
+    return (
         <>
-        <Seo
-        pageTitle="LED Photo Facial Ottawa"
-        pageTitleDescription="Pain-free Treatment of Pigmentation, Scarring & Inflamation"
-        pageDescription="Essence of Beauty Ottawa's revolutionary LED photo facials are completely pain free, it can work to accelerate wound healing and reduce scarring, while boosting collagen and evening out skin tone."
-        pageKeywords="LED, Photo Facial, Facial, Pigmentation, Healing, Pain-free, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
-        />
-        <link rel="canonical" href="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/" />
+            <Seo
+                pageTitle="LED Photo Facial Ottawa - Pain-free Treatment of Pigmentation, Scarring & Inflamation"
+                pageDescription="Essence of Beauty Ottawa's revolutionary LED photo facials are completely pain free, it can work to accelerate wound healing and reduce scarring, while boosting collagen and evening out skin tone."
+                pageKeywords="LED, Photo Facial, Facial, Pigmentation, Healing, Pain-free, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/"
+                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
+            />
+            <link rel="canonical" href="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/" />
         </>
     )
-  } 
+} 

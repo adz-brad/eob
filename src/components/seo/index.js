@@ -1,8 +1,17 @@
-import React from 'react';
-import { graphql, useStaticQuery, Script } from 'gatsby';
- 
-const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, pageUrl, pageKeywords }) => {
-  
+import React from "react"
+import { graphql, useStaticQuery, Script } from "gatsby"
+
+const Seo = ({
+  pageDescription,
+  pageTitle,
+  pageImage,
+  pageUrl,
+  pageKeywords,
+}) => {
+
+  // Properties passed from the SEO component in each file are programmatically injected into the tags contained in this file.
+  // Structured JSON data must be passed inside the <Script> tag
+
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -12,39 +21,45 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
         }
       }
     }
-  `);
+  `)
 
-  const siteData = data.site.siteMetadata;
-  const title = pageTitleDescription ? `${pageTitle} - ${pageTitleDescription}` : `${siteData.title} - ${pageTitle}`
+  const siteData = data.site.siteMetadata
+
+  // Site Title
+  // Data from properties passed through the SEO component on each page
+  // If page has no title property, title fallback is the site title passed from /gatsby-config.js siteMetadata object
+
+  const title = pageTitle ? pageTitle : siteData.title
 
   return (
-
     <>
+      <title>{title}</title>
 
-        <title>{title}</title>
+      <meta name="description" content={pageDescription} />
+      <meta name="keywords" content={`${pageKeywords}, ${siteData.keywords}`} />
 
-        <meta name="description" content={pageDescription} />
-        <meta name="keywords" content={`${pageKeywords}, ${siteData.keywords}`} />
+      {/* FB Meta Tags */}
 
-        {/* FB Meta Tags */}
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={pageDescription} />
+      <meta property="og:image" content={pageImage} />
+      <meta property="og:url" content={pageUrl} />
+      <meta
+        property="og:site_name"
+        content="Essence of Beauty Ottawa Acne Clinic"
+      />
 
-        <meta property="og:title" content={pageTitle}/>
-        <meta property="og:description" content={pageDescription}/>
-        <meta property="og:image" content={pageImage} />
-        <meta property="og:url" content={pageUrl} />
-        <meta property="og:site_name" content="Essence of Beauty Ottawa Acne Clinic"/>
+      {/* Twitter Meta Tags */}
 
-        {/* Twitter Meta Tags */}
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={pageDescription} />
+      <meta name="twitter:image" content={pageImage} />
+      <meta name="twitter:card" content="summary_large_image" />
 
-        <meta name="twitter:title" content={pageTitle}/>
-        <meta name="twitter:description" content={pageDescription}/>
-        <meta name="twitter:image" content={pageImage}/>
-        <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="robots" content="index, follow" />
 
-        <meta name="robots" content="index, follow"/>
-        
-        <Script type="application/ld+json">
-                  {`{
+      <Script type="application/ld+json">
+        {`{
           "@context":"https://schema.org",
           "@graph":[
             {
@@ -133,10 +148,9 @@ const Seo = ({ pageDescription, pageTitle, pageTitleDescription, pageImage, page
                 }
               ]
             }`}
-        </Script>
+      </Script>
     </>
-
-  );
+  )
 }
 
-export default Seo ;
+export default Seo
