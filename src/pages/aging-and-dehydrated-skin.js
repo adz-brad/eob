@@ -164,7 +164,7 @@ const AgingAndDehydratedSkin = () => {
                                     <p className="my-2">
                                         Growth Factor Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure.
                                     </p>
-                                    <strong>$295</strong>
+                                    <strong>$350</strong>
 
                                     <Button
                                         data={{ text: "Learn More", link: "/microneedling-ottawa/" }}
