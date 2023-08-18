@@ -283,7 +283,7 @@ const RestorativeBioPeel = () => {
                             <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $620</span>
                         </div>
                     </div>
-                    <div className="flex flex-col my-4">
+                    {/*<div className="flex flex-col my-4">
                         <h3 className="text-base md:text-xl font-bold mb-2 text-brown">Rejuvenation Anti-Aging Bio Peel</h3>
                         <p className="my-1">
                         The perfect combination of bio-microparticles and various peptide ingredients is recommended for aging, skin. With clear signs of aging, and wrinkles. The anti-aging set firms and lifts the skin, improves its elasticity, remodels, and rejuvenates.
@@ -295,7 +295,7 @@ const RestorativeBioPeel = () => {
                         <div className="my-2 flex flex-col">
                             <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $855</span>
                         </div>
-                    </div>
+                    </div>*/}
                     <Button
                         data={{text: "Book Today!", anchor: "contact"}}
                         className="buttonLight mt-8 mx-auto md:mx-0"

@@ -124,7 +124,7 @@ const Hyperpigmentation = () => {
                             <li className="my-1">1. Sun Protection</li>
                             <li className="my-1">2. Proper skin care to address the specific condition causing your pigmentation</li>
                         </ul>
-                        <span>Essence of Beauty offers options for all skin types and ethnic backgrounds. A consultation is needed prior to the treatment <strong>$50</strong></span>
+                        <span>Essence of Beauty offers options for all skin types and ethnic backgrounds. A consultation is needed prior to the treatment. In-clinic consultations typically last 30 minutes and are priced at <strong>$50</strong></span>
                     </div>
                 </Card>
             </div>
