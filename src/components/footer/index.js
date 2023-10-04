@@ -27,11 +27,9 @@ const Footer = () => {
             <div className="md:w-1/3 p-4">
                 <h2 className="border-b border-black pb-1 text-lg md:text-2xl">Location</h2>
                 <div className="flex flex-col my-4 leading-tight">
-                    <span><strong>Pebb Building</strong></span>
-                    <span>2197 Riverside Drive  suite 200</span>
-                    <span>Ottawa, Ontario</span>
-                    <span>K1H 7X3</span>
-                    <span className="mt-4"><strong>Near Billings Bridge Shopping Center</strong> before Bank Street</span>
+                    <span>3626 Downpatrick Rd</span>
+                    <span>Gloucester, Ontario</span>
+                    <span>K1V 8Y9</span>
                 </div>
             </div>
             <div className="md:w-1/3 p-4">

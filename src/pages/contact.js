@@ -14,12 +14,10 @@ const Contact = () => {
                     <h1 className="font-bold">Essence of Beauty Spa</h1>
                     <div className="flex flex-row mt-8">
                         <MdLocationPin className="text-4xl text-green filter drop-shadow-lg -ml-1 mr-4 mt-2" />
-                        <div className="flex flex-col my-2">
-                            <span>Pebb Building</span>
-                            <span>2197 Riverside Drive Suite #200</span>
-                            <span>Ottawa, Ontario</span>
-                            <span>K1H 7X3</span>
-                            <span className="mt-2"><strong>Near Billings Bridge Shopping Center</strong> (before Bank Street)</span>
+                        <div className="flex flex-col my-2">  
+                            <span>3626 Downpatrick Rd</span>
+                            <span>Gloucester, Ontario</span>
+                            <span>K1V 8Y9</span>
                         </div>
                     </div>
                     <div className="flex flex-row mt-4">
