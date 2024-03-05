@@ -43,7 +43,7 @@ const Footer = () => {
                 <h2 className="border-b border-black pb-1 text-lg md:text-2xl">More Info</h2>
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Parking</strong></span>
-                <span>Paid parking at the building.</span>
+                <span>Free Parking</span>
                 </div>
                 <div className="flex flex-col my-4 leading-tight">
                 <span><strong>Payment</strong></span>
