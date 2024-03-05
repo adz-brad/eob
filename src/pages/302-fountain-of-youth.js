@@ -18,7 +18,7 @@ const FountainOfYouth = () => {
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
                     <h1 className="text-2xl md:text-4xl font-bold mb-2">A Revolutionary Approach to Acne, Rosacea & Skin Treatment</h1>
-                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Essence of Beauty Ottawa is excited to be the very first Canadian spa to carry the 302 Professional Skincare Line designed to naturally treat & repair your skin problems.</h2>
+                    <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Essence of Beauty Ottawa is excited to be the very first Canadian skincare clinic to carry the 302 Professional Skincare Line designed to naturally treat & repair your skin problems.</h2>
                     <p className="my-1">
                         Most approaches to acne, rosacea, anti-aging & other skincare treatments often rely on what is known as the ‘repair’ model. Some of the more common treatments include IPL, microdermabrasion, glycolic, TCA and lactic acid peels, serums/lotions containing ascorbic acid (vitamin C) , BHA, AHA, ALA, or mandelic acid, EOs peels, grainy scrubs, laser treatments to name a few. The purpose is to exfoliate the skin to jump start it into increasing collagen production, which, to an extent, happens. The difficulty arises because exfoliation often causes micro-inflammation too. That is the ‘glow’ you see, the so-called smoother appearance to the skin and the look of reduced wrinkles. It might look nice in the beginning but it reality, it is a problem. Why? Because the quality of the collagen produced is often subpar. Skin that is continuously subjected to these treatments will become depleted of its natural moisture producing capability and its natural defences against environmental elements. And then skin actually ages more quickly, eventually becoming even weaker, thinner, more sensitive and exhausted. In order to regenerate after each exfoliation, skin cells require infusions of the proper nutrients to produce the necessary energy for regeneration, and unfortunately, energy declines with repeated exfoliation and as you age.
                     </p>
@@ -181,7 +181,7 @@ export const Head = () => {
         <>
             <Seo
                 pageTitle="302 Fountain of Youth - Natural Skincare Treatment in Ottawa"
-                pageDescription="Essence of Beauty Ottawa is the very first Canadian spa to carry the 302 Professional Skincare Line designed to naturally treat aging, acne, rosacea & more!"
+                pageDescription="Essence of Beauty Ottawa is the very first Canadian skincare clinic to carry the 302 Professional Skincare Line designed to naturally treat aging, acne, rosacea & more!"
                 pageKeywords="302, Fountain of Youth, Avogen, Sustainable, Sensitive Skin, Non-Toxic, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Skincare, Safe, Acne, Beauty, Spa, Ottawa"
                 pageUrl="https://www.essenceofbeauty.ca/302-fountain-of-youth/"
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"

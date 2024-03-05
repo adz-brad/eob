@@ -50,7 +50,7 @@ const AcneTreatment = () => {
                 <div id="acne-treatment-info" className="flex flex-col my-4 p-4 md:p-8 md:my-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
                     <h2 className="text-2xl md:text-4xl my-4 md:mt-2 md:mb-4">What's Included?</h2>
                     <p className="my-1">
-                        Our in-spa acne treatments are completely individualized, but all include exfoliation and extraction. The type of exfoliation we do is dependent on your skin’s needs and tolerances. Extractions vary according to how many you need and your tolerance. This treatment is combined with Blue or Red LED Lights, Ultrasound Therapy or Acne-Microcurrent for a better and faster results. All of our acne treatments provide the following:
+                        Our in-clinic acne treatments are completely individualized, but all include exfoliation and extraction. The type of exfoliation we do is dependent on your skin’s needs and tolerances. Extractions vary according to how many you need and your tolerance. This treatment is combined with Blue or Red LED Lights, Ultrasound Therapy or Acne-Microcurrent for a better and faster results. All of our acne treatments provide the following:
                     </p>
                     <ul className="my-2 list-disc ml-4">
                         <li className="my-1">

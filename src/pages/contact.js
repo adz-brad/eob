@@ -11,7 +11,7 @@ const Contact = () => {
                 className="flex flex-col lg:flex-row max-w-screen-xl my-16 mx-auto"
             >
                 <div className="flex flex-col p-4 mb-4 lg:mb-0 lg:px-8 lg:py-0 lg:ml-4">
-                    <h1 className="font-bold">Essence of Beauty Spa</h1>
+                    <h1 className="font-bold">Essence of Beauty</h1>
                     <div className="flex flex-row mt-8">
                         <MdLocationPin className="text-4xl text-green filter drop-shadow-lg -ml-1 mr-4 mt-2" />
                         <div className="flex flex-col my-2">  
@@ -38,7 +38,7 @@ const Contact = () => {
                         <MdLocalParking className="text-4xl text-green filter drop-shadow-lg -ml-1 mr-4 mt-2" />
                         <div className="flex flex-col my-2">
                             <span className="my-2"><strong>Parking</strong></span>
-                            <span>Paid parking at the building</span>
+                            <span>Free Parking</span>
 
                         </div>
                     </div>
@@ -85,7 +85,7 @@ export const Head = () => {
         <>
             <Seo
                 pageTitle="Contact Essence Of Beauty To Find Out How You Can See Amazing Skin Care Results!"
-                pageDescription="Contact Essence of Beauty Spa today to book your first consultation or treatment!"
+                pageDescription="Contact Essence of Beauty today to book your first consultation or treatment!"
                 pageKeywords="No acid, acid free, chemical free, no chemicals, acne scarring, pigmentation, rosecea, skincare, treatment, sensitive skin, consultation, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/contact/"
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"

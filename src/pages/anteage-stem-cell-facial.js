@@ -193,7 +193,7 @@ export const Head = () => {
             <Seo
                 pageTitle="AnteAge Stem Cell Facial - Award Winning Holistic Anti-Aging Treatment Ottawa"
                 pageDescription="Essence of Beauty Ottawa uses a holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol with amazing results!"
-                pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, "
                 pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/"
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
             />

@@ -35,7 +35,7 @@ const HerbalGreenPeel = () => {
                             At Essence of Beauty, however, we're aware that the most advanced science regarding skincare indicates that there are healthier, more holistic and more successful approaches to skin renewal that do not rely on chemicals or the damaging effects of acids. In fact, the best science in the field tells us that in practice, the frequent use of acids sets up a problematic domino effect that is not only difficult for clients to break but results in the opposite of their intended purpose – that is, acids weaken the cellular structure of the skin thereby speeding the aging process.
                         </p>
                         <p className="my-1">
-                            We doubt you want to accelerate the speed at which your skin ages and we at Essence of Beauty most certainly don’t want that for you either. What we want to offer you are treatments and products that support the principal philosophy of our spa – that here is where Health meets Beauty.
+                            We doubt you want to accelerate the speed at which your skin ages and we at Essence of Beauty most certainly don’t want that for you either. What we want to offer you are treatments and products that support the principal philosophy of our clinic – that here is where Health meets Beauty.
                         </p>
                         <p className="mt-2 text-xl font-bold">
                             Meet the Herbal Green Peel®.
