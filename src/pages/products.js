@@ -12,23 +12,6 @@ const Products = () => {
                 gradient="from-black/40 via-black/20 to-black/10"
                 image={<StaticImage alt="Essence of Beauty Ottawa - Products" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true" />}
             />
-            <div className="flex flex-col-reverse lg:flex-row lg:items-center">
-                <div className="lg:w-1/3 lg:p-8">
-                    <StaticImage
-                        loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/yonkaProduct.jpg?raw=true"
-                        alt="Essence of Beauty Products - Yon-Ka"
-                    />
-                </div>
-                <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
-                        Yonk-Ka
-                    </h2>
-                    <p className='my-2'>
-                        Yon-ka, one of our best selling product lines, has been the undisputed pioneer of the professional aesthetics aromatherapy since the 1950’s. Yon-ka offers plant, flower and fruit nutrients and natural properties at their highest levels of purity and potency to create the most refined and customized skin care products. With their subtle aromas, the essential oils combined with plant, marine extracts act to balance, soothe, revive and rejuvenate. Each ingredient has a specific role on your skin. Yon-ka, is a pure and natural aromatic composition of lavender, cypress, rosemary, thyme, and geranium essential oils: “the 5 Quintessence E.O.” The exclusive formula is then blended with a wealth of plant extracts from all over the world.
-                    </p>
-                </div>
-            </div>
             <div className="flex flex-col lg:flex-row lg:items-center">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
                     <h2 className="text-2xl md:text-4xl mb-2">
@@ -137,6 +120,23 @@ const Products = () => {
                             className="buttonLight bg-white"
                         />
                     </div>
+                </div>
+            </div>
+            <div className="flex flex-col-reverse lg:flex-row lg:items-center">
+                <div className="lg:w-1/3 lg:p-8">
+                    <StaticImage
+                        loading="eager"
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/yonkaProduct.jpg?raw=true"
+                        alt="Essence of Beauty Products - Yon-Ka"
+                    />
+                </div>
+                <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
+                    <h2 className="text-2xl md:text-4xl mb-2">
+                        Yonk-Ka
+                    </h2>
+                    <p className='my-2'>
+                        Yon-ka, one of our best selling product lines, has been the undisputed pioneer of the professional aesthetics aromatherapy since the 1950’s. Yon-ka offers plant, flower and fruit nutrients and natural properties at their highest levels of purity and potency to create the most refined and customized skin care products. With their subtle aromas, the essential oils combined with plant, marine extracts act to balance, soothe, revive and rejuvenate. Each ingredient has a specific role on your skin. Yon-ka, is a pure and natural aromatic composition of lavender, cypress, rosemary, thyme, and geranium essential oils: “the 5 Quintessence E.O.” The exclusive formula is then blended with a wealth of plant extracts from all over the world.
+                    </p>
                 </div>
             </div>
             <div className="flex flex-col items-center p-4 mt-2">
