@@ -14,11 +14,11 @@ const Contact = () => {
     const [ sent, setSent ] = useState({ open: false, status: 'Idle' })
 
     const submit = async (e) => {
+        e.preventDefault()
         if(honeypot){
             return null;
         } 
         else{
-          e.preventDefault()
           const data = {
             type: 'contact',
             template: 'contact-form-submission',
@@ -84,19 +84,19 @@ const Contact = () => {
             }
 
             <label 
-                htmlFor="name"
+                htmlFor="userfirstname"
                 className="w-0 h-0 opacity-0"
             >
                 Name
             </label>
-            <input type="text" className="w-0 h-0 opacity-0" id="name" name="name" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
+            <input autoComplete="off" type="text" className="w-0 h-0 opacity-0" id="userfirstname" name="userfirstname" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
             <label 
-                htmlFor="email"
+                htmlFor="useremail"
                 className="w-0 h-0 opacity-0"
             >
                 Email
             </label>
-            <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
+            <input autoComplete="off" type="useremail" className="w-0 h-0 opacity-0" id="useremail" name="useremail" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
             <div className="flex flex-col p-1 w-full md:w-1/2 my-1 md:p-2">
                                 <label 
                                     htmlFor="firstName"
