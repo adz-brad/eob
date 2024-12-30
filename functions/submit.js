@@ -56,9 +56,9 @@ exports.handler = async function(e) {
   })
 
   let details = {
-    from: { name: "Essence of Beauty", address:'mailer@aurastudio.cloud'},
+    from: { name: "Essence of Beauty", address:'contact@essenceofbeauty.ca'},
     replyTo: body.form.email,
-    to: process.env.GATSBY_POSTMARK_DESTINATION_EMAIL,
+    to: "bjsmi13@gmail.com",//process.env.GATSBY_POSTMARK_DESTINATION_EMAIL,
     subject: "New Contact Form Submission",
     text: useTextTemplate(obj),
     html: useHtmlTemplate(obj)
