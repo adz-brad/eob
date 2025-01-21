@@ -312,7 +312,7 @@ const DMKTherapy = () => {
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 1</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$198</strong>/ 1.20 hour</span>
                         <div className="my-auto">
                             <p className="my-1 md:text-lg">
                                 DMK Signature Enzyme Therapy includes deep cleansing a light pre-exfoliation.
@@ -340,7 +340,7 @@ const DMKTherapy = () => {
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 2</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$208</strong>/ 1.5 hour</span>
                         <div className="my-auto">
                             <p className="my-1 md:text-lg">
                                 DMK Signature Enzyme Therapy with a customised Pre-Exfoliation incorporating one of the following Pro Alpha, Prozyme, Quick Peel, Desquamate or Exoderma.
@@ -364,7 +364,7 @@ const DMKTherapy = () => {
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Enzyme Therapy Level 3</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$199</strong>/ 80 min</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$225</strong>/ 2.05 hour</span>
                         <div className="my-auto">
                             <p className="my-1 md:text-lg">
                                 DMK Signature Enzyme Therapy with a customised Pre-Exfoliation incorporating one of the following Pro Alpha, Prozyme, Quick Peel, Desquamate or Exoderma falowing by extractions.
@@ -388,7 +388,7 @@ const DMKTherapy = () => {
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col lg:w-1/2 xl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Muscle Banding with A-lift - Enzyme Masque #2 & #3</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$188</strong>/ 80 min</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$198</strong>/ 1.20 hour</span>
                         <div className="my-auto">
                             <p className="my-1 md:text-lg">
                                 DMK A-Lift® is a 12 week program designed to revise the signs of ageing and the health of your skin. By removing redundant skin cells and tightening facial muscles, the DMK A-Lift Muscle Banding Treatment works by stimulating the underlying structures of the skin. It gives the face its own workout, similar to how you would tone and tighten the body with exercise.

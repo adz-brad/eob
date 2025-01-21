@@ -92,13 +92,13 @@ const AcneTreatment = () => {
                                     <strong className="mr-2 text-brown">
                                         Initial Consultation
                                     </strong>
-                                    $80
+                                    $50
                                 </span>
                                 <span>
                                     <strong className="mr-2 text-brown">
                                         First 90 minutes treatment
                                     </strong>
-                                    $158
+                                    $168
                                 </span>
                                 <div className="flex flex-col my-2">
                                     <span className="italic text-brown">
@@ -108,13 +108,13 @@ const AcneTreatment = () => {
                                         <strong className="mr-2 text-brown">
                                             90 min:
                                         </strong>
-                                        $158
+                                        $168
                                     </span>
                                     <span>
                                         <strong className="mr-2 text-brown">
                                             2 hours:
                                         </strong>
-                                        $198
+                                        $210
                                     </span>
                                 </div>
                             </div>

@@ -126,3 +126,18 @@ textarea {
 .image-wrapper div {
     @apply h-full w-full;
 }
+
+.featuredGrid {
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 4;
+  }
+  
+  /* Target items in the second row and beyond */
+  .featuredGrid > div:nth-child(n + 5) {
+    grid-column: span 3; /* Make items span 3 columns */
+  }
+  
+  /* Special case for the last item, ONLY if there's an odd number */
+  .featuredGrid > div:nth-child(odd):nth-last-child(1):nth-child(n + 5) { 
+    grid-column: span 4; /* Span all 4 columns */
+  }

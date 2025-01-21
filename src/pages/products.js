@@ -126,16 +126,16 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/yonkaProduct.jpg?raw=true"
-                        alt="Essence of Beauty Products - Yon-Ka"
+                        src="https://www.fragmentsmag.com/en/wp-content/uploads/sites/2/2017/06/phyts-dictionary-5_3.jpg"
+                        alt="Essence of Beauty Products - Phyts"
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
                     <h2 className="text-2xl md:text-4xl mb-2">
-                        Yonk-Ka
+                        Phyts
                     </h2>
                     <p className='my-2'>
-                        Yon-ka, one of our best selling product lines, has been the undisputed pioneer of the professional aesthetics aromatherapy since the 1950’s. Yon-ka offers plant, flower and fruit nutrients and natural properties at their highest levels of purity and potency to create the most refined and customized skin care products. With their subtle aromas, the essential oils combined with plant, marine extracts act to balance, soothe, revive and rejuvenate. Each ingredient has a specific role on your skin. Yon-ka, is a pure and natural aromatic composition of lavender, cypress, rosemary, thyme, and geranium essential oils: “the 5 Quintessence E.O.” The exclusive formula is then blended with a wealth of plant extracts from all over the world.
+                    Phyt's skincare is a holistic, plant-based brand that harnesses the power of nature to deliver high-performance skincare solutions. Combining organic, botanical ingredients with cutting-edge formulas, Phyt's products are designed to address various skin concerns while promoting overall skin health. Known for their commitment to sustainability and purity, Phyt's treatments focus on revitalizing, nourishing, and balancing the skin, offering a gentle yet effective approach to skincare. With a dedication to using botanical extracts and natural elements, Phyt's offers a powerful skincare experience tailored to enhance the skin’s natural beauty
                     </p>
                 </div>
             </div>
@@ -153,9 +153,9 @@ export const Head = () => {
     return (
         <>
             <Seo
-                pageTitle="Products - Treat Your Skin With Leading Products From Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
+                pageTitle="Products - Treat Your Skin With Leading Products From Phyts, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
                 pageDescription="View the wide range of expertly sourced, high quality products used for acne, scarring, rosacea treatment & more available for purchase from Essence of Beauty."
-                pageKeywords="Yonka, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageKeywords="Phyts, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/products/"
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
             />

@@ -54,15 +54,9 @@ const NewClientAcneConsultation = () => {
                     <div className="flex flex-col my-4 p-4">
                         <span>
                             <strong className="mr-2 text-brown">
-                                Initial in Clinic Consultation 45 minutes includes one follow-up:
+                                Initial in Clinic Consultation 30 minutes:
                             </strong>
-                            $80
-                        </span>
-                        <span>
-                            <strong className="mr-2 text-brown">
-                                Follow-up 15 min consultation:
-                            </strong>
-                            $25
+                            $50
                         </span>
                     </div>
                 </Card>

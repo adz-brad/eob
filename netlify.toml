@@ -84,6 +84,11 @@ package = "@netlify/plugin-sitemap"
   status = 301
 
   [[redirects]]
+  from = "/restorative-bio-peel/"
+  to = "/bio-microneedling/"
+  status = 301
+
+  [[redirects]]
   from = "/growth-factor-microneedling"
   to = "/microneedling-ottawa/"
   status = 301

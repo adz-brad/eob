@@ -46,58 +46,34 @@ const SpecialPeels = () => {
           className="my-8"
           options={[
             {
-              name: "Restorative Bio Peel",
+              name: "Bio Microneedling",
               content: (
                 <div className="flex flex-col lg:px-4 pb-4">
                   <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                    Restorative Bio Peel
+                  Bio Microneedling
                   </h3>
                   <p className="my-2">
-                    Restorative Bio Peel it’s a customized vegan facial peeling which brings new energy to the skin from the natural freshwater sponge, rich in minerals. It works as a microparticles are embedded into the skin and remove dead skin cells and skin waste. It has exceptional curative properties for every skin type. Stimulate the healing response of the body and increase the regeneration of skin cells, improves elasticity and softens the texture of the skin. It is safe for common address concerns, including sunspots, acne scars, and an aging, dull complexion.
-
+                  Available exclusively at Essence of Beauty Ottawa, Bio Microneedling offers a revolutionary alternative to traditional microneedling and exfoliating acids. Ideal for all skin types, it leverages powerful healing properties to activate the body’s natural scar-repair process and accelerate skin cell renewal.
                   </p>
                   <ul className="list-disc my-4 ml-4">
                     <p className="text-brown italic font-semibold text-lg my-1">
                       The Benefits:
                     </p>
                     <li className="my-1">
-                      Elimination of fine wrinkles, Smoothing out furrows and deep wrinkles
+                    Active Acne Balancing and Preventing Future Breakouts
                     </li>
                     <li className="my-1">
-                      Improves the structure of the skin
+                    Improves Post-Acne Scars 
                     </li>
                     <li className="my-1">
-                      Whitening
+                    Biocompatible & 100% Natural
                     </li>
-                    <li className="my-1">
-                      Can aid in the fading of dark patches and pigmentation from sun exposure or aging
-                    </li>
-                    <li className="my-1">
-                      Stimulates the production of collagen
-                    </li>
-                    <li className="my-1">
-                      Skin rejuvenation
-                    </li>
-                    <li className="my-1">
-                      Significant improvement in the condition of dull and tired skin
-                    </li>
-                    <li className="my-1">
-                      Acne, pimples, enlarged pores, blackheads
-                    </li>
-                    <li className="my-1">
-                      Scars from acne can be successfully treated, and an inconsistent texture can be smoothed out
-                    </li>
-                    <li className="my-1">
-                      Uneven skin tone, gray complexion, bad skin condition
-                    </li>
-                    <li className="my-1">
-                      Regulation of sebaceous glands
-                    </li>
+                
                   </ul>
                   <Button
                     data={{
-                      text: "Learn More About Restorative Bio Peel",
-                      link: "/restorative-bio-peel/",
+                      text: "Learn More About Bio Microneedling",
+                      link: "/bio-microneedling/",
                     }}
                     className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                   />

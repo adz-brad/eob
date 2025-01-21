@@ -1,9 +1,9 @@
-import { useLayoutEffect, useEffect, useState } from 'react'
-import { window, document } from 'browser-monads'
+import { useEffect, useState } from 'react'
+import { window } from 'browser-monads'
 
 const useWindowWidth = () => {
     const [ width, setWidth ] = useState(0)    
-    useLayoutEffect(() => {
+    useEffect(() => {
         const updateWidth = () => {
             setWidth(window.innerWidth)
         }
@@ -16,7 +16,7 @@ const useWindowWidth = () => {
 
 const useWindowHeight = () => {
     const [ height, setHeight ] = useState(0)    
-    useLayoutEffect(() => {
+    useEffect(() => {
         const updateHeight = () => {
             setHeight(window.innerHeight)
         }

@@ -13,7 +13,7 @@ const RestorativeBioPeel = () => {
 
   return (
     <>
-        
+        {/*}
         <Banner
             heading="Restorative Bio Peel"
             gradient="from-black/10 via-black/20 to-black/50"
@@ -283,19 +283,6 @@ const RestorativeBioPeel = () => {
                             <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $620</span>
                         </div>
                     </div>
-                    {/*<div className="flex flex-col my-4">
-                        <h3 className="text-base md:text-xl font-bold mb-2 text-brown">Rejuvenation Anti-Aging Bio Peel</h3>
-                        <p className="my-1">
-                        The perfect combination of bio-microparticles and various peptide ingredients is recommended for aging, skin. With clear signs of aging, and wrinkles. The anti-aging set firms and lifts the skin, improves its elasticity, remodels, and rejuvenates.
-                        </p>
-                        <div className="my-2 flex flex-col">
-                            <span><strong className="mr-2">Single Treatment:</strong>$335</span>
-                            <span>Plus post-care products.</span>
-                        </div>
-                        <div className="my-2 flex flex-col">
-                            <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $855</span>
-                        </div>
-                    </div>*/}
                     <Button
                         data={{text: "Book Today!", anchor: "contact"}}
                         className="buttonLight mt-8 mx-auto md:mx-0"
@@ -306,6 +293,7 @@ const RestorativeBioPeel = () => {
                 <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
             </div>
+            */}
     </>
   )
 }
@@ -315,7 +303,7 @@ export default RestorativeBioPeel
 export const Head = () => {
     return(
         <>
-        <Seo
+        {/*<Seo
             pageTitle="Restorative Bio Peel - Natural, Acid-free, Vegan Facial Peeling"
             pageDescription="Restorative Bio Peel is a new dimension of facial treatment & peeling offered by Essence of Beauty Ottawa as an alternative to laser therapy and exfoliating acid designed to treat acne, scars, signs of aging & more."
             pageKeywords="Restorative, Anti-aging, Aging, Laser replacement, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
@@ -323,6 +311,7 @@ export const Head = () => {
             pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
         />
         <link rel="canonical" href="https://www.essenceofbeauty.ca/restorative-bio-peel/" />
+        */}
         </>
     )
   } 

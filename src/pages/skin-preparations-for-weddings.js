@@ -39,10 +39,10 @@ const SkinPrep = () => {
                 </p>
                 <div className="my-2">
                     <h3 className="text-base md:text-xl mb-2 font-bold text-brown">
-                        Antioxidant anti-aging infusion
+                    Radiance Infusion
                     </h3>
                     <p>
-                        This infusion provides the skin with a burst of antioxidants and collagen and elastin stimulators that will feed the skin and keep it youthful and healthy. Retinaldehyde is the most potent anti-aging ingredient; not only does it stimulate collagen and elastin, but it also ensures we are replicating healthy, well formed cells.
+                    Get ready to glow on your special day with the Radiance Hydro Infusion, a revolutionary, non-invasive treatment tailored for brides seeking flawless, luminous skin. This advanced therapy boosts your skin’s absorption of powerful vitamins, antioxidants, minerals, amino acids, and growth factors, deeply nourishing the mesodermal layer. The result? A hydrated, rejuvenated complexion that radiates a natural, inner glow
                     </p>
                 </div>
                 <div className="my-2">

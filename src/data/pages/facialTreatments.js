@@ -6,10 +6,21 @@ export const treatmentMenu = [
         name: "Deep Pore Cleansing Facial",
         image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Cleansing Facial" />,
         imagePosition: 'left',
-        content: <p className="my-1">A customized facial treatment designed to help maintain a healthy completion. Incorporates European methods to gently exfoliate and deep cleanse the skin. Care is taken to thoroughly exfoliate, draw out impurities, and recondition the skin to promote lasting, visible change. This facial includes cleansing, skin analysis, steam therapy followed by an extraction process that truly leaves the skin clean and decongest. This treatment calms inflammation, destroys acne-causing bacteria, mattifies the complexion and reduces future breakouts. Recommended for all skin types.</p>,
+        content: <div className='flex flex-col space-y-2'>
+            <p>
+            Indulge in a customized facial treatment crafted to maintain and enhance your complexion. This purifying experience blends time-tested European techniques to exfoliate and deeply cleanse the skin, promoting a radiant, healthy glow. Each step is carefully designed to remove impurities, restore balance, and condition the skin for noticeable, lasting results.
+            </p>
+            <p>
+            Your facial includes a thorough cleansing, skin analysis, steam therapy, and a specialized extraction process that leaves your skin feeling truly rejuvenated and decongested. Enhanced with Ultrasound or LED Light Therapy. This treatment accelerates deeper dermal healing, calming inflammation, targeting acne-causing bacteria, and mattifying the complexion. It helps reduce future breakouts, making it ideal for all skin types. Treat yourself to a transformative experience that regenerates and refines your skin, leaving you with a smooth, clear, and revitalized complexion.
+            </p>
+        </div>,
         pricing: [
             {
-                description: "75 Minute Session",
+                description: "With Ultrasound or LED",
+                cost: "$168",
+            },
+            {
+                description: "Without",
                 cost: "$148",
             }
         ],
@@ -40,7 +51,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "85 Minute Session",
-                cost: "$158",
+                cost: "$168",
             }
         ],
         link: "/non-invasive-ultrasonic-facial/",
@@ -104,7 +115,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "90 Minute Session",
-                cost: "$188",
+                cost: "$198",
             }
         ],
         link: "/dmk-enzyme-therapy/",
@@ -144,18 +155,18 @@ export const treatmentMenu = [
 
     },
     {
-        name: "Growth Factor Microneedling",
+        name: "Microneedling",
         image: null,
         content: <p className="my-1">
-            Growth Factor Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure.
+            Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure.
         </p>,
         pricing: [
             {
                 description: "75 Minute Session",
-                cost: "$295",
+                cost: "$350",
             }
         ],
-        link: "/growth-factor-microneedling-ottawa/",
+        link: "/microneedling-ottawa/",
     },
     {
         name: "Intensive Acne Treatment (with LED lights or/and Micro-current)",

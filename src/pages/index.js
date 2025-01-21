@@ -6,6 +6,8 @@ import Features from '../components/features'
 import MeetEva from '../components/meetEva'
 import Testimonials from "../components/testimonials"
 import Seo from "../components/seo"
+import Button from "../components/button"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Home = () => {
 
@@ -59,6 +61,26 @@ const Home = () => {
           return null
         }
       })}
+        {/*<div className="flex flex-col py-20 px-8 bg-[url('/white-bg.jpg')]">
+        <div className="flex flex-row space-x-16 items-center max-w-screen-xl mx-auto">
+            <div className="flex flex-col space-y-8 lg:w-3/5 grow">
+                <h2 className="text-2xl md:text-4xl lg:text-5xl">
+                  Consultations
+                </h2>
+                <p className="lg:text-lg">
+                  Your skin is unique, and a consultation helps identify its specific needs. I will analyze your skin, address any concerns, and create a professional treatment plan with expert care and tailored recommendations.
+                </p>
+                <span>
+                  Initial in-clinic consultation: <strong>30 minutes $50</strong>
+                </span>
+                <Button data={{text: 'Book Your Consultation Today', anchor: 'contact'}} className="buttonLight my-8
+                lg:my-auto"/>
+            </div>
+            <div className="lg:w-2/5 h-[400px] mt-8 -mx-8 md:m-0">
+            <StaticImage loading="lazy" src="https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="h-full w-full md:shadow-lg" />
+            </div>    
+            </div>
+        </div>*/}
     </>
   )
 }

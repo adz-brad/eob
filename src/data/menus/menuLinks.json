@@ -88,8 +88,12 @@
                         "slug": "anteage-stem-cell-facial/"
                     },
                     {
-                        "title": "Growth Factor Microneedling",
+                        "title": "Microneedling",
                         "slug": "microneedling-ottawa/"
+                    },
+                    {
+                        "title": "Bio Microneedling",
+                        "slug": "bio-microneedling/"
                     },
                     {
                         "title": "LED PhotoFacial Light Therapy",
@@ -108,10 +112,6 @@
             {
                 "title": "Special Peels",
                 "pages": [
-                    {
-                        "title": "Restorative Bio Peel",
-                        "slug": "restorative-bio-peel/"
-                    },
                     {
                         "title": "AfterGlow Chemical Peel",
                         "slug": "afterglow-chemical-peel-ottawa/"

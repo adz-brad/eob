@@ -18,7 +18,7 @@ const Features = ({ _key, title, caption, description, items }) => {
                     <p className="mt-4 mb-8">{item.description}</p>
                     {item.link ?
                         <Button 
-                            data={{ text: "Learn More", link: item.link, accessibleText: `Learn More About ${item.name} at Essence of Beauty` }}
+                            data={{ text: item?.buttonText ? item.buttonText : "Learn More", link: item.link, accessibleText: `Learn More About ${item.name} at Essence of Beauty` }}
                             className="buttonLight mt-auto bg-white" 
                         />
                     : null }
@@ -31,9 +31,16 @@ const Features = ({ _key, title, caption, description, items }) => {
             <h2 className="text-3xl md:text-5xl m-4">{title}</h2>
             <h3 className="font-bold text-brown ml-4 text-base md:text-xl">{caption}</h3>
             <p className="mt-4 mb-8 mx-4">{description}</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 md:p-4">
+                {items ?
+                    items?.slice(0,4)?.map((item, i) => {
+                        return <FeatureCard _key={i} item={item} />
+                    })
+                : null }
+            </div>            
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:p-4">
                 {items ?
-                    items.map((item, i) => {
+                    items?.slice(4,7).map((item, i) => {
                         return <FeatureCard _key={i} item={item} />
                     })
                 : null }

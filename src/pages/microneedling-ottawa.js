@@ -11,16 +11,17 @@ const Microneedling = () => {
         <>
 
             <Banner
-                heading="Growth Factor Microneedling"
+                heading="Microneedling"
                 gradient="from-black/60 via-black/30 to-black/10"
                 image={<StaticImage alt="Essence of Beauty Ottawa - Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling.jpg?raw=true" />}
             />
             <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Repair Acne Scarring With Growth Factor Microneedling</h1>
+                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Repair Acne Scarring With Microneedling</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Microneedling is a safe, simple procedure designed to treat skin issues like sun damage & acne scarring, resulting in a glowing, fresh, even skin appearance!</h2>
                     <p className="my-1">
-                        Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles. This procedure is relatively quick, and can be performed in approximately one hour when treating the entire face. Since microneedling is minimally invasive, doesn’t cause significant wounding to the skin, and isn’t light-based, most people can safely undergo microneedling therapy with minimal risk of long-term adverse effects. Typically, important factors such as age and skin colour doesn’t matter. Many clients prefer microneedling because of its minimal downtime. Although some redness may occur immediately after the procedure, any irritation should subside by the following day. The procedure is most commonly used on the face, neck, and décolletage with appealing results.
+                    Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles. This procedure is relatively quick, and can be performed in approximately one hour when treating the entire face. Since microneedling is minimally invasive, doesn’t cause significant wounding to the skin, and isn’t light-based, most people can safely undergo microneedling therapy with minimal risk of long-term adverse effects. Typically, important factors such as age and skin colour doesn’t matter. Many clients prefer microneedling because of its minimal downtime. Although some redness may occur immediately after the procedure, any irritation should subside by the following day. The procedure is most commonly used on the face, neck, and décolletage with appealing results.
+
                     </p>
                     <Button
                         data={{ text: "Learn More", anchor: "microneedling-info" }}

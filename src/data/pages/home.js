@@ -45,7 +45,7 @@ export const data = {
             "type": "features",
             "title": "Featured Treatments",
             "caption": "Essence of Beauty treatments are simple yet sophisticated, based on each client’s unique and personal requirements.",
-            "description": "The clinic specializes in natural, organic skin care that rebuilds and regenerates the skin from the inside out using state of art, non-surgical, non-invasive, acne, acne scarring, rosacea and anti-aging facial treatments. These include Ultrasound, Micro-current, LED Lights, DMK Enzyme Treatments, Derma Ray, Dermal Infusion and Herbal Green Peel® therapies. More traditional treatments include acne, acne scars, rosacea, skin tag and red spot removal and repair of damaged facial capillaries with Vasculyse.",
+            "description": "The clinic specializes in natural, organic skin care that rebuilds and regenerates the skin from the inside out using advanced, non-surgical, non-invasive, acne, acne scarring, rosacea and anti-aging facial treatments. These include Ultrasound, Micro-current, LED Lights, DMK Enzyme Treatments, Derma Ray, Dermal Infusion, Herbal Green Peel® therapies and Chemical Peels. More traditional treatments include acne, acne scars, rosacea, skin tag and red spot removal and repair of damaged facial capillaries with Vasculyse.",
             "items": [  
                 {
                     "name": "Facial Treatments",
@@ -55,14 +55,14 @@ export const data = {
                 },
                 {
                     "name": "Radiance Hydro Infusion Facial",
-                    "description": " Our signature Radiance Hydro Infusion Facial is the latest innovation in skin rejuvenation and one of our most requested facial treatments at Essence of Beauty. This HydraFacial alternative provides an instant glow and boost in hydration due to the ingredients being absorbed 97% better than topical application alone. It also has a brightening effect for that coveted lit-from-within glow! Throughout the treatment, the skin is literally being drenched with wonderful elixirs and serums. The best part is that it’s non-invasive and there is absolutely no downtime!",
+                    "description": " Our signature Radiance Hydro Infusion Facial is the latest innovation in skin rejuvenation and one of our most requested facial treatments at Essence of Beauty. This non-invasive HydraFacial alternative provides an instant glow and boost in hydration with absolutely no downtime!",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Hydro Infusion Facial Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true" />,
                     "link": "/radiance-hydro-infusion-facial/"
                 },
                 {
-                    "name": "Growth Factor Microneedling",
-                    "description": "Growth Factor Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Growth Factor Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-feature.jpg?raw=true" />,
+                    "name": "Microneedling",
+                    "description": "Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-feature.jpg?raw=true" />,
                     "link": "/microneedling-ottawa/"
                 },
                 {
@@ -82,6 +82,13 @@ export const data = {
                     "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
                     "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - DMK Enzyme Therapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true" />,
                     "link": "/dmk-enzyme-therapy/"
+                },
+                {
+                    "name": "In-Clinic Consultation",
+                    "description": "Your skin is unique, and a consultation helps identify its specific needs. I will analyze your skin, address any concerns, and create a professional treatment plan with expert care and tailored recommendations. Initial in-clinic consultation: 30 minutes $50.",
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - In-Clinc Consultations" src="https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />,
+                    "link": "/contact#contact",
+                    "buttonText": "Schedule A Consultation"
                 },
             ],
         },
@@ -106,6 +113,6 @@ export const data = {
                     "name": "Trisha"
                 },
             ]
-        }
+        },
     ]
 }
