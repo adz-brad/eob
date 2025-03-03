@@ -126,13 +126,13 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="eager"
-                        src="https://www.fragmentsmag.com/en/wp-content/uploads/sites/2/2017/06/phyts-dictionary-5_3.jpg"
-                        alt="Essence of Beauty Products - Phyts"
+                        src="https://www.fragmentsmag.com/en/wp-content/uploads/sites/2/2017/06/Phyt's-dictionary-5_3.jpg"
+                        alt="Essence of Beauty Products - Phyt's"
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
                     <h2 className="text-2xl md:text-4xl mb-2">
-                        Phyts
+                        Phyt's
                     </h2>
                     <p className='my-2'>
                     Phyt's skincare is a holistic, plant-based brand that harnesses the power of nature to deliver high-performance skincare solutions. Combining organic, botanical ingredients with cutting-edge formulas, Phyt's products are designed to address various skin concerns while promoting overall skin health. Known for their commitment to sustainability and purity, Phyt's treatments focus on revitalizing, nourishing, and balancing the skin, offering a gentle yet effective approach to skincare. With a dedication to using botanical extracts and natural elements, Phyt's offers a powerful skincare experience tailored to enhance the skin’s natural beauty
@@ -153,9 +153,9 @@ export const Head = () => {
     return (
         <>
             <Seo
-                pageTitle="Products - Treat Your Skin With Leading Products From Phyts, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
+                pageTitle="Products - Treat Your Skin With Leading Products From Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
                 pageDescription="View the wide range of expertly sourced, high quality products used for acne, scarring, rosacea treatment & more available for purchase from Essence of Beauty."
-                pageKeywords="Phyts, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageKeywords="Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/products/"
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
             />
