@@ -126,7 +126,7 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="eager"
-                        src="https://www.fragmentsmag.com/en/wp-content/uploads/sites/2/2017/06/Phyt's-dictionary-5_3.jpg"
+                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/phyts.jpg?raw=true"
                         alt="Essence of Beauty Products - Phyt's"
                     />
                 </div>

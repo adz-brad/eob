@@ -50,8 +50,8 @@ const Home = () => {
               description={component.description}
               items={component.items}
             />
-                    <div className="flex flex-col py-8 lg:py-20 px-8 bg-[url('https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/white-bg.jpg?raw=true')]">
-        <div className="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-16 xl:space-x-32 items-center max-w-screen-xl mx-auto py-4 lg:py-16">
+                    <div className="flex flex-col p-4 bg-[url('https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/white-bg.jpg?raw=true')] bg-cover bg-top lg:bg-left">
+        <div className="flex flex-col lg:flex-row space-y-12 lg:space-y-0 lg:space-x-16 xl:space-x-32 items-center lg:max-w-[calc(100vw*0.8)] mx-auto py-4 lg:py-16">
             <div className="flex flex-col space-y-8 lg:w-3/5 grow">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl">
                   Consultations
@@ -65,7 +65,7 @@ const Home = () => {
                 <Button data={{text: 'Book Your Consultation Today', anchor: 'contact'}} className="buttonLight my-8
                 lg:my-auto"/>
             </div>
-            <div className="lg:-0 lg:w-2/5 h-[400px]">
+            <div className="lg:-0 lg:w-2/5 h-[360px]">
             <StaticImage loading="lazy" src="https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="h-full w-full md:shadow-lg" />
             </div>    
             </div>

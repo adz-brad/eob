@@ -38,33 +38,41 @@ const SkinPrep = () => {
                     Keep in mind that not all facials are created equal. Some are designed especially for those with extra-sensitive skin, and some are geared to repair damaged or acne prone skin. I will help you to determine what will work best for you. Be sure to let me know if you have any allergies or are taking any medications. For skin that may need a little more help, you may want to consider more advance treatments, a gentle and safe form of facial rejuvenation using treatments procedures that tightens skin, reduces pores, improves complexion tone and color. As with regular facials, you should schedule your back facial before the wedding as well. A good way to relieve wedding worries would be by lavishing in luxurious treatments while enjoying your wedding preparations. What a great way to feel more beautiful and relaxed on your wedding day!
                 </p>
                 <div className="my-2">
+                    <Link to="/radiance-hydro-infusion-facial/">
                     <h3 className="text-base md:text-xl mb-2 font-bold text-brown">
                     Radiance Infusion
                     </h3>
+                    </Link>
                     <p>
                     Get ready to glow on your special day with the Radiance Hydro Infusion, a revolutionary, non-invasive treatment tailored for brides seeking flawless, luminous skin. This advanced therapy boosts your skin’s absorption of powerful vitamins, antioxidants, minerals, amino acids, and growth factors, deeply nourishing the mesodermal layer. The result? A hydrated, rejuvenated complexion that radiates a natural, inner glow
                     </p>
                 </div>
                 <div className="my-2">
+                    <Link to='/facial-treatments-ottawa/'>
                     <h3 className="text-base md:text-xl mb-2 font-bold text-brown">
                         Brightening Facial
                     </h3>
+                    </Link>
                     <p>
                         A treatment to visibly reduce the appearance of skin discoloration and dark spots for Hyper-Pigmented skin. This treatment combines a light peel, Tranexamic Acid , Vitamin C, Needle Free Mesotherapy and LED Therapy. We are using products containing a large amount of vitamin C. It effectively improves skin complexion, prevent pigmentation and strengthen the protection against free radicals with Arbutin provides moisture, whitening, and elasticity along with prevention and suppression of aging with green tea extract. This treatment laves skin glowing and clear
                     </p>
                 </div>
                 <div className="my-2">
+                <Link to='/facial-treatments-ottawa/'>
                     <h3 className="text-base md:text-xl mb-2 font-bold text-brown">
                         Nourishing Facial
                     </h3>
+                    </Link>
                     <p>
                         Working to improve stressed and dehydrated skin, this replenishing treatment will provide a moisture boost to your skin. Your therapist will select a peel or oxygenation treatment and custom blend a mask specific to your needs. Plump the appearance of fine lines and wrinkles with this deeply nourishing, hydrating treatment. We will tailor a treatment utilising a combination of modalities (peels, masks, LED) to make sure your skin is looking its absolute best. Soothing massage is included throughout the treatment to ensure you leave feeling totally revitalised!
                     </p>
                 </div>
                 <div className="my-2">
+                    <Link to="/dmk-enzyme-therapy/">
                     <h3 className="text-base md:text-xl mb-2 font-bold text-brown">
                         DMK Signature Treatments
                     </h3>
+                    </Link>
                     <p>
                         DMK works on your internal structure and function of the skin to bring your skin back to its genetic potential. Revising your skin back to homeostasis is achieved through a course of enzyme therapy treatments, to kick start, boost and activate your skins own processes.  It is suitable for a wide range of conditions such as aging skin, sun damage, acne, rosacea and pigmentation. For more information <Link to="/dmk-enzyme-therapy/" className="font-bold text-brown hover:text-green">click here.</Link>
                     </p>
