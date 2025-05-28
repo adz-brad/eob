@@ -31,7 +31,8 @@ const BackAcne = () => {
                         <p className="mt-1 mb-2">
                             As a skin acne expert, I am very keen to help you achieve clear skin as well as providing you with a sense of confidence.
                         </p>
-                        <span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>
+<span className="my-4"><strong className="text-brown">30 min. Back Acne Consultation:</strong> $50</span>
+                        {/*<span className="my-4"><strong className="text-brown">Back Acne Treatment:</strong> $178</span>*/}
                     </div>
                     <p className="my-1">You can <Link to="holistic-acne-clinic-ottawa/">click here</Link> to learn more about the Essence of Beauty <Link to="holistic-acne-clinic-ottawa/">Holistic Acne Clinic.</Link></p>
                 </div>
