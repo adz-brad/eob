@@ -185,7 +185,7 @@ const HerbalGreenPeel = () => {
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Green Peel® Classic</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$399</strong>plus products</span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$420</strong>plus products</span>
                         <h4 className="text-base md:text-xl my-1">
                             The success of the original GREEN PEEL® Herbal Peeling Treatment Classic for decades speaks for itself. "New Skin in Five Days"
                         </h4>
@@ -212,7 +212,7 @@ const HerbalGreenPeel = () => {
                                 Some forms of hyperpigmentation
                             </li>
                         </ul>
-                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $1035</span>
+                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $1055</span>
                         <Button
                             data={{ text: "Get Started", anchor: "contact" }}
                             className="buttonLight my-8 md:mb-0 md:mx-0"
@@ -232,7 +232,7 @@ const HerbalGreenPeel = () => {
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col xl:w-1/2 xxl:w-2/3 p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Green Peel® Energy</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$320</strong></span>
                         <h4 className="text-base md:text-xl my-1">
                             The vitality & regeneration kick without peeling effect - this treatment with natural herbs noticeably provides energy.
                         </h4>
@@ -256,7 +256,7 @@ const HerbalGreenPeel = () => {
                                 Uneven skin & scars
                             </li>
                         </ul>
-                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $810</span>
+                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $870</span>
                         <Button
                             data={{ text: "Get Started", anchor: "contact" }}
                             className="buttonLight my-8 md:mb-0 md:mx-0"
@@ -276,7 +276,7 @@ const HerbalGreenPeel = () => {
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
                     <div className="flex flex-col p-4 md:p-8">
                         <h3 className="text-2xl md:text-4xl">Green Peel® Fresh Up</h3>
-                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$299</strong></span>
+                        <span className="text-lg mt-1 mb-2"><strong className="mr-2 text-green">$310</strong></span>
                         <h4 className="text-base md:text-xl my-1">
                             Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling.
                         </h4>
@@ -300,6 +300,7 @@ const HerbalGreenPeel = () => {
                                 Special occasions etc.
                             </li>
                         </ul>
+                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $840</span>
                         <Button
                             data={{ text: "Get Started", anchor: "contact" }}
                             className="buttonLight my-8 md:mb-0 md:mx-0"

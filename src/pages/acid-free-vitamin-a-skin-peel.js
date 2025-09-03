@@ -162,6 +162,9 @@ const VitaminAInfusion = () => {
                         </ul>
                     </div>
                 </Card>
+                <span className='mt-8'>
+                <strong>Per Treament: </strong>$235
+                </span>
             </div>
             <div className="flex flex-col items-center p-4">
                 <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>

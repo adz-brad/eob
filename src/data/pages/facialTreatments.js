@@ -3,25 +3,30 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 export const treatmentMenu = [
     {
-        name: "Deep Pore Cleansing Facial",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Cleansing Facial" />,
+        name: "Deep Pore Rebalancing Facial",
+        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Rebalancing Facial" />,
         imagePosition: 'left',
         content: <div className='flex flex-col space-y-2'>
             <p>
-            Indulge in a customized facial treatment crafted to maintain and enhance your complexion. This purifying experience blends time-tested European techniques to exfoliate and deeply cleanse the skin, promoting a radiant, healthy glow. Each step is carefully designed to remove impurities, restore balance, and condition the skin for noticeable, lasting results.
+Elevate your skincare routine with our Deep Pore Rebalancing Facial — a high-performance treatment
+designed to deliver visible, lasting results. More than just a traditional facial, this deeply purifying and
+corrective experience helps restore your skin’s clarity, health, and natural radiance.
             </p>
             <p>
-            Your facial includes a thorough cleansing, skin analysis, steam therapy, and a specialized extraction process that leaves your skin feeling truly rejuvenated and decongested. Enhanced with Ultrasound or LED Light Therapy. This treatment accelerates deeper dermal healing, calming inflammation, targeting acne-causing bacteria, and mattifying the complexion. It helps reduce future breakouts, making it ideal for all skin types. Treat yourself to a transformative experience that regenerates and refines your skin, leaving you with a smooth, clear, and revitalized complexion.
+This customized session includes a professional skin analysis, deep cleanse, exfoliation, steam therapy,
+and precise medical-grade extractions to clear congestion and eliminate deep-seated impurities.
+Advanced technologies like Ultrasound or LED Light Therapy are used to accelerate healing, reduce
+inflammation, and calm acne-causing bacteria..
             </p>
+            <p>
+                Suitable for all skin types, this performance treatment helps prevent breakouts, refine texture, reduce
+redness and leave your skin visibly smoother, clearer, and revitalized.
+                </p>
         </div>,
         pricing: [
             {
-                description: "With Ultrasound or LED",
-                cost: "$168",
-            },
-            {
-                description: "Without",
-                cost: "$148",
+                description: "Per Treatment",
+                cost: "$175",
             }
         ],
         link: null,
@@ -38,7 +43,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "Single Treatment",
-                cost: "$178",
+                cost: "$189",
             }
         ],
         link: "/radiance-hydro-infusion-facial/",
@@ -50,8 +55,8 @@ export const treatmentMenu = [
         content: <p className="my-1">This Ultrasonic Facial is Essence of Beauty’s premiere high-performance non-invasive facial. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
         pricing: [
             {
-                description: "85 Minute Session",
-                cost: "$168",
+                description: "80 Minute Session",
+                cost: "$175",
             }
         ],
         link: "/non-invasive-ultrasonic-facial/",
@@ -69,8 +74,8 @@ export const treatmentMenu = [
         </>,
         pricing: [
             {
-                description: "85 Minute Session",
-                cost: "$158",
+                description: "80 Minute Session",
+                cost: "$179",
             }
         ],
         link: null,
@@ -82,8 +87,8 @@ export const treatmentMenu = [
         content: <p className="my-1">A treatment to visibly reduce the appearance of skin discoloration and dark spots for Hyper-Pigmented skin. This treatment combines a light peel, Tranexamic Acid , Vitamin C, Needle Free Mesotherapy and LED Therapy. We are using products containing a large amount of vitamin C. It effectively improves skin complexion, prevent pigmentation and strengthen the protection against free radicals with Arbutin provides moisture, whitening, and elasticity along with prevention and suppression of aging with green tea extract. This treatment leaves skin glowing and clear.</p>,
         pricing: [
             {
-                description: "75 Minute Session",
-                cost: "$179 ",
+                description: "70 Minute Session",
+                cost: "$189 ",
             }
         ],
         link: null,
@@ -102,7 +107,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "Per Treatment:",
-                cost: "$178",
+                cost: "$210",
             }
         ],
         link: '/acid-free-vitamin-a-skin-peel/',
@@ -115,7 +120,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "90 Minute Session",
-                cost: "$198",
+                cost: "$199",
             }
         ],
         link: "/dmk-enzyme-therapy/",
@@ -129,7 +134,7 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "85 Minute Session",
-                cost: "$158",
+                cost: "$175",
             }
         ],
         link: null,
@@ -163,39 +168,39 @@ export const treatmentMenu = [
         pricing: [
             {
                 description: "75 Minute Session",
-                cost: "$350",
+                cost: "$360",
             }
         ],
         link: "/microneedling-ottawa/",
     },
-    {
-        name: "Intensive Acne Treatment (with LED lights or/and Micro-current)",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Led Photo Facial Treatment" />,
-        imagePosition: 'right',
-        content: <>
-            <p className="my-1">
-                A thorough and intensive acne deep cleansing, purifying treatment combined with LED lights or micro-current for anyone that has been unsuccessful in achieving desired results. These modalities are used in treating acne by increasing collateral circulation, improving intracellular hydration thereby flushing out the toxins, eliminating bacteria internally and topically and preventing future breakouts while improving the overall radiance of the skin.
-            </p>
-            <p className="my-1">
-                This facial focuses on exfoliation and extraction of waste materials found on the skin. This effective treatment helps clean and tighten your pores, eliminates excess sebum, reduces inflammation and the formation of pimples, blackheads, and whiteheads. Your skin will be refreshed and more glowing after this treatment without the harsh additives of the other skin care lines on the market! If you are serious and consistent in treating your acne you will see noticeable results.
-            </p>
-        </>,
-        pricing: [
-            {
-                description: "85 Minute Session",
-                cost: "$178",
-            }
-        ],
-        link: '/led-photo-facial-light-therapy/',
-    },
+    //{
+    //    name: "Intensive Acne Treatment (with LED lights or/and Micro-current)",
+    //    image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Led Photo Facial Treatment" />,
+    //    imagePosition: 'right',
+    //    content: <>
+    //        <p className="my-1">
+    //            A thorough and intensive acne deep cleansing, purifying treatment combined with LED lights or micro-current for anyone that has been unsuccessful in achieving desired results. These modalities are used in treating acne by increasing collateral circulation, improving intracellular hydration thereby flushing out the toxins, eliminating bacteria internally and topically and preventing future breakouts while improving the overall radiance of the skin.
+    //        </p>
+    //        <p className="my-1">
+    //            This facial focuses on exfoliation and extraction of waste materials found on the skin. This effective treatment helps clean and tighten your pores, eliminates excess sebum, reduces inflammation and the formation of pimples, blackheads, and whiteheads. Your skin will be refreshed and more glowing after this treatment without the harsh additives of the other skin care lines on the market! If you are serious and consistent in treating your acne you will see noticeable results.
+    //        </p>
+    //    </>,
+    //    pricing: [
+    //        {
+    //            description: "85 Minute Session",
+    //            cost: "$178",
+    //        }
+    //    ],
+    //    link: '/led-photo-facial-light-therapy/',
+    //},
     {
         name: "Nourishing Facial",
         image: null,
         content: <p className="my-1">Working to improve stressed and dehydrated skin, this replenishing treatment will provide a moisture boost to your skin. Your therapist will select a peel or oxygenation treatment and custom blend a mask specific to your needs. Plump the appearance of fine lines and wrinkles with this deeply nourishing, hydrating treatment. We will tailor a treatment utilising a combination of modalities (peels, masks, LED) to make sure your skin is looking its absolute best. Soothing massage is included throughout the treatment to ensure you leave feeling totally revitalised!</p>,
         pricing: [
             {
-                description: "75 Minute Session",
-                cost: "$159",
+                description: "70 Minute Session",
+                cost: "$169",
             }
         ],
         link: null,

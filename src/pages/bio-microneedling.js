@@ -375,11 +375,11 @@ Infuse life back into your skin with this deeply restorative therapy, designed t
                         </p>
                     </div>
                     <div className="my-2 flex flex-col">
-                            <span><strong className="mr-2">Single Treatment:</strong>$235</span>
+                            <span><strong className="mr-2">Single Treatment:</strong>$255</span>
                             <span>Plus post-care products.</span>
                         </div>
                         <div className="my-2 flex flex-col">
-                            <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $620</span>
+                            <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $685</span>
                         </div>
 
                     <Button

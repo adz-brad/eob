@@ -57,10 +57,10 @@ const AgingAndDehydratedSkin = () => {
                                     </p>
                                     <span className="font-bold text-brown italic">Package Price when pre-pooked and pre-paid:</span>
                                     <span>
-                                        <strong className="mr-2 text-brown">Single treatment:</strong>$178
+                                        <strong className="mr-2 text-brown">Single treatment:</strong>$189
                                     </span>
                                     <span>
-                                        <strong className="mr-2 text-brown">Package of 4:</strong>$650
+                                        <strong className="mr-2 text-brown">Package of 4:</strong>$690
                                     </span>
                                     <span>
                                         <strong className="mr-2 text-brown">
@@ -164,7 +164,7 @@ const AgingAndDehydratedSkin = () => {
                                     <p className="my-2">
                                     Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure.
                                     </p>
-                                    <strong>$350</strong>
+                                    <strong>$360</strong>
 
                                     <Button
                                         data={{ text: "Learn More", link: "/microneedling-ottawa/" }}
@@ -190,7 +190,7 @@ const AgingAndDehydratedSkin = () => {
                                         <strong className="mr-2 text-brown">Total Per Treatment Price:</strong>$399
                                     </span>
                                     <span>
-                                        <strong className="mr-2  text-brown">Package of 3 (when pre-booked & pre-paid):</strong>$1035
+                                        <strong className="mr-2  text-brown">Package of 3 (when pre-booked & pre-paid):</strong>$1055
                                     </span>
                                     <Button
                                         data={{ text: "Learn More", link: "/herbal-green-peel/" }}

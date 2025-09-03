@@ -120,12 +120,8 @@ const SpecialPeels = () => {
                     Treatment Options
                   </h4>
                   <div className="flex flex-col">
-                    <h5 className="text-base md:text-xl my-1">
-                      This peel is best done in a series of 3 or more, depending on your skin care goals.
-                    </h5>
-                    <span><strong className="mr-2 text-brown">Advanced Treatment:</strong>$330</span>
-                    <span><strong className="mr-2 text-brown">3 Treatments (package price when pre-booked / pre-paid):</strong>$710</span>
-                    <span><strong className="mr-2 text-brown">Extraction and AfterGlow Peeling :</strong>$310</span>
+                    <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$255. Ideal for more sensitive skin.</span>
+                    <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$350. Offering a deeper treatment for more intensive results</span>
                   </div>
                   <Button
                     data={{
@@ -160,10 +156,10 @@ const SpecialPeels = () => {
                     </p>
                     <div className="flex flex-col">
                       <span>
-                        <strong className="mr-2 text-brown">Per Treatment:</strong>$399 + products
+                        <strong className="mr-2 text-brown">Per Treatment:</strong>$420 + products
                       </span>
                       <span>
-                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $1035
+                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $1055
                       </span>
                     </div>
                   </div>
@@ -172,14 +168,30 @@ const SpecialPeels = () => {
                       Green Peel® Energy
                     </h4>
                     <p className="my-1">
-                      This treatment with natural herbs noticeably provides energy. It stimulates blood circulation and metabolism and thus leads to a natural improvement of the skin texture without any peeling effect. GREEN PEEL® Energy provides your skin with the natural energy it needs to renew the cells. It helps to reduce age-related skin appearances as well as impurities, scarring and pigment disorders. The treatment visibly improves the skin’s appearance and harmonizes its surface. It works ideally as repeated, intensive salon treatment several times a year.
+                      The vitality & regeneration kick without peeling effect - this treatment with natural herbs noticeably provides energy.
                     </p>
                     <div className="flex flex-col">
                       <span>
-                        <strong className="mr-2 text-brown">Per Treatment:</strong>$299
+                        <strong className="mr-2 text-brown">Per Treatment:</strong>$320
                       </span>
                       <span>
-                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $810
+                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $870
+                      </span>
+                    </div>
+                  </div>
+                  <div className="my-2">
+                    <h4 className="text-base md:text-xl font-bold text-brown my-2">
+                      Green Peel® Fresh Up
+                    </h4>
+                    <p className="my-1">
+                       Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling.
+                    </p>
+                    <div className="flex flex-col">
+                      <span>
+                        <strong className="mr-2 text-brown">Per Treatment:</strong>$310
+                      </span>
+                      <span>
+                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $840
                       </span>
                     </div>
                   </div>
@@ -254,7 +266,7 @@ const SpecialPeels = () => {
                     Best results come from monthly visits. May be repeated every 3-4 weeks, not to exceed 12 in a year. It is recommended that you be using a recommended Osmosis Vitamin A serum for a month prior to receiving an infusion, but I can customize to occasionally make an exception.
                   </p>
                   <span>
-                    <strong className="mr-2 text-brown">Per Treatment:</strong>$178
+                    <strong className="mr-2 text-brown">Per Treatment: </strong>$235
                   </span>
                   <Button
                     data={{

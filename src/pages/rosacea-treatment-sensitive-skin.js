@@ -178,7 +178,7 @@ const Rosacea = () => {
                         weeks apart will give best results.
                       </p>
                       <span>
-                        <strong className="mr-2 text-brown">80 minute session:</strong>$158
+                        <strong className="mr-2 text-brown">80 minute session:</strong>$175
                       </span>
                       <Button
                         data={{
@@ -276,7 +276,7 @@ const Rosacea = () => {
                         <strong className="mr-2 text-brown">
                           90 minute session (when pre-booked & pre-paid):
                         </strong>
-                        $188
+                        $199
                       </span>
                       <Button
                         data={{
@@ -289,40 +289,45 @@ const Rosacea = () => {
                   ),
                 },
                 {
-                  name: "OsmosisMD",
+                  name: "Microneedling",
                   content: (
                     <div className="flex flex-col lg:px-4">
                       <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                        OsmosisMD
+                        Microneedling
                       </h2>
                       <p className="my-2">
-                        In order to fully appreciate what
-                        these products can achieve for you, it is important to understand
-                        that our skin functions within a process dictated by nature.
-                        OsmosisMD products have been developed to produce their amazing
-                        results via an integrated system that works in harmony with
-                        nature. It is the science of this natural process that provides
-                        the foundation of the formulation and functioning of OsmosisMD. So
-                        that rather than products that simply treat the skin’s surface
-                        with aggressive topicals that force nature and force temporary
-                        change, OsmosisMD products are formulated to assist and support
-                        nature’s scientific process, products that transform damaged,
-                        aging, injured skin into healed, moist, beautiful skin. The
-                        scientific approach behind OsmosisMD recognizes that healing and
-                        transformative results require that the skin must be replenished,
-                        restored and repaired at the deeper skin cells. However, these
-                        products provide more than that. The organic and anti-oxidant
-                        ingredient formulation of OsmosisMD also gently replenishes,
-                        restores and repairs the surface skin cells. What this means for
-                        you is that the products have a simultaneous dual action – one
-                        that transforms your deeper cells where real change is required,
-                        but also one that very quickly and visibly transforms your surface
-                        cells for brighter, clearer, smoother, healthier skin.
+            Microneedling is a relatively new approach in the beauty industry used to treat skin concerns by encouraging the skin to produce excessive collagen. This revolutionary rejuvenation procedure is conducted using fine, short needles that create invisible injuries on the skin to boost natural self-healing processes. It is a 100% safe procedure that brings tangible results. The skin becomes hydrated and shining while deep wrinkles and scars disappear. A microneedling facial might also be used for reducing sun spots, pigmentation and scars. This next-generation beauty procedure is the perfect alternative to cosmetic surgery. So, if you’re in two minds about what beauty procedure can make your skin look younger, schedule an appointment with our certified cosmetics specialists. We will check your skin’s quality to conclude whether you’re the right candidate for this procedure.
                       </p>
+                      <span>
+                        $360
+                        </span>
                       <Button
                         data={{
-                          text: "Learn More About Osmosis MD",
-                          link: "/osmosismd/",
+                          text: "Learn More About Microneedling",
+                          link: "/microneedling-ottawa/",
+                        }}
+                        className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
+                      />
+                    </div>
+                  ),
+                },
+                {
+                  name: "Green Peel®",
+                  content: (
+                    <div className="flex flex-col lg:px-4">
+                      <h2 className="text-xl md:text-2xl lg:text-3xl mb-4">
+                        Green Peel®
+                      </h2>
+                      <p className="my-2">
+                        In keeping with our philosophy, the Green Peel® offers you an opportunity to experience all the benefits of skin refreshment, skin renewal, skin brightening, and skin treatments that are often associated with acids “BUT” without the very questionable immediate and longer-terms disadvantage. So you see, the Green Peel® is not only truly green in colour but naturally “Green” in its ingredients, in what it can treat and in its benefits as well. Green Peel® – Ingredients Aptly named, the GREEN PEEL® is an herbal formulation composed of natural active substances such as vitamins, plant hormones, enzymes, mineral salts, various dried flowers, sea weeds sand other beneficial ingredients. Not an acid anywhere and you’ll hear no tell-tale sizzle of cooking skin with our Green Peel®.
+                      </p>
+                      <span>
+                        $420
+                        </span>
+                      <Button
+                        data={{
+                          text: "Learn More About Green Peel®",
+                          link: "/herbal-green-peel/",
                         }}
                         className="buttonLight bg-white mt-8 lg:mt-8 mb-4 md:mx-0"
                       />

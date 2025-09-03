@@ -151,7 +151,6 @@ const AnteageStemCell = () => {
                                 The AnteAGE Accelerator is a performance driven treatment rich in powerful moisturizers and revitalizing actives. Stem Cytokines™, vitamins, and targeted antioxidants work to deeply hydrate and nourish the skin, while two research-backed molecules (a defensin peptide and retinoid-like compound) enhance the pro-healing, regenerative and anti-inflammatory potential of the AnteAGE system.
                             </p>
                         </div>
-                        <span className="my-auto"><strong>$145</strong>/ 1 hr + Anti-aging, brightening or clarifying.</span>
                     </div>
                     <StaticImage
                         src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageHome.png?raw=true"

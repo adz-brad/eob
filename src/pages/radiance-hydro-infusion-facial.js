@@ -94,10 +94,10 @@ The procedure is entirely relaxing and offers both immediate and long-lasting re
                     <h2 className="text-2xl md:text-4xl font-bold my-4">
                         Treatment Pricing
                     </h2>
-                    <span><strong className="mr-2">Single Treatment:</strong>$178</span>
+                    <span><strong className="mr-2">Single Treatment:</strong>$189</span>
                     <div className="flex flex-col">
                         <h4 className="text-base md:text-xl font-bold mt-4 mb-2 text-brown">Package Prices when pre-booked & pre-paid:</h4>
-                        <span><strong className="mr-2">4 Treatments:</strong>$650</span>
+                        <span><strong className="mr-2">4 Treatments:</strong>$690</span>
                     </div>
                     <div className="flex flex-col">
                         <span className="text-base font-bold mt-4 mb-2 ">Advanced add-ons available with Radiance Hydro Infusion Facial</span>

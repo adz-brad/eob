@@ -38,7 +38,7 @@ const FacialTreatments = () => {
                         loading="lazy"
                         className="my-8 md:my-0 mx-auto"
                         src="https://www.youtube.com/embed/ZCLPUWGVBis"
-                        title="Advance Deep Pore Cleansing Facial Treatment with Extractions"
+                        title="Advanced Deep Pore Cleansing Facial Treatment with Extractions"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         webkitallowfullscreen="true"

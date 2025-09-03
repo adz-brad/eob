@@ -87,11 +87,8 @@ const AfterglowPeel = () => {
 
                     </div>
                     <div className="flex flex-col">
-                        <h4 className="text-base md:text-xl my-1">
-                        This peel is tailored to your skin's needs, with two levels of treatment depending on your goals:
-                        </h4>
-                        <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$225. Ideal for more sensitive skin.</span>
-                        <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$310. Offering a deeper treatment for more intesive results.</span>
+                        <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$255. Ideal for more sensitive skin.</span>
+                        <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$350. Offering a deeper treatment for more intesive results.</span>
                     </div>
                     <Button
                         data={{ text: "Book Today!", anchor: "contact" }}
