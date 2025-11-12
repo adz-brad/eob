@@ -124,8 +124,8 @@ const Microneedling = () => {
                         </p>
                         <div className="flex flex-col my-4">
                             <h4 className="font-bold mb-4 text-brown">Treatment Cost:</h4>
-                            <span><strong>$360</strong>/ individual treatment</span>
-                            <span><strong>$1005</strong>/ 3 treatments package when pre-booked & pre-paid</span>
+                            <span><strong>$350</strong>/ individual treatment</span>
+                            <span><strong>$975</strong>/ 3 treatments package when pre-booked & pre-paid</span>
                         </div>
                     </div>
                 </Card>

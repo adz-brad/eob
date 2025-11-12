@@ -87,8 +87,11 @@ const AfterglowPeel = () => {
 
                     </div>
                     <div className="flex flex-col">
-                        <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$255. Ideal for more sensitive skin.</span>
-                        <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$350. Offering a deeper treatment for more intesive results.</span>
+                        <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$235. Ideal for more sensitive skin.</span>
+                        <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$350. Offering a deeper treatment for more intensive results.</span>
+                        <span><strong className="mr-2 text-brown">Advanced Treatment:</strong>$330</span>
+                        <span><strong className="mr-2 text-brown">3 Treatments (package price when pre-booked / pre-paid):</strong>$710</span>
+                        <span><strong className="mr-2 text-brown">Extraction and AfterGlow Peeling:</strong>$310</span>
                     </div>
                     <Button
                         data={{ text: "Book Today!", anchor: "contact" }}

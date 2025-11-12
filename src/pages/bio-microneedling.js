@@ -379,7 +379,7 @@ Infuse life back into your skin with this deeply restorative therapy, designed t
                             <span>Plus post-care products.</span>
                         </div>
                         <div className="my-2 flex flex-col">
-                            <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $685</span>
+                            <span><strong className="mr-2">Package Prices when pre-booked & pre-paid:</strong>3 for $645</span>
                         </div>
 
                     <Button

@@ -8,24 +8,25 @@ export const treatmentMenu = [
         imagePosition: 'left',
         content: <div className='flex flex-col space-y-2'>
             <p>
-Elevate your skincare routine with our Deep Pore Rebalancing Facial — a high-performance treatment
-designed to deliver visible, lasting results. More than just a traditional facial, this deeply purifying and
-corrective experience helps restore your skin’s clarity, health, and natural radiance.
+                Bring your skin back to balance with this deeply cleansing and restorative treatment. — a purifying and corrective treatment that restores clarity, smoothness, and radiance.
             </p>
             <p>
-This customized session includes a professional skin analysis, deep cleanse, exfoliation, steam therapy,
-and precise medical-grade extractions to clear congestion and eliminate deep-seated impurities.
-Advanced technologies like Ultrasound or LED Light Therapy are used to accelerate healing, reduce
-inflammation, and calm acne-causing bacteria..
+                This customized facial includes a detailed skin analysis, deep cleansing, gentle exfoliation, steam, and thorough medical-grade extractions to remove buildup and impurities.
             </p>
             <p>
-                Suitable for all skin types, this performance treatment helps prevent breakouts, refine texture, reduce
-redness and leave your skin visibly smoother, clearer, and revitalized.
-                </p>
+                For enhanced results and advanced options, the LED Light Therapy or Ultrasound Therapy are added to accelerate and promote deeper healing, calm inflammation, and balance acne-prone or congested skin.
+            </p>
+            <p>
+                Perfect for anyone struggling with blackheads, whiteheads, breakouts, or acne-prone skin, as well as those seeking to balance dullness or uneven texture. This high-performance treatment is designed to deliver visible, lasting results, leaving your skin decongested.
+            </p>
         </div>,
         pricing: [
             {
-                description: "Per Treatment",
+                description: "Per Treatment (without advanced therapy)",
+                cost: "$148",
+            },
+            {
+                description: "Per Treatment (includes LED or Ultrasound Therapy)",
                 cost: "$175",
             }
         ],
@@ -56,7 +57,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "80 Minute Session",
-                cost: "$175",
+                cost: "$168",
             }
         ],
         link: "/non-invasive-ultrasonic-facial/",
@@ -75,7 +76,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "80 Minute Session",
-                cost: "$179",
+                cost: "$168",
             }
         ],
         link: null,
@@ -107,7 +108,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "Per Treatment:",
-                cost: "$210",
+                cost: "$235",
             }
         ],
         link: '/acid-free-vitamin-a-skin-peel/',
@@ -134,7 +135,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "85 Minute Session",
-                cost: "$175",
+                cost: "$168",
             }
         ],
         link: null,
@@ -168,7 +169,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "75 Minute Session",
-                cost: "$360",
+                cost: "$350",
             }
         ],
         link: "/microneedling-ottawa/",
@@ -200,7 +201,7 @@ redness and leave your skin visibly smoother, clearer, and revitalized.
         pricing: [
             {
                 description: "70 Minute Session",
-                cost: "$169",
+                cost: "$159",
             }
         ],
         link: null,

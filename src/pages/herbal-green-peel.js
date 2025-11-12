@@ -212,7 +212,7 @@ const HerbalGreenPeel = () => {
                                 Some forms of hyperpigmentation
                             </li>
                         </ul>
-                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $1055</span>
+                        <span><strong className="mr-2">Package price when pre-booked & pre-paid:</strong>3 treatments for $1110</span>
                         <Button
                             data={{ text: "Get Started", anchor: "contact" }}
                             className="buttonLight my-8 md:mb-0 md:mx-0"
