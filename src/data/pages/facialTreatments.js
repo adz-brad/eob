@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 export const treatmentMenu = [
     {
-        name: "Deep Pore Rebalancing Facial",
+        name: "Deep Pore Cleansing Facial",
         image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Rebalancing Facial" />,
         imagePosition: 'left',
         content: <div className='flex flex-col space-y-2'>

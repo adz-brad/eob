@@ -78,7 +78,7 @@ const FacialTreatments = () => {
                                         {treatment.pricing ?
                                             treatment.pricing.map((option) => {
                                                 return (
-                                                    <span className="lg:mb-8">
+                                                    <span className="lg:mb-1">
                                                         <strong className="mr-2 text-brown">
                                                             {option.description}
                                                         </strong>

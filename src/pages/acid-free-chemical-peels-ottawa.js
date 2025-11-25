@@ -50,25 +50,25 @@ const SpecialPeels = () => {
               content: (
                 <div className="flex flex-col lg:px-4 pb-4">
                   <h3 className="text-xl md:text-2xl lg:text-3xl mb-4">
-                  Bio Microneedling
+                    Bio Microneedling
                   </h3>
                   <p className="my-2">
-                  Available exclusively at Essence of Beauty Ottawa, Bio Microneedling offers a revolutionary alternative to traditional microneedling and exfoliating acids. Ideal for all skin types, it leverages powerful healing properties to activate the body’s natural scar-repair process and accelerate skin cell renewal.
+                    Available exclusively at Essence of Beauty Ottawa, Bio Microneedling offers a revolutionary alternative to traditional microneedling and exfoliating acids. Ideal for all skin types, it leverages powerful healing properties to activate the body’s natural scar-repair process and accelerate skin cell renewal.
                   </p>
                   <ul className="list-disc my-4 ml-4">
                     <p className="text-brown italic font-semibold text-lg my-1">
                       The Benefits:
                     </p>
                     <li className="my-1">
-                    Active Acne Balancing and Preventing Future Breakouts
+                      Active Acne Balancing and Preventing Future Breakouts
                     </li>
                     <li className="my-1">
-                    Improves Post-Acne Scars 
+                      Improves Post-Acne Scars
                     </li>
                     <li className="my-1">
-                    Biocompatible & 100% Natural
+                      Biocompatible & 100% Natural
                     </li>
-                
+
                   </ul>
                   <Button
                     data={{
@@ -120,8 +120,8 @@ const SpecialPeels = () => {
                     Treatment Options
                   </h4>
                   <div className="flex flex-col">
-                    <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$255. Ideal for more sensitive skin.</span>
-                    <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$350. Offering a deeper treatment for more intensive results</span>
+                    <span><strong className="mr-2 text-brown">Level 1 Peel:</strong>$235. Ideal for more sensitive skin.</span>
+                    <span><strong className="mr-2 text-brown">Level 2 Peel:</strong>$340. Offering a deeper treatment for more intensive results</span>
                   </div>
                   <Button
                     data={{
@@ -159,7 +159,7 @@ const SpecialPeels = () => {
                         <strong className="mr-2 text-brown">Per Treatment:</strong>$420 + products
                       </span>
                       <span>
-                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $1055
+                        <strong className="mr-2 text-brown">Package Price when pre-booked and pre-paid:</strong>3 Treatments for $1110
                       </span>
                     </div>
                   </div>
@@ -184,7 +184,7 @@ const SpecialPeels = () => {
                       Green Peel® Fresh Up
                     </h4>
                     <p className="my-1">
-                       Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling.
+                      Green Peel® Fresh Up is the gentlest of the treatments methods - the skin is stimulated and refreshed-completely without peeling.
                     </p>
                     <div className="flex flex-col">
                       <span>
