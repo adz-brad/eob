@@ -44,6 +44,7 @@ const FacialTreatments = () => {
                         webkitallowfullscreen="true"
                         mozallowfullscreen="true"
                         allowfullscreen
+                        referrerpolicy="no-referrer-when-downgrade"
                     />
 
                 </div>

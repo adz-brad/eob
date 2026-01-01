@@ -226,6 +226,7 @@ const HerbalGreenPeel = () => {
                             title="GREEN PEEL® Herbal Peeling Classic - by Dr. med. Schrammek Kosmetik" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
+                            referrerpolicy="no-referrer-when-downgrade"
                         />
                     </div>
                 </Card>
@@ -270,6 +271,7 @@ const HerbalGreenPeel = () => {
                             title="GREEN PEEL® Herbal Peeling Energy- by Dr. med. Schrammek Kosmetik" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
+                            referrerpolicy="no-referrer-when-downgrade"
                         />
                     </div>
                 </Card>

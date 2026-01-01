@@ -50,6 +50,7 @@ module.exports = {
           "script-src":  "https://*.googletagmanager.com",
           "img-src": "https://*.google-analytics.com https://*.googletagmanager.com",
           "connect-src": "https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
+          "frame-src": "https://*.youtube.com https://*.youtube-nocookie.com",
         }
       }
     },
