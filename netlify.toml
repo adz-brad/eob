@@ -1,9 +1,17 @@
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "20"
+  npm_config_sharp_binary_host = "https://npm.taobao.org/mirrors/sharp-libvips/"
+
 [[plugins]]
-package = "@netlify/plugin-sitemap"
+  package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
-  prettyURLs = true
-  trailingSlash = true
+    prettyURLs = true
+    trailingSlash = true
 
 [[headers]]
   for = "/*"
