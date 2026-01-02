@@ -39,7 +39,14 @@ export const onRenderBody = ({ setHtmlAttributes, setHeadComponents }) => {
               }
             ],
             "priceRange": "$$",
-            "paymentAccepted": "Cash, Debit, E-transfer"
+            "paymentAccepted": "Cash, Debit, E-transfer",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "82",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
           })
         }
       })
