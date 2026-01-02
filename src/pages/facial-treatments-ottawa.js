@@ -122,16 +122,38 @@ const FacialTreatments = () => {
 export default FacialTreatments
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/facial-treatments-ottawa/"
+    
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Facial Treatments",
+        "description": "Customized facials and peels designed to expertly treat acne, scarring, signs of aging, pigmentation, rosacea and more by addressing your skin's unique needs.",
+        "provider": {
+            "@type": "Organization",
+            "@id": "https://www.essenceofbeauty.ca/#organization",
+            "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Ottawa"
+        },
+        "serviceType": "Facial Treatment",
+        "url": pageUrl
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Facials For Women & Men - Organic, Acid-Free Treatment For All Skin Types"
                 pageDescription="Essence of Beauty Ottawa integrates the health of your body into equation for immediately noticeable and long-lasting results in treating acne, scarring, pigmentation, rosacea & more."
                 pageKeywords="Skincare, Checmical-free, No-Acid, Facials, Acid free, No Chemicals, Sensitive SkinFacials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/facial-treatments-ottawa/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"
+                pageType="service"
+                additionalSchema={serviceSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/facial-treatments-ottawa/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

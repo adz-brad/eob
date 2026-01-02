@@ -141,16 +141,38 @@ const Microneedling = () => {
 export default Microneedling
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/microneedling-ottawa/"
+    
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Microneedling",
+        "description": "Microneedling treatment to stimulate collagen production, reduce acne scarring and remodel trauma scars, improve photo damaged skin & roughness, and reduce mild to moderate wrinkles.",
+        "provider": {
+            "@type": "Organization",
+            "@id": "https://www.essenceofbeauty.ca/#organization",
+            "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Ottawa"
+        },
+        "serviceType": "Microneedling Treatment",
+        "url": pageUrl
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Microneedling Ottawa - Treat Sun Damaged Skin, Acne, Scarring"
                 pageDescription="Essence of Beauty Ottawa uses microneedling to stimulate collagen production, reduce acne scarring and remodel trauma scars, improve photo damaged skin & roughness, and reduce mild to moderate wrinkles."
                 pageKeywords="Growth Factor Microneedling, Pores, Damaged Skin, Acne Scarring, Micro-needling, micro needle, Microneedling, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/microneedling-ottawa/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/growth-factor-microneedling.jpg?raw=true"
+                pageType="service"
+                additionalSchema={serviceSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/microneedling-ottawa/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

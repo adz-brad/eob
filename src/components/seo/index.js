@@ -7,6 +7,11 @@ const Seo = ({
   pageImage,
   pageUrl,
   pageKeywords,
+  pageType = "website",
+  articleAuthor,
+  articlePublishedTime,
+  articleModifiedTime,
+  additionalSchema,
 }) => {
 
   // Properties passed from the SEO component in each file are programmatically injected into the tags contained in this file.
@@ -44,10 +49,25 @@ const Seo = ({
       <meta property="og:description" content={pageDescription} />
       <meta property="og:image" content={pageImage} />
       <meta property="og:url" content={pageUrl} />
+      <meta property="og:type" content={pageType} />
+      <meta property="og:locale" content="en_CA" />
       <meta
         property="og:site_name"
         content="Essence of Beauty Ottawa Acne Clinic"
       />
+
+      {/* Article Meta Tags */}
+      {pageType === "article" && articleAuthor && (
+        <>
+          <meta property="article:author" content={articleAuthor} />
+          {articlePublishedTime && (
+            <meta property="article:published_time" content={articlePublishedTime} />
+          )}
+          {articleModifiedTime && (
+            <meta property="article:modified_time" content={articleModifiedTime} />
+          )}
+        </>
+      )}
 
       {/* Twitter Meta Tags */}
 
@@ -132,7 +152,21 @@ const Seo = ({
                   "@id":"https://www.essenceofbeauty.ca/#organization",
                   "name":"Essence of Beauty Ottawa Acne & Skin Clinic",
                   "url":"https://www.essenceofbeauty.ca/",
-                  "sameAs":[],
+                  "telephone":"+1 (613) 220-2101",
+                  "address":{
+                    "@type":"PostalAddress",
+                    "streetAddress":"3626 Downpatrick Rd",
+                    "addressLocality":"Gloucester",
+                    "addressRegion":"ON",
+                    "postalCode":"K1V 8Y9",
+                    "addressCountry":"CA"
+                  },
+                  "sameAs":[
+                    "https://www.facebook.com/essenceofbeautyottawa",
+                    "https://www.instagram.com/essenceofbeauty.ottawa/",
+                    "https://www.pinterest.ca/essenceofbeautyottawa/",
+                    "https://www.linkedin.com/company/essence-of-beauty-ottawa/"
+                  ],
                   "logo":
                   {
                     "@type":"ImageObject",
@@ -149,6 +183,21 @@ const Seo = ({
               ]
             }`}
       </Script>
+      {additionalSchema && (
+        <>
+          {Array.isArray(additionalSchema) ? (
+            additionalSchema.map((schema, index) => (
+              <Script key={index} type="application/ld+json">
+                {JSON.stringify(schema)}
+              </Script>
+            ))
+          ) : (
+            <Script type="application/ld+json">
+              {JSON.stringify(additionalSchema)}
+            </Script>
+          )}
+        </>
+      )}
     </>
   )
 }

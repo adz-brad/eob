@@ -91,16 +91,63 @@ const Home = () => {
 export default Home
 
 export const Head = () => {
+  const pageUrl = "https://www.essenceofbeauty.ca"
+  
+  const searchActionSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.essenceofbeauty.ca/#website",
+    "url": pageUrl,
+    "name": "Essence of Beauty Ottawa Acne & Skin Clinic",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${pageUrl}/?s={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "@id": "https://www.essenceofbeauty.ca/#localbusiness",
+    "name": "Essence of Beauty",
+    "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true",
+    "url": pageUrl,
+    "telephone": "+1 (613) 220-2101",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3626 Downpatrick Rd",
+      "addressLocality": "Gloucester",
+      "addressRegion": "ON",
+      "postalCode": "K1V 8Y9",
+      "addressCountry": "CA"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
+        "opens": "10:00",
+        "closes": "18:30"
+      }
+    ],
+    "priceRange": "$$",
+    "paymentAccepted": "Cash, Debit, E-transfer"
+  }
+  
   return (
     <>
       <Seo
         pageTitle="Acne, Scarring & Rosacea Treaments, Peels & Facials Ottawa"
         pageDescription="Essence of Beauty specializes in highly effective skin treatments, natural facials & peels that are safe and gentle enough for the most sensitive skin types!"
         pageKeywords="Essence of Beauty, Chemical Peel, Acid-Free Peel, Sensitive Skin, Scars, Rosacea, Acne Scars, Rejuvenation, Renew, Therapy, Aging, Anti Aging, Safe, Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca"
+        pageUrl={pageUrl}
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+        additionalSchema={[searchActionSchema, localBusinessSchema]}
       />
-      <link rel="canonical" href="https://www.essenceofbeauty.ca" />
+      <link rel="canonical" href={pageUrl} />
     </>
   )
 }

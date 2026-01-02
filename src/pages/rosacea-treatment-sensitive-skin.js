@@ -369,16 +369,38 @@ const Rosacea = () => {
 export default Rosacea
 
 export const Head = () => {
+  const pageUrl = "https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
+  
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Rosacea & Sensitive Skin Treatment",
+    "description": "Specialized treatment for rosacea and sensitive skin using 302 skincare recommendations, developing customized treatment plans based on individual needs.",
+    "provider": {
+      "@type": "Organization",
+      "@id": "https://www.essenceofbeauty.ca/#organization",
+      "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Ottawa"
+    },
+    "serviceType": "Rosacea Treatment",
+    "url": pageUrl
+  }
+  
   return (
     <>
       <Seo
         pageTitle="Rosacea & Sensitive Skin Ottawa - Natural Acne Treatments"
         pageDescription="Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing recommendations based specifically on what's working for them."
         pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-        pageUrl="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/"
+        pageUrl={pageUrl}
         pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+        pageType="service"
+        additionalSchema={serviceSchema}
       />
-      <link rel="canonical" href="https://www.essenceofbeauty.ca/rosacea-treatment-sensitive-skin/" />
+      <link rel="canonical" href={pageUrl} />
     </>
   )
 } 

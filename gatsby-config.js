@@ -62,9 +62,11 @@ module.exports = {
         policy: [
           { 
             userAgent: '*', 
-            allow: '/' 
+            allow: '/',
+            disallow: ['/dev-404-page/', '/404.html']
           }
-        ]
+        ],
+        output: '/robots.txt'
       },
     },
     {
@@ -84,14 +86,29 @@ module.exports = {
       __key: "blog"
     },
     'gatsby-plugin-postcss',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Marcellus`,
+          `Roboto:400,700`
+        ],
+        display: 'swap',
+        preconnect: true,
+        attributes: {
+          rel: 'preload',
+          as: 'style',
+        },
+      },
+    },
     'gatsby-plugin-image',
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          formats: [`auto`, `webp`],
-          placeholder: `none`,
-          quality: 100,
+          formats: [`auto`, `webp`, `avif`],
+          placeholder: `blurred`,
+          quality: 85,
           breakpoints: [600, 768, 992, 1280, 1536],
           backgroundColor: `transparent`,
         },

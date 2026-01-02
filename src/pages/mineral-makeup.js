@@ -267,16 +267,38 @@ const OsmosisMakeup = () => {
 export default OsmosisMakeup
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/mineral-makeup/"
+    
+    const productSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Osmosis + Colour Mineral Makeup",
+        "description": "Osmosis + Color products designed to restore your skin to its most healthy state while enhancing it's natural radiance.",
+        "brand": {
+            "@type": "Brand",
+            "name": "Osmosis + Colour"
+        },
+        "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true",
+        "url": pageUrl,
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "url": pageUrl
+        }
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Osmosis + Colour Mineral Makeup Ottawa - Enhance & Repair Your Skin With Osmosis Mineral Makeup"
                 pageDescription="Essence of Beauty Skin Rejuventation Clinic Ottawa is proud to supply Osmosis + Color products designed to restore your skin to its most healthy state while enhancing it's natural radiance."
                 pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/mineral-makeup/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
+                pageType="product"
+                additionalSchema={productSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/mineral-makeup/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

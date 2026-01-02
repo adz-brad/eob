@@ -150,16 +150,34 @@ const Products = () => {
 export default Products
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/products/"
+    
+    const productSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Skincare Products",
+        "description": "Expertly sourced, high quality skincare products from leading brands including Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge for acne, scarring, rosacea treatment and more.",
+        "brand": {
+            "@type": "Organization",
+            "@id": "https://www.essenceofbeauty.ca/#organization",
+            "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
+        },
+        "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true",
+        "url": pageUrl
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Products - Treat Your Skin With Leading Products From Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab & AnteAge!"
                 pageDescription="View the wide range of expertly sourced, high quality products used for acne, scarring, rosacea treatment & more available for purchase from Essence of Beauty."
                 pageKeywords="Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/products/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
+                pageType="product"
+                additionalSchema={productSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/products/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

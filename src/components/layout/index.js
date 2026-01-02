@@ -17,22 +17,22 @@ const Layout = ({ children }) => {
                 "telephone": "+1 (613) 220-2101",
                 "address": {
                     "@type": "PostalAddress",
-                    "streetAddress": "2197 Riverside Drive Suite #200",
-                    "addressLocality": "Ottawa",
+                    "streetAddress": "3626 Downpatrick Rd",
+                    "addressLocality": "Gloucester",
                     "addressRegion": "ON",
-                    "postalCode": "K1H 7X3",
+                    "postalCode": "K1V 8Y9",
                     "addressCountry": "CA"
                 },
-                "openingHoursSpecification": {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": [
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                    ],
-                    "opens": "10:00",
-                    "closes": "18:00"
-                } 
+                "openingHoursSpecification": [
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": ["Wednesday", "Thursday", "Friday"],
+                        "opens": "10:00",
+                        "closes": "18:30"
+                    }
+                ],
+                "priceRange": "$$",
+                "paymentAccepted": "Cash, Debit, E-transfer"
             }`}
       </Script>
       <Navbar />

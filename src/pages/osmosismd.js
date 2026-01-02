@@ -90,16 +90,38 @@ const OsmosisMd = () => {
 export default OsmosisMd
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/osmosismd/"
+    
+    const productSchema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "Osmosis + Beauty MD",
+        "description": "Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature. The organic and anti-oxidant ingredient formulation gently replenishes, restores and repairs the surface skin cells.",
+        "brand": {
+            "@type": "Brand",
+            "name": "Osmosis + Beauty MD"
+        },
+        "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true",
+        "url": pageUrl,
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "url": pageUrl
+        }
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Osmosis + Beauty MD - Treat Acne, Rosacea, Hyperpigmentation & More With OsmosisMD at Essence of Beauty Ottawa"
                 pageDescription="Osmosis+Beauty MD products have been developed to produce their amazing results via an integrated system that works in harmony with nature. The organic and anti-oxidant ingredient formulation of Osmosis+Beauty MD gently replenishes, restores and repairs the surface skin cells."
                 pageKeywords="Osmosis, Beauty, MD, Osmosis + Beauty MD, Medical Skin Care, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/osmosismd/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMdMain.jpg?raw=true"
+                pageType="product"
+                additionalSchema={productSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/osmosismd/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

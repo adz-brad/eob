@@ -54,6 +54,7 @@ export const pageQuery = graphql`
                 frontmatter {
                     title
                     date(formatString: "MMM DD, YYYY")
+                    dateISO: date
                     featuredImage
                     excerpt
                 }
@@ -76,16 +77,51 @@ export default BlogTemplate
 
 export const Head = ({ data }) => {
     const frontmatter = data.blog.childMarkdownRemark.frontmatter
+    const pageUrl = `https://www.essenceofbeauty.ca${data.blog.slug}/`
+    
+    const articleSchema = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": frontmatter.title,
+        "description": frontmatter.excerpt,
+        "image": frontmatter.featuredImage,
+        "author": {
+            "@type": "Person",
+            "name": "Eva Sieradzan"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.essenceofbeauty.ca/#organization",
+            "name": "Essence of Beauty Ottawa Acne & Skin Clinic",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true"
+            }
+        },
+        "datePublished": frontmatter.dateISO,
+        "dateModified": frontmatter.dateISO,
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": pageUrl
+        },
+        "url": pageUrl
+    }
+    
     return (
         <>
             <Seo
                 pageTitle={frontmatter.title}
                 pageDescription={frontmatter.excerpt}
                 pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl={`https://www.essenceofbeauty.ca${data.blog.slug}/`}
+                pageUrl={pageUrl}
                 pageImage={frontmatter.featuredImage}
+                pageType="article"
+                articleAuthor="Eva Sieradzan"
+                articlePublishedTime={frontmatter.dateISO}
+                articleModifiedTime={frontmatter.dateISO}
+                additionalSchema={articleSchema}
             />
-            <link rel="canonical" href={`https://www.essenceofbeauty.ca${data.blog.slug}/`} />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 }

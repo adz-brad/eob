@@ -147,16 +147,38 @@ const AcneTreatment = () => {
 export default AcneTreatment
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/acne-treatment-ottawa/"
+    
+    const serviceSchema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Acne Treatment",
+        "description": "Advanced skin rejuvenation treatments customized to treat acne by helping to correct imbalances in your skin and deeply cleanse and clarify congested pores.",
+        "provider": {
+            "@type": "Organization",
+            "@id": "https://www.essenceofbeauty.ca/#organization",
+            "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "Ottawa"
+        },
+        "serviceType": "Acne Treatment",
+        "url": pageUrl
+    }
+    
     return (
         <>
             <Seo
                 pageTitle="Acne Treatment Ottawa - Facials & Peels For Acne & Skin Issues"
                 pageDescription="Our advanced skin rejuvenation treatments are customized to treat YOUR acne by helping to correct imbalances in your skin and deeply cleanse and clarify congested pores."
                 pageKeywords="Acne Treatment, Acne scars, dark spots, lesions, sensitive skin, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/acne-treatment-ottawa/"
+                pageUrl={pageUrl}
                 pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true"
+                pageType="service"
+                additionalSchema={serviceSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/acne-treatment-ottawa/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 
