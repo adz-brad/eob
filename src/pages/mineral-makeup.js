@@ -12,11 +12,11 @@ const OsmosisMakeup = () => {
             <Banner
                 heading="Osmosis + Colour Mineral Makeup"
                 gradient="from-black/50 via-black/20 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Mineral Makeup" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/makeupOsmosisHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Mineral Makeup" src="../assets/images/makeupOsmosisHeader.jpg" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-4 my-8" aria-labelledby="mineral-makeup-heading">
                 <div className="flex flex-col lg:my-8 md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">What makes Osmosis + colour the best mineral makeup?</h1>
+                    <h1 id="mineral-makeup-heading" className="text-2xl md:text-4xl font-bold mb-2">What makes Osmosis + colour the best mineral makeup?</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Osmosis takes the worry out of mineral makeup by making the most medically safe mineral powder foundations in the world.</h2>
                     <p className="my-1">
                         In designing the formulation for Osmosis + colour Minerals, Osmosis wanted to raise the standard of what mineral makeup should be by enhancing the natural radiance of the skin without the potential of health risks that can be found in most other mineral makeup. In further advancing the formula, Osmosis focused on improving skin health. An ingredient that is unique to Osmosis, SRGF -7™, optimizes the sun protection qualities of this beautiful makeup collection. Osmosis’ philosophy is to restore the skin to its most healthy state. osmosis + colour Minerals achieves this goal while enhancing your skin’s natural radiance. Whether your skin tone is Warm, Cool or Neutral, you will find the right colour for your skin in Osmosis +colour Minerals.
@@ -28,12 +28,12 @@ const OsmosisMakeup = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
+                    src="../assets/images/osmosisMakeup.jpg"
                     alt="Essence of Beauty Osmosis+ Makeup"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
-            </div>
-            <div id="osmosis-makeup-benefits" className="p-4 md:p-8 bg-lightGreen lg:m-8">
+            </section>
+            <section id="osmosis-makeup-benefits" className="p-4 md:p-8 bg-lightGreen lg:m-8" aria-labelledby="benefits-heading">
                 <h2 className="text-2xl md:text-4xl mt-2 mb-4">
                     Benefits of Using Osmosis+Color
                 </h2>
@@ -103,8 +103,8 @@ const OsmosisMakeup = () => {
                         </p>
                     </li>
                 </ul>
-            </div>
-            <div className="p-4 lg:p-8 flex flex-col lg:flex-row">
+            </section>
+            <section className="p-4 lg:p-8 flex flex-col lg:flex-row" aria-labelledby="makeup-details-heading">
                 <div className="lg:p-8">
                     <p className="my-2">
                         Osmosis + pressed powder is mineral makeup that you can trust. Micronized zinc provides luxurious broad-spectrum coverage that naturally hides skin imperfections while providing flawless radiance.
@@ -131,16 +131,16 @@ const OsmosisMakeup = () => {
                 <div className="shrink-0 flex flex-col justify-center my-4 lg:m-0">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisShades.jpg?raw=true"
+                        src="../assets/images/osmosisShades.jpg"
                         alt="Essence of Beauty Osmosis+Color Mineral Makeup"
                         className="h-full lg:h-fit"
                     />
                 </div>
-            </div>
-            <div className="p-4 lg:p-8">
+            </section>
+            <section className="p-4 lg:p-8" aria-labelledby="color-matching-heading">
                 <Card cardBodyClass="flex flex-col lg:flex-row">
                     <div className="p-4 lg:p-8">
-                        <h2 className="text-2xl md:text-4xl mb-4">
+                        <h2 id="color-matching-heading" className="text-2xl md:text-4xl mb-4">
                             Color Matching
                         </h2>
                         <p className="my-2">
@@ -176,17 +176,17 @@ const OsmosisMakeup = () => {
                     <div className="shrink-0">
                         <StaticImage
                             loading="lazy"
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup2.jpg?raw=true"
+                            src="../assets/images/osmosisMakeup2.jpg"
                             alt="Essence of Beauty Osmosis+Color Makeup Color Matching"
                             className="w-full lg:h-full"
                         />
                     </div>
                 </Card>
-            </div>
-            <div className="p-4 lg:p-8">
+            </section>
+            <section className="p-4 lg:p-8" aria-labelledby="foundation-application-heading">
                 <Card cardBodyClass="flex flex-col lg:flex-row-reverse">
                     <div className="p-4 lg:p-8">
-                        <h2 className="text-2xl md:text-4xl mb-4">
+                        <h2 id="foundation-application-heading" className="text-2xl md:text-4xl mb-4">
                             Foundation Application
                         </h2>
                         <p className="my-2">
@@ -249,17 +249,17 @@ const OsmosisMakeup = () => {
                     <div className="shrink-0">
                         <StaticImage
                             loading="lazy"
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup3.jpg?raw=true"
+                            src="../assets/images/osmosisMakeup3.jpg"
                             alt="Essence of Beauty Osmosis+Color Makeup Foundation Application"
                             className="w-full lg:h-full"
                         />
                     </div>
                 </Card>
-            </div>
-            <div className="flex flex-col items-center p-4 mt-2">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4 mt-2" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -278,7 +278,7 @@ export const Head = () => {
             "@type": "Brand",
             "name": "Osmosis + Colour"
         },
-        "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true",
+        "image": "https://www.essenceofbeauty.ca/images/osmosisMakeup.jpg",
         "url": pageUrl,
         "offers": {
             "@type": "Offer",
@@ -294,7 +294,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Skin Rejuventation Clinic Ottawa is proud to supply Osmosis + Color products designed to restore your skin to its most healthy state while enhancing it's natural radiance."
                 pageKeywords="OsmosisMD, Mineral Makeup, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl={pageUrl}
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisMakeup.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/osmosisMakeup.jpg"
                 pageType="product"
                 additionalSchema={productSchema}
             />

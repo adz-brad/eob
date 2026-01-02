@@ -1,7 +1,7 @@
 ---
 title: Wedding Planning for Brides Glowing Skin
 excerpt: Whilst there’s no guarantee you will be blemish free on your wedding day, there’s A LOT you can do to ensure you have great looking complexion on your big day. 
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/wedding-planning-blog.jpg?raw=true
+featuredImage: ../assets/images/wedding-planning-blog.jpg
 date: 2019-04-11T00:00:00Z
 ---
 
@@ -25,7 +25,7 @@ If you are treating the occasional pimple, then at least 3 months of professiona
 
 If you have dry, dull and sallow skin at times that needs a bit of TLC before your big day, then 2 months of professional guidance can help you achieve smooth, brighter and a more youthful looking complexion.
 
-![Essence of Beauty: Wedding Planning for Brides Glowing Skin Feature Image 2](https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/wedding-planning-blog-2.jpg?raw=true)
+![Essence of Beauty: Wedding Planning for Brides Glowing Skin Feature Image 2](../assets/images/wedding-planning-blog-2.jpg)
 
 
 The type of skin treatments performed at Essence of Beauty are the ones containing the most natural and organic ingredients with high performing range products with no chemicals used on the skin. The naturally derived and active ingredients truly give amazing results that you’ll notice from your very first facial.

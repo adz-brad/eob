@@ -10,11 +10,11 @@ const Products = () => {
             <Banner
                 heading="Products"
                 gradient="from-black/40 via-black/20 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Products" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Products" src="../assets/images/productsHeader.jpg" />}
             />
-            <div className="flex flex-col lg:flex-row lg:items-center">
+            <section className="flex flex-col lg:flex-row lg:items-center" aria-labelledby="302-skincare-heading">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="302-skincare-heading" className="text-2xl md:text-4xl mb-2">
                         302 Skincare
                     </h2>
                     <p className='mt-4 mb-8'>
@@ -30,21 +30,21 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Product.jpg?raw=true"
+                        src="../assets/images/302Product.jpg"
                         alt="Essence of Beauty Products - 302 Skincare"
                     />
                 </div>
-            </div>
-            <div className="flex flex-col-reverse lg:flex-row lg:items-center">
+            </section>
+            <section className="flex flex-col-reverse lg:flex-row lg:items-center" aria-labelledby="osmosis-heading">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/osmosisProduct.jpg?raw=true"
+                        src="../assets/images/osmosisProduct.jpg"
                         alt="Essence of Beauty Products - Osmosis+BeautyMD"
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="osmosis-heading" className="text-2xl md:text-4xl mb-2">
                         Osmosis+BeautyMD
                     </h2>
                     <p className='mt-4 mb-8'>
@@ -57,10 +57,10 @@ const Products = () => {
                         />
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col lg:flex-row lg:items-center">
+            </section>
+            <section className="flex flex-col lg:flex-row lg:items-center" aria-labelledby="anteage-heading">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="anteage-heading" className="text-2xl md:text-4xl mb-2">
                         AnteAGE
                     </h2>
                     <p className='mt-4 mb-8'>
@@ -76,14 +76,14 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageProduct.jpg?raw=true"
+                        src="../assets/images/anteageProduct.jpg"
                         alt="Essence of Beauty Products - AnteAge"
                     />
                 </div>
-            </div>
-            <div className="flex flex-col lg:flex-row-reverse lg:items-center">
+            </section>
+            <section className="flex flex-col lg:flex-row-reverse lg:items-center" aria-labelledby="hubislab-heading">
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="hubislab-heading" className="text-2xl md:text-4xl mb-2">
                         HubisLab
                     </h2>
                     <p className='mt-4 mb-8'>
@@ -93,22 +93,22 @@ const Products = () => {
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/products-hubislab.jpg?raw=true"
+                        src="../assets/images/products-hubislab.jpg"
                         alt="Essence of Beauty Products - AnteAge"
                         className="lg:min-h-[400px] w-full"
                     />
                 </div>
-            </div>
-            <div className="flex flex-col-reverse lg:flex-row-reverse lg:items-center">
+            </section>
+            <section className="flex flex-col-reverse lg:flex-row-reverse lg:items-center" aria-labelledby="dmk-heading">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="lazy"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmkProduct.jpg?raw=true"
+                        src="../assets/images/dmkProduct.jpg"
                         alt="Essence of Beauty Products - DMK"
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="dmk-heading" className="text-2xl md:text-4xl mb-2">
                         DMK Skin Care
                     </h2>
                     <p className='mt-4 mb-8'>
@@ -121,28 +121,28 @@ const Products = () => {
                         />
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col-reverse lg:flex-row lg:items-center">
+            </section>
+            <section className="flex flex-col-reverse lg:flex-row lg:items-center" aria-labelledby="phyts-heading">
                 <div className="lg:w-1/3 lg:p-8">
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/phyts.jpg?raw=true"
+                        src="../assets/images/phyts.jpg"
                         alt="Essence of Beauty Products - Phyt's"
                     />
                 </div>
                 <div className="lg:w-2/3 lg:m-8 p-4 lg:p-8 bg-lightGreen">
-                    <h2 className="text-2xl md:text-4xl mb-2">
+                    <h2 id="phyts-heading" className="text-2xl md:text-4xl mb-2">
                         Phyt's
                     </h2>
                     <p className='my-2'>
-                    Phyt's skincare is a holistic, plant-based brand that harnesses the power of nature to deliver high-performance skincare solutions. Combining organic, botanical ingredients with cutting-edge formulas, Phyt's products are designed to address various skin concerns while promoting overall skin health. Known for their commitment to sustainability and purity, Phyt's treatments focus on revitalizing, nourishing, and balancing the skin, offering a gentle yet effective approach to skincare. With a dedication to using botanical extracts and natural elements, Phyt's offers a powerful skincare experience tailored to enhance the skin’s natural beauty
+                    Phyt's skincare is a holistic, plant-based brand that harnesses the power of nature to deliver high-performance skincare solutions. Combining organic, botanical ingredients with cutting-edge formulas, Phyt's products are designed to address various skin concerns while promoting overall skin health. Known for their commitment to sustainability and purity, Phyt's treatments focus on revitalizing, nourishing, and balancing the skin, offering a gentle yet effective approach to skincare. With a dedication to using botanical extracts and natural elements, Phyt's offers a powerful skincare experience tailored to enhance the skin's natural beauty
                     </p>
                 </div>
-            </div>
-            <div className="flex flex-col items-center p-4 mt-2">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4 mt-2" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -162,7 +162,7 @@ export const Head = () => {
             "@id": "https://www.essenceofbeauty.ca/#organization",
             "name": "Essence of Beauty Ottawa Acne & Skin Clinic"
         },
-        "image": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true",
+        "image": "https://www.essenceofbeauty.ca/images/productsHeader.jpg",
         "url": pageUrl
     }
     
@@ -173,7 +173,7 @@ export const Head = () => {
                 pageDescription="View the wide range of expertly sourced, high quality products used for acne, scarring, rosacea treatment & more available for purchase from Essence of Beauty."
                 pageKeywords="Phyt's, 302 Skincare, Osmosis MD, DMK, HubisLab, AnteAge, Products, Shop, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl={pageUrl}
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/productsHeader.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/productsHeader.jpg"
                 pageType="product"
                 additionalSchema={productSchema}
             />

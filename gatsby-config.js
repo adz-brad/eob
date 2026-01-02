@@ -85,6 +85,14 @@ module.exports = {
       },
       __key: "blog"
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        "name": "images",
+        "path": `${__dirname}/src/assets/images`
+      },
+      __key: "images"
+    },
     'gatsby-plugin-postcss',
     {
       resolve: `gatsby-plugin-google-fonts`,

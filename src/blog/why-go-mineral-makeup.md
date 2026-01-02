@@ -1,7 +1,7 @@
 ---
 title: Why Go Mineral Makeup?
 excerpt: While there are definitely various factors that can affect our skin’s health, one of the easiest ways to change your skin for the better is simply ditching chemical-laden makeup and using non-toxic mineral makeup instead.
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mineral-makeup-blog.jpg?raw=true
+featuredImage: ../assets/images/mineral-makeup-blog.jpg
 date: 2018-12-20T00:00:00Z
 ---
 

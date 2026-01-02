@@ -49,7 +49,7 @@ const Gallery = ({ className, images, imageClass }) => {
                     { pages.map((page, i) => {
                         if(pagination === i){
                             return(
-                                <div className={className}>
+                                <div key={i} className={className}>
                                     {page.map((image, i) => {
                                         return(
                                             <Image image={image} _key={i}/>
@@ -58,14 +58,16 @@ const Gallery = ({ className, images, imageClass }) => {
                                 </div>
                             )
                         }
+                        return null
                     })}
-                    <div className="text-center mt-4">
+                    <nav className="text-center mt-4" aria-label="Gallery pagination">
                      { pagination === 0 ? 
                         null
                     :                             
                         <button 
                             onClick={() => setPagination(pagination - 1)}
                             className="text-2xl p-2 hover:text-green text-brown"
+                            aria-label="Previous page"
                         >
                         Previous
                         </button>
@@ -74,8 +76,11 @@ const Gallery = ({ className, images, imageClass }) => {
                         return(
 
                             <button 
+                                key={i}
                                 onClick={() => setPagination(i)}
                                 className={`text-2xl p-2 hover:text-green ${pagination === i ? 'text-green font-bold' : 'text-brown'}`}
+                                aria-label={`Go to page ${i + 1}`}
+                                aria-current={pagination === i ? 'page' : undefined}
                             >
                                 {i+1}
                             </button>
@@ -88,11 +93,12 @@ const Gallery = ({ className, images, imageClass }) => {
                         <button 
                             onClick={() => setPagination(pagination + 1)}
                             className="text-2xl p-2 hover:text-green text-brown"
+                            aria-label="Next page"
                         >
                         Next
                         </button>
                     }
-                    </div>
+                    </nav>
                     </SRLWrapper>
             )
         }

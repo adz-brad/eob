@@ -14,12 +14,12 @@ const CysticAcne = () => {
             <Banner
                 heading="Cystic Acne"
                 gradient="from-black/30 via-black/20 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Cystic Acne Treatment" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcneHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Cystic Acne Treatment" src="../assets/images/cysticAcneHeader.jpg" />}
             />
-            <div className="p-4 lg:p-8">
+            <section className="p-4 lg:p-8" aria-labelledby="cystic-acne-heading">
                 <div className="flex flex-col md:flex-row my-8">
                     <div className="flex flex-col p-4 md:p-8 md:w-3/5 md:mr-8" >
-                        <h1 className="text-2xl md:text-4xl my-4 font-semibold">Specialized Treatment For Cystic Acne</h1>
+                        <h1 id="cystic-acne-heading" className="text-2xl md:text-4xl my-4 font-semibold">Specialized Treatment For Cystic Acne</h1>
                         <h2 className="text-xl md:text-2xl mb-2 subheader">Essence of Beauty Ottawa Acne Clinic specializes in cystic acne treatments that helps clear cystic acne quickly.</h2>
                         <p className="my-1">
                             Cystic acne is the most severe acne infliction that someone can suffer from. It manifests itself in large, deeply-embedded, red, painful, and often swollen lumps in the skin. In some cases, these lumps (called cysts) are so deeply embedded that they are not visible from the surface of the skin. Having cystic acne on face can cause you significant discomfort as those lesions are usually not just painful but also impact your facial appearance.
@@ -34,7 +34,7 @@ const CysticAcne = () => {
                     </div>
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
+                        src="../assets/images/cysticAcne.jpg"
                         className="md:m-4 rounded-sm shadow-lg"
                     />
                 </div>
@@ -89,25 +89,25 @@ const CysticAcne = () => {
                     </Card>
 
                 </div>
-            </div>
-            <div className="max-w-screen-lg mx-auto my-8">
+            </section>
+            <section className="max-w-screen-lg mx-auto my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-4">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                     <span className="mb-8">Comparing before & treatment</span>
                 </div>
                 <Gallery
                     className="flex flex-col md:flex-row gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter1.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticacnebeforeafter2.jpg?raw=true" alt="Before & After Cystic Acne Treatment" />
+                        <StaticImage src="../assets/images/cysticacnebeforeafter1.jpg" alt="Before & After Cystic Acne Treatment" />,
+                        <StaticImage src="../assets/images/cysticacnebeforeafter2.jpg" alt="Before & After Cystic Acne Treatment" />
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -122,7 +122,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty's specialized acne treatment protocol helps quickly clear up painful lesions and other signs of cystic acne impacting the appearance of your face."
                 pageKeywords="Cystic Acne, Chemical Peel, Inflammation, Scars, Acne Scars, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cysticAcne.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/cysticAcne.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/cystic-acne-treatment-ottawa/" />
         </>

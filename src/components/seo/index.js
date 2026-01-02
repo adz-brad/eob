@@ -11,6 +11,7 @@ const Seo = ({
   articleAuthor,
   articlePublishedTime,
   articleModifiedTime,
+  articleTags,
   additionalSchema,
 }) => {
 
@@ -40,18 +41,30 @@ const Seo = ({
     <>
       <title>{title}</title>
 
-      <meta name="description" content={pageDescription} />
-      <meta name="keywords" content={`${pageKeywords}, ${siteData.keywords}`} />
+      <meta id="meta-description" name="description" content={pageDescription} />
+      <meta id="meta-keywords" name="keywords" content={`${pageKeywords}, ${siteData.keywords}`} />
+
+      {/* Author Meta Tag */}
+      {articleAuthor && (
+        <meta id="meta-author" name="author" content={articleAuthor} />
+      )}
+
+      {/* Geo Meta Tags for Local SEO */}
+      <meta id="geo-region" name="geo.region" content="CA-ON" />
+      <meta id="geo-placename" name="geo.placename" content="Ottawa" />
 
       {/* FB Meta Tags */}
-
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={pageDescription} />
-      <meta property="og:image" content={pageImage} />
-      <meta property="og:url" content={pageUrl} />
-      <meta property="og:type" content={pageType} />
-      <meta property="og:locale" content="en_CA" />
+      <meta id="og-title" property="og:title" content={title} />
+      <meta id="og-description" property="og:description" content={pageDescription} />
+      <meta id="og-image" property="og:image" content={pageImage} />
+      <meta id="og-image-width" property="og:image:width" content="1200" />
+      <meta id="og-image-height" property="og:image:height" content="630" />
+      <meta id="og-image-alt" property="og:image:alt" content={pageTitle || title} />
+      <meta id="og-url" property="og:url" content={pageUrl} />
+      <meta id="og-type" property="og:type" content={pageType} />
+      <meta id="og-locale" property="og:locale" content="en_CA" />
       <meta
+        id="og-site-name"
         property="og:site_name"
         content="Essence of Beauty Ottawa Acne Clinic"
       />
@@ -59,24 +72,26 @@ const Seo = ({
       {/* Article Meta Tags */}
       {pageType === "article" && articleAuthor && (
         <>
-          <meta property="article:author" content={articleAuthor} />
+          <meta id="article-author" property="article:author" content={articleAuthor} />
           {articlePublishedTime && (
-            <meta property="article:published_time" content={articlePublishedTime} />
+            <meta id="article-published-time" property="article:published_time" content={articlePublishedTime} />
           )}
           {articleModifiedTime && (
-            <meta property="article:modified_time" content={articleModifiedTime} />
+            <meta id="article-modified-time" property="article:modified_time" content={articleModifiedTime} />
           )}
+          {articleTags && Array.isArray(articleTags) && articleTags.map((tag, index) => (
+            <meta key={index} id={`article-tag-${index}`} property="article:tag" content={tag} />
+          ))}
         </>
       )}
 
       {/* Twitter Meta Tags */}
+      <meta id="twitter-title" name="twitter:title" content={title} />
+      <meta id="twitter-description" name="twitter:description" content={pageDescription} />
+      <meta id="twitter-image" name="twitter:image" content={pageImage} />
+      <meta id="twitter-card" name="twitter:card" content="summary_large_image" />
 
-      <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={pageDescription} />
-      <meta name="twitter:image" content={pageImage} />
-      <meta name="twitter:card" content="summary_large_image" />
-
-      <meta name="robots" content="index, follow" />
+      <meta id="robots" name="robots" content="index, follow" />
 
       <Script type="application/ld+json">
         {`{
@@ -171,13 +186,13 @@ const Seo = ({
                   {
                     "@type":"ImageObject",
                     "inLanguage":"en-US",
-                    "@id":"https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true",
-                    "url":"https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true",
-                    "contentUrl":"https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true",
+                    "@id":"https://www.essenceofbeauty.ca/images/Eob-logo.png",
+                    "url":"https://www.essenceofbeauty.ca/images/Eob-logo.png",
+                    "contentUrl":"https://www.essenceofbeauty.ca/images/Eob-logo.png",
                     "width":286,"height":111,"caption":"Essence of Beauty Acne & Skin Clinic"
                   },
                   "image":{
-                    "@id":"https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true"
+                    "@id":"https://www.essenceofbeauty.ca/images/Eob-logo.png"
                   }
                 }
               ]

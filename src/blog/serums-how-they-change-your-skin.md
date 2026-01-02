@@ -1,7 +1,7 @@
 ---
 title: Serums - How They Change Your Skin
 excerpt: If you want to see the change in your skin, whether it is to beat your acne, slow the process of aging in your skin or fight your redness, you need to use serums.
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/serums-feature-image.jpg?raw=true
+featuredImage: ../assets/images/serums-feature-image.jpg
 date: 2019-02-22T00:00:00Z
 ---
 

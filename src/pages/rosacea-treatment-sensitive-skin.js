@@ -13,12 +13,12 @@ const Rosacea = () => {
       <Banner
         heading="Rosacea & Sensitive Skin"
         gradient="from-black/20 via-black-40 to-black/50"
-        image={<StaticImage alt="Essence of Beauty Ottawa - Rosacea & Sensitive Skin" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosaceaHeader.jpg?raw=true" />}
+        image={<StaticImage alt="Essence of Beauty Ottawa - Rosacea & Sensitive Skin" src="../assets/images/rosaceaHeader.jpg" />}
       />
-      <div className="md:p-4 lg:p-8 md:mt-8">
+      <section className="md:p-4 lg:p-8 md:mt-8" aria-labelledby="rosacea-heading">
         <div className="flex flex-col md:flex-row md:items-center md:mb-16">
           <div className="flex flex-col px-4 md:w-3/5">
-            <h1 className="text-2xl md:text-4xl mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
+            <h1 id="rosacea-heading" className="text-2xl md:text-4xl mb-4 font-semibold">Natural Rosacea Treatment For Sensitive Skin</h1>
             <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
               Anyone with rosacea knows how frustrating it is and how few good treatment options there are. Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare with great results, developing recommendations based on what's worked for them.
             </h2>
@@ -49,7 +49,7 @@ const Rosacea = () => {
           <div className="md:w-2/5 md:m-4">
             <StaticImage
               loading="eager"
-              src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+              src="../assets/images/rosecea1.png"
               alt="Rosacea Before & After Treatment Image"
               className="max-h-[420px] m-8 rounded-sm shadow-md"
             />
@@ -98,7 +98,7 @@ const Rosacea = () => {
           </div>
           <StaticImage
             loading="lazy"
-            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/skinTreatmentApproach.jpg?raw=true"
+            src="../assets/images/skinTreatmentApproach.jpg"
             className="rounded-lg shadow-lg mx-auto"
           />
         </div>
@@ -338,30 +338,30 @@ const Rosacea = () => {
             />
           </div>
         </div>
-      </div>
-      <div className="mt-8 mb-16">
+      </section>
+      <section className="mt-8 mb-16" aria-labelledby="results-heading">
         <div className="flex flex-col items-center my-4">
-          <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+          <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
           <span className="mb-8">Comparing before & after rosacea treatment</span>
         </div>
         <Gallery
           className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:px-8"
           imageClass="rounded-sm shadow-lg"
           images={[
-            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea1.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea2.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea3.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />,
-            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosacea4.jpg?raw=true" alt="Rosacea Before & After Treatment Image" />
+            <StaticImage src="../assets/images/rosacea1.jpg" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="../assets/images/rosacea2.jpg" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="../assets/images/rosacea3.jpg" alt="Rosacea Before & After Treatment Image" />,
+            <StaticImage src="../assets/images/rosacea4.jpg" alt="Rosacea Before & After Treatment Image" />
           ]}
         />
-      </div>
-      <div className="flex flex-col items-center px-4 lg:pb-8">
-        <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+      </section>
+      <section className="flex flex-col items-center px-4 lg:pb-8" aria-labelledby="get-started-heading">
+        <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
         <p>
           Book a skin consultation to determine the correct treatment and
           product for your skin type and condition.
         </p>
-      </div>
+      </section>
     </>
   )
 }
@@ -396,7 +396,7 @@ export const Head = () => {
         pageDescription="Essence of Beauty Ottawa has been treating rosacea clients with 302 skincare recommendations with great results, developing recommendations based specifically on what's working for them."
         pageKeywords="Rosacea, Sensitive Skin, 302 Skincare, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl={pageUrl}
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/rosecea1.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/rosecea1.png"
         pageType="service"
         additionalSchema={serviceSchema}
       />

@@ -149,3 +149,69 @@ We've completed a comprehensive optimization of your website focusing on search 
 - ✅ Resource hints added (preconnect, DNS-prefetch)  
 - ✅ Browser caching configured (Netlify headers)  
 - ✅ CSS optimization (Tailwind automatic purging)
+
+---
+
+## When to Expect Results
+
+Understanding when you'll see improvements helps set realistic expectations. Different optimizations take effect at different times:
+
+### Immediate Results (1-7 Days)
+
+**What Google sees right away:**
+- Structured data and meta tags are recognized on the next crawl
+- Updated sitemap helps Google discover pages faster
+- Enhanced search result appearance (rich snippets, better descriptions)
+
+**What you'll notice:**
+- Rich snippets may start appearing in search results
+- Updated meta descriptions visible in search results
+- Business information may appear in Knowledge Panels
+
+### Short-Term Improvements (2-4 Weeks)
+
+**Performance metrics:**
+- Google re-evaluates page speed during regular crawls
+- Mobile usability improvements are recognized
+- Image optimization affects Core Web Vitals scores
+
+**What you'll see:**
+- Improved PageSpeed Insights scores
+- Better mobile usability reports
+- Potential ranking boost for pages with improved performance
+
+### Medium-Term Gains (1-3 Months)
+
+**Ranking improvements:**
+- Local SEO enhancements improve visibility in local search results
+- Service pages gain better positioning for treatment-related queries
+- Enhanced structured data helps Google understand your content better
+
+**What you'll see:**
+- Improved rankings for local searches like "acne treatment Ottawa"
+- Better visibility for service-specific queries
+- Increased click-through rates from enhanced search results
+- 5-15% improvement in rankings for target keywords
+
+### Long-Term Growth (3-6 Months)
+
+**Sustained improvements:**
+- Performance and technical SEO contribute to overall domain authority
+- Faster pages improve user engagement metrics over time
+- AI search optimization helps with emerging search technologies
+
+**What you'll see:**
+- More consistent ranking improvements
+- Better performance in AI-powered search results
+- Improved overall site health and authority metrics
+- Continued organic traffic growth
+
+### Important Notes
+
+- **SEO is cumulative** - Improvements build on each other over time
+- **Not all changes show immediately** - Some optimizations take months to fully impact rankings
+- **Competition matters** - Highly competitive keywords may take longer to see movement
+- **Content quality still matters** - Technical SEO supports good content, but fresh, valuable content is essential
+- **Regular updates help** - Continuing to add new content helps maintain and improve rankings
+
+---

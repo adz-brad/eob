@@ -8,7 +8,7 @@ const Footer = () => {
     return(
         <>
         <Share/>
-        <div className="flex flex-col bg-green mt-12 rounded-t-lg shadow-lg">
+        <footer className="flex flex-col bg-green mt-12 rounded-t-lg shadow-lg">
         
         <div className="formDivide"/>
         <div className="mx-auto max-w-screen-xl pt-6 pb-14" id="contact">
@@ -53,7 +53,7 @@ const Footer = () => {
                 <a 
                     href="https://www.facebook.com/essenceofbeautyottawa" 
                     className="hover:text-brown" 
-                    alt="Essence of Beauty Facebook"
+                    aria-label="Essence of Beauty Facebook"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -62,7 +62,7 @@ const Footer = () => {
                 <a 
                     href="https://www.instagram.com/essenceofbeauty.ottawa/" 
                     className="hover:text-brown" 
-                    alt="Essence of Beauty Instagram"
+                    aria-label="Essence of Beauty Instagram"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -71,7 +71,7 @@ const Footer = () => {
                 <a 
                     href="https://www.pinterest.ca/essenceofbeautyottawa/" 
                     className="hover:text-brown" 
-                    alt="Essence of Beauty Pinterest" 
+                    aria-label="Essence of Beauty Pinterest" 
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -80,7 +80,7 @@ const Footer = () => {
                 <a 
                     href="https://www.linkedin.com/company/essence-of-beauty-ottawa/" 
                     className="hover:text-brown" 
-                    alt="Essence of Beauty LinkedIn"
+                    aria-label="Essence of Beauty LinkedIn"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -92,10 +92,10 @@ const Footer = () => {
         </div>
    
         <div className="text-sm bg-darkGreen text-white font-light md:text-center p-4 rounded-t-lg shadow-lg -mt-2">
-        Holistic, Natural, Organic Skin Treatments & Rejuvenation | © 2018 Essence of Beauty. Powered by <a href="https://www.adrenalizedigital.ca" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green">Adrenalize Digital</a>.
+        Holistic, Natural, Organic Skin Treatments & Rejuvenation | Copyright 2025 Essence of Beauty. Powered by <a href="https://obsidn.io" target="_blank" rel="noreferrer" className="ml-1 font-normal hover:text-green" aria-label="Obsidn website">Obsidn</a>.
         </div>
 
-        </div>
+        </footer>
         </>
     )
 }

@@ -14,9 +14,9 @@ const RadianceInfusion = () => {
                 gradient="from-black/50 via-black/30 to-black/10"
                 image={<StaticImage alt="Essence of Beauty Ottawa - Radiance Hydro Infusion Facial" src="../assets/images/radianceInfusion1.jpg" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="radiance-infusion-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Rejuvenate Your Skin With Radiance Hydro Infusion Facial!</h1>
+                    <h1 id="radiance-infusion-heading" className="text-2xl md:text-4xl font-bold mb-2">Rejuvenate Your Skin With Radiance Hydro Infusion Facial!</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">The Radiance Hydro Infusion is a cutting-edge innovation and one of the most sought-after facials at Essence of Beauty Ottawa. Perfect for uneven skin tone, dullness, pigmentation, dehydration, and lack of vitality, it’s an ideal choice for achieving a luminous, wedding-ready glow and more.</h2>
                     <p className="my-1">
                     Also known as the Nano-Channeling Skin Rejuvenating Treatment, this treatment delivers an immediate boost in hydration and radiance, with ingredients absorbing up to 97% more effectively than traditional topical applications. Your skin is drenched in potent elixirs and serums, leaving it deeply nourished, refreshed, and visibly revitalized—all without any downtime.
@@ -32,8 +32,8 @@ const RadianceInfusion = () => {
                     alt="Essence of Beauty Radiance Hydro Infusion Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md lg:min-h-[400px]"
                 />
-            </div>
-            <div id="radiance-infusion-learn-more" className="md:p-8">
+            </section>
+            <section id="radiance-infusion-learn-more" className="md:p-8" aria-labelledby="learn-more-heading">
                 <Card cardBodyClass="p-4 md:p-8">
                     <div className="flex flex-col-reverse lg:flex-row lg:items-center">
                         <div className="pr-4 py-4 lg:py-8 lg:pr-8">
@@ -60,8 +60,8 @@ The procedure is entirely relaxing and offers both immediate and long-lasting re
                                 className="buttonLight my-8 mx-auto md:mx-0"
                             />
                 </Card>
-            </div>
-            <div id="radiance-infusion-benefits" className="flex flex-col md:flex-row md:p-8 m-4 bg-lightGreen rounded-sm shadow-md">
+            </section>
+            <section id="radiance-infusion-benefits" className="flex flex-col md:flex-row md:p-8 m-4 bg-lightGreen rounded-sm shadow-md" aria-labelledby="benefits-heading">
                 <div className="flex flex-col px-4 md:px-8">
                     <h2 className="text-2xl md:text-4xl font-bold my-4">
                         Key Benefits
@@ -85,11 +85,11 @@ The procedure is entirely relaxing and offers both immediate and long-lasting re
                         </li>
                     </ul>
                     <p className="my-4">
-                    Whether you’re preparing for a special occasion or seeking to enhance your daily glow, the Radiance Hydro Infusion Facial offers a luxurious, results-driven solution tailored to your skincare goals. Indulge in this innovative treatment and reveal your most radiant, youthful complexion yet.
+                    Whether you're preparing for a special occasion or seeking to enhance your daily glow, the Radiance Hydro Infusion Facial offers a luxurious, results-driven solution tailored to your skincare goals. Indulge in this innovative treatment and reveal your most radiant, youthful complexion yet.
                     </p>
                 </div>
-            </div>
-            <div className="md:p-8">
+            </section>
+            <section className="md:p-8" aria-labelledby="pricing-heading">
                 <Card cardBodyClass="p-4 md:p-8">
                     <h2 className="text-2xl md:text-4xl font-bold my-4">
                         Treatment Pricing
@@ -107,12 +107,12 @@ The procedure is entirely relaxing and offers both immediate and long-lasting re
                         className="buttonLight mt-8 mx-auto md:mx-0"
                     />
                 </Card>
-            </div>
+            </section>
 
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -127,7 +127,7 @@ export const Head = () => {
                 pageDescription="Radiance Hydro Infusion Facial is one of our most requested facial rejuvenation treatments at Essence of Beauty Ottawa. This HydraFacial alternative gives an instant glow and boost in hydration."
                 pageKeywords="Radiance, Infusion, Large Pores, Rejuvenation, Mano Infusion, Facial Infusion, Hydro Facial, Skin Tightening, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/radiance-hydro-infusion-facial/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/radianceInfusion2.png"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/radiance-hydro-infusion-facial/" />
         </>

@@ -188,18 +188,29 @@ const PracticePolicies = () => {
                         By giving your e-signature, you agree to our policies and authorize Essence of Beauty Spa LTD to charge your credit card on file for missed visits, no shows, late cancellations or late arrivals. As well, this will also authorize the use of the before and after pictures to track your progress.
                     </p>
                 </div>
-                <form name="Practice Policies Form" onSubmit={submit} >
+                <form name="Practice Policies Form" onSubmit={submit} aria-label="Practice Policies Consent Form">
+                    <div role="status" aria-live="polite" aria-atomic="true" className="sr-only">
+                        {sent.open && sent.status === 'Sent' ? 'Your form has been submitted successfully.' : ''}
+                        {sent.open && sent.status === 'Failed' ? 'There was a problem submitting your form.' : ''}
+                    </div>
                     {sent.open ?
-                        <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[calc(100vh/2)] w-[calc(100vw_-_20px)] max-h-[400px] max-w-[600px] z-50 bg-white rounded-md shadow-lg flex flex-col items-center justify-center p-4 md:p-8">
-                            {sent.status === 'Sent' ? <span className="text-xl md:text-2xl font-bold">Your message has been sent.</span> : null}
+                        <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[calc(100vh/2)] w-[calc(100vw_-_20px)] max-h-[400px] max-w-[600px] z-50 bg-white rounded-md shadow-lg flex flex-col items-center justify-center p-4 md:p-8" role="dialog" aria-modal="true" aria-labelledby="form-status-title">
+                            {sent.status === 'Sent' ? <span id="form-status-title" className="text-xl md:text-2xl font-bold">Your message has been sent.</span> : null}
                             {sent.status === 'Sent' ?
                                 <span>We will be in touch with you as soon as possible!</span>
                                 :
-                                <span>We're sorry, there was a problem sending your form, but we'd still love to hear from you! Please try giving us a call at <a href="tel:1-(603)-220-2101">1-(603)-220-2101</a></span>
+                                <span id="form-status-title">We're sorry, there was a problem sending your form, but we'd still love to hear from you! Please try giving us a call at <a href="tel:+16132202101">(613) 220-2101</a></span>
                             }
                             <button
-                                onClick={() => setSent({ open: false, status: 'Idle' })} onKeyDown={() => setSent({ open: false, status: 'Idle' })}
+                                onClick={() => setSent({ open: false, status: 'Idle' })} 
+                                onKeyDown={(e) => {
+                                    if (e.key === 'Enter' || e.key === ' ') {
+                                        e.preventDefault()
+                                        setSent({ open: false, status: 'Idle' })
+                                    }
+                                }}
                                 className="buttonLight bg-green hover:bg-darkGreen text-white mt-8"
+                                aria-label="Close dialog"
                             >
                                 OK
                             </button>
@@ -210,19 +221,19 @@ const PracticePolicies = () => {
                     <label
                         htmlFor="name"
                         className="w-0 h-0 opacity-0"
-                        tabindex="-1"
+                        tabIndex={-1}
                     >
                         Name
                     </label>
-                    <input type="text" className="w-0 h-0 opacity-0" id="name" name="name" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabindex="-1" />
+                    <input type="text" className="w-0 h-0 opacity-0" id="name" name="name" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabIndex={-1} aria-hidden="true" />
                     <label
                         htmlFor="email"
                         className="w-0 h-0 opacity-0"
-                        tabindex="-1"
+                        tabIndex={-1}
                     >
                         Email
                     </label>
-                    <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabindex="-1" />
+                    <input type="email" className="w-0 h-0 opacity-0" id="email" name="email" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabIndex={-1} aria-hidden="true" />
                     <div className="my-4 md:my-8">
                         <h2 className="text-2xl md:text-4xl text-center my-4 md:my-8">Practice Policies Consent Form</h2>
                         <div className="flex flex-col md:flex-row md:justify-center max-w-screen-lg mx-auto">
@@ -240,6 +251,7 @@ const PracticePolicies = () => {
                                     type="text"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.firstName}
+                                    autoComplete="given-name"
                                     onChange={(e) => setFormData({
                                         firstName: e.target.value,
                                         lastName: formData.lastName,
@@ -269,6 +281,7 @@ const PracticePolicies = () => {
                                     type="text"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.lastName}
+                                    autoComplete="family-name"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: e.target.value,
@@ -300,6 +313,7 @@ const PracticePolicies = () => {
                                     type="email"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.email}
+                                    autoComplete="email"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -329,6 +343,7 @@ const PracticePolicies = () => {
                                     type="tel"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.phone}
+                                    autoComplete="tel"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -360,6 +375,7 @@ const PracticePolicies = () => {
                                     type="text"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.address}
+                                    autoComplete="street-address"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -389,6 +405,7 @@ const PracticePolicies = () => {
                                     type="text"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.city}
+                                    autoComplete="address-level2"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -419,6 +436,7 @@ const PracticePolicies = () => {
                                     name="province"
                                     className="border border-black/20 rounded-md shadow-sm p-2"
                                     value={formData.province}
+                                    autoComplete="address-level1"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -454,6 +472,7 @@ const PracticePolicies = () => {
                                     type="text"
                                     className="border border-black/20 rounded-md shadow-sm px-4 py-2"
                                     value={formData.postalCode}
+                                    autoComplete="postal-code"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName,
                                         lastName: formData.lastName,
@@ -507,6 +526,7 @@ const PracticePolicies = () => {
                         <button
                             type="submit"
                             className="buttonLight mt-8"
+                            aria-label="Submit practice policies form"
                         >
                             Submit
                         </button>
@@ -528,7 +548,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Practice Policies form for new clients."
                 pageKeywords="Practice Policies, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/practice-policies-form/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/meet-eva.png"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/practice-policies-form/" />
         </>

@@ -13,11 +13,11 @@ const FountainOfYouth = () => {
         <>
             <Banner
                 heading="302 Fountain of Youth"
-                image={<StaticImage alt="Essence of Beauty Ottawa - 302 Fountain of Youth" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302fountainHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - 302 Fountain of Youth" src="../assets/images/302fountainHeader.jpg" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="302-fountain-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">A Revolutionary Approach to Acne, Rosacea & Skin Treatment</h1>
+                    <h1 id="302-fountain-heading" className="text-2xl md:text-4xl font-bold mb-2">A Revolutionary Approach to Acne, Rosacea & Skin Treatment</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Essence of Beauty Ottawa is excited to be the very first Canadian skincare clinic to carry the 302 Professional Skincare Line designed to naturally treat & repair your skin problems.</h2>
                     <p className="my-1">
                         Most approaches to acne, rosacea, anti-aging & other skincare treatments often rely on what is known as the ‘repair’ model. Some of the more common treatments include IPL, microdermabrasion, glycolic, TCA and lactic acid peels, serums/lotions containing ascorbic acid (vitamin C) , BHA, AHA, ALA, or mandelic acid, EOs peels, grainy scrubs, laser treatments to name a few. The purpose is to exfoliate the skin to jump start it into increasing collagen production, which, to an extent, happens. The difficulty arises because exfoliation often causes micro-inflammation too. That is the ‘glow’ you see, the so-called smoother appearance to the skin and the look of reduced wrinkles. It might look nice in the beginning but it reality, it is a problem. Why? Because the quality of the collagen produced is often subpar. Skin that is continuously subjected to these treatments will become depleted of its natural moisture producing capability and its natural defences against environmental elements. And then skin actually ages more quickly, eventually becoming even weaker, thinner, more sensitive and exhausted. In order to regenerate after each exfoliation, skin cells require infusions of the proper nutrients to produce the necessary energy for regeneration, and unfortunately, energy declines with repeated exfoliation and as you age.
@@ -29,13 +29,13 @@ const FountainOfYouth = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
+                    src="../assets/images/302Fountain.jpg"
                     alt="Essence of Beauty 302 Fountain of Youth"
                     className="md:w-1/3 mx-auto"
                 />
-            </div>
-            <div id="302-fountain-of-youth-info" className="flex flex-col p-4 md:p-8 bg-lightGreen rounded-sm shadow-sm md:m-8">
-                <h2 className="text-xl md:text-3xl mb-4">
+            </section>
+            <section id="302-fountain-of-youth-info" className="flex flex-col p-4 md:p-8 bg-lightGreen rounded-sm shadow-sm md:m-8" aria-labelledby="fountain-info-heading">
+                <h2 id="fountain-info-heading" className="text-xl md:text-3xl mb-4">
                     The Fountain of Youth - All About Avogen™
                 </h2>
                 <p className="my-1">
@@ -53,7 +53,7 @@ const FountainOfYouth = () => {
                     <Image className="md:w-1/3 rounded-sm shadow-md my-8 md:mx-auto md:my-4">
                         <StaticImage
                             loading="lazy"
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302products.jpeg?raw=true"
+                            src="../assets/images/302products.jpeg"
                             alt="302 Professional Skincare Products"
                         />
                     </Image>
@@ -75,11 +75,11 @@ const FountainOfYouth = () => {
                     data={{ text: "Learn About The Benefits of 302", anchor: "302-fountain-of-youth-benefits" }}
                     className="buttonLight bg-white m-8 mx-auto md:mx-0"
                 />
-            </div>
-            <div id="302-fountain-of-youth-benefits" className="p-4 md:p-8">
+            </section>
+            <section id="302-fountain-of-youth-benefits" className="p-4 md:p-8" aria-labelledby="benefits-heading">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row items-center">
                     <div className="flex flex-col md:w-2/3">
-                        <h2 className="text-xl md:text-3xl">
+                        <h2 id="benefits-heading" className="text-xl md:text-3xl">
                             302 Skincare Benefits
                         </h2>
                         <h3 className="text-base md:text-xl my-2">
@@ -149,27 +149,27 @@ const FountainOfYouth = () => {
                         </p>
                     </div>
                 </Card>
-            </div>
-            <div className="md:px-4 my-8">
+            </section>
+            <section className="md:px-4 my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-8">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                     <span>Comparing before & after 302 Use</span>
                 </div>
                 <Gallery
                     className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 lg:p-8"
                     imageClass="rounded-sm shadow-lg min-h-[300px]"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before1.png?raw=true" alt="Essence of Beauty Before 302 Skincare in 2004" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after1.png?raw=true" alt="Essence of Beauty After 302 Skincare in 2008" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302before2.png?raw=true" alt="Essence of Beauty Before 302 Skincare in 2004" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302after2.png?raw=true" alt="Essence of Beauty After 302 Skincare in 2008" />
+                        <StaticImage src="../assets/images/302before1.png" alt="Essence of Beauty Before 302 Skincare in 2004" />,
+                        <StaticImage src="../assets/images/302after1.png" alt="Essence of Beauty After 302 Skincare in 2008" />,
+                        <StaticImage src="../assets/images/302before2.png" alt="Essence of Beauty Before 302 Skincare in 2004" />,
+                        <StaticImage src="../assets/images/302after2.png" alt="Essence of Beauty After 302 Skincare in 2008" />
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -184,7 +184,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Ottawa is the very first Canadian skincare clinic to carry the 302 Professional Skincare Line designed to naturally treat aging, acne, rosacea & more!"
                 pageKeywords="302, Fountain of Youth, Avogen, Sustainable, Sensitive Skin, Non-Toxic, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Skincare, Safe, Acne, Beauty, Spa, Ottawa"
                 pageUrl="https://www.essenceofbeauty.ca/302-fountain-of-youth/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/302Fountain.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/302Fountain.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/302-fountain-of-youth/" />
         </>

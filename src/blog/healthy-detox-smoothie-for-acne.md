@@ -1,7 +1,7 @@
 ---
 title: Healthy Detox Smoothie for Acne
 excerpt: Are you having trouble with eczema, psoriasis, acne or other skin problems? If so, you probably need to detox your body to fight these skin conditions.
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/detox-smoothie.jpg?raw=true
+featuredImage: ../assets/images/detox-smoothie.jpg
 date: 2019-03-14T00:00:00Z
 ---
 

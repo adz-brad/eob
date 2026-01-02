@@ -1,15 +1,6 @@
-import React, { useState } from 'react'
-import Banner from '../components/banner'
-import { StaticImage } from 'gatsby-plugin-image'
-import Button from '../components/button'
-import Gallery from '../components/gallery'
-import Accordion from '../components/accordion'
-import Card from '../components/card'
-import Seo from '../components/seo'
+import React from 'react'
 
 const RestorativeBioPeel = () => {
-
-    const [ gallery, setGallery ] = useState('acne')
 
   return (
     <>
@@ -17,7 +8,7 @@ const RestorativeBioPeel = () => {
         <Banner
             heading="Restorative Bio Peel"
             gradient="from-black/10 via-black/20 to-black/50"
-            image={<StaticImage alt="Essence of Beauty Ottawa - Restorative Bio Peel" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel1.jpg?raw=true"/>}
+            image={<StaticImage alt="Essence of Beauty Ottawa - Restorative Bio Peel" src="../assets/images/restorativeBioPeel1.jpg"/>}
         />
         <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
             <div className="flex flex-col md:w-1/2 mx-auto">
@@ -33,7 +24,7 @@ const RestorativeBioPeel = () => {
             </div>
             <StaticImage 
                     loading="eager"
-                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel2.jpg?raw=true"
+                src="../assets/images/restorativeBioPeel2.jpg"
                 alt="Essence of Beauty Restorative Bio Peel Treatment"
                 className="md:w-1/3 mx-auto rounded-sm shadow-md"
             />
@@ -52,7 +43,7 @@ const RestorativeBioPeel = () => {
                 <div className="flex lg:w-1/2 lg:p-16 lg:-m-8 lg:-translate-x-8 lg:mr-8">
                 <StaticImage 
                         loading="lazy"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel3.jpg?raw=true"
+                    src="../assets/images/restorativeBioPeel3.jpg"
                     alt="Essence of Beauty Restorative Bio Peel Treatment"
                     className="mx-auto rounded-sm shadow-md"
                 />
@@ -107,26 +98,32 @@ const RestorativeBioPeel = () => {
                 Restorative Bio Peel Results for Various Conditions
                 </h2>
             <ul className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-16 mt-8 mx-auto max-w-screen-xxl w-full">
-                <li 
-                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                    onClick={() => setGallery('acne')}
-                    onKeyDown={() => setGallery('acne')}
-                >
-                    Acne
+                <li>
+                    <button
+                        onClick={() => setGallery('acne')}
+                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                        aria-pressed={gallery === 'acne'}
+                    >
+                        Acne
+                    </button>
                 </li>
-                <li 
-                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'aging' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                    onClick={() => setGallery('aging')}
-                    onKeyDown={() => setGallery('aging')}
-                >
-                    Aging
+                <li>
+                    <button
+                        onClick={() => setGallery('aging')}
+                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'aging' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                        aria-pressed={gallery === 'aging'}
+                    >
+                        Aging
+                    </button>
                 </li>
-                <li 
-                    className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'hyperpigmentation' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                    onClick={() => setGallery('hyperpigmentation')}
-                    onKeyDown={() => setGallery('hyperpigmentation')}
-                >
-                    Pigmentation
+                <li>
+                    <button
+                        onClick={() => setGallery('hyperpigmentation')}
+                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'hyperpigmentation' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                        aria-pressed={gallery === 'hyperpigmentation'}
+                    >
+                        Pigmentation
+                    </button>
                 </li>
             </ul>
         </div>
@@ -137,19 +134,19 @@ const RestorativeBioPeel = () => {
                         imageClass="rounded-sm shadow-md"
                         images={[
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne1.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-acne1.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne2.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-acne2.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne3.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-acne3.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne4.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-acne4.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                         ]}
@@ -160,23 +157,23 @@ const RestorativeBioPeel = () => {
                         imageClass="rounded-sm shadow-md"
                         images={[
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging1.png?raw=true" 
+                                src="../assets/images/restorativeBio-aging1.png" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging2.png?raw=true" 
+                                src="../assets/images/restorativeBio-aging2.png" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging3.png?raw=true" 
+                                src="../assets/images/restorativeBio-aging3.png" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging4.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-aging4.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging5.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-aging5.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                         ]}
@@ -187,43 +184,43 @@ const RestorativeBioPeel = () => {
                         imageClass="rounded-sm shadow-md"
                         images={[
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation1.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation1.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation2.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation2.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation3.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation3.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation4.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation4.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation5.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation5.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation6.png?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation6.png" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation7.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation7.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation8.png?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation8.png" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation9.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation9.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                             <StaticImage 
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation10.jpg?raw=true" 
+                                src="../assets/images/restorativeBio-hyperpigmentation10.jpg" 
                                 alt="Restorative Bio Peel Before & After" 
                             />,
                         ]}
@@ -308,7 +305,7 @@ export const Head = () => {
             pageDescription="Restorative Bio Peel is a new dimension of facial treatment & peeling offered by Essence of Beauty Ottawa as an alternative to laser therapy and exfoliating acid designed to treat acne, scars, signs of aging & more."
             pageKeywords="Restorative, Anti-aging, Aging, Laser replacement, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
             pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"
-            pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
+            pageImage="https://www.essenceofbeauty.ca/images/featuredTreatment-restorativeBio.jpg"
         />
         <link rel="canonical" href="https://www.essenceofbeauty.ca/restorative-bio-peel/" />
         */}

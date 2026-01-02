@@ -19,7 +19,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Treatment Options"
                 pageKeywords="Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/treatments/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/meet-eva.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/meet-eva.png"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/treatments/" />
         </>

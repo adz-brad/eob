@@ -12,14 +12,14 @@ const Tabs = ({ columns, options, className }) => {
                 <ul className={`grid ${columns} gap-2 p-2`}>
                     {options.map((option, i) => {
                         return(
-                            <li 
-                                key={i} 
-                                className={`font-headers cursor-pointer rounded-md hover:bg-green transition-colors text-lg p-2 text-center hover:shadow-md ${active === option ? 'bg-green shadow-sm text-white font-semibold' : 'bg-lightGreen hover:text-white'}`}
-                                onClick={() => setActive(option)}
-                                onKeyDown={() => setActive(option)}
-                                tabIndex={i}
-                            >
-                                {option.name}
+                            <li key={i}>
+                                <button
+                                    onClick={() => setActive(option)}
+                                    className={`font-headers cursor-pointer rounded-md hover:bg-green transition-colors text-lg p-2 text-center hover:shadow-md w-full ${active === option ? 'bg-green shadow-sm text-white font-semibold' : 'bg-lightGreen hover:text-white'}`}
+                                    aria-pressed={active === option}
+                                >
+                                    {option.name}
+                                </button>
                             </li>
                         )
                     })}

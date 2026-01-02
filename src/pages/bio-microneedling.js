@@ -17,11 +17,11 @@ const BioMicroneedling = () => {
             <Banner
                 heading="Bio Microneedling"
                 gradient="from-black/10 via-black/20 to-black/50"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Bio Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel1.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Bio Microneedling" src="../assets/images/restorativeBioPeel1.jpg" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="bio-microneedling-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2"> New Skin in 7 Days with  Bio Microneedling</h1>
+                    <h1 id="bio-microneedling-heading" className="text-2xl md:text-4xl font-bold mb-2"> New Skin in 7 Days with  Bio Microneedling</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Experience the next level in skin rejuvenation with Bio Microneedling</h2>
                     <p className="my-1">
                         Bio Microneedling is a natural and vegan-friendly treatment that combines precise techniques with advanced yet gentle methods to transform your skin. This effective therapy promotes a youthful, radiant glow in 7 days while addressing various skin concerns.
@@ -36,12 +36,12 @@ const BioMicroneedling = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel2.jpg?raw=true"
+                    src="../assets/images/restorativeBioPeel2.jpg"
                     alt="Essence of Beauty Bio Microneedling Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
-            </div>
-            <div id="bio-microneedling-info" className="flex flex-col m-4 p-4 lg:p-8 lg:m-8 bg-lightGreen rounded-sm shadow-md">
+            </section>
+            <section id="bio-microneedling-info" className="flex flex-col m-4 p-4 lg:p-8 lg:m-8 bg-lightGreen rounded-sm shadow-md" aria-labelledby="bio-microneedling-info-heading">
                 <div className="lg:p-8">
                     <h2 className="text-2xl md:text-4xl mb-4">What is Bio Microneedling?</h2>
                     <p className="my-1">
@@ -77,7 +77,7 @@ const BioMicroneedling = () => {
                     <div className="flex my-4 lg:w-1/2 lg:p-16 lg:-m-8 lg:-translate-x-8 lg:mr-8">
                         <StaticImage
                             loading="lazy"
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBioPeel3.jpg?raw=true"
+                            src="../assets/images/restorativeBioPeel3.jpg"
                             alt="Essence of Beauty Bio Microneedling Treatment"
                             className="mx-auto rounded-sm shadow-md"
                         />
@@ -132,55 +132,61 @@ const BioMicroneedling = () => {
                         />
                     </div>
                 </div>
-            </div>
-            <div id="bio-microneedling-results" className="my-8 flex flex-col p-4 md:p-8">
-                <h2 className="text-2xl md:text-4xl text-center my-8">
+            </section>
+            <section id="bio-microneedling-results" className="my-8 flex flex-col p-4 md:p-8" aria-labelledby="results-heading">
+                <h2 id="results-heading" className="text-2xl md:text-4xl text-center my-8">
                     Bio Microneedling Results for Various Conditions
                 </h2>
                 <ul className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-16 mt-8 mx-auto max-w-screen-xxl w-full">
-                    <li
-                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                        onClick={() => setGallery('acne')}
-                        onKeyDown={() => setGallery('acne')}
-                    >
-                        Acne
+                    <li>
+                        <button
+                            onClick={() => setGallery('acne')}
+                            className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'acne' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                            aria-pressed={gallery === 'acne'}
+                        >
+                            Acne
+                        </button>
                     </li>
-                    <li
-                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'aging' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                        onClick={() => setGallery('aging')}
-                        onKeyDown={() => setGallery('aging')}
-                    >
-                        Aging
+                    <li>
+                        <button
+                            onClick={() => setGallery('aging')}
+                            className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'aging' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                            aria-pressed={gallery === 'aging'}
+                        >
+                            Aging
+                        </button>
                     </li>
-                    <li
-                        className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors ${gallery === 'hyperpigmentation' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
-                        onClick={() => setGallery('hyperpigmentation')}
-                        onKeyDown={() => setGallery('hyperpigmentation')}
-                    >
-                        Pigmentation
+                    <li>
+                        <button
+                            onClick={() => setGallery('hyperpigmentation')}
+                            className={`rounded-md p-4 text-xl font-headers cursor-pointer text-center hover:bg-green/70 transition-colors w-full ${gallery === 'hyperpigmentation' ? 'font-bold bg-green shadow-mg text-white' : 'bg-lightGreen shadow-md'}`}
+                            aria-pressed={gallery === 'hyperpigmentation'}
+                        >
+                            Pigmentation
+                        </button>
                     </li>
                 </ul>
-            </div>
-            <div className="p-4 md:p-8 max-w-screen-xxl mx-auto">
+            </section>
+            <section className="p-4 md:p-8 max-w-screen-xxl mx-auto" aria-labelledby="gallery-heading">
                 {gallery === 'acne' ?
                     <Gallery
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-16"
                         imageClass="rounded-sm shadow-md"
                         images={[
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne1.jpg?raw=true"
+                                src="../assets/images/restorativeBio-acne1.jpg"
                                 alt="Bio Microneedling Before & After"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne2.jpg?raw=true"
+                                src="../assets/images/restorativeBio-acne2.jpg"
                                 alt="Bio Microneedling Before & After"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne3.jpg?raw=true"
+                                src="../assets/images/restorativeBio-acne3.jpg"
                                 alt="Bio Microneedling Before & After"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-acne4.jpg?raw=true"
+                                src="../assets/images/restorativeBio-acne4.jpg"
                                 alt="Bio Microneedling Before & After"
                             />,
                         ]}
@@ -191,23 +197,23 @@ const BioMicroneedling = () => {
                             imageClass="rounded-sm shadow-md"
                             images={[
                                 <StaticImage
-                                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging1.png?raw=true"
+                                    src="../assets/images/restorativeBio-aging1.png"
                                     alt="Bio Microneedling Before & After"
                                 />,
                                 <StaticImage
-                                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging2.png?raw=true"
+                                    src="../assets/images/restorativeBio-aging2.png"
                                     alt="Bio Microneedling Before & After"
                                 />,
                                 <StaticImage
-                                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging3.png?raw=true"
+                                    src="../assets/images/restorativeBio-aging3.png"
                                     alt="Bio Microneedling Before & After"
                                 />,
                                 <StaticImage
-                                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging4.jpg?raw=true"
+                                    src="../assets/images/restorativeBio-aging4.jpg"
                                     alt="Bio Microneedling Before & After"
                                 />,
                                 <StaticImage
-                                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-aging5.jpg?raw=true"
+                                    src="../assets/images/restorativeBio-aging5.jpg"
                                     alt="Bio Microneedling Before & After"
                                 />,
                             ]}
@@ -218,51 +224,51 @@ const BioMicroneedling = () => {
                                 imageClass="rounded-sm shadow-md"
                                 images={[
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation1.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation1.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation2.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation2.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation3.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation3.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation4.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation4.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation5.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation5.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation6.png?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation6.png"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation7.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation7.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation8.png?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation8.png"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation9.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation9.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                     <StaticImage
-                                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/restorativeBio-hyperpigmentation10.jpg?raw=true"
+                                        src="../assets/images/restorativeBio-hyperpigmentation10.jpg"
                                         alt="Bio Microneedling Before & After"
                                     />,
                                 ]}
                             />
                             : null}
-            </div>
-            <div className="p-4 lg:my-8 lg:p-8 flex flex-col items-center">
-                <h2 className="text-2xl md:text-4xl mt-4 mb-8">Frequently Asked Questions</h2>
+            </section>
+            <section className="p-4 lg:my-8 lg:p-8 flex flex-col items-center" aria-labelledby="faq-heading">
+                <h2 id="faq-heading" className="text-2xl md:text-4xl mt-4 mb-8">Frequently Asked Questions</h2>
                 <Accordion
                     className="p-4 md:p-8 bg-white"
                     items={[
@@ -332,10 +338,10 @@ const BioMicroneedling = () => {
                         },
                     ]}
                 />
-            </div>
-            <div className="md:p-8">
+            </section>
+            <section className="md:p-8" aria-labelledby="which-treatment-heading">
                 <Card cardBodyClass="p-4 md:p-8">
-                    <h2 className="text-2xl md:text-4xl my-4">
+                    <h2 id="which-treatment-heading" className="text-2xl md:text-4xl my-4">
                         Which Bio Microneedling is for me?
                     </h2>
                     <div className="flex flex-col my-4">
@@ -387,11 +393,11 @@ const BioMicroneedling = () => {
                         className="buttonLight mt-8 mx-auto md:mx-0"
                     />
                 </Card>
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -406,7 +412,7 @@ export const Head = () => {
                 pageDescription="Bio Microneedling is a new dimension of facial treatment & peeling offered by Essence of Beauty Ottawa as an alternative to laser therapy and exfoliating acid designed to treat acne, scars, signs of aging & more."
                 pageKeywords="Restorative, Anti-aging, Aging, Laser replacement, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/featuredTreatment-restorativeBio.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/restorative-bio-peel/" />
         </>

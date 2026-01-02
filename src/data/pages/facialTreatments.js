@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 export const treatmentMenu = [
     {
         name: "Deep Pore Cleansing Facial",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Rebalancing Facial" />,
+        image: <StaticImage src="../../assets/images/deepPoreFacial.jpg" className="h-full w-full" alt="Essence of Beauty Ottawa Deep Pore Rebalancing Facial" />,
         imagePosition: 'left',
         content: <div className='flex flex-col space-y-2'>
             <p>
@@ -34,7 +34,7 @@ export const treatmentMenu = [
     },
     {
         name: "Radiance Hydro Infusion Facial",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Radiance Hydro Infusion Facial" />,
+        image: <StaticImage src="../../assets/images/radianceInfusion2.png" className="h-full w-full" alt="Essence of Beauty Ottawa Radiance Hydro Infusion Facial" />,
         imagePosition: 'right',
         content: <>
             <p className="my-1">
@@ -51,7 +51,7 @@ export const treatmentMenu = [
     },
     {
         name: "Ultrasonic Facial",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/signatureUltrasonicFacial.png?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Ultrasonic Non-Invasive Facial" />,
+        image: <StaticImage src="../../assets/images/signatureUltrasonicFacial.png" className="h-full w-full" alt="Essence of Beauty Ottawa Ultrasonic Non-Invasive Facial" />,
         imagePosition: 'left',
         content: <p className="my-1">This Ultrasonic Facial is Essence of Beauty’s premiere high-performance non-invasive facial. Ultrasonic uses high speed, low-frequency sound waves that radiate invisible micro vibrations deep within cells, helping stimulate the skin’s natural repair mechanisms in distinct ways. It is ultimate advancement in non-invasive, safe skin regeneration. Ultrasound not only strengthen the skin’s collagen, elastin, but it also improves lymphatic flow and promotes the flow of the qi, circulation and improves the skin metabolism. It provides the cells with an abundance of nutrients and oxygen, accelerates cells rejuvenation, and maintenance the elastic state of the facial muscles while helping to expel toxins, reduce redness and inflammation and keep the skin healthy and beautiful. This deep tissue micro-massage is suitable for all skin types, from dull and dehydrated enlarged pores, acne and uneven texture to rosacea. This customize treatment begins with a thorough cleansing of neck and face, Ultrasonic exfoliation, micro-massage with serums, facial massage and mask. <strong>This is our one of most popular facials.</strong></p>,
         pricing: [
@@ -83,7 +83,7 @@ export const treatmentMenu = [
     },
     {
         name: "Brightening Treatment",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/brightening.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Skin Brightening Treatment" />,
+        image: <StaticImage src="../../assets/images/brightening.jpg" className="h-full w-full" alt="Essence of Beauty Ottawa Skin Brightening Treatment" />,
         imagePosition: 'left',
         content: <p className="my-1">A treatment to visibly reduce the appearance of skin discoloration and dark spots for Hyper-Pigmented skin. This treatment combines a light peel, Tranexamic Acid , Vitamin C, Needle Free Mesotherapy and LED Therapy. We are using products containing a large amount of vitamin C. It effectively improves skin complexion, prevent pigmentation and strengthen the protection against free radicals with Arbutin provides moisture, whitening, and elasticity along with prevention and suppression of aging with green tea extract. This treatment leaves skin glowing and clear.</p>,
         pricing: [
@@ -115,7 +115,7 @@ export const treatmentMenu = [
     },
     {
         name: "DMK Enzyme Treatment",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa DMK Enzyme Treatment" />,
+        image: <StaticImage src="../../assets/images/dmk.jpg" className="h-full w-full" alt="Essence of Beauty Ottawa DMK Enzyme Treatment" />,
         imagePosition: 'right',
         content: <p className="my-1">DMK signature treatments work on your internal structure and function of the skin and bring your skin back to its genetic potential. Revising your skin back to homeostasis is achieved through a course of enzyme therapy treatments, to kick start, boost and activate your skins own processes. ENZYME THERAPY aims to awaken the skin’s own enzymatic activity to restore lost functioning in the skin allowing it to return to its natural state. DMK Enzyme Therapy works by providing deep oxygenation to skin cells. This treatment is applied as a masque which contains a blend of transfer enzymes and unique specialized ingredients that help increase circulation, provide lymphatic drainage, free water levels in the skin, enhance collagen production and improve the skin’s metabolic function. In other words, it gets your skin working as it should, to create a smooth, healthy complexion. It is suitable for a wide range of conditions such as aging skin, sun damage, acne, rosacea and pigmentation.</p>,
         pricing: [
@@ -143,7 +143,7 @@ export const treatmentMenu = [
     },
     {
         name: "Special Peels",
-        image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/featuredTreatment-restorativeBio.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Acid-Free Advanced Peels" />,
+        image: <StaticImage src="../../assets/images/featuredTreatment-restorativeBio.jpg" className="h-full w-full" alt="Essence of Beauty Ottawa Acid-Free Advanced Peels" />,
         imagePosition: 'left',
         content: <>
             <p className="my-1">
@@ -176,7 +176,7 @@ export const treatmentMenu = [
     },
     //{
     //    name: "Intensive Acne Treatment (with LED lights or/and Micro-current)",
-    //    image: <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true" className="h-full w-full" alt="Essence of Beauty Ottawa Led Photo Facial Treatment" />,
+    //    image: <StaticImage src="../../assets/images/ledLightTherapy.jpg" className="h-full w-full" alt="Essence of Beauty Ottawa Led Photo Facial Treatment" />,
     //    imagePosition: 'right',
     //    content: <>
     //        <p className="my-1">

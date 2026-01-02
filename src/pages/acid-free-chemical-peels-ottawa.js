@@ -11,11 +11,11 @@ const SpecialPeels = () => {
       <Banner
         heading="Natural Grade Acid-Free & Chemical Facial Peels"
         gradient="from-black/40 via-black/20 to-black/10"
-        image={<StaticImage alt="Essence of Beauty Ottawa - Natural Grade Acid-Free & Chemical Facial Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeelsHeader.jpg?raw=true" />}
+        image={<StaticImage alt="Essence of Beauty Ottawa - Natural Grade Acid-Free & Chemical Facial Peels" src="../assets/images/specialPeelsHeader.jpg" />}
       />
-      <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8">
+      <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 md:mt-8" aria-labelledby="acid-free-peels-heading">
         <div className="flex flex-col md:w-1/2 mx-auto">
-          <h1 className="text-2xl md:text-4xl font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
+          <h1 id="acid-free-peels-heading" className="text-2xl md:text-4xl font-bold mb-2">Natural Grade Acid-Free & Chemical Facial Peels</h1>
           <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">At Essence of Beauty Ottawa Acne Clinic, we offer natural, acid-free facial peels as well as chemical peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles.</h2>
           <p className="my-1">
             When properly administered, both acid-free and chemical peels provide powerful, non-invasive, pro-youth improvement to the skin for treatment of acne, scarring, rosacea & more. They remove cellular buildup, stimulate skin regeneration, reduce appearance of wrinkles, fine lines and large pores, clear blemishes, treat hyperpigmentation, and improve overall texture and tone.
@@ -31,12 +31,12 @@ const SpecialPeels = () => {
 
         <StaticImage
           loading="eager"
-          src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
+          src="../assets/images/specialPeels.jpg"
           alt="Essence of Beauty Special Peels"
           className="md:w-1/3 h-[480px] mx-auto rounded-sm shadow-md"
         />
-      </div>
-      <div id="special-peels-info" className="p-4 md:p-8">
+      </section>
+      <section id="special-peels-info" className="p-4 md:p-8" aria-labelledby="special-peels-heading">
         <div className="m-4">
           <h2 className="text-2xl md:text-4xl mb-2">Essence of Beauty Special Peels</h2>
           <span>Choose a treatment option to learn more</span>
@@ -280,11 +280,11 @@ const SpecialPeels = () => {
             },
           ]}
         />
-      </div>
-      <div className="flex flex-col items-center p-4">
-        <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+      </section>
+      <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+        <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
         <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-      </div>
+      </section>
     </>
   )
 }
@@ -299,7 +299,7 @@ export const Head = () => {
         pageDescription="Essence of Beauty Ottawa offers acid-free natural and chemical facial peels to target skin conditions like acne, scarring, pigmentation, sun damage, fine lines, wrinkles & more."
         pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
         pageUrl="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/"
-        pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/specialPeels.jpg?raw=true"
+        pageImage="https://www.essenceofbeauty.ca/images/specialPeels.jpg"
       />
       <link rel="canonical" href="https://www.essenceofbeauty.ca/acid-free-chemical-peels-ottawa/" />
     </>

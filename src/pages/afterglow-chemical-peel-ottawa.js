@@ -13,11 +13,11 @@ const AfterglowPeel = () => {
             <Banner
                 heading="AfterGlow Peel"
                 gradient="from-black/10 via-black/20 to-black/50"
-                image={<StaticImage alt="Essence of Beauty Ottawa - AfterGlow Chemical Peel" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglowHeader.webp?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - AfterGlow Chemical Peel" src="../assets/images/afterglowHeader.webp" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="afterglow-peel-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Get Your Glow Back With The Afterglow Chemical Facial Peel!</h1>
+                    <h1 id="afterglow-peel-heading" className="text-2xl md:text-4xl font-bold mb-2">Get Your Glow Back With The Afterglow Chemical Facial Peel!</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">The AfterGlow Facial Peel at Essence of Beauty Ottawa is a safe chemical peel designed to fight acne, signs of aging, pigmentation & more.</h2>
                     <p className="my-1">
                         The AfterGlow Chemical Peel is a facial treatment is designed to effectively treat acne, aging, pigmentation & more. The application of a specialized cream to the skin encourages the exfoliation of dead skin cells and debris while stimulating the skin’s natural renewal process. The AfterGlow Chemical Peel is designed to refine skin texture damaged by environmental factors and skin conditions such as acne. The procedure assists in smoothing fine lines and evening out skin discoloration. It improves skin texture and reduces the appearance of acne scars and environmental damage to the skin. With each additional AfterGlow Facial Peel procedure, you will notice incremental improvements in the overall appearance of the skin.
@@ -29,12 +29,12 @@ const AfterglowPeel = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
+                    src="../assets/images/afterglow.jpg"
                     alt="Essence of Beauty Afterglow Peel Treatment"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
-            </div>
-            <div id="afterglow-peel-info" className="p-4 md:p-8">
+            </section>
+            <section id="afterglow-peel-info" className="p-4 md:p-8" aria-labelledby="peel-info-heading">
                 <Card cardBodyClass="flex flex-col p-4 md:p-8">
                     <h2 className="text-2xl md:text-4xl font-bold">
                         AfterGlow Chemical Peel Treatment Benefits
@@ -96,55 +96,55 @@ const AfterglowPeel = () => {
                         className="buttonLight my-8 mx-auto md:mx-0"
                     />
                 </Card>
-            </div>
-            <div className="max-w-screen-xxl mx-auto my-8">
+            </section>
+            <section className="max-w-screen-xxl mx-auto my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-4">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</h2>
                     <span className="mb-8">Comparing Before & After AfterGlow Peel</span>
                 </div>
                 <Gallery
                     className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-8"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow1.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow2.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow3.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow4.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow5.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow6.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow7.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow8.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow9.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow10.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow11.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow12.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow13.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow14.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow15.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow16.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow17.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow18.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow19.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow20.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow21.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow22.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow23.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow24.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow25.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow26.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow27.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow28.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow29.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow30.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow31.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow32.jpg?raw=true" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow1.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow2.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow3.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow4.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow5.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow6.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow7.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow8.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow9.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow10.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow11.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow12.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow13.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow14.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow15.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow16.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow17.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow18.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow19.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow20.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow21.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow22.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow23.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow24.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow25.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow26.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow27.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow28.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow29.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow30.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow31.jpg" alt="AfterGlow Peel Before & After Treatment" />,
+                        <StaticImage src="../assets/images/afterglow32.jpg" alt="AfterGlow Peel Before & After Treatment" />,
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -159,7 +159,7 @@ export const Head = () => {
                 pageDescription="The AfterGlow Chemical Peel is a facial treatment in which a cream is applied to the skin to encourage the exfoliation of dead skin & stimulate the skin’s natural renewal process."
                 pageKeywords="Afterglow, Chemical, Facial, Peel, Skincare, Hyperpigmentation, Acne Breakouts, Psoriasis, Redness, Rosecea, Eczema, Sun Damage, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/afterglow-chemical-peel-ottawa/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/afterglow.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/afterglow.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/afterglow-chemical-peel-ottawa/" />
         </>

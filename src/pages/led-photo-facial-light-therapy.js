@@ -11,11 +11,11 @@ const LEDPhotoFacial = () => {
             <Banner
                 heading="LED Photo Facial"
                 gradient="from-black/20 to-black/0"
-                image={<StaticImage alt="Essence of Beauty Ottawa - LED Photo Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/cellumaLedTherapy.png?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - LED Photo Facial" src="../assets/images/cellumaLedTherapy.png" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="led-facial-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Reduce Inflammation, Scarring & More with LED Photo Facial</h1>
+                    <h1 id="led-facial-heading" className="text-2xl md:text-4xl font-bold mb-2">Reduce Inflammation, Scarring & More with LED Photo Facial</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">Light Emitting Diode (LED) therapy from Essence of Beauty Ottawa is a revolutionary procedure used to treat multiple adverse skin conditions such as signs of aging, pigmentation, scarring & more.</h2>
                     <p className="my-1">
                         Our LED device is designed to curve comfortably around your face, emitting different LED wavelengths that penetrate the skin’s deeper layers to target a range of concerns. Completely pain free, it can work to accelerate wound healing, boost collagen and even out skin tone. Effective on all skin type. Our treatments are the most advanced light treatments available, and we can adapt each session to suit your specific needs. With regular maintenance treatments, our LED facials can result in a noticeable improvement to your skin health. Advance light therapy can also be used to reduce the downtime of advanced aesthetics treatments, enhancing the outcomes of chemical peels or micro-needling. In addition to a more youthful appearance, clients experience a dramatic improvement of acne, rosacea and fine lines.
@@ -28,15 +28,15 @@ const LEDPhotoFacial = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
+                    src="../assets/images/ledLightTherapy.jpg"
                     alt="Essence of Beauty LED Light Therapy Photo Facial Treatment"
                     className="md:w-1/3 h-[500px] mx-auto rounded-sm shadow-md"
                 />
-            </div>
-            <div id="led-therapy-benefits" className="p-4 md:p-8">
+            </section>
+            <section id="led-therapy-benefits" className="p-4 md:p-8" aria-labelledby="led-benefits-heading">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row md:items-center">
                     <div className="flex flex-col md:w-1/2">
-                        <h2 className="text-2xl md:text-4xl">
+                        <h2 id="led-benefits-heading" className="text-2xl md:text-4xl">
                             LED Photo Facial Benefits
                         </h2>
                         <h3 className="text-base md:text-xl my-2">
@@ -93,11 +93,11 @@ const LEDPhotoFacial = () => {
                         />
                     </div>
                 </Card>
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -112,7 +112,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Ottawa's revolutionary LED photo facials are completely pain free, it can work to accelerate wound healing and reduce scarring, while boosting collagen and evening out skin tone."
                 pageKeywords="LED, Photo Facial, Facial, Pigmentation, Healing, Pain-free, Light Therapy, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ledLightTherapy.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/ledLightTherapy.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/led-photo-facial-light-therapy/" />
         </>

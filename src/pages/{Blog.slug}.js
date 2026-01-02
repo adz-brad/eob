@@ -8,12 +8,22 @@ const BlogTemplate = ({ data }) => {
 
     const frontmatter = data.blog.childMarkdownRemark.frontmatter
     const html = data.blog.childMarkdownRemark.html
+    
+    // Find the image file from GraphQL query results
+    let featuredImageUrl = frontmatter.featuredImage
+    if (featuredImageUrl && featuredImageUrl.startsWith('../assets/images/')) {
+        const filename = featuredImageUrl.replace('../assets/images/', '')
+        const imageFile = data.allFile?.nodes?.find(node => 
+            node.name === filename.split('.')[0] || node.relativePath === filename
+        )
+        featuredImageUrl = imageFile?.publicURL || featuredImageUrl
+    }
 
     return (
         <div className="flex flex-col lg:flex-row">
-            <div className="flex flex-col lg:w-3/4 p-4 lg:p-8">
+            <article className="flex flex-col lg:w-3/4 p-4 lg:p-8" aria-labelledby="blog-post-heading">
                 {frontmatter.title ?
-                    <h1 className="font-bold mt-4">{frontmatter.title}</h1>
+                    <h1 id="blog-post-heading" className="font-bold mt-4">{frontmatter.title}</h1>
                     : null}
                 <div className="flex flex-col md:flex-row md:items-center mt-2 mb-8">
                     <span>By Eva Sieradzan</span>
@@ -21,8 +31,8 @@ const BlogTemplate = ({ data }) => {
                         <span className="ml-1">| {frontmatter.date}</span>
                         : null}
                 </div>
-                {frontmatter.featuredImage ?
-                    <img loading='eager' src={frontmatter.featuredImage} className="rounded-sm shadow-md mb-8 max-h-[500px] object-cover" alt={frontmatter.title} />
+                {featuredImageUrl ?
+                    <img loading='eager' src={featuredImageUrl} className="rounded-sm shadow-md mb-8 max-h-[500px] object-cover" alt={frontmatter.title ? `${frontmatter.title} featured image` : "Blog post featured image"} />
                     : null}
                 {html ?
                     <div
@@ -30,19 +40,20 @@ const BlogTemplate = ({ data }) => {
                         dangerouslySetInnerHTML={{ __html: html }}
                     />
                     : null}
-            </div>
-            <div className="flex flex-col lg:w-1/4 p-4 lg:p-8 border-l border-black/30">
-                <h1 className="text-2xl md:text-4xl font-bold mt-4">Recent Posts</h1>
+            </article>
+            <aside className="flex flex-col lg:w-1/4 p-4 lg:p-8 border-l border-black/30" aria-labelledby="recent-posts-heading">
+                <h2 id="recent-posts-heading" className="text-2xl md:text-4xl font-bold mt-4">Recent Posts</h2>
                 <div className="flex flex-col my-4">
                     {data.allBlog.nodes ?
                         data.allBlog.nodes.map((post, i) => {
+                            const title = post.childMarkdownRemark?.frontmatter?.title || ''
                             return (
-                                <Link key={i} to={post.slug} className="my-1 hover:text-green hover:font-bold transition-all">{post.frontmatter.title}</Link>
+                                <Link key={i} to={post.slug} className="my-1 hover:text-green hover:font-bold transition-all">{title}</Link>
                             )
                         })
                         : null}
                 </div>
-            </div>
+            </aside>
         </div>
     )
 }
@@ -62,10 +73,19 @@ export const pageQuery = graphql`
               }
               slug
             }
+        allFile(filter: {sourceInstanceName: {eq: "images"}}) {
+            nodes {
+                name
+                relativePath
+                publicURL
+            }
+        }
         allBlog {
             nodes {
-                frontmatter {
-                    title
+                childMarkdownRemark {
+                    frontmatter {
+                        title
+                    }
                 }
                 slug
             }
@@ -95,7 +115,7 @@ export const Head = ({ data }) => {
             "name": "Essence of Beauty Ottawa Acne & Skin Clinic",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true"
+                "url": "https://www.essenceofbeauty.ca/images/Eob-logo.png"
             }
         },
         "datePublished": frontmatter.dateISO,
@@ -107,18 +127,23 @@ export const Head = ({ data }) => {
         "url": pageUrl
     }
     
+    // Extract tags from keywords for article:tag meta tags
+    const keywordsString = "Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+    const articleTags = keywordsString.split(',').map(tag => tag.trim()).filter(tag => tag.length > 0)
+    
     return (
         <>
             <Seo
                 pageTitle={frontmatter.title}
                 pageDescription={frontmatter.excerpt}
-                pageKeywords="Chemical, No Acid, Acid free, Sun damage, sun damaged, acne scarring, scarring, fine lines, wrinkles, Natural, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
+                pageKeywords={keywordsString}
                 pageUrl={pageUrl}
                 pageImage={frontmatter.featuredImage}
                 pageType="article"
                 articleAuthor="Eva Sieradzan"
                 articlePublishedTime={frontmatter.dateISO}
                 articleModifiedTime={frontmatter.dateISO}
+                articleTags={articleTags}
                 additionalSchema={articleSchema}
             />
             <link rel="canonical" href={pageUrl} />

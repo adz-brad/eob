@@ -14,12 +14,12 @@ const Hyperpigmentation = () => {
             <Banner
                 heading="Hyperpigmentation & Melasma"
                 gradient="from-black/30 via-black/40 to-black/60"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Hyperpigmentation & Melasma" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentationHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Hyperpigmentation & Melasma" src="../assets/images/hyperpigmentationHeader.jpg" />}
             />
-            <div className="p-4 lg:p-8">
+            <section className="p-4 lg:p-8" aria-labelledby="hyperpigmentation-heading">
                 <div className="flex flex-col lg:flex-row justify-center">
                     <div className="flex flex-col lg:w-2/5 md:p-8 mx-auto" >
-                        <h1 className="text-2xl md:text-4xl mt-8 mb-4 font-semibold">Treatment for Hyperpigmentation & Melasma</h1>
+                        <h1 id="hyperpigmentation-heading" className="text-2xl md:text-4xl mt-8 mb-4 font-semibold">Treatment for Hyperpigmentation & Melasma</h1>
                         <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
                             Essence of Beauty Ottawa helps you to minimize any spots or blemishes from hyperpigmentation & melasma, no matter what your skin type.
                         </h2>
@@ -37,14 +37,14 @@ const Hyperpigmentation = () => {
                     </div>
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"
+                        src="../assets/images/hyperPigmentationMelasma.jpg"
                         className="lg:w-1/3 rounded-sm shadow-lg mx-auto"
                     />
                 </div>
-            </div>
-            <div className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-4 flex flex-col lg:flex-row">
-                <div id="hyperpigmentation-melasma-info" className="flex flex-col lg:w-1/2 p-4 md:p-8 md:ml-4">
-                    <h2 className="text-2xl md:text-4xl mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h2>
+            </section>
+            <section className="bg-lightGreen rounded-sm shadow-lg lg:my-8 md:py-4 flex flex-col lg:flex-row" id="hyperpigmentation-melasma-info" aria-labelledby="understanding-heading">
+                <div className="flex flex-col lg:w-1/2 p-4 md:p-8 md:ml-4">
+                    <h2 id="understanding-heading" className="text-2xl md:text-4xl mb-2 pb-2 filter drop-shadow-md">Understanding Hyperpigmentation</h2>
                     <p className="my-1">
                         There are two types of hyperpigmentation – <strong>sun derived and internally derived.</strong>
                     </p>
@@ -71,17 +71,17 @@ const Hyperpigmentation = () => {
                         imageClass="rounded-sm shadow-lg"
                         images={[
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/reactiveskin1.png?raw=true"
+                                src="../assets/images/reactiveskin1.png"
                                 alt="Hyperpigmentation & Melasma After Treatment Image"
                             />
                         ]}
                     />
                     <span className="text-center mt-4 font-bold text-brown">Comparing before and after hyperpigmentation treatment</span>
                 </div>
-            </div>
-            <div id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col my-4">
+            </section>
+            <section id="hyperpigmentation-melasma-treatment" className="flex md:m-8 flex-col my-4" aria-labelledby="treatment-heading">
                 <div className="flex flex-col p-4 lg:p-8">
-                    <h2 className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h2>
+                    <h2 id="treatment-heading" className="text-2xl md:text-4xl mb-4 pb-2 filter drop-shadow-md">Hyperpigmentation Treatment</h2>
                     <p className="my-1">
                         The initial step is an in-depth skin health consultation and analysis to identify the possible root cause of pigmentation, before a treatment plan can be designed to correct the condition and provide the tools needed to reduce the risk of it retuning. Depending on the type of hyperpigmentation disorder and the causes, the treatment approach will vary.
                     </p>
@@ -92,14 +92,14 @@ const Hyperpigmentation = () => {
                         An advanced home care regime is also recommended to follow in-between treatments, which would be discussed as part of your aftercare. The use of antioxidants, safe Tyrosinase inhibitors and high factor physical sunscreen are absolutely essential in not only effectively treating the pigmentation but ensuring it does not return. For deep or severe pigmentation problems a higher strength treatment may also be needed
                     </p>
                     <p className="my-1">
-                        Micro needling is also a very effective treatment for hyperpigmentation because it restores normal cell function and increases cell-to-cell communication, helping to regulate the production of melanin. Micro needling can also be combined with mesotherapy ampules with a cocktail of vitamins and minerals specifically blended to treat hyperpigmentation.
+                        Micro needling is also a very effective treatment for hyperpigmentation because it restores normal cell function and increases cell-to-cell communication, helping to regulate the production of melanin.                         Micro needling can also be combined with mesotherapy ampules with a cocktail of vitamins and minerals specifically blended to treat hyperpigmentation.
                     </p>
                 </div>
-            </div>
-            <div className="p-4 lg:p-8">
+            </section>
+            <section className="p-4 lg:p-8" aria-labelledby="strategies-heading">
                 <Card cardBodyClass="p-4 md:p-8 flex flex-col md:flex-row">
                     <div className="flex flex-col md:w-1/2">
-                        <h2 className="text-2xl md:text-4xl">5 Strategies For Real Results</h2>
+                        <h2 id="strategies-heading" className="text-2xl md:text-4xl">5 Strategies For Real Results</h2>
                         <ul className="my-4">
                             <li className="my-2">
                                 <span className="font-bold mr-2">✓</span> Empowering your skin and body’s immune system by providing ingredients that stimulate repair.
@@ -127,28 +127,28 @@ const Hyperpigmentation = () => {
                         <span>Essence of Beauty offers options for all skin types and ethnic backgrounds. A consultation is needed prior to the treatment. In-clinic consultations typically last 30 minutes and are priced at <strong>$50</strong></span>
                     </div>
                 </Card>
-            </div>
-            <div className="md:px-4 my-8 md:my-16">
+            </section>
+            <section className="md:px-4 my-8 md:my-16" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-8">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                     <span>Comparing before & after treatment</span>
                 </div>
                 <Gallery
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation1.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation2.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation3.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation4.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperpigmentation5.jpg?raw=true" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                        <StaticImage src="../assets/images/hyperpigmentation1.jpg" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                        <StaticImage src="../assets/images/hyperpigmentation2.jpg" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                        <StaticImage src="../assets/images/hyperpigmentation3.jpg" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                        <StaticImage src="../assets/images/hyperpigmentation4.jpg" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
+                        <StaticImage src="../assets/images/hyperpigmentation5.jpg" alt="Hyperpigmentation & Melasma Before & Treatment Image" />,
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -163,7 +163,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Ottawa helps you to minimize spots and blemishes from hyperpigmentation and melasma, no matter what your skin type."
                 pageKeywords="Hyperpigmentation, Blemishes, Spots, Melasma, Holistic, Beauty, Organic, Treatment, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/hyperPigmentationMelasma.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/hyperPigmentationMelasma.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/hyperpigmentation-melasma-treatment-ottawa/" />
         </>

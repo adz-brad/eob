@@ -12,11 +12,11 @@ const AnteageStemCell = () => {
             <Banner
                 heading="AnteAge Stem Cell Facial"
                 gradient="from-black/40 via-black/20 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - AnteAge Stem Cell Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteagestemcellHeader.png?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - AnteAge Stem Cell Facial" src="../assets/images/anteagestemcellHeader.png" />}
             />
-            <div className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8">
+            <section className="flex flex-col md:flex-row md:items-center p-4 md:p-8 my-8" aria-labelledby="anteage-heading">
                 <div className="flex flex-col md:w-1/2 mx-auto">
-                    <h1 className="text-2xl md:text-4xl font-bold mb-2">Restore Your Skin Health & Fight Aging with AnteAGE®</h1>
+                    <h1 id="anteage-heading" className="text-2xl md:text-4xl font-bold mb-2">Restore Your Skin Health & Fight Aging with AnteAGE®</h1>
                     <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">The facial exclusively uses products from AnteAGE® focused on stem cell-based skincare and microchanneling designed for anti-aging and skin restoration treatment.</h2>
                     <p className="my-1">
                         While most on-counter stem cell-containing skincare products use plant stem cells. AnteAGE® is the result of recent advances in Stem Cell science. One specialized population of stem cells that originate in the bone marrow is now known to be the commander in chief of all tissue repair. AnteAGE® has decoded the bio signal language these cells use to manage skin health. Bio signals called Growth Factors & Cytokines can create a natural, youthful healing response at the deepest level of your skin–at any age.  AnteAGE® products do not contain cells or cell remnants.  They are removed during ultrafiltration, the final step in the laboratory culture process. The ultra-filtered extract is fortified with growth factor actives, plus antioxidants and skin-supporting proteins, to create a biogenic skincare concentrate.
@@ -28,14 +28,15 @@ const AnteageStemCell = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
+                    src="../assets/images/anteage1.jpg"
                     alt="Essence of Beauty Ottawa AnteAge Stem Cell Facial"
                     className="md:w-1/3 mx-auto rounded-sm shadow-md"
                 />
-            </div>
-            <div
+            </section>
+            <section
                 id="anteage-stem-cell-facial-info"
                 className="flex flex-col md:flex-row bg-lightGreen rounded-md shadow-md p-4 md:p-8 md:m-4"
+                aria-labelledby="anteage-info-heading"
             >
                 <div className="flex flex-col md:w-2/3 md:mx-4">
                     <h2 className="text-2xl md:text-4xl mb-4">AnteAge® MD Targeted Treatments</h2>
@@ -83,13 +84,13 @@ const AnteageStemCell = () => {
                         className="grid grid-cols-1 gap-4 my-4"
                         imageClass="rounded-sm shadow-lg"
                         images={[
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage2.jpg?raw=true" alt="AnteAge Treatment at Essence of Beauty Ottawa" />
+                            <StaticImage src="../assets/images/anteage2.jpg" alt="AnteAge Treatment at Essence of Beauty Ottawa" />
                         ]}
                     />
                     <span className="mt-4 text-sm">Comparing before & after AnteAge treatment</span>
                 </div>
-            </div>
-            <div id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center">
+            </section>
+            <section id="anteage-stem-cell-benefits" className="flex flex-col md:flex-row p-4 md:p-8 items-center" aria-labelledby="benefits-heading">
                 <div className="flex flex-col md:w-1/2 md:m-4 lg:ml-16">
                     <h2 className="text-2xl md:text-4xl mb-4">The Benefits of AnteAge®</h2>
                     <h3 className="text-base md:text-xl mt-2 mb-4">This innovative, natural approach to skin rejuvenation allows us to achieve immediate as well as long - lasting results that include: </h3>
@@ -129,16 +130,16 @@ const AnteageStemCell = () => {
                         className="flex"
                         imageClass="rounded-sm shadow-lg"
                         images={[
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage7.jpg?raw=true" alt="AnteAge Before & After Treatment" />
+                            <StaticImage src="../assets/images/anteage7.jpg" alt="AnteAge Before & After Treatment" />
                         ]}
                     />
                     <span className="mt-4 text-sm">Amazing results from AnteAge Treatment</span>
                 </div>
-            </div>
-            <div className="md:p-8">
+            </section>
+            <section className="md:p-8" aria-labelledby="homecare-heading">
                 <Card cardBodyClass="flex flex-col lg:flex-row" cardWrapperClass="my-8">
                     <div className="flex flex-col p-4 md:p-8">
-                        <h2 className="text-2xl md:text-4xl mb-4">AnteAGE® Homecare System</h2>
+                        <h2 id="homecare-heading" className="text-2xl md:text-4xl mb-4">AnteAGE® Homecare System</h2>
                         <div className="my-4">
                             <h3 className="text-base md:text-xl mb-2">AnteAge® Serum</h3>
                             <p className="my-1">
@@ -153,33 +154,33 @@ const AnteageStemCell = () => {
                         </div>
                     </div>
                     <StaticImage
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteageHome.png?raw=true"
+                        src="../assets/images/anteageHome.png"
                         alt="Essence of Beauty AnteAge Homecare System"
                         className="lg:w-1/2 xl:w-1/3 xxl:w-1/4 shrink-0 mx-auto"
                     />
                 </Card>
-            </div>
-            <div className="max-w-screen-xxl mx-auto my-8">
+            </section>
+            <section className="max-w-screen-xxl mx-auto my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-4">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">More amazing results!</h2>
                     <span className="mb-8">Comparing Before & After AnteAge Treatment</span>
                 </div>
                 <Gallery
                     className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage3.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage4.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage5.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage6.jpg?raw=true" alt="AnteAge Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/AnteAGE-3.jpg?raw=true" alt="AnteAge Before & After Treatment" />
+                        <StaticImage src="../assets/images/anteage3.jpg" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="../assets/images/anteage4.jpg" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="../assets/images/anteage5.jpg" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="../assets/images/anteage6.jpg" alt="AnteAge Before & After Treatment" />,
+                        <StaticImage src="../assets/images/AnteAGE-3.jpg" alt="AnteAge Before & After Treatment" />
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3x font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3x font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -194,7 +195,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Ottawa uses a holistic approach to significantly reverse your skin's aging process with in-office treatments and advanced homecare protocol with amazing results!"
                 pageKeywords="AnteAge, Stem Cell Facial, inflammation, redness, pores, wrinkles, pigmentation, sensitive skin, Facials, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, "
                 pageUrl="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/anteage1.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/anteage1.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/anteage-stem-cell-facial/" />
         </>

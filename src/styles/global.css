@@ -21,6 +21,41 @@ h1, h2, h3, h4, h5, .font-headers {
     font-family: Marcellus;
 }
 
+/* Skip Link - Hidden by default, visible on focus */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #7cc16c;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Focus Indicators */
+*:focus-visible {
+    outline: 2px solid #7cc16c;
+    outline-offset: 2px;
+}
+
+/* Screen reader only class */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 p {
     @apply text-base;
 }

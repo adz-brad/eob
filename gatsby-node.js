@@ -1,5 +1,15 @@
 const { createFilePath } = require("gatsby-source-filesystem");
 
+exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions
+    const typeDefs = `
+        type MarkdownRemarkFrontmatter {
+            featuredImage: String
+        }
+    `
+    createTypes(typeDefs)
+}
+
 exports.onCreateNode = async ({ node, getNode, actions, createContentDigest }) => {
 
     const { createNode  } = actions;

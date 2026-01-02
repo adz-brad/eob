@@ -4,7 +4,6 @@ import { StaticImage } from 'gatsby-plugin-image'
 import { useWindowHeight, useWindowWidth } from '../../hooks'
 import { MdArrowBackIos } from 'react-icons/md'
 import menuLinks from '../../data/menus/menuLinks.json'
-import { window } from 'browser-monads'
 
 const Navbar = () => {
 
@@ -28,14 +27,15 @@ const Navbar = () => {
 
     useEffect(() => {
         setDropdownOpen(null)
-    }, [ window.location.href ])
+    }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
     return(
-        <nav onMouseLeave={() => setDropdownOpen(null)} className="bg-white flex flex-row items-center w-full p-1 rounded-b-sm shadow-md z-50" style={{zIndex:999}}>
+        // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
+        <nav className="bg-white flex flex-row items-center w-full p-1 rounded-b-sm shadow-md z-50" style={{zIndex:999}} onMouseLeave={() => setDropdownOpen(null)}>
 
         <Link to="/" className="h-20 py-1 -ml-8">
             <StaticImage 
-                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/Eob-logo.png?raw=true" 
+                src="../../assets/images/Eob-logo.png" 
                 style={{ height: "100%" }}
                 imgStyle={{objectFit:" contain"}}
                 alt="Essence of Beauty"
@@ -55,10 +55,6 @@ const Navbar = () => {
                                 className="p-1 cursor-pointer hover:text-green mx-3"
                                 to={link.slug === '/' ? link.slug : `/${link.slug}`}
                                 onMouseEnter={()=> setDropdownOpen(null)}
-                                onClick={() => setDropdownOpen(link.title)}
-                                onKeyDown={() => setDropdownOpen(link.title)}
-                                role="button"
-                                tabIndex={-i}
                             >
                                 <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                             </Link>
@@ -69,21 +65,30 @@ const Navbar = () => {
                                     className="relative p-1 cursor-pointer mx-3 hover:text-green" 
                                     onMouseEnter={()=> setDropdownOpen(link.title)}
                                     onClick={() => setDropdownOpen(link.title)}
-                                    onKeyDown={() => setDropdownOpen(link.title)}
+                                    onKeyDown={(e) => {
+                                        if (e.key === 'Enter' || e.key === ' ') {
+                                            e.preventDefault()
+                                            setDropdownOpen(link.title)
+                                        }
+                                    }}
                                     role="button"
-                                    tabIndex={-i}
+                                    tabIndex={0}
+                                    aria-expanded={dropdownOpen === link.title}
+                                    aria-haspopup="true"
+                                    aria-controls={`dropdown-${i}`}
                                 >
                                     <span className="md:text-lg xl:text-xl font-headers">{link.title}</span>
                                 
                                 {dropdownOpen === link.title ?
                                     link.subMenus.length === 0 ?
-                                        <div className="absolute transform left-1/2 -translate-x-1/2 flex flex-col whitespace-nowrap p-2 z-30 shadow-md rounded-sm cursor-default text-black bg-white">
+                                        <div id={`dropdown-${i}`} className="absolute transform left-1/2 -translate-x-1/2 flex flex-col whitespace-nowrap p-2 z-30 shadow-md rounded-sm cursor-default text-black bg-white" role="menu">
                                             {link.pages.map((page, i) => {                          
                                                 return(
                                                     <Link 
                                                         key={i} 
                                                         className="p-1 cursor-pointer hover:text-green mx-3 md:text-lg"
                                                         to={`/${page.slug}`}
+                                                        role="menuitem"
                                                     >
                                                         {page.title}
                                                     </Link>
@@ -91,7 +96,7 @@ const Navbar = () => {
                                             })}
                                         </div>
                                     : 
-                                        <div className="absolute transform left-1/2 -translate-x-1/2 flex flex-row whitespace-nowrap p-2 z-30 shadow-md rounded-sm cursor-default text-black bg-white">
+                                        <div id={`dropdown-${i}`} className="absolute transform left-1/2 -translate-x-1/2 flex flex-row whitespace-nowrap p-2 z-30 shadow-md rounded-sm cursor-default text-black bg-white" role="menu">
                                             {link.subMenus.map((subMenu, i) => {                          
                                                 return(
                                                     <div key={i} className="flex flex-col mx-3 p-1">
@@ -127,7 +132,9 @@ const Navbar = () => {
                 <button 
                     className={`${mobileNavOpen === true ? 'fixed top-4' : 'absolute top-1/2 transform -translate-y-1/2'} right-3 h-12 w-12 z-50`}
                     onClick={mobileNavOpen === true ? () => closeMobileNav() : () => setMobileNavOpen(true)}
-                    name="Toggle Navigation"
+                    aria-label={mobileNavOpen === true ? "Close navigation menu" : "Open navigation menu"}
+                    aria-expanded={mobileNavOpen}
+                    aria-controls="mobile-menu"
                 >
                     <div
                         className={`absolute top-1/2 left-1/2 -translate-x-1/2 h-1 rounded-lg shadow-md transform transition duration-150 ease-in-out ${
@@ -152,7 +159,7 @@ const Navbar = () => {
 
 
 
-                <div className={`transform transition-all duration-300 flex-col fixed top-0 left-0 z-40 ${mobileNavOpen === true ? '' : '-translate-x-full'}`} style={{ height: windowHeight, width: windowWidth }}>
+                <div id="mobile-menu" className={`transform transition-all duration-300 flex-col fixed top-0 left-0 z-40 ${mobileNavOpen === true ? '' : '-translate-x-full'}`} style={{ height: windowHeight, width: windowWidth }}>
                     
                     <div className="absolute top-0 left-0 h-full w-full bg-gradient-to-r from-green to-darkGreen z-20 opacity-90 overflow-auto">
 
@@ -167,7 +174,6 @@ const Navbar = () => {
                                         to={link.slug === '/' ? link.slug : `/${link.slug}`}
                                         onClick={() => closeMobileNav()}
                                         onKeyDown={() => closeMobileNav()}
-                                        tabIndex={-i}
                                     >
                                         <span className="text-3xl font-headers font-semibold">{link.title}</span>
                                     </Link>
@@ -176,16 +182,24 @@ const Navbar = () => {
                                         key={i} 
                                         className="relative p-1 m-2 flex flex-col items-center" 
                                         onClick={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
-                                        onKeyDown={()=> setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)}
+                                        onKeyDown={(e) => {
+                                            if (e.key === 'Enter' || e.key === ' ') {
+                                                e.preventDefault()
+                                                setMobileSlideOpen(mobileSlideOpen === link.title ? null : link.title)
+                                            }
+                                        }}
                                         role="button"
-                                        tabIndex={-i}
+                                        tabIndex={0}
+                                        aria-expanded={mobileSlideOpen === link.title}
+                                        aria-haspopup="true"
+                                        aria-controls={`mobile-submenu-${i}`}
                                     >
 
                                     <span className="text-3xl font-headers font-semibold">{link.title}</span>
                             
                                     {mobileSlideOpen === link.title ?
                                         link.subMenus.length === 0 ?
-                                            <div className="justify-center fixed top-0 left-0 h-full w-full flex flex-col items-center p-2 bg-gradient-to-r from-green to-darkGreen z-10">
+                                            <div id={`mobile-submenu-${i}`} className="justify-center fixed top-0 left-0 h-full w-full flex flex-col items-center p-2 bg-gradient-to-r from-green to-darkGreen z-10" role="menu">
                                                 {link.pages.map((page, i) => {                          
                                                     return(
                                                         <Link 
@@ -194,18 +208,19 @@ const Navbar = () => {
                                                             to={`/${page.slug}`}
                                                             onClick={() => closeMobileNav()}
                                                             onKeyDown={() => closeMobileNav()}
+                                                            role="menuitem"
                                                         >
                                                             {page.title}
                                                         </Link>
                                                     )
                                                 })}
-                                                <button className="mt-4 flex flex-row items-center">
+                                                <button className="mt-4 flex flex-row items-center" onClick={() => setMobileSlideOpen(null)} aria-label="Go back to main menu">
                                                     <MdArrowBackIos className="text-2xl"/>
                                                     <span className="text-2xl">Back</span>
                                                 </button>
                                             </div>
                                         : 
-                                            <div className="justify-center fixed top-0 left-0 h-full w-full flex flex-col items-center p-2 bg-gradient-to-r from-green to-darkGreen z-10">
+                                            <div id={`mobile-submenu-${i}`} className="justify-center fixed top-0 left-0 h-full w-full flex flex-col items-center p-2 bg-gradient-to-r from-green to-darkGreen z-10" role="menu">
                                                 {link.subMenus.map((subMenu, i) => {                          
                                                     return(
                                                         <div key={i} className="flex flex-col items-center w-full">
@@ -227,7 +242,7 @@ const Navbar = () => {
                                                         </div>
                                                     )
                                                 })}
-                                                <button className="mt-4 flex flex-row items-center">
+                                                <button className="mt-4 flex flex-row items-center" onClick={() => setMobileSlideOpen(null)} aria-label="Go back to main menu">
                                                     <MdArrowBackIos className="text-2xl text-black"/>
                                                     <span className="text-2xl font-headers font-semibold text-black">Back</span>
                                                 </button>
@@ -244,7 +259,7 @@ const Navbar = () => {
                     <div className="absolute top-0 left-0 h-full w-full z-10">
                         <StaticImage
                          loading="lazy"
-                            src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/mobile-bg.jpg?raw=true"
+                            src="../../assets/images/mobile-bg.jpg"
                             alt=""
                             style={{
                                 width: "100%",

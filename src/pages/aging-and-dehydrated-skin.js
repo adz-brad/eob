@@ -13,11 +13,11 @@ const AgingAndDehydratedSkin = () => {
             <Banner
                 heading="Aging & Dehydrated Skin"
                 gradient="from-black/50 via-black/30 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Aging & Dehydrated Skin" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialAgingHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Aging & Dehydrated Skin" src="../assets/images/facialAgingHeader.jpg" />}
             />
-            <div className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8">
+            <section className="flex flex-col lg:flex-row lg:items-center p-4 md:p-8" aria-labelledby="aging-skin-heading">
                 <div className="lg:w-2/3 lg:m-8">
-                    <h1 className="text-2xl md:text-4xl mb-4 font-semibold">Turning Back The Clock On Aging Skin</h1>
+                    <h1 id="aging-skin-heading" className="text-2xl md:text-4xl mb-4 font-semibold">Turning Back The Clock On Aging Skin</h1>
                     <h2 className="text-xl md:text-2xl my-6 subheader">Is your skin starting to lose it's radiant appearance? At Essence of Beauty Ottawa, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and fighting the aging process by addressing a host of minor imperfections.</h2>
                     <p className="my-2">
                         As you age, your skin gets drier and thinner and starts to lose its plump, radiant appearance. The loss of collagen in your skin, as well as exposure to the elements, causes wrinkles, skin laxity and gives your skin a dull appearance. You’ll likely notice your face losing its firmness and tightness most around your eyes and mouth. You could opt for Botox injections, cosmetic surgery or laser treatments, however these options can be painful and only provide short term beauty results. <strong>They don’t do anything to help your skin produce more collagen and repair damaged cells.</strong>
@@ -32,14 +32,14 @@ const AgingAndDehydratedSkin = () => {
                 </div>
                 <StaticImage
                     loading="eager"
-                    src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"
+                    src="../assets/images/antiAging.jpg"
                     alt="Essence of Beauty Anti Aging Image"
                     className="lg:w-1/3 max-h-[520px] rounded-sm shadow-lg lg:m-8"
                 />
-            </div>
-            <div id="anti-aging-treatments" className="md:p-4 lg:p-8">
+            </section>
+            <section id="anti-aging-treatments" className="md:p-4 lg:p-8" aria-labelledby="treatment-options-heading">
                 <div className="mb-8 lg:pt-8 text-center">
-                    <h2 className="text-2xl md:text-4xl mb-2">Treatment Options</h2>
+                    <h2 id="treatment-options-heading" className="text-2xl md:text-4xl mb-2">Treatment Options</h2>
                     <span>Choose a treatment option to learn more</span>
                 </div>
                 <Tabs
@@ -201,26 +201,26 @@ const AgingAndDehydratedSkin = () => {
                         },
                     ]}
                 />
-            </div>
-            <div className="max-w-screen-xl mx-auto my-8">
+            </section>
+            <section className="max-w-screen-xl mx-auto my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-4">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                     <span className="mb-8">Comparing before & after treatment</span>
                 </div>
                 <Gallery
                     className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging.jpg?raw=true" alt="Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging2.jpg?raw=true" alt="Before & After Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/aging3.jpg?raw=true" alt="Before & After Treatment" />
+                        <StaticImage src="../assets/images/aging.jpg" alt="Before & After Treatment" />,
+                        <StaticImage src="../assets/images/aging2.jpg" alt="Before & After Treatment" />,
+                        <StaticImage src="../assets/images/aging3.jpg" alt="Before & After Treatment" />
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -235,7 +235,7 @@ export const Head = () => {
                 pageDescription="At Essence of Beauty, our facial rejuvenation treatments offer a solution to reviving tired skin, turning back the clock and addressing a host of minor imperfections."
                 pageKeywords="Aging, Antiaging, Anti-aging, Dehydrated skin, Dry skin, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/antiAging.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/antiAging.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/aging-and-dehydrated-skin/" />
         </>

@@ -12,13 +12,12 @@ const Accordion = ({ items, className, additionalContent }) => {
                 <ul>
                     {items.map((item, i) => {
                         return(
-                            <li 
-                                key={i}
-                                className="flex flex-col py-4 md:p-4"
-                                onClick={()=> setActive(i)}
-                                onKeyDown={()=> setActive(i)}
-                            >
-                                <div className="flex flex-row items-center cursor-pointer">
+                            <li key={i} className="flex flex-col py-4 md:p-4">
+                                <button
+                                    onClick={()=> setActive(i)}
+                                    className="flex flex-row items-center cursor-pointer w-full text-left"
+                                    aria-expanded={active === i}
+                                >
                                     {active === i ?
                                         <MdRemove className="shrink-0 text-3xl text-lightGreen rounded-sm shadow-md bg-darkGreen" />
                                     :
@@ -27,7 +26,7 @@ const Accordion = ({ items, className, additionalContent }) => {
                                     <h1 className="ml-4 text-xl md:text-2xl">
                                         {item.heading}
                                     </h1>
-                                </div>
+                                </button>
                                 <div className={active === i ? 'h-fit px-4 pt-4' : 'h-0 overflow-hidden'}>
                                     {item.content}
                                 </div>

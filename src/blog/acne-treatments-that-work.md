@@ -1,7 +1,7 @@
 ---
 title: Acne Treatments That Work
 excerpt: Acne is a chronic, inflammatory skin condition that causes spots and pimples, but no matter how bad of shape your skin is in, there are treatment options for you!
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-treatments-that-work-feature-image.jpg?raw=true
+featuredImage: ../assets/images/acne-treatments-that-work-feature-image.jpg
 date: 2019-05-6T00:00:00Z
 ---
 

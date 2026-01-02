@@ -13,18 +13,18 @@ const HerbalGreenPeel = () => {
             <Banner
                 heading="Skin Rejuvenation with Herbal Green Peel®"
                 gradient="from-black/10 via-black/30 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Herbal Green Peel" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Herbal Green Peel" src="../assets/images/greenPeelHeader.jpg" />}
             />
-            <div className="p-4 lg:p-16">
+            <section className="p-4 lg:p-16" aria-labelledby="herbal-green-peel-heading">
                 <div className="flex flex-col-reverse lg:flex-row">
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true"
+                        src="../assets/images/greenPeelFeature.png"
                         alt="Essence of Beauty Herbal Green Peel®"
                         className="my-8 lg:my-0 lg:w-1/2 lg:mr-12 rounded-sm shadow-lg"
                     />
                     <div className="flex flex-col lg:w-1/2 p-2">
-                        <h1 className="text-2xl md:text-4xl mb-4">A "New Face" For Skin Peels</h1>
+                        <h1 id="herbal-green-peel-heading" className="text-2xl md:text-4xl mb-4">A "New Face" For Skin Peels</h1>
                         <h2 className="text-xl md:text-2xl mt-1 mb-2">
                             Acid-Free peels designed to effectively treat acne scars, signs of aging, pigmentation & other skin issues while tightenting & brightening your skin!
                         </h2>
@@ -52,19 +52,19 @@ const HerbalGreenPeel = () => {
                         imageClass="rounded-sm shadow-lg min-h-[400px]"
                         images={[
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel1.png?raw=true"
+                                src="../assets/images/greenPeel1.png"
                                 alt="Essence of Beauty Herbal Green Peel®"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel2.png?raw=true"
+                                src="../assets/images/greenPeel2.png"
                                 alt="Essence of Beauty Herbal Green Peel®"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel3.png?raw=true"
+                                src="../assets/images/greenPeel3.png"
                                 alt="Essence of Beauty Herbal Green Peel®"
                             />,
                             <StaticImage
-                                src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeel4.png?raw=true"
+                                src="../assets/images/greenPeel4.png"
                                 alt="Essence of Beauty Herbal Green Peel®"
                             />
                         ]}
@@ -169,17 +169,17 @@ const HerbalGreenPeel = () => {
                             className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 my-1"
                             imageClass="rounded-sm shadow-lg min-h-[300px]"
                             images={[
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore1.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter1.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelBefore2.png?raw=true" alt="Essence of Beauty Before Green Peel Treatment" />,
-                                <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelAfter2.png?raw=true" alt="Essence of Beauty After Green Peel Treatment" />
+                                <StaticImage src="../assets/images/greenPeelBefore1.png" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                <StaticImage src="../assets/images/greenPeelAfter1.png" alt="Essence of Beauty After Green Peel Treatment" />,
+                                <StaticImage src="../assets/images/greenPeelBefore2.png" alt="Essence of Beauty Before Green Peel Treatment" />,
+                                <StaticImage src="../assets/images/greenPeelAfter2.png" alt="Essence of Beauty After Green Peel Treatment" />
                             ]}
                         />
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col p-4 md:p-8 md:mx-8 my-8">
-                <h2 className="text-2xl md:text-4xl mb-4">
+            </section>
+            <section className="flex flex-col p-4 md:p-8 md:mx-8 my-8" aria-labelledby="peel-options-heading">
+                <h2 id="peel-options-heading" className="text-2xl md:text-4xl mb-4">
                     Herbal Green Peel Options
                 </h2>
                 <Card cardBodyClass="flex flex-col xl:flex-row" cardWrapperClass="my-4">
@@ -309,11 +309,11 @@ const HerbalGreenPeel = () => {
                         />
                     </div>
                 </Card>
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -328,7 +328,7 @@ export const Head = () => {
                 pageDescription="GREEN PEEL® is an acid-free herbal formulation of natural active ingredients designed to effectively treat sun-damaged skin, stretch marks, acne scarring & more, even for those with sensitive skin."
                 pageKeywords="Herbal, Herbal Green Peel, Acid-free, No-chemical, acid free, no chemical, sun damaged, stretch marks, wrinkles, anti aging, Facial, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/herbal-green-peel/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/greenPeelFeature.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/greenPeelFeature.png"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/herbal-green-peel/" />
         </>

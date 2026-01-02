@@ -15,12 +15,12 @@ const AcneScars = () => {
             <Banner
                 heading="Acne Scars Revision"
                 gradient="from-black/70 via-black/50 to-black/30"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Acne Scars Revision" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarsHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Acne Scars Revision" src="../assets/images/acneScarsHeader.jpg" />}
             />
-            <div className="p-4 lg:p-8">
+            <section className="p-4 lg:p-8" aria-labelledby="acne-scars-heading">
                 <div className="flex flex-col lg:flex-row lg:items-center">
                     <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
-                        <h1 className="text-2xl md:text-4xl mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
+                        <h1 id="acne-scars-heading" className="text-2xl md:text-4xl mt-2 mb-4 font-semibold">Safe & Effective Treatment of Acne Scars</h1>
                         <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
                             With customized acne treatment options from Essence of Beauty Ottawa, you can say goodbye to the scarring that compromises your complexion long after your acne is healed.
                         </h2>
@@ -38,20 +38,20 @@ const AcneScars = () => {
 
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"
+                        src="../assets/images/acne-scar-treatment.jpg"
                         alt="Essence of Beauty Acne Treatment"
                         className="lg:mx-16 md:mt-8 rounded-sm shadow-md h-[460px]"
                     />
 
                 </div>
-            </div>
-            <div id="acne-scarring-info" className="md:p-8">
+            </section>
+            <section id="acne-scarring-info" className="md:p-8" aria-labelledby="acne-scarring-info-heading">
                 <Card cardBodyClass="p-4 lg:px-8" cardWrapperClass="md:my-8" >
-                    <h2 className="text-xl md:text-3xl my-4">
+                    <h2 id="acne-scarring-info-heading" className="text-xl md:text-3xl my-4">
                         How do acne scars develop?
                     </h2>
                     <p className="my-2">
-                        When acne breakouts penetrate the skin deeply, they damage the skin and the tissue beneath it. As the acne clears, the body tries to repair this damage. During the healing process, the body produces collagen a substance that gives the skin support. If the body produces too little or too much collagen, you will see a scar. This collagen can stay in place permanently, creating acne scarring. In some cases, the result is not a true scar, but simply an excess of pigmentation. This may fade away over a few months or years – it generally isn’t permanent as with other acne scars.
+                        When acne breakouts penetrate the skin deeply, they damage the skin and the tissue beneath it. As the acne clears, the body tries to repair this damage. During the healing process, the body produces collagen a substance that gives the skin support. If the body produces too little or too much collagen, you will see a scar. This collagen can stay in place permanently, creating acne scarring. In some cases, the result is not a true scar, but simply an excess of pigmentation. This may fade away over a few months or years – it generally isn't permanent as with other acne scars.
                     </p>
                     <p className="my-2">
                         Before getting treatment for acne scars, it is important to clear your acne. New acne breakouts can lead to new acne scars. Having acne also means that your skin is inflamed which will reduce the effectiveness of acne scar treatment. Luckily, we have a range of holistically active acne and acne scarring treatments to help get to the source of the problem and give you and your skin its confidence & radiance back!
@@ -72,25 +72,25 @@ const AcneScars = () => {
                     </div>
                     <p className="my-1">You can <Link to="holistic-acne-clinic-ottawa/">click here</Link> to learn more about the Essence of Beauty <Link to="holistic-acne-clinic-ottawa/">Holistic Acne Clinic.</Link></p>
                 </Card>
-            </div>
-            <div className="max-w-screen-lg mx-auto my-8">
+            </section>
+            <section className="max-w-screen-lg mx-auto my-8" aria-labelledby="results-heading">
                 <div className="flex flex-col items-center my-4">
-                    <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                    <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                     <span className="mb-8">Comparing before & after treatment</span>
                 </div>
                 <Gallery
                     className="grid grid-col-1 md:grid-cols-2 gap-4"
                     imageClass="rounded-sm shadow-lg"
                     images={[
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScarring.jpg?raw=true" alt="Before & After Acne Treatment" />,
-                        <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneScars1.jpg?raw=true" alt="Before & After Acne Treatment" />
+                        <StaticImage src="../assets/images/acneScarring.jpg" alt="Before & After Acne Treatment" />,
+                        <StaticImage src="../assets/images/acneScars1.jpg" alt="Before & After Acne Treatment" />
                     ]}
                 />
-            </div>
-            <div className="flex flex-col items-center p-4">
-                <h2 className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
+            </section>
+            <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold mt-8 mb-4">Are you ready to get started?</h2>
                 <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-            </div>
+            </section>
         </>
     )
 }
@@ -105,7 +105,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Acne Clinic Ottawa creates customized programs for each client to treat acne & scarring so you can say goodbye to skin issues compromising your complexion!"
                 pageKeywords="Acne Scars, Scarring, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/"
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acne-scar-treatment.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/acne-scar-treatment.jpg"
             />
             <link rel="canonical" href="https://www.essenceofbeauty.ca/acne-scars-treatment-ottawa/" />
         </>

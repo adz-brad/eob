@@ -63,18 +63,29 @@ const Contact = () => {
 
     return(
 
-<form name="Contact Form" onSubmit={submit} className="flex flex-row flex-wrap px-3 md:px-6">
+<form name="Contact Form" onSubmit={submit} className="flex flex-row flex-wrap px-3 md:px-6" aria-label="Contact form">
+            <div role="status" aria-live="polite" aria-atomic="true" className="sr-only">
+                {sent.open && sent.status === 'Sent' ? 'Your message has been sent successfully.' : ''}
+                {sent.open && sent.status === 'Failed' ? 'There was a problem sending your message.' : ''}
+            </div>
             {sent.open ?
-                <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[calc(100vh/2)] w-[calc(100vw_-_20px)] max-h-[400px] max-w-[600px] z-50 bg-white rounded-md shadow-lg flex flex-col items-center justify-center p-4 md:p-8">
-                    {sent.status === 'Sent' ? <span className="text-xl md:text-2xl font-bold">Your message has been sent.</span> : null }
+                <div className="fixed top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[calc(100vh/2)] w-[calc(100vw_-_20px)] max-h-[400px] max-w-[600px] z-50 bg-white rounded-md shadow-lg flex flex-col items-center justify-center p-4 md:p-8" role="dialog" aria-modal="true" aria-labelledby="form-status-title">
+                    {sent.status === 'Sent' ? <span id="form-status-title" className="text-xl md:text-2xl font-bold">Your message has been sent.</span> : null }
                     {sent.status === 'Sent' ? 
                         <span>We will be in touch with you as soon as possible!</span>
                     : 
-                        <span>We're sorry, there was a problem sending your message, but we'd still love to hear from you! Please try giving us a call at <a href="tel:1-(603)-220-2101">1-(603)-220-2101</a></span>
+                        <span id="form-status-title">We're sorry, there was a problem sending your message, but we'd still love to hear from you! Please try giving us a call at <a href="tel:1-(613)-220-2101">(613) 220-2101</a></span>
                     }
                     <button 
-                        onClick={() => setSent({ open: false, status: 'Idle' })} onKeyDown={() => setSent({ open: false, status: 'Idle' })} 
+                        onClick={() => setSent({ open: false, status: 'Idle' })} 
+                        onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault()
+                                setSent({ open: false, status: 'Idle' })
+                            }
+                        }}
                         className="buttonLight bg-green hover:bg-darkGreen text-white mt-8"
+                        aria-label="Close dialog"
                     >
                         OK
                     </button>
@@ -86,17 +97,19 @@ const Contact = () => {
             <label 
                 htmlFor="userfirstname"
                 className="w-0 h-0 opacity-0"
+                tabIndex={-1}
             >
                 Name
             </label>
-            <input autoComplete="off" type="text" className="w-0 h-0 opacity-0" id="userfirstname" name="userfirstname" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
+            <input autoComplete="off" type="text" className="w-0 h-0 opacity-0" id="userfirstname" name="userfirstname" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabIndex={-1} aria-hidden="true" />
             <label 
                 htmlFor="useremail"
                 className="w-0 h-0 opacity-0"
+                tabIndex={-1}
             >
                 Email
             </label>
-            <input autoComplete="off" type="useremail" className="w-0 h-0 opacity-0" id="useremail" name="useremail" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} />
+            <input autoComplete="off" type="email" className="w-0 h-0 opacity-0" id="useremail" name="useremail" onChange={(e) => setHoneypot(e.target.value)} value={honeypot} tabIndex={-1} aria-hidden="true" />
             <div className="flex flex-col p-1 w-full md:w-1/2 my-1 md:p-2">
                                 <label 
                                     htmlFor="firstName"
@@ -111,6 +124,7 @@ const Contact = () => {
                                     type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.firstName}
+                                    autoComplete="given-name"
                                     onChange={(e) => setFormData({
                                         firstName: e.target.value, 
                                         lastName: formData.lastName, 
@@ -134,6 +148,7 @@ const Contact = () => {
                                     type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.lastName}
+                                    autoComplete="family-name"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
                                         lastName: e.target.value, 
@@ -158,6 +173,7 @@ const Contact = () => {
                                     type="email" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.email}
+                                    autoComplete="email"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
                                         lastName: formData.lastName, 
@@ -179,9 +195,10 @@ const Contact = () => {
                                     id="phone"
                                     required
                                     name="phone"
-                                    type="phone" 
+                                    type="tel" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     value={formData.phone}
+                                    autoComplete="tel"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
                                         lastName: formData.lastName, 
@@ -203,10 +220,10 @@ const Contact = () => {
                                     id="message"
                                     required
                                     name="message"
-                                    type="text" 
                                     className="w-full p-2 rounded-sm shadow-md border border-black/10"
                                     rows={5}
                                     value={formData.message}
+                                    autoComplete="off"
                                     onChange={(e) => setFormData({
                                         firstName: formData.firstName, 
                                         lastName: formData.lastName, 
@@ -217,7 +234,7 @@ const Contact = () => {
                                 />
                             </div>
 
-                <button type="submit" className="buttonLight mt-4 ml-auto bg-white hover:bg-darkGreen">
+                <button type="submit" className="buttonLight mt-4 ml-auto bg-white hover:bg-darkGreen" aria-label="Submit contact form">
                     Submit
                 </button>
 

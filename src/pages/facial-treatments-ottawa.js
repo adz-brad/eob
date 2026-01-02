@@ -14,12 +14,12 @@ const FacialTreatments = () => {
             <Banner
                 heading="Facials For Women & Men"
                 gradient="from-black/40 via-black/20 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Facials for Women & Men" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Facials for Women & Men" src="../assets/images/facialTreatmentHeader.png" />}
             />
             <PageWrapper>
-                <div className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8">
+                <section className="flex flex-col lg:flex-row lg:items-center my-8 md:py-8" aria-labelledby="facial-treatments-heading">
                     <div className="flex flex-col lg:w-1/2 lg:mx-auto">
-                        <h1 className="text-2xl md:text-4xl my-3 font-bold">Effective Facial Treatments For Acne & More</h1>
+                        <h1 id="facial-treatments-heading" className="text-2xl md:text-4xl my-3 font-bold">Effective Facial Treatments For Acne & More</h1>
                         <h2 className="text-xl md:text-2xl mt-1 mb-2">Essence of Beauty Ottawa provides only the best facial treatments for acne, rosacea, hyperpigmentation, anti-aging & other skin issues. </h2>
                         <p className="my-1">
                             Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials & peels designed to expertly treat acne, scarring, signs of aging, pigmentation, rosacea & more by addressing your skin’s unique needs as well as your dreams and goals for your complexion. The Essence of Beauty approach integrates the health of your body in the treatment equation for immediately noticeable and long-lasting results.
@@ -39,18 +39,17 @@ const FacialTreatments = () => {
                         className="my-8 md:my-0 mx-auto"
                         src="https://www.youtube.com/embed/ZCLPUWGVBis"
                         title="Advanced Deep Pore Cleansing Facial Treatment with Extractions"
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        webkitallowfullscreen="true"
-                        mozallowfullscreen="true"
-                        allowfullscreen
-                        referrerpolicy="no-referrer-when-downgrade"
+                        allowFullScreen
+                        referrerPolicy="no-referrer-when-downgrade"
+                        aria-label="YouTube video: Advanced Deep Pore Cleansing Facial Treatment with Extractions"
                     />
 
-                </div>
-                <div id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" >
+                </section>
+                <section id="facial-treatment-options" className="my-8 md:mx-8 md:py-8" aria-labelledby="treatment-options-heading">
                     <div className="ml-8">
-                        <h2 className="text-2xl md:text-4xl mt-4">Skin Care Treatments For Acne, Rosacea & More</h2>
+                        <h2 id="treatment-options-heading" className="text-2xl md:text-4xl mt-4">Skin Care Treatments For Acne, Rosacea & More</h2>
                         <p className="mb-8">Browse our facial menu to find the right treatment for you!</p>
                     </div>
                     <div className="flex flex-col py-4 md:py-8">
@@ -109,11 +108,11 @@ const FacialTreatments = () => {
                             )
                         })}
                     </div>
-                </div>
-                <div className="flex flex-col items-center p-4">
-                    <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+                </section>
+                <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                    <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                     <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-                </div>
+                </section>
             </PageWrapper>
         </>
     )
@@ -149,7 +148,7 @@ export const Head = () => {
                 pageDescription="Essence of Beauty Ottawa integrates the health of your body into equation for immediately noticeable and long-lasting results in treating acne, scarring, pigmentation, rosacea & more."
                 pageKeywords="Skincare, Checmical-free, No-Acid, Facials, Acid free, No Chemicals, Sensitive SkinFacials, Facial Treatment, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl={pageUrl}
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/facialTreatmentHeader.png?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/facialTreatmentHeader.png"
                 pageType="service"
                 additionalSchema={serviceSchema}
             />

@@ -1,7 +1,7 @@
 ---
 title: Looking to Revitalize Dull Skin?
 excerpt: Your skin plays a vital role in protecting your body, so it’s important to take steps to promote skin health. What’s going on internally is reflected in our skin.
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/revitalize-dull-skin.jpg?raw=true
+featuredImage: ../assets/images/revitalize-dull-skin.jpg
 date: 2018-12-20T00:00:00Z
 ---
 

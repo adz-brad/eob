@@ -14,12 +14,12 @@ const AcneTreatment = () => {
             <Banner
                 heading="Acne Treatment"
                 gradient="from-black/60 via-black/30 to-black/10"
-                image={<StaticImage alt="Essence of Beauty Ottawa - Acne Treatment" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatmentHeader.jpg?raw=true" />}
+                image={<StaticImage alt="Essence of Beauty Ottawa - Acne Treatment" src="../assets/images/acneTreatmentHeader.jpg" />}
             />
-            <div className="p-4 lg:p-8">
+            <section className="p-4 lg:p-8" aria-labelledby="acne-treatment-heading">
                 <div className="flex flex-col lg:flex-row lg:items-center">
                     <div className="flex flex-col lg:w-3/5 md:p-4 lg:mx-8">
-                        <h1 className="text-2xl md:text-4xl mt-2 mb-4 font-semibold">Advanced Acne Treatment Options</h1>
+                        <h1 id="acne-treatment-heading" className="text-2xl md:text-4xl mt-2 mb-4 font-semibold">Advanced Acne Treatment Options</h1>
                         <h2 className="text-xl md:text-2xl mt-2 mb-4 subheader">
                             Essence of Beauty Ottawa specializes in the treatment of acne with customized skincare protocols designed specifically for YOU!
                         </h2>
@@ -40,15 +40,15 @@ const AcneTreatment = () => {
 
                     <StaticImage
                         loading="eager"
-                        src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true"
+                        src="../assets/images/acneTreatment.jpg"
                         alt="Essence of Beauty New Client Acne Treatment"
                         className="lg:mx-16 rounded-sm shadow-md"
                     />
 
                 </div>
 
-                <div id="acne-treatment-info" className="flex flex-col my-4 p-4 md:p-8 md:my-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md">
-                    <h2 className="text-2xl md:text-4xl my-4 md:mt-2 md:mb-4">What's Included?</h2>
+                <section id="acne-treatment-info" className="flex flex-col my-4 p-4 md:p-8 md:my-8 lg:mx-8 bg-lightGreen rounded-sm shadow-md" aria-labelledby="whats-included-heading">
+                    <h2 id="whats-included-heading" className="text-2xl md:text-4xl my-4 md:mt-2 md:mb-4">What's Included?</h2>
                     <p className="my-1">
                         Our in-clinic acne treatments are completely individualized, but all include exfoliation and extraction. The type of exfoliation we do is dependent on your skin’s needs and tolerances. Extractions vary according to how many you need and your tolerance. This treatment is combined with Blue or Red LED Lights, Ultrasound Therapy or Acne-Microcurrent for a better and faster results. All of our acne treatments provide the following:
                     </p>
@@ -76,14 +76,14 @@ const AcneTreatment = () => {
                         </li>
                     </ul>
                     <span>
-                        Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation/">here.</Link>
+                        Please read more about our Acne-Clearing program by clicking <Link className="underline" to="/new-client-acne-consultation/" aria-label="Learn more about new client acne consultation">here.</Link>
                     </span>
-                </div>
+                </section>
 
-                <div className="p-4 lg:p-8 md:mx-auto md:my-8">
+                <section className="p-4 lg:p-8 md:mx-auto md:my-8" aria-labelledby="how-it-works-heading">
                     <Card cardBodyClass="flex flex-col p-4 lg:p-8" cardWrapperClass="lg:mx-4">
                         <div className="flex flex-col md:m-2">
-                            <h2 className="text-2xl md:text-4xl my-4 md:mt-2 mb-4 md:mb-8">How It Works</h2>
+                            <h2 id="how-it-works-heading" className="text-2xl md:text-4xl my-4 md:mt-2 mb-4 md:mb-8">How It Works</h2>
                             <p className="my-1">
                                 Our advanced acne deep pore cleansing treatments are customized to help to correct imbalances in your skin, deeply cleanse and clarify congested pores, and help calm and heal irritated skin. We will work with your lymph to stimulate the removal of waste and toxins and cleanse your body. Each treatment will benefit your complexion as well as your whole body, leaving you looking and feeling relaxed, glowing and well-balanced. During this time we literally go pore by pore to remove blackheads, bumps under the skin, cysts and pustules. Our treatments provides instant gratification with an immediate, visible improvement.
                             </p>
@@ -120,26 +120,26 @@ const AcneTreatment = () => {
                             </div>
                         </div>
                     </Card>
-                </div>
-                <div className="max-w-screen-lg mx-auto my-8">
+                </section>
+                <section className="max-w-screen-lg mx-auto my-8" aria-labelledby="results-heading">
                     <div className="flex flex-col items-center my-4">
-                        <span className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</span>
+                        <h2 id="results-heading" className="font-headers font-medium text-2xl md:text-3xl mb-2">Check out these amazing results!</h2>
                         <span className="mb-8">Comparing before & after treatment</span>
                     </div>
                     <Gallery
                         className="grid grid-col-1 md:grid-cols-2 gap-4"
                         imageClass="rounded-sm shadow-lg max-h-[400px]"
                         images={[
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment1.jpg?raw=true" alt="Before & After Acne Treatment" />,
-                            <StaticImage src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment2.jpg?raw=true" alt="Before & After Acne Treatment" />
+                            <StaticImage src="../assets/images/acneTreatment1.jpg" alt="Before & After Acne Treatment" />,
+                            <StaticImage src="../assets/images/acneTreatment2.jpg" alt="Before & After Acne Treatment" />
                         ]}
                     />
-                </div>
-                <div className="flex flex-col items-center p-4">
-                    <h2 className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
+                </section>
+                <section className="flex flex-col items-center p-4" aria-labelledby="get-started-heading">
+                    <h2 id="get-started-heading" className="text-xl md:text-3xl font-bold my-4">Are you ready to get started?</h2>
                     <p>Book a skin consultation to determine the correct treatment and product for your skin type and condition.</p>
-                </div>
-            </div>
+                </section>
+            </section>
         </>
     )
 }
@@ -174,7 +174,7 @@ export const Head = () => {
                 pageDescription="Our advanced skin rejuvenation treatments are customized to treat YOUR acne by helping to correct imbalances in your skin and deeply cleanse and clarify congested pores."
                 pageKeywords="Acne Treatment, Acne scars, dark spots, lesions, sensitive skin, Skincare, Safe, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
                 pageUrl={pageUrl}
-                pageImage="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/acneTreatment.jpg?raw=true"
+                pageImage="https://www.essenceofbeauty.ca/images/acneTreatment.jpg"
                 pageType="service"
                 additionalSchema={serviceSchema}
             />

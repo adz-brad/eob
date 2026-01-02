@@ -25,7 +25,7 @@ export const data = {
             "type": "splitList",
             "heading": "Inspire the Nature of Beauty!",
             "caption": "Essence of Beauty is Ottawa's premier acne, scars, rosacea and anti-aging skincare clinic, specializing in facial rejuvenation treatments & peels using highly effective natural and organic formulas that combine age-defying science with nature’s most repairing elements.",
-            "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/benefits.jpg?raw=true" />,
+            "image": <StaticImage alt="Essence of Beauty Ottawa - The Benefits" src="../../assets/images/benefits.jpg" />,
             "anchor": "inspire",
             "listTitle": "The Benefits",
             "listItems": [
@@ -51,37 +51,37 @@ export const data = {
                 {
                     "name": "Facial Treatments",
                     "description": "Calling on her deep knowledge of the most effective non-invasive techniques and products, Eva creates customized facials that address your skin’s unique needs and your dreams and goals for your complexion, integrating the health of your body in the treatment equation for immediately noticeable and long-lasting results.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Facial Treatments" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/deepPoreFacial.jpg?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Facial Treatments" src="../../assets/images/deepPoreFacial.jpg" />,
                     "link": "/facial-treatments-ottawa/"
                 },
                 {
                     "name": "Radiance Hydro Infusion Facial",
                     "description": " Our signature Radiance Hydro Infusion Facial is the latest innovation in skin rejuvenation and one of our most requested facial treatments at Essence of Beauty. This non-invasive HydraFacial alternative provides an instant glow and boost in hydration with absolutely no downtime!",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Hydro Infusion Facial Rejuvenation" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/radianceInfusion2.png?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Radiance Hydro Infusion Facial Rejuvenation" src="../../assets/images/radianceInfusion2.png" />,
                     "link": "/radiance-hydro-infusion-facial/"
                 },
                 {
                     "name": "Microneedling",
                     "description": "Microneedling is used with treatments to stimulate collagen production, reduce acne scarring, reduce and remodel trauma scars, improve photo damaged skin, enlarge pores, improve skin roughness, and reduce mild to moderate wrinkles.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Microneedling" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/microneedling-feature.jpg?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Microneedling" src="../../assets/images/microneedling-feature.jpg" />,
                     "link": "/microneedling-ottawa/"
                 },
                 {
                     "name": "Acid-Free & Chemical Facial Peels",
                     "description": "At the Essence of Beauty, I offer No-Acid natural grade facial peels to target a variety of skin conditions such as pigmentation, acne and acne scarring, sun damage and fine lines and wrinkles",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/vitamin-a-infusion-peel.jpg?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Special Peels" src="../../assets/images/vitamin-a-infusion-peel.jpg" />,
                     "link": "/acid-free-chemical-peels-ottawa/"
                 },
                 {
                     "name": "Ultrasonic Facial",
                     "description": "Ultrasonic frequency has been shown to kill bacteria and decongest the pores resulting in cleaner, healthier skin. When used regularly along with a quality skincare home program, your skin will be smoother, healthier and younger looking.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Ultrasonic Facial" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/ultrasonicFacial.jpg?raw=true?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - Ultrasonic Facial" src="../../assets/images/ultrasonicFacial.jpg" />,
                     "link": "/non-invasive-ultrasonic-facial/"
                 },
                 {
                     "name": "DMK Enzyme Therapy",
                     "description": "DMK Enzyme Therapy Treatment is the most powerful, effective method for hydrolyzing dead cell material from the skin tissues, detoxifying the skin of all impurities and lifting and tightening it for a firmer, glowing appearance.",
-                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - DMK Enzyme Therapy" src="https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/dmk.jpg?raw=true" />,
+                    "image": <StaticImage alt="Essence of Beauty Ottawa - Featured Treatment - DMK Enzyme Therapy" src="../../assets/images/dmk.jpg" />,
                     "link": "/dmk-enzyme-therapy/"
                 },
             ],

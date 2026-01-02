@@ -1,7 +1,7 @@
 ---
 title: Choosing the Right Retinol (Vitamin A) for Your Skin
 excerpt: Retinol, Retinaldehyde, and Retin-A are all popular Retinoids used in the skin care industry. Choosing your Vitamin A can be very confusing as there are many different forms, all claiming they are the best.
-featuredImage: https://github.com/brad-adrenalize/eob/blob/main/src/assets/images/the-right-retinol.jpg?raw=true
+featuredImage: ../assets/images/the-right-retinol.jpg
 date: 2019-03-05T00:00:00Z
 ---
 
