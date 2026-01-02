@@ -52,7 +52,7 @@ const Products = () => {
                     </p>
                     <div className="mt-8 mb-4">
                         <Button
-                            data={{ text: "Learn More About Osmosid+BeautyMD", link: "/osmosismd/" }}
+                            data={{ text: "Learn More About Osmosis+BeautyMD", link: "/osmosismd/" }}
                             className="buttonLight bg-white"
                         />
                     </div>

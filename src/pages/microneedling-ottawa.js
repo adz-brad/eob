@@ -161,6 +161,37 @@ export const Head = () => {
         "serviceType": "Microneedling Treatment",
         "url": pageUrl
     }
+
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is there downtime after microneedling?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The ACS Pen provides another benefit, in addition to stimulating the body's healing response; the micro channels allow for deeper penetration by skin care serums. It is recommended that clients wait 24 hours before applying makeup. We do supply Osmosis Skin Care minerals after treatment if necessary. Clients are to avoid direct sun exposure until the skin has healed and wear SPF."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How many Microneedling treatments will I need?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Because Microneedling with an ACS Pen is not a particularly aggressive treatment, you'll need several treatments over a three to six month period. Results are cumulative so you will need to commit to more than one treatment to get obvious results. Clients with acne scars typically need six to eight treatments. Usually, you will notice some improvement after the first or second treatment, and more significant results will occur after four to six treatments spaced 2-4 weeks apart."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does microneedling cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "At Essence of Beauty, we offer you the ability to book either individual treatments or to package your treatments for an additional discount. Individual treatment costs $350, or a package of 3 treatments for $975 when pre-booked and pre-paid."
+                }
+            }
+        ]
+    }
     
     return (
         <>
@@ -171,7 +202,7 @@ export const Head = () => {
                 pageUrl={pageUrl}
                 pageImage="https://www.essenceofbeauty.ca/images/growth-factor-microneedling.jpg"
                 pageType="service"
-                additionalSchema={serviceSchema}
+                additionalSchema={[serviceSchema, faqSchema]}
             />
             <link rel="canonical" href={pageUrl} />
         </>

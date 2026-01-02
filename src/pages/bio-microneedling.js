@@ -405,16 +405,66 @@ const BioMicroneedling = () => {
 export default BioMicroneedling
 
 export const Head = () => {
+    const pageUrl = "https://www.essenceofbeauty.ca/bio-microneedling/"
+
+    const faqSchema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How Does Bio Microneedling different from traditional microneedling?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "One Bio Microneedling treatment is the equivalent of 3-5 traditional microneedling sessions. It takes an average of 28 days to see the final results with traditional micro-needling treatments, however, with Bio Microneedling, it only takes between 5-7 to enjoy the full results! Bio Microneedling creates 3-5 million micro-channels in the skin for maximum nutrient delivery. By comparison, dermarolling and traditional microneedling treatments only create 30,000 micro-channels."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can Bio Microneedling help with Acne Scars?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! Bio Microneedling is effective at reducing the appearance of active acne and acne scarring by promoting collagen and elastin production, which helps smooth and repair the skin."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the aftercare for Bio Microneedling?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Bio Microneedling treatment requires the use specifically designed products to help lift the epidermal layer of the skin. These home care products have been specially designed to work in tandem with the Bio Microneedling to support the healing process and prevent skin irritation during renewal. The skin heals 9 times faster on the first application, and after 6 hours the hydration of the skin increases by 125%."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use it to care for sensitive skin?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, it can also be used on sensitive skin. This product does not cause skin allergies, instead, it improves the skin condition and keeps your skin looking healthy."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do I need to schedule a consultation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. This is a critical component of the treatment for both you and us. On the consultation would be a great opportunity to ask us any questions and we will explain the therapy, what it involves, and if it's right for you."
+                }
+            }
+        ]
+    }
+
     return (
         <>
             <Seo
                 pageTitle="Bio Microneedling - Natural, Acid-free, Vegan Facial Peeling"
                 pageDescription="Bio Microneedling is a new dimension of facial treatment & peeling offered by Essence of Beauty Ottawa as an alternative to laser therapy and exfoliating acid designed to treat acne, scars, signs of aging & more."
                 pageKeywords="Restorative, Anti-aging, Aging, Laser replacement, Vegan Peel, Bio Peel, Natural Peel, Acid Free Peel, Skin Peel, Peel, Bio Peel, Biopeel, Natural, Restore, Hyperpigmentation, Aging, Anti Aging, Anti-aging, Skincare, Safe, Renew, Holistic, Beauty, Organic, Treatments, Peels, Ottawa, Skin, Acne, Beauty, Spa"
-                pageUrl="https://www.essenceofbeauty.ca/restorative-bio-peel/"
+                pageUrl={pageUrl}
                 pageImage="https://www.essenceofbeauty.ca/images/featuredTreatment-restorativeBio.jpg"
+                additionalSchema={faqSchema}
             />
-            <link rel="canonical" href="https://www.essenceofbeauty.ca/restorative-bio-peel/" />
+            <link rel="canonical" href={pageUrl} />
         </>
     )
 } 

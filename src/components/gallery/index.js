@@ -52,7 +52,7 @@ const Gallery = ({ className, images, imageClass }) => {
                                 <div key={i} className={className}>
                                     {page.map((image, i) => {
                                         return(
-                                            <Image image={image} _key={i}/>
+                                            <Image key={`gallery-image-${i}`} image={image} _key={i}/>
                                         )
                                     })}
                                 </div>
@@ -121,7 +121,7 @@ const Gallery = ({ className, images, imageClass }) => {
                 <div className={className}>
                     {images.map((image, i) => {
                         return(
-                            <Image image={image} _key={i}/>
+                            <Image key={`gallery-image-${i}`} image={image} _key={i}/>
                         )
                     })}
                 </div>
@@ -147,7 +147,7 @@ const Gallery = ({ className, images, imageClass }) => {
                 <div className={className}>
                     {images.map((image, i) => {
                         return(
-                            <Image image={image} _key={i}/>
+                            <Image key={`gallery-image-${i}`} image={image} _key={i}/>
                         )
                     })}
                 </div>

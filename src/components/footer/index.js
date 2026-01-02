@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="mx-auto max-w-screen-xl pt-6 pb-14" id="contact">
 
             <div className="flex flex-col items-center my-10 mx-5 md:mx-2">
-                <h1 className="font-bold mb-4 text-3xl md:text-4xl">Let's Get In Touch</h1>
+                <h2 className="font-bold mb-4 text-3xl md:text-4xl">Let's Get In Touch</h2>
                 <p className="font-medium md:text-lg">Contact us to book an appointment or for a consultation to discuss the best treatment for your skin.</p>
             </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
             <div className="md:w-1/3 p-4">
                 <h2 className="border-b border-black pb-1 text-lg md:text-2xl">Hours</h2>
                 <div className="flex flex-col my-4 leading-tight">
-                    <span><strong>Wednesday</strong> - <strong>Friday:</strong>10:00am - 6:30pm</span>
+                    <span><strong>Wednesday</strong> - <strong>Friday:</strong> 10:00am - 6:30pm</span>
                     <span><strong>Saturday</strong> - <strong>Tuesday:</strong> Closed</span>
                 </div>
             </div>

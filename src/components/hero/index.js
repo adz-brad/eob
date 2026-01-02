@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { animateScroll as scroll } from "react-scroll"
+import heroVideoPoster from "../../assets/images/hero-video-preview.png"
 
 const Hero = ({ bgType, bgSrc, _key, title, caption, button }) => {
 
@@ -53,7 +54,7 @@ const Hero = ({ bgType, bgSrc, _key, title, caption, button }) => {
     return(
         <div key={_key} className="relative w-full" style={{height:'70vh'}}>     
         { bgType === 'video' ?
-            <video repeat="true" loop autoPlay muted playsInline id="EOB-Bg-video" className="absolute top-0 left-0 w-full object-cover" style={{height:'70vh'}} aria-label="Essence of Beauty background video">
+            <video loop autoPlay muted playsInline poster={heroVideoPoster} id="EOB-Bg-video" className="absolute top-0 left-0 w-full object-cover" style={{height:'70vh'}} aria-label="Essence of Beauty background video">
                 <source src={bgSrc} type="video/mp4"/>
             </video>
         : null}

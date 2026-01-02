@@ -69,7 +69,7 @@ const AcneTreatment = () => {
                             Normalize skin tone and heal red/inflamed spots on the skin
                         </li>
                         <li className="my-1">
-                            Reduces acne scares
+                            Reduces acne scars
                         </li>
                         <li className="my-1">
                             Lifting and lightening of any dark spots that may be a result of your acne lesions.

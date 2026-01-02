@@ -116,7 +116,7 @@ const Seo = ({
               "breadcrumb":{
                 "@id": "${pageUrl}#breadcrumb"
               },
-                "inLanguage":"en-US",
+                "inLanguage":"en-CA",
                 "potentialAction":[
                   {
                     "@type":"ReadAction",
@@ -126,7 +126,7 @@ const Seo = ({
               },
               {
                 "@type":"ImageObject",
-                "inLanguage":"en-US",
+                "inLanguage":"en-CA",
                 "@id":"${pageImage}",
                 "url":"${pageImage}",
                 "contentUrl":"${pageImage}",
@@ -160,7 +160,7 @@ const Seo = ({
                 "publisher":{
                   "@id":"https://www.essenceofbeauty.ca/#organization"
                 },
-                "inLanguage":"en-US"
+                "inLanguage":"en-CA"
                 },
                 {
                   "@type":"Organization",
@@ -185,7 +185,7 @@ const Seo = ({
                   "logo":
                   {
                     "@type":"ImageObject",
-                    "inLanguage":"en-US",
+                    "inLanguage":"en-CA",
                     "@id":"https://www.essenceofbeauty.ca/images/Eob-logo.png",
                     "url":"https://www.essenceofbeauty.ca/images/Eob-logo.png",
                     "contentUrl":"https://www.essenceofbeauty.ca/images/Eob-logo.png",

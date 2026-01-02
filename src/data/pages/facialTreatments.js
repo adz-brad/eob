@@ -127,7 +127,7 @@ export const treatmentMenu = [
         link: "/dmk-enzyme-therapy/",
     },
     {
-        name: "Hubislab Healing & Repairing Facial with Ultrasound",
+        name: "HubisLab Healing & Repairing Facial with Ultrasound",
         image: null,
         content: <p className="my-1">
             This skin treatment uses holistic therapies to treat skin conditions at the source. Rooted in science Hubislab addresses every aspect of skin damage and aging, targeting pathways from the inside out. Hubislab focuses on reducing inflammation and rebalancing the skin resulting in permanent changes.  This accomplished by a range of revolutionary ingredients and technologies delivered bio-active ingredients into the skin. With the combination of treatment therapies and the use of Hubislab products, the immune system of the skin can be strengthened, circulation and protective barrier improve. The DNA,  growth factors and antioxidant levels restore at the source. This treatment will be customized with 1 select age management modalities to address specific concerns based on current skin conditions. Your end result is healthier and more lustrous skin.

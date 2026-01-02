@@ -23,9 +23,9 @@ const Accordion = ({ items, className, additionalContent }) => {
                                     :
                                         <MdAdd className="shrink-0 text-3xl bg-lightGreen text-darkGreen rounded-sm shadow-md" />
                                     }
-                                    <h1 className="ml-4 text-xl md:text-2xl">
+                                    <h3 className="ml-4 text-xl md:text-2xl font-medium">
                                         {item.heading}
-                                    </h1>
+                                    </h3>
                                 </button>
                                 <div className={active === i ? 'h-fit px-4 pt-4' : 'h-0 overflow-hidden'}>
                                     {item.content}
