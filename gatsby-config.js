@@ -133,6 +133,7 @@ module.exports = {
         head: false
       },
     },
+    `gatsby-plugin-pnpm-gatsby-5`,
     'gatsby-plugin-preact'
   ],
 }
