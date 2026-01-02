@@ -1,5 +1,6 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
+import heroVideo from "../../assets/video/eob-video-bg-overlay.mp4"
 
 export const data = {
     "title": "Home ",
@@ -9,7 +10,7 @@ export const data = {
         // Hero Component Data
         {
             "type": "hero",
-            "video": "https://github.com/brad-adrenalize/eob/blob/main/src/assets/video/eob-video-bg-overlay.mp4?raw=true",
+            "video": heroVideo,
             "heading": "Ottawa’s Premier Acne, Rosacea & Skin Rejuvenation Clinic",
             "caption": "Reminding you of the importance and enjoyment of feeling beautiful every single day.",
             "button": {
