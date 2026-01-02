@@ -1,13 +1,10 @@
 require('dotenv').config()
 
 module.exports = {
-  flags: {
-    DEV_SSR: true,
-  },
   siteMetadata: {
     title: `Essence of Beauty`,
     description:
-      "Essence of Beauty is Ottawa’s premier holistic skin rejuvenation clinic, specializing in natural, organic skincare treatments for acne and other common skin issues. Book your consultation today!",
+      "Essence of Beauty is Ottawa's premier holistic skin rejuvenation clinic, specializing in natural, organic skincare treatments for acne and other common skin issues. Book your consultation today!",
     keywords:
       "Facial, Facials, Peel, Peels, Holistic, Acne, Natural, Organic, Treatment, Microneedling, Facials, Spa, Ottawa, Beauty, Esthetics, Esthetician, Professional, Clean, Safe, Skincare, Anti Aging, Dry Skin, Glow",
     siteUrl: "https://www.essenceofbeauty.ca",
@@ -124,7 +121,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
-    `gatsby-plugin-netlify`,
+    `gatsby-plugin-pnpm`,
     {
       resolve: `gatsby-plugin-gtag`, 
       options: {
