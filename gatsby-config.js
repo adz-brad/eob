@@ -1,6 +1,11 @@
 require('dotenv').config()
+const adapter = require("gatsby-adapter-netlify").default
 
 module.exports = {
+  adapter: adapter({
+    excludeDatastoreFromEngineFunction: false,
+    imageCDN: false,
+  }),
   siteMetadata: {
     title: `Essence of Beauty`,
     description:
@@ -121,7 +126,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
-    `gatsby-plugin-pnpm`,
     {
       resolve: `gatsby-plugin-gtag`, 
       options: {
