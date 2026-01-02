@@ -1,10 +1,10 @@
 [build]
-  command = "gatsby build"
+  command = "apt-get update && apt-get install -y libvips-dev libglib2.0-dev build-essential libcairo2-dev libjpeg-dev libpng-dev libexpat1-dev && yarn install && gatsby build"
   publish = "public"
 
 [build.environment]
   NODE_VERSION = "20"
-  npm_config_sharp_binary_host = "https://npm.taobao.org/mirrors/sharp-libvips/"
+
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
