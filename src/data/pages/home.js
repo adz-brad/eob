@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
-import heroVideo from "../../assets/video/eob-video-bg-overlay.mp4"
+import heroVideo from "../../assets/video/eob-video-bg-overlay.webm"
 
 export const data = {
     "title": "Home ",

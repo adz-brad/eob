@@ -55,7 +55,7 @@ const Hero = ({ bgType, bgSrc, _key, title, caption, button }) => {
         <div key={_key} className="relative w-full" style={{height:'70vh'}}>     
         { bgType === 'video' ?
             <video loop autoPlay muted playsInline poster={heroVideoPoster} id="EOB-Bg-video" className="absolute top-0 left-0 w-full object-cover" style={{height:'70vh'}} aria-label="Essence of Beauty background video">
-                <source src={bgSrc} type="video/mp4"/>
+                <source src={bgSrc} type="video/webm"/>
             </video>
         : null}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center w-full px-8">

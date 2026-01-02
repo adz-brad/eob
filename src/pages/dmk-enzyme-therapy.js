@@ -5,8 +5,8 @@ import Card from '../components/card'
 import { IoPlaySharp } from 'react-icons/io5'
 import Gallery from '../components/gallery'
 import Seo from '../components/seo'
-import dmkVideo from '../assets/video/dmkVideo.mp4'
-import dmkEnzymeMasqueVideo from '../assets/video/DMKEnzymeMasque.mp4'
+import dmkVideo from '../assets/video/dmkVideo.webm'
+import dmkEnzymeMasqueVideo from '../assets/video/DMKEnzymeMasque.webm'
 
 const DMKTherapy = () => {
 
@@ -57,7 +57,7 @@ const DMKTherapy = () => {
                     <div className="xl:w-1/2 h-[680px]">
                         {playVideo ?
                             <video height="600" autoPlay playsInline controls muted loop className="h-full w-full">
-                                <source src={dmkVideo} type="video/mp4" />
+                                <source src={dmkVideo} type="video/webm" />
                                 <track kind="captions" />
                             </video>
                             :
@@ -121,7 +121,7 @@ const DMKTherapy = () => {
                     </div>
                     <div className="lg:w-2/5 my-auto p-4 shadow-lg">
                         <video playsInline controls className="w-full">
-                            <source src={`${dmkEnzymeMasqueVideo}#t=05`} type="video/mp4" />
+                            <source src={`${dmkEnzymeMasqueVideo}#t=05`} type="video/webm" />
                             <track kind="captions" />
                         </video>
                     </div>
@@ -450,7 +450,7 @@ export const Head = () => {
             "description": "DMK Enzyme Therapy treatment demonstration showing the effectiveness of enzyme oxygen therapy for treating acne, signs of aging, pigmentation, and scarring.",
             "thumbnailUrl": "https://www.essenceofbeauty.ca/images/dmkHeader.jpg",
             "uploadDate": "2024-01-01",
-            "contentUrl": "https://www.essenceofbeauty.ca/video/dmkVideo.mp4",
+            "contentUrl": "https://www.essenceofbeauty.ca/video/dmkVideo.webm",
             "embedUrl": pageUrl
         },
         {
@@ -460,7 +460,7 @@ export const Head = () => {
             "description": "DMK Enzyme Masque treatment showing the plasmatic effect and reverse osmosis process during enzyme therapy.",
             "thumbnailUrl": "https://www.essenceofbeauty.ca/images/dmkHeader.jpg",
             "uploadDate": "2024-01-01",
-            "contentUrl": "https://www.essenceofbeauty.ca/video/DMKEnzymeMasque.mp4",
+            "contentUrl": "https://www.essenceofbeauty.ca/video/DMKEnzymeMasque.webm",
             "embedUrl": pageUrl
         }
     ]

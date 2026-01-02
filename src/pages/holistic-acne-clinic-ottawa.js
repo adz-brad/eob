@@ -6,7 +6,7 @@ import Gallery from '../components/gallery'
 import Accordion from '../components/accordion'
 import Card from '../components/card'
 import Seo from '../components/seo'
-import holisticAcneVideo from '../assets/video/holisticAcneVideo.mp4'
+import holisticAcneVideo from '../assets/video/holisticAcneVideo.webm'
 
 // Helper function to extract plain text from JSX elements
 const extractTextFromJSX = (element) => {
@@ -56,7 +56,7 @@ const HolisticAcneProgram = () => {
                     </div>
                     <div className="lg:w-1/2">
                         <video autoPlay playsInline controls muted className="w-full" aria-label="Holistic acne treatment video">
-                            <source src={`${holisticAcneVideo}#t=17`} type="video/mp4" />
+                            <source src={`${holisticAcneVideo}#t=17`} type="video/webm" />
                         </video>
                     </div>
                 </div>
@@ -165,7 +165,7 @@ export const Head = () => {
         "description": "Essence of Beauty Ottawa holistic acne program helps naturally heal your skin with personalized skincare regiments proven to successfully reduce acne, pimples, redness, inflammation, acne scars, and pigmentation issues.",
         "thumbnailUrl": "https://www.essenceofbeauty.ca/images/holisticAcneClinic.jpg",
         "uploadDate": "2024-01-01",
-        "contentUrl": "https://www.essenceofbeauty.ca/video/holisticAcneVideo.mp4",
+        "contentUrl": "https://www.essenceofbeauty.ca/video/holisticAcneVideo.webm",
         "embedUrl": pageUrl
     }
     
